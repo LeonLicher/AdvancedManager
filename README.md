@@ -36,17 +36,17 @@ Ein fortgeschrittenes Management-Tool für Kickbase-Manager, das erweiterte Funk
 ## 📦 Installation
 
 1. Repository klonen:
-\`\`\`bash
+\`\`\`
 git clone [https://github.com/LeonLicher/AdvancedManager](https://github.com/LeonLicher/AdvancedManager)
 \`\`\`
 
 2. Abhängigkeiten installieren:
-\`\`\`bash
+\`\`\`
 npm install
 \`\`\`
 
 3. Entwicklungsserver starten:
-\`\`\`bash
+\`\`\`
 npm run dev
 \`\`\`
 
