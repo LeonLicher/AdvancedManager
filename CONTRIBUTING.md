@@ -25,31 +25,6 @@ Wir freuen uns über Ihre Beiträge! Hier finden Sie Informationen darüber, wie
 - Responsive Design wird berücksichtigt
 - ESLint-Regeln werden eingehalten
 
-## Commit-Nachrichten
-
-Bitte folgen Sie diesen Konventionen für Commit-Nachrichten:
-
-- feat: Neue Features
-- fix: Bugfixes
-- docs: Dokumentationsänderungen
-- style: Formatierung, fehlende Semicolons, etc.
-- refactor: Code-Refactoring
-- test: Tests hinzufügen/aktualisieren
-- chore: Builds, package manager configs, etc.
-
-## Entwicklungsumgebung
-
-1. Node.js (v16 oder höher)
-2. npm oder yarn
-3. Ein moderner Code-Editor (VS Code empfohlen)
-4. Git
-
-## Tests
-
-- Führen Sie `npm run lint` aus, um ESLint-Überprüfungen durchzuführen
-- Stellen Sie sicher, dass keine TypeScript-Fehler vorliegen
-- Testen Sie Ihre Änderungen in verschiedenen Browsern
-
 ## Fragen?
 
 Wenn Sie Fragen haben, erstellen Sie bitte ein Issue oder kontaktieren Sie die Maintainer direkt.
