@@ -1,0 +1,261 @@
+.activity-feed{
+  width: 80%;
+  margin-left: 10%;
+}
+@media screen and (max-width: 480px) {
+  .activity-feed {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.activity-item-wrapper {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.activity-item {
+  display: flex;
+  padding: 12px 16px;
+  background-color: #ffffff;
+  position: relative;
+  
+}
+
+.activity-image-container {
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.activity-player-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.activity-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.activity-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.activity-row-primary {
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.activity-row-secondary {
+  color: #666666;
+  font-size: 14px;
+}
+
+.activity-title {
+  font-weight: bold;
+  color: #000000;
+}
+.activity-title-price {
+  display: flex;
+  align-items: center;
+}
+
+.activity-price {
+  margin: 0 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  /* background-color: #eeecec;
+  padding: 4px 8px;
+  border-radius: 12px; */
+}
+
+.activity-comments {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #666666;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  margin-left: auto;
+}
+
+.activity-comments:hover {
+  background-color: #f5f5f5;
+}
+
+.activity-comments.has-comments {
+  color: #000000;
+}
+
+.comment-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.comment-count {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* When comments are open, keep the highlight */
+.activity-comments.active {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+.activity-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  margin-right: 12px;
+  font-size: 24px;
+}
+
+.add-player-button {
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+  width: 24px;
+  height: 24px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+
+.trophy-icon, .achievement-icon {
+  background-color: transparent;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+}
+
+.loading, .error {
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+.feed-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0 16px;
+  color: #000000;
+}
+
+.buy {
+  color: #00ff00;
+}
+.sell {
+  color: #ff0000;
+}
+
+.loading-more {
+  padding: 20px;
+  text-align: center;
+  color: #666666;
+  background-color: #ffffff;
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  border-top-color: #00ff00;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+/* 
+@media (prefers-color-scheme: dark) {
+  .activity-item {
+    background-color: #000000;
+  }
+
+  .activity-player-image {
+    background-color: #1a1a1a;
+  }
+
+  .activity-title {
+    color: #ffffff;
+  }
+
+  .activity-subtitle {
+    color: #808080;
+  }
+
+  .activity-comments {
+    color: #808080;
+  }
+
+  .activity-comments:hover {
+    background-color: #1a1a1a;
+  }
+
+  .activity-comments.has-comments {
+    color: #fbfbfb;
+  }
+
+  .activity-comments.active {
+    background-color: #1a1a1a;
+    color: #fbfbfb;
+  }
+
+  .activity-icon {
+    background-color: #1a1a1a;
+  }
+
+  .loading, .error {
+    color: #ffffff;
+  }
+
+  .feed-title {
+    color: #ffffff;
+  }
+
+  .loading-more {
+    color: #808080;
+    background-color: #000000;
+  }
+
+  .activities-list {
+    background-color: #1a1a1a;
+  }
+} */

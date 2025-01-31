@@ -1,0 +1,46 @@
+.team-management .player-card {
+  width: 120px;
+  height: 170px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
+}
+
+.team-management .player-image {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+}
+
+.team-management .player-info {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.team-management .player-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 2px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.team-management .player-stats {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.team-management .stat-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}

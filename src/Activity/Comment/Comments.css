@@ -1,0 +1,131 @@
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #f5f5f5;
+  --text-primary: #000000;
+  --text-secondary: #666666;
+  --border-color: #e0e0e0;
+  --accent-color: #00aa00;
+  --accent-hover: #009900;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background-primary: #000000;
+    --background-secondary: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #808080;
+    --border-color: #333333;
+    --accent-color: #00ff00;
+    --accent-hover: #00dd00;
+  }
+} */
+
+.comments-container {
+  background-color: var(--background-secondary);
+  padding: 16px;
+  border-radius: 0 0 8px 8px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.comment-item {
+  background-color: var(--background-primary);
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.comment-username {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.comment-time {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.comment-text {
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.comment-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  position: relative;
+  max-width: 100%;
+}
+
+.comment-input {
+  flex: 1;
+  background-color: var(--background-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 12px 16px;
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.comment-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.comment-submit {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100px;
+}
+
+.comment-submit:hover {
+  background-color: var(--accent-hover);
+}
+
+.comments-loading {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 16px;
+}
+
+.no-comments {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 20px;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.comment-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.comment-user-image {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+  

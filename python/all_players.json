@@ -1,0 +1,4286 @@
+{
+  "players": {
+    "237": {
+      "id": "237",
+      "name": "Neuer",
+      "teamId": "2",
+      "position": 1,
+      "marketValue": 13766626,
+      "averagePoints": 94,
+      "totalPoints": 0
+    },
+    "383": {
+      "id": "383",
+      "name": "Ulreich",
+      "teamId": "2",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 116,
+      "totalPoints": 0
+    },
+    "450": {
+      "id": "450",
+      "name": "Müller",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 10291086,
+      "averagePoints": 71,
+      "totalPoints": 0
+    },
+    "660": {
+      "id": "660",
+      "name": "Goretzka",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 11875440,
+      "averagePoints": 95,
+      "totalPoints": 0
+    },
+    "1222": {
+      "id": "1222",
+      "name": "Sané",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 25885921,
+      "averagePoints": 79,
+      "totalPoints": 0
+    },
+    "1685": {
+      "id": "1685",
+      "name": "Kimmich",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 44251771,
+      "averagePoints": 204,
+      "totalPoints": 0
+    },
+    "1774": {
+      "id": "1774",
+      "name": "Coman",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 23184641,
+      "averagePoints": 139,
+      "totalPoints": 0
+    },
+    "1862": {
+      "id": "1862",
+      "name": "Guerreiro",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 24936267,
+      "averagePoints": 123,
+      "totalPoints": 0
+    },
+    "1961": {
+      "id": "1961",
+      "name": "Gnabry",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 24103365,
+      "averagePoints": 131,
+      "totalPoints": 0
+    },
+    "1991": {
+      "id": "1991",
+      "name": "Upamecano",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 28299440,
+      "averagePoints": 158,
+      "totalPoints": 0
+    },
+    "2038": {
+      "id": "2038",
+      "name": "Laimer",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 9555179,
+      "averagePoints": 50,
+      "totalPoints": 0
+    },
+    "2300": {
+      "id": "2300",
+      "name": "Stanišić",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 5387855,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2366": {
+      "id": "2366",
+      "name": "Davies",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 27479509,
+      "averagePoints": 141,
+      "totalPoints": 0
+    },
+    "2804": {
+      "id": "2804",
+      "name": "Musiala",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 50590916,
+      "averagePoints": 201,
+      "totalPoints": 0
+    },
+    "3089": {
+      "id": "3089",
+      "name": "Ito",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 3971040,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "4314": {
+      "id": "4314",
+      "name": "Tel",
+      "teamId": "2",
+      "position": 4,
+      "marketValue": 4018242,
+      "averagePoints": 37,
+      "totalPoints": 0
+    },
+    "6080": {
+      "id": "6080",
+      "name": "Pavlović",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 22182396,
+      "averagePoints": 125,
+      "totalPoints": 0
+    },
+    "6668": {
+      "id": "6668",
+      "name": "Minjae",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 29468405,
+      "averagePoints": 153,
+      "totalPoints": 0
+    },
+    "7226": {
+      "id": "7226",
+      "name": "Kane",
+      "teamId": "2",
+      "position": 4,
+      "marketValue": 60701092,
+      "averagePoints": 253,
+      "totalPoints": 0
+    },
+    "7264": {
+      "id": "7264",
+      "name": "Peretz",
+      "teamId": "2",
+      "position": 1,
+      "marketValue": 1106800,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7440": {
+      "id": "7440",
+      "name": "Aznou",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "7459": {
+      "id": "7459",
+      "name": "Dier",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 2092992,
+      "averagePoints": 33,
+      "totalPoints": 0
+    },
+    "7498": {
+      "id": "7498",
+      "name": "Boey",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 8078096,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "7830": {
+      "id": "7830",
+      "name": "Palhinha",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 13645780,
+      "averagePoints": 73,
+      "totalPoints": 0
+    },
+    "8329": {
+      "id": "8329",
+      "name": "Olise",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 43643413,
+      "averagePoints": 173,
+      "totalPoints": 0
+    },
+    "54": {
+      "id": "54",
+      "name": "Can",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 10869984,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "163": {
+      "id": "163",
+      "name": "Süle",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 5921380,
+      "averagePoints": 81,
+      "totalPoints": 0
+    },
+    "1192": {
+      "id": "1192",
+      "name": "Brandt",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 30209638,
+      "averagePoints": 111,
+      "totalPoints": 0
+    },
+    "1473": {
+      "id": "1473",
+      "name": "Groß",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 22911362,
+      "averagePoints": 91,
+      "totalPoints": 0
+    },
+    "1704": {
+      "id": "1704",
+      "name": "Anton",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 23420717,
+      "averagePoints": 110,
+      "totalPoints": 0
+    },
+    "1856": {
+      "id": "1856",
+      "name": "Sabitzer",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 15572503,
+      "averagePoints": 58,
+      "totalPoints": 0
+    },
+    "1873": {
+      "id": "1873",
+      "name": "Kobel",
+      "teamId": "3",
+      "position": 1,
+      "marketValue": 12614960,
+      "averagePoints": 72,
+      "totalPoints": 0
+    },
+    "1920": {
+      "id": "1920",
+      "name": "Guirassy",
+      "teamId": "3",
+      "position": 4,
+      "marketValue": 42131523,
+      "averagePoints": 132,
+      "totalPoints": 0
+    },
+    "2148": {
+      "id": "2148",
+      "name": "Meyer",
+      "teamId": "3",
+      "position": 1,
+      "marketValue": 3256985,
+      "averagePoints": 85,
+      "totalPoints": 0
+    },
+    "2383": {
+      "id": "2383",
+      "name": "Schlotterbeck",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 26629180,
+      "averagePoints": 115,
+      "totalPoints": 0
+    },
+    "2395": {
+      "id": "2395",
+      "name": "Ryerson",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 18985152,
+      "averagePoints": 85,
+      "totalPoints": 0
+    },
+    "2692": {
+      "id": "2692",
+      "name": "Reyna",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 1638785,
+      "averagePoints": 34,
+      "totalPoints": 0
+    },
+    "2714": {
+      "id": "2714",
+      "name": "Beier",
+      "teamId": "3",
+      "position": 4,
+      "marketValue": 17748155,
+      "averagePoints": 59,
+      "totalPoints": 0
+    },
+    "2736": {
+      "id": "2736",
+      "name": "Bensebaini",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 10136021,
+      "averagePoints": 79,
+      "totalPoints": 0
+    },
+    "2759": {
+      "id": "2759",
+      "name": "Azhil",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 6,
+      "totalPoints": 0
+    },
+    "2979": {
+      "id": "2979",
+      "name": "Lotka",
+      "teamId": "3",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3069": {
+      "id": "3069",
+      "name": "Nmecha",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 14502348,
+      "averagePoints": 75,
+      "totalPoints": 0
+    },
+    "3087": {
+      "id": "3087",
+      "name": "Malen",
+      "teamId": "3",
+      "position": 4,
+      "marketValue": 14008113,
+      "averagePoints": 52,
+      "totalPoints": 0
+    },
+    "3219": {
+      "id": "3219",
+      "name": "Gittens",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 20963724,
+      "averagePoints": 94,
+      "totalPoints": 0
+    },
+    "3482": {
+      "id": "3482",
+      "name": "Adeyemi",
+      "teamId": "3",
+      "position": 4,
+      "marketValue": 18600066,
+      "averagePoints": 127,
+      "totalPoints": 0
+    },
+    "4312": {
+      "id": "4312",
+      "name": "Couto",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 8828616,
+      "averagePoints": 28,
+      "totalPoints": 0
+    },
+    "4617": {
+      "id": "4617",
+      "name": "Duranville",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 2990636,
+      "averagePoints": 42,
+      "totalPoints": 0
+    },
+    "6673": {
+      "id": "6673",
+      "name": "Wätjen",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 843259,
+      "averagePoints": 25,
+      "totalPoints": 0
+    },
+    "7441": {
+      "id": "7441",
+      "name": "Campbell",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": -3,
+      "totalPoints": 0
+    },
+    "8371": {
+      "id": "8371",
+      "name": "Kabar",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 2206458,
+      "averagePoints": -5,
+      "totalPoints": 0
+    },
+    "9440": {
+      "id": "9440",
+      "name": "Mané",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "357": {
+      "id": "357",
+      "name": "Grahl",
+      "teamId": "4",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "429": {
+      "id": "429",
+      "name": "Trapp",
+      "teamId": "4",
+      "position": 1,
+      "marketValue": 13818361,
+      "averagePoints": 105,
+      "totalPoints": 0
+    },
+    "461": {
+      "id": "461",
+      "name": "Chandler",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 50,
+      "totalPoints": 0
+    },
+    "513": {
+      "id": "513",
+      "name": "Götze",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 7996668,
+      "averagePoints": 76,
+      "totalPoints": 0
+    },
+    "736": {
+      "id": "736",
+      "name": "Dahoud",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 8022498,
+      "averagePoints": 75,
+      "totalPoints": 0
+    },
+    "2144": {
+      "id": "2144",
+      "name": "Koch",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 21600332,
+      "averagePoints": 94,
+      "totalPoints": 0
+    },
+    "2378": {
+      "id": "2378",
+      "name": "Tuta",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 25307728,
+      "averagePoints": 122,
+      "totalPoints": 0
+    },
+    "2718": {
+      "id": "2718",
+      "name": "Skhiri",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 11597592,
+      "averagePoints": 60,
+      "totalPoints": 0
+    },
+    "2792": {
+      "id": "2792",
+      "name": "Marmoush",
+      "teamId": "4",
+      "position": 4,
+      "marketValue": 35677457,
+      "averagePoints": 220,
+      "totalPoints": 0
+    },
+    "2863": {
+      "id": "2863",
+      "name": "Knauff",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 11689301,
+      "averagePoints": 68,
+      "totalPoints": 0
+    },
+    "2864": {
+      "id": "2864",
+      "name": "Collins",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 11126518,
+      "averagePoints": 101,
+      "totalPoints": 0
+    },
+    "3304": {
+      "id": "3304",
+      "name": "Matanović",
+      "teamId": "4",
+      "position": 4,
+      "marketValue": 3448676,
+      "averagePoints": 32,
+      "totalPoints": 0
+    },
+    "3543": {
+      "id": "3543",
+      "name": "Brown",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 10115721,
+      "averagePoints": 136,
+      "totalPoints": 0
+    },
+    "4406": {
+      "id": "4406",
+      "name": "Dina Ebimbe",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 6122139,
+      "averagePoints": 47,
+      "totalPoints": 0
+    },
+    "6081": {
+      "id": "6081",
+      "name": "Uzun",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 4728999,
+      "averagePoints": 24,
+      "totalPoints": 0
+    },
+    "6185": {
+      "id": "6185",
+      "name": "Larsson",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 11980841,
+      "averagePoints": 70,
+      "totalPoints": 0
+    },
+    "7275": {
+      "id": "7275",
+      "name": "Kaua Santos",
+      "teamId": "4",
+      "position": 1,
+      "marketValue": 2646089,
+      "averagePoints": 129,
+      "totalPoints": 0
+    },
+    "7277": {
+      "id": "7277",
+      "name": "Chaïbi",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 5075290,
+      "averagePoints": 43,
+      "totalPoints": 0
+    },
+    "7289": {
+      "id": "7289",
+      "name": "Nkounkou",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 4251554,
+      "averagePoints": 44,
+      "totalPoints": 0
+    },
+    "7491": {
+      "id": "7491",
+      "name": "Bahoya",
+      "teamId": "4",
+      "position": 4,
+      "marketValue": 2681070,
+      "averagePoints": 37,
+      "totalPoints": 0
+    },
+    "7508": {
+      "id": "7508",
+      "name": "Ekitiké",
+      "teamId": "4",
+      "position": 4,
+      "marketValue": 30413580,
+      "averagePoints": 130,
+      "totalPoints": 0
+    },
+    "7686": {
+      "id": "7686",
+      "name": "Amenda",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 2182958,
+      "averagePoints": 44,
+      "totalPoints": 0
+    },
+    "7885": {
+      "id": "7885",
+      "name": "Kristensen",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 10648949,
+      "averagePoints": 78,
+      "totalPoints": 0
+    },
+    "8057": {
+      "id": "8057",
+      "name": "Theate",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 19030527,
+      "averagePoints": 85,
+      "totalPoints": 0
+    },
+    "8253": {
+      "id": "8253",
+      "name": "Lisztes",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "8351": {
+      "id": "8351",
+      "name": "Højlund",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 583936,
+      "averagePoints": -10,
+      "totalPoints": 0
+    },
+    "49": {
+      "id": "49",
+      "name": "Ginter",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 18674110,
+      "averagePoints": 76,
+      "totalPoints": 0
+    },
+    "89": {
+      "id": "89",
+      "name": "Günter",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 14221428,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "118": {
+      "id": "118",
+      "name": "Grifo",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 31381799,
+      "averagePoints": 147,
+      "totalPoints": 0
+    },
+    "493": {
+      "id": "493",
+      "name": "Gregoritsch",
+      "teamId": "5",
+      "position": 4,
+      "marketValue": 2651087,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "581": {
+      "id": "581",
+      "name": "Höfler",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 3532251,
+      "averagePoints": 37,
+      "totalPoints": 0
+    },
+    "1138": {
+      "id": "1138",
+      "name": "Gulde",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1226": {
+      "id": "1226",
+      "name": "Philipp",
+      "teamId": "5",
+      "position": 4,
+      "marketValue": 621283,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1257": {
+      "id": "1257",
+      "name": "Kübler",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 14810366,
+      "averagePoints": 88,
+      "totalPoints": 0
+    },
+    "1645": {
+      "id": "1645",
+      "name": "Eggestein",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 10657743,
+      "averagePoints": 72,
+      "totalPoints": 0
+    },
+    "1767": {
+      "id": "1767",
+      "name": "Huth",
+      "teamId": "5",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1910": {
+      "id": "1910",
+      "name": "Müller",
+      "teamId": "5",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 20,
+      "totalPoints": 0
+    },
+    "2084": {
+      "id": "2084",
+      "name": "Lienhart",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 17030287,
+      "averagePoints": 87,
+      "totalPoints": 0
+    },
+    "2176": {
+      "id": "2176",
+      "name": "Höler",
+      "teamId": "5",
+      "position": 4,
+      "marketValue": 2283870,
+      "averagePoints": 8,
+      "totalPoints": 0
+    },
+    "2346": {
+      "id": "2346",
+      "name": "Muslija",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 1459244,
+      "averagePoints": 21,
+      "totalPoints": 0
+    },
+    "2722": {
+      "id": "2722",
+      "name": "Osterhage",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 7630317,
+      "averagePoints": 56,
+      "totalPoints": 0
+    },
+    "2887": {
+      "id": "2887",
+      "name": "Dōan",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 25431584,
+      "averagePoints": 109,
+      "totalPoints": 0
+    },
+    "2939": {
+      "id": "2939",
+      "name": "Dinkçi",
+      "teamId": "5",
+      "position": 4,
+      "marketValue": 9588052,
+      "averagePoints": 73,
+      "totalPoints": 0
+    },
+    "2946": {
+      "id": "2946",
+      "name": "Sildillia",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 1,
+      "totalPoints": 0
+    },
+    "3017": {
+      "id": "3017",
+      "name": "Weißhaupt",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 1268970,
+      "averagePoints": 15,
+      "totalPoints": 0
+    },
+    "3019": {
+      "id": "3019",
+      "name": "Atubolu",
+      "teamId": "5",
+      "position": 1,
+      "marketValue": 13042601,
+      "averagePoints": 91,
+      "totalPoints": 0
+    },
+    "3208": {
+      "id": "3208",
+      "name": "Schmidt",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3306": {
+      "id": "3306",
+      "name": "Kyereh",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3345": {
+      "id": "3345",
+      "name": "Röhl",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 1847564,
+      "averagePoints": 35,
+      "totalPoints": 0
+    },
+    "6172": {
+      "id": "6172",
+      "name": "Adamu",
+      "teamId": "5",
+      "position": 4,
+      "marketValue": 10083015,
+      "averagePoints": 45,
+      "totalPoints": 0
+    },
+    "7215": {
+      "id": "7215",
+      "name": "Makengo",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 13,
+      "totalPoints": 0
+    },
+    "7216": {
+      "id": "7216",
+      "name": "Rosenfelder",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 3040492,
+      "averagePoints": 38,
+      "totalPoints": 0
+    },
+    "8364": {
+      "id": "8364",
+      "name": "Ogbus",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "78": {
+      "id": "78",
+      "name": "Hofmann",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 10210378,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "97": {
+      "id": "97",
+      "name": "Lomb",
+      "teamId": "7",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "173": {
+      "id": "173",
+      "name": "Tah",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 34749648,
+      "averagePoints": 126,
+      "totalPoints": 0
+    },
+    "573": {
+      "id": "573",
+      "name": "Xhaka",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 50650428,
+      "averagePoints": 189,
+      "totalPoints": 0
+    },
+    "663": {
+      "id": "663",
+      "name": "Andrich",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 26690405,
+      "averagePoints": 104,
+      "totalPoints": 0
+    },
+    "1761": {
+      "id": "1761",
+      "name": "Hrádecký",
+      "teamId": "7",
+      "position": 1,
+      "marketValue": 9168016,
+      "averagePoints": 74,
+      "totalPoints": 0
+    },
+    "2241": {
+      "id": "2241",
+      "name": "Mukiele",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 1825030,
+      "averagePoints": 15,
+      "totalPoints": 0
+    },
+    "2746": {
+      "id": "2746",
+      "name": "Schick",
+      "teamId": "7",
+      "position": 4,
+      "marketValue": 11468757,
+      "averagePoints": 73,
+      "totalPoints": 0
+    },
+    "2766": {
+      "id": "2766",
+      "name": "Palacios",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 16607594,
+      "averagePoints": 129,
+      "totalPoints": 0
+    },
+    "2783": {
+      "id": "2783",
+      "name": "Tapsoba",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 27130756,
+      "averagePoints": 108,
+      "totalPoints": 0
+    },
+    "2795": {
+      "id": "2795",
+      "name": "Wirtz",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 52646458,
+      "averagePoints": 198,
+      "totalPoints": 0
+    },
+    "2948": {
+      "id": "2948",
+      "name": "Frimpong",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 26825413,
+      "averagePoints": 63,
+      "totalPoints": 0
+    },
+    "3128": {
+      "id": "3128",
+      "name": "Hincapié",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 25044177,
+      "averagePoints": 92,
+      "totalPoints": 0
+    },
+    "3132": {
+      "id": "3132",
+      "name": "Adli",
+      "teamId": "7",
+      "position": 4,
+      "marketValue": 3556870,
+      "averagePoints": 44,
+      "totalPoints": 0
+    },
+    "4199": {
+      "id": "4199",
+      "name": "García",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 10562470,
+      "averagePoints": 68,
+      "totalPoints": 0
+    },
+    "6173": {
+      "id": "6173",
+      "name": "Grimaldo",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 49626228,
+      "averagePoints": 158,
+      "totalPoints": 0
+    },
+    "6174": {
+      "id": "6174",
+      "name": "Arthur",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 1314686,
+      "averagePoints": 53,
+      "totalPoints": 0
+    },
+    "6745": {
+      "id": "6745",
+      "name": "Boniface",
+      "teamId": "7",
+      "position": 4,
+      "marketValue": 35911509,
+      "averagePoints": 111,
+      "totalPoints": 0
+    },
+    "7241": {
+      "id": "7241",
+      "name": "Kovár",
+      "teamId": "7",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 41,
+      "totalPoints": 0
+    },
+    "7269": {
+      "id": "7269",
+      "name": "Tella",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 3453571,
+      "averagePoints": 26,
+      "totalPoints": 0
+    },
+    "7463": {
+      "id": "7463",
+      "name": "Onyeka",
+      "teamId": "7",
+      "position": 3,
+      "marketValue": 643146,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "8225": {
+      "id": "8225",
+      "name": "Belocian",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 881866,
+      "averagePoints": 27,
+      "totalPoints": 0
+    },
+    "8374": {
+      "id": "8374",
+      "name": "Terrier",
+      "teamId": "7",
+      "position": 4,
+      "marketValue": 10440898,
+      "averagePoints": 71,
+      "totalPoints": 0
+    },
+    "9612": {
+      "id": "9612",
+      "name": "Stepanov",
+      "teamId": "7",
+      "position": 4,
+      "marketValue": 1024164,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1581": {
+      "id": "1581",
+      "name": "Nübel",
+      "teamId": "9",
+      "position": 1,
+      "marketValue": 13582320,
+      "averagePoints": 87,
+      "totalPoints": 0
+    },
+    "1664": {
+      "id": "1664",
+      "name": "Mittelstädt",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 28269691,
+      "averagePoints": 116,
+      "totalPoints": 0
+    },
+    "1758": {
+      "id": "1758",
+      "name": "Stenzel",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 20,
+      "totalPoints": 0
+    },
+    "2068": {
+      "id": "2068",
+      "name": "Zagadou",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 786702,
+      "averagePoints": 18,
+      "totalPoints": 0
+    },
+    "2172": {
+      "id": "2172",
+      "name": "Führich",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 19400542,
+      "averagePoints": 74,
+      "totalPoints": 0
+    },
+    "2199": {
+      "id": "2199",
+      "name": "Vagnoman",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 12710485,
+      "averagePoints": 68,
+      "totalPoints": 0
+    },
+    "2214": {
+      "id": "2214",
+      "name": "Karazor",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 19167279,
+      "averagePoints": 64,
+      "totalPoints": 0
+    },
+    "2237": {
+      "id": "2237",
+      "name": "Bredlow",
+      "teamId": "9",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2694": {
+      "id": "2694",
+      "name": "Stiller",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 31990521,
+      "averagePoints": 108,
+      "totalPoints": 0
+    },
+    "2758": {
+      "id": "2758",
+      "name": "Woltemade",
+      "teamId": "9",
+      "position": 4,
+      "marketValue": 6140186,
+      "averagePoints": 27,
+      "totalPoints": 0
+    },
+    "2764": {
+      "id": "2764",
+      "name": "Keitel",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 1532062,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2854": {
+      "id": "2854",
+      "name": "Demirović",
+      "teamId": "9",
+      "position": 4,
+      "marketValue": 22708542,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "2988": {
+      "id": "2988",
+      "name": "Leweling",
+      "teamId": "9",
+      "position": 4,
+      "marketValue": 13849899,
+      "averagePoints": 85,
+      "totalPoints": 0
+    },
+    "3130": {
+      "id": "3130",
+      "name": "Millot",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 24870038,
+      "averagePoints": 92,
+      "totalPoints": 0
+    },
+    "3190": {
+      "id": "3190",
+      "name": "Chabot",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 21640737,
+      "averagePoints": 98,
+      "totalPoints": 0
+    },
+    "4439": {
+      "id": "4439",
+      "name": "Touré",
+      "teamId": "9",
+      "position": 4,
+      "marketValue": 8393922,
+      "averagePoints": 61,
+      "totalPoints": 0
+    },
+    "4589": {
+      "id": "4589",
+      "name": "Diehl",
+      "teamId": "9",
+      "position": 4,
+      "marketValue": 4934629,
+      "averagePoints": 52,
+      "totalPoints": 0
+    },
+    "6085": {
+      "id": "6085",
+      "name": "Seimen",
+      "teamId": "9",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "6748": {
+      "id": "6748",
+      "name": "Krätzig",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 1420378,
+      "averagePoints": 36,
+      "totalPoints": 0
+    },
+    "7158": {
+      "id": "7158",
+      "name": "Undav",
+      "teamId": "9",
+      "position": 4,
+      "marketValue": 28553570,
+      "averagePoints": 101,
+      "totalPoints": 0
+    },
+    "7257": {
+      "id": "7257",
+      "name": "Stergiou",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 3055154,
+      "averagePoints": 167,
+      "totalPoints": 0
+    },
+    "7301": {
+      "id": "7301",
+      "name": "Rouault",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 10511359,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "7530": {
+      "id": "7530",
+      "name": "Chase",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 6802926,
+      "averagePoints": 60,
+      "totalPoints": 0
+    },
+    "7676": {
+      "id": "7676",
+      "name": "Rieder",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 10537868,
+      "averagePoints": 64,
+      "totalPoints": 0
+    },
+    "8247": {
+      "id": "8247",
+      "name": "Hendriks",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 3028666,
+      "averagePoints": 19,
+      "totalPoints": 0
+    },
+    "9615": {
+      "id": "9615",
+      "name": "Al Dakhil",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 4451450,
+      "averagePoints": 14,
+      "totalPoints": 0
+    },
+    "43": {
+      "id": "43",
+      "name": "Weiser",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 19481909,
+      "averagePoints": 93,
+      "totalPoints": 0
+    },
+    "82": {
+      "id": "82",
+      "name": "Ducksch",
+      "teamId": "10",
+      "position": 4,
+      "marketValue": 23077684,
+      "averagePoints": 115,
+      "totalPoints": 0
+    },
+    "157": {
+      "id": "157",
+      "name": "Stark",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 9005439,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "624": {
+      "id": "624",
+      "name": "Bittencourt",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 5030807,
+      "averagePoints": 44,
+      "totalPoints": 0
+    },
+    "1655": {
+      "id": "1655",
+      "name": "Zetterer",
+      "teamId": "10",
+      "position": 1,
+      "marketValue": 7537663,
+      "averagePoints": 67,
+      "totalPoints": 0
+    },
+    "1823": {
+      "id": "1823",
+      "name": "Veljković",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 8365716,
+      "averagePoints": 71,
+      "totalPoints": 0
+    },
+    "1858": {
+      "id": "1858",
+      "name": "Jung",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 8017469,
+      "averagePoints": 68,
+      "totalPoints": 0
+    },
+    "1868": {
+      "id": "1868",
+      "name": "Keïta",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1955": {
+      "id": "1955",
+      "name": "Burke",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 1321061,
+      "averagePoints": 29,
+      "totalPoints": 0
+    },
+    "1996": {
+      "id": "1996",
+      "name": "Friedl",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 8842188,
+      "averagePoints": 69,
+      "totalPoints": 0
+    },
+    "2294": {
+      "id": "2294",
+      "name": "Pieper",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 3270830,
+      "averagePoints": 32,
+      "totalPoints": 0
+    },
+    "2367": {
+      "id": "2367",
+      "name": "Schmid",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 17869093,
+      "averagePoints": 95,
+      "totalPoints": 0
+    },
+    "2842": {
+      "id": "2842",
+      "name": "Agu",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 7458813,
+      "averagePoints": 69,
+      "totalPoints": 0
+    },
+    "3166": {
+      "id": "3166",
+      "name": "Topp",
+      "teamId": "10",
+      "position": 4,
+      "marketValue": 6594794,
+      "averagePoints": 24,
+      "totalPoints": 0
+    },
+    "3218": {
+      "id": "3218",
+      "name": "Backhaus",
+      "teamId": "10",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3228": {
+      "id": "3228",
+      "name": "Njinmah",
+      "teamId": "10",
+      "position": 4,
+      "marketValue": 7999598,
+      "averagePoints": 44,
+      "totalPoints": 0
+    },
+    "3450": {
+      "id": "3450",
+      "name": "Kolke",
+      "teamId": "10",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3453": {
+      "id": "3453",
+      "name": "Köhn",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 7706168,
+      "averagePoints": 47,
+      "totalPoints": 0
+    },
+    "3481": {
+      "id": "3481",
+      "name": "Stage",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 10604893,
+      "averagePoints": 108,
+      "totalPoints": 0
+    },
+    "7167": {
+      "id": "7167",
+      "name": "Lynen",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 6544300,
+      "averagePoints": 61,
+      "totalPoints": 0
+    },
+    "7282": {
+      "id": "7282",
+      "name": "Deman",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "7469": {
+      "id": "7469",
+      "name": "Malatini",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 7234259,
+      "averagePoints": 81,
+      "totalPoints": 0
+    },
+    "7509": {
+      "id": "7509",
+      "name": "Alvero",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 1050393,
+      "averagePoints": 8,
+      "totalPoints": 0
+    },
+    "7510": {
+      "id": "7510",
+      "name": "Hansen-Aarøen",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7721": {
+      "id": "7721",
+      "name": "Grüll",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 3044463,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "44": {
+      "id": "44",
+      "name": "Arnold",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 18089515,
+      "averagePoints": 86,
+      "totalPoints": 0
+    },
+    "1259": {
+      "id": "1259",
+      "name": "Müller",
+      "teamId": "11",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1298": {
+      "id": "1298",
+      "name": "Gerhardt",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 4610303,
+      "averagePoints": 35,
+      "totalPoints": 0
+    },
+    "1918": {
+      "id": "1918",
+      "name": "Özcan",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 3550470,
+      "averagePoints": 38,
+      "totalPoints": 0
+    },
+    "2141": {
+      "id": "2141",
+      "name": "Baku",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 8519241,
+      "averagePoints": 71,
+      "totalPoints": 0
+    },
+    "2278": {
+      "id": "2278",
+      "name": "Pervan",
+      "teamId": "11",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2496": {
+      "id": "2496",
+      "name": "Behrens",
+      "teamId": "11",
+      "position": 4,
+      "marketValue": 3314465,
+      "averagePoints": 9,
+      "totalPoints": 0
+    },
+    "2724": {
+      "id": "2724",
+      "name": "Nmecha",
+      "teamId": "11",
+      "position": 4,
+      "marketValue": 4694603,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "2725": {
+      "id": "2725",
+      "name": "Bornauw",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 12865827,
+      "averagePoints": 92,
+      "totalPoints": 0
+    },
+    "3004": {
+      "id": "3004",
+      "name": "Vranckx",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 1544438,
+      "averagePoints": 16,
+      "totalPoints": 0
+    },
+    "3124": {
+      "id": "3124",
+      "name": "Wimmer",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 6021229,
+      "averagePoints": 23,
+      "totalPoints": 0
+    },
+    "3191": {
+      "id": "3191",
+      "name": "Paredes",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3193": {
+      "id": "3193",
+      "name": "Tiago Tomás",
+      "teamId": "11",
+      "position": 4,
+      "marketValue": 11198455,
+      "averagePoints": 68,
+      "totalPoints": 0
+    },
+    "3196": {
+      "id": "3196",
+      "name": "Wind",
+      "teamId": "11",
+      "position": 4,
+      "marketValue": 10501059,
+      "averagePoints": 69,
+      "totalPoints": 0
+    },
+    "3362": {
+      "id": "3362",
+      "name": "Fischer",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 4799338,
+      "averagePoints": 49,
+      "totalPoints": 0
+    },
+    "3475": {
+      "id": "3475",
+      "name": "Kaminski",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 4223988,
+      "averagePoints": 54,
+      "totalPoints": 0
+    },
+    "4266": {
+      "id": "4266",
+      "name": "Svanberg",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 2439460,
+      "averagePoints": 58,
+      "totalPoints": 0
+    },
+    "6077": {
+      "id": "6077",
+      "name": "Odogu",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 2001549,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "6179": {
+      "id": "6179",
+      "name": "Zesiger",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 3201875,
+      "averagePoints": 45,
+      "totalPoints": 0
+    },
+    "7153": {
+      "id": "7153",
+      "name": "Dárdai",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 9189036,
+      "averagePoints": 88,
+      "totalPoints": 0
+    },
+    "7163": {
+      "id": "7163",
+      "name": "Rogério",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7236": {
+      "id": "7236",
+      "name": "Mæhle",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 7550957,
+      "averagePoints": 79,
+      "totalPoints": 0
+    },
+    "7243": {
+      "id": "7243",
+      "name": "Majer",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 4424370,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "7580": {
+      "id": "7580",
+      "name": "Bröger",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7807": {
+      "id": "7807",
+      "name": "Vavro",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 11601291,
+      "averagePoints": 107,
+      "totalPoints": 0
+    },
+    "8229": {
+      "id": "8229",
+      "name": "Grabara",
+      "teamId": "11",
+      "position": 1,
+      "marketValue": 14368505,
+      "averagePoints": 114,
+      "totalPoints": 0
+    },
+    "8348": {
+      "id": "8348",
+      "name": "Amoura",
+      "teamId": "11",
+      "position": 4,
+      "marketValue": 18099559,
+      "averagePoints": 108,
+      "totalPoints": 0
+    },
+    "9621": {
+      "id": "9621",
+      "name": "Koulierakis",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 12823022,
+      "averagePoints": 81,
+      "totalPoints": 0
+    },
+    "1809": {
+      "id": "1809",
+      "name": "Wolf",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 8268968,
+      "averagePoints": 55,
+      "totalPoints": 0
+    },
+    "1811": {
+      "id": "1811",
+      "name": "Gouweleeuw",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 12306406,
+      "averagePoints": 78,
+      "totalPoints": 0
+    },
+    "2005": {
+      "id": "2005",
+      "name": "Maier",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 2263181,
+      "averagePoints": 40,
+      "totalPoints": 0
+    },
+    "2030": {
+      "id": "2030",
+      "name": "Tietz",
+      "teamId": "13",
+      "position": 4,
+      "marketValue": 8223647,
+      "averagePoints": 56,
+      "totalPoints": 0
+    },
+    "2091": {
+      "id": "2091",
+      "name": "Rexhbecaj",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 6234132,
+      "averagePoints": 57,
+      "totalPoints": 0
+    },
+    "2195": {
+      "id": "2195",
+      "name": "Dahmen",
+      "teamId": "13",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2263": {
+      "id": "2263",
+      "name": "Jensen",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 526068,
+      "averagePoints": 9,
+      "totalPoints": 0
+    },
+    "2274": {
+      "id": "2274",
+      "name": "Schlotterbeck",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 14880639,
+      "averagePoints": 90,
+      "totalPoints": 0
+    },
+    "2494": {
+      "id": "2494",
+      "name": "Okugawa",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2582": {
+      "id": "2582",
+      "name": "Bauer",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 2784345,
+      "averagePoints": 46,
+      "totalPoints": 0
+    },
+    "2651": {
+      "id": "2651",
+      "name": "Pedersen",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 1335625,
+      "averagePoints": 11,
+      "totalPoints": 0
+    },
+    "2664": {
+      "id": "2664",
+      "name": "Vargas",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 4766153,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "2885": {
+      "id": "2885",
+      "name": "Gumny",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3024": {
+      "id": "3024",
+      "name": "Klein",
+      "teamId": "13",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3143": {
+      "id": "3143",
+      "name": "Jakić",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 5497043,
+      "averagePoints": 52,
+      "totalPoints": 0
+    },
+    "3329": {
+      "id": "3329",
+      "name": "Breithaupt",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 61,
+      "totalPoints": 0
+    },
+    "3502": {
+      "id": "3502",
+      "name": "Koudossou",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 14,
+      "totalPoints": 0
+    },
+    "4571": {
+      "id": "4571",
+      "name": "Kabadayi",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 28,
+      "totalPoints": 0
+    },
+    "4654": {
+      "id": "4654",
+      "name": "Kömür",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": -11,
+      "totalPoints": 0
+    },
+    "7696": {
+      "id": "7696",
+      "name": "Labrović",
+      "teamId": "13",
+      "position": 1,
+      "marketValue": 9801777,
+      "averagePoints": 90,
+      "totalPoints": 0
+    },
+    "8254": {
+      "id": "8254",
+      "name": "Essende",
+      "teamId": "13",
+      "position": 4,
+      "marketValue": 4593389,
+      "averagePoints": 21,
+      "totalPoints": 0
+    },
+    "8311": {
+      "id": "8311",
+      "name": "Mounié",
+      "teamId": "13",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 11,
+      "totalPoints": 0
+    },
+    "8384": {
+      "id": "8384",
+      "name": "Giannoulis",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 8337855,
+      "averagePoints": 72,
+      "totalPoints": 0
+    },
+    "9641": {
+      "id": "9641",
+      "name": "Onyeka",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 8637634,
+      "averagePoints": 68,
+      "totalPoints": 0
+    },
+    "9642": {
+      "id": "9642",
+      "name": "Matsima",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 7739628,
+      "averagePoints": 71,
+      "totalPoints": 0
+    },
+    "9684": {
+      "id": "9684",
+      "name": "Claude-Maurice",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 13040427,
+      "averagePoints": 101,
+      "totalPoints": 0
+    },
+    "96": {
+      "id": "96",
+      "name": "Akpoguma",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 10569236,
+      "averagePoints": 73,
+      "totalPoints": 0
+    },
+    "524": {
+      "id": "524",
+      "name": "Baumann",
+      "teamId": "14",
+      "position": 1,
+      "marketValue": 16351302,
+      "averagePoints": 108,
+      "totalPoints": 0
+    },
+    "1308": {
+      "id": "1308",
+      "name": "Bebou",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1671": {
+      "id": "1671",
+      "name": "Prömel",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 1618611,
+      "averagePoints": 51,
+      "totalPoints": 0
+    },
+    "1703": {
+      "id": "1703",
+      "name": "Grillitsch",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 13397835,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "1726": {
+      "id": "1726",
+      "name": "Kaderábek",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 7210999,
+      "averagePoints": 45,
+      "totalPoints": 0
+    },
+    "1739": {
+      "id": "1739",
+      "name": "Lenz",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1781": {
+      "id": "1781",
+      "name": "Bruun Larsen",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 3969102,
+      "averagePoints": 41,
+      "totalPoints": 0
+    },
+    "1815": {
+      "id": "1815",
+      "name": "Kramarić",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 29159914,
+      "averagePoints": 110,
+      "totalPoints": 0
+    },
+    "1990": {
+      "id": "1990",
+      "name": "Geiger",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 2,
+      "totalPoints": 0
+    },
+    "2373": {
+      "id": "2373",
+      "name": "Kabak",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2552": {
+      "id": "2552",
+      "name": "Bülter",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 10386045,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "2596": {
+      "id": "2596",
+      "name": "Becker",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2737": {
+      "id": "2737",
+      "name": "Samassékou",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 13,
+      "totalPoints": 0
+    },
+    "2852": {
+      "id": "2852",
+      "name": "Philipp",
+      "teamId": "14",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2987": {
+      "id": "2987",
+      "name": "Stach",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 21582721,
+      "averagePoints": 95,
+      "totalPoints": 0
+    },
+    "3120": {
+      "id": "3120",
+      "name": "Bischof",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 10663523,
+      "averagePoints": 104,
+      "totalPoints": 0
+    },
+    "3230": {
+      "id": "3230",
+      "name": "Tohumcu",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 4384211,
+      "averagePoints": 26,
+      "totalPoints": 0
+    },
+    "3471": {
+      "id": "3471",
+      "name": "Hložek",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 9128788,
+      "averagePoints": 88,
+      "totalPoints": 0
+    },
+    "4352": {
+      "id": "4352",
+      "name": "Nsoki",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 3483302,
+      "averagePoints": 32,
+      "totalPoints": 0
+    },
+    "4421": {
+      "id": "4421",
+      "name": "Berisha",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 3177786,
+      "averagePoints": 29,
+      "totalPoints": 0
+    },
+    "6746": {
+      "id": "6746",
+      "name": "Szalai",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7157": {
+      "id": "7157",
+      "name": "Tabaković",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 4237070,
+      "averagePoints": 34,
+      "totalPoints": 0
+    },
+    "7483": {
+      "id": "7483",
+      "name": "Jurásek",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 2107869,
+      "averagePoints": 22,
+      "totalPoints": 0
+    },
+    "7543": {
+      "id": "7543",
+      "name": "Moerstedt",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 1458451,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "7544": {
+      "id": "7544",
+      "name": "Drexler",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 2211351,
+      "averagePoints": 17,
+      "totalPoints": 0
+    },
+    "7717": {
+      "id": "7717",
+      "name": "Prass",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 6491355,
+      "averagePoints": 54,
+      "totalPoints": 0
+    },
+    "7750": {
+      "id": "7750",
+      "name": "Hranác",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": -3,
+      "totalPoints": 0
+    },
+    "8289": {
+      "id": "8289",
+      "name": "Petersson",
+      "teamId": "14",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "9598": {
+      "id": "9598",
+      "name": "Gendrey",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 3852679,
+      "averagePoints": 55,
+      "totalPoints": 0
+    },
+    "9682": {
+      "id": "9682",
+      "name": "Chaves",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 6216132,
+      "averagePoints": 62,
+      "totalPoints": 0
+    },
+    "619": {
+      "id": "619",
+      "name": "Stöger",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 25418191,
+      "averagePoints": 104,
+      "totalPoints": 0
+    },
+    "849": {
+      "id": "849",
+      "name": "Kleindienst",
+      "teamId": "15",
+      "position": 4,
+      "marketValue": 29040424,
+      "averagePoints": 149,
+      "totalPoints": 0
+    },
+    "1223": {
+      "id": "1223",
+      "name": "Friedrich",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 9889540,
+      "averagePoints": 98,
+      "totalPoints": 0
+    },
+    "1330": {
+      "id": "1330",
+      "name": "Weigl",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 16136230,
+      "averagePoints": 88,
+      "totalPoints": 0
+    },
+    "1387": {
+      "id": "1387",
+      "name": "Sippel",
+      "teamId": "15",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1686": {
+      "id": "1686",
+      "name": "Elvedi",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 10857031,
+      "averagePoints": 97,
+      "totalPoints": 0
+    },
+    "1883": {
+      "id": "1883",
+      "name": "Nicolas",
+      "teamId": "15",
+      "position": 1,
+      "marketValue": 10547830,
+      "averagePoints": 111,
+      "totalPoints": 0
+    },
+    "2074": {
+      "id": "2074",
+      "name": "Hack",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 10055454,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "2261": {
+      "id": "2261",
+      "name": "Neuhaus",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 4005117,
+      "averagePoints": 9,
+      "totalPoints": 0
+    },
+    "2288": {
+      "id": "2288",
+      "name": "Plea",
+      "teamId": "15",
+      "position": 4,
+      "marketValue": 17988316,
+      "averagePoints": 90,
+      "totalPoints": 0
+    },
+    "2560": {
+      "id": "2560",
+      "name": "Sander",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 3154902,
+      "averagePoints": 30,
+      "totalPoints": 0
+    },
+    "2644": {
+      "id": "2644",
+      "name": "Lainer",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 3138120,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "2799": {
+      "id": "2799",
+      "name": "Netz",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 3459812,
+      "averagePoints": 74,
+      "totalPoints": 0
+    },
+    "2897": {
+      "id": "2897",
+      "name": "Reitz",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 13444305,
+      "averagePoints": 81,
+      "totalPoints": 0
+    },
+    "2941": {
+      "id": "2941",
+      "name": "Scally",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 8494406,
+      "averagePoints": 62,
+      "totalPoints": 0
+    },
+    "3063": {
+      "id": "3063",
+      "name": "Chiarodia",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 1563050,
+      "averagePoints": 14,
+      "totalPoints": 0
+    },
+    "3085": {
+      "id": "3085",
+      "name": "Ranos",
+      "teamId": "15",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": -32,
+      "totalPoints": 0
+    },
+    "3129": {
+      "id": "3129",
+      "name": "Itakura",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 16903653,
+      "averagePoints": 94,
+      "totalPoints": 0
+    },
+    "4333": {
+      "id": "4333",
+      "name": "Ullrich",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 6827320,
+      "averagePoints": 69,
+      "totalPoints": 0
+    },
+    "4419": {
+      "id": "4419",
+      "name": "Ngoumou",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 22,
+      "totalPoints": 0
+    },
+    "4590": {
+      "id": "4590",
+      "name": "Omlin",
+      "teamId": "15",
+      "position": 1,
+      "marketValue": 7263147,
+      "averagePoints": 124,
+      "totalPoints": 0
+    },
+    "6319": {
+      "id": "6319",
+      "name": "Honorat",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 22704667,
+      "averagePoints": 138,
+      "totalPoints": 0
+    },
+    "6665": {
+      "id": "6665",
+      "name": "Čvančara",
+      "teamId": "15",
+      "position": 4,
+      "marketValue": 2848782,
+      "averagePoints": 24,
+      "totalPoints": 0
+    },
+    "60": {
+      "id": "60",
+      "name": "Kohr",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 10130559,
+      "averagePoints": 81,
+      "totalPoints": 0
+    },
+    "550": {
+      "id": "550",
+      "name": "Bell",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 8231627,
+      "averagePoints": 101,
+      "totalPoints": 0
+    },
+    "577": {
+      "id": "577",
+      "name": "Batz",
+      "teamId": "18",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1540": {
+      "id": "1540",
+      "name": "Da Costa",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 3599717,
+      "averagePoints": 89,
+      "totalPoints": 0
+    },
+    "1590": {
+      "id": "1590",
+      "name": "Zentner",
+      "teamId": "18",
+      "position": 1,
+      "marketValue": 19486101,
+      "averagePoints": 131,
+      "totalPoints": 0
+    },
+    "1639": {
+      "id": "1639",
+      "name": "Amiri",
+      "teamId": "18",
+      "position": 3,
+      "marketValue": 26951868,
+      "averagePoints": 147,
+      "totalPoints": 0
+    },
+    "1804": {
+      "id": "1804",
+      "name": "Onisiwo",
+      "teamId": "18",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 18,
+      "totalPoints": 0
+    },
+    "1971": {
+      "id": "1971",
+      "name": "Barkok",
+      "teamId": "18",
+      "position": 3,
+      "marketValue": 548405,
+      "averagePoints": 11,
+      "totalPoints": 0
+    },
+    "2232": {
+      "id": "2232",
+      "name": "Mwene",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 14788197,
+      "averagePoints": 96,
+      "totalPoints": 0
+    },
+    "2255": {
+      "id": "2255",
+      "name": "Burkardt",
+      "teamId": "18",
+      "position": 4,
+      "marketValue": 21769501,
+      "averagePoints": 96,
+      "totalPoints": 0
+    },
+    "2476": {
+      "id": "2476",
+      "name": "Lee",
+      "teamId": "18",
+      "position": 3,
+      "marketValue": 11938664,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "2515": {
+      "id": "2515",
+      "name": "Leitsch",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 6504686,
+      "averagePoints": 69,
+      "totalPoints": 0
+    },
+    "2895": {
+      "id": "2895",
+      "name": "Nebel",
+      "teamId": "18",
+      "position": 3,
+      "marketValue": 7631882,
+      "averagePoints": 64,
+      "totalPoints": 0
+    },
+    "2922": {
+      "id": "2922",
+      "name": "Sieb",
+      "teamId": "18",
+      "position": 4,
+      "marketValue": 4250040,
+      "averagePoints": 39,
+      "totalPoints": 0
+    },
+    "3013": {
+      "id": "3013",
+      "name": "Rieß",
+      "teamId": "18",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3041": {
+      "id": "3041",
+      "name": "Widmer",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 1410103,
+      "averagePoints": 15,
+      "totalPoints": 0
+    },
+    "3081": {
+      "id": "3081",
+      "name": "Vidović",
+      "teamId": "18",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": -2,
+      "totalPoints": 0
+    },
+    "3470": {
+      "id": "3470",
+      "name": "Caci",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 11631834,
+      "averagePoints": 87,
+      "totalPoints": 0
+    },
+    "4460": {
+      "id": "4460",
+      "name": "Weiper",
+      "teamId": "18",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": -1,
+      "totalPoints": 0
+    },
+    "4576": {
+      "id": "4576",
+      "name": "Hanche-Olsen",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 4086925,
+      "averagePoints": 44,
+      "totalPoints": 0
+    },
+    "4611": {
+      "id": "4611",
+      "name": "Jenz",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 12112440,
+      "averagePoints": 95,
+      "totalPoints": 0
+    },
+    "8223": {
+      "id": "8223",
+      "name": "Veratschnig",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 8,
+      "totalPoints": 0
+    },
+    "8307": {
+      "id": "8307",
+      "name": "Sano",
+      "teamId": "18",
+      "position": 3,
+      "marketValue": 11349519,
+      "averagePoints": 74,
+      "totalPoints": 0
+    },
+    "9638": {
+      "id": "9638",
+      "name": "Hong",
+      "teamId": "18",
+      "position": 3,
+      "marketValue": 1397647,
+      "averagePoints": 29,
+      "totalPoints": 0
+    },
+    "46": {
+      "id": "46",
+      "name": "Hofmann",
+      "teamId": "24",
+      "position": 4,
+      "marketValue": 4671911,
+      "averagePoints": 53,
+      "totalPoints": 0
+    },
+    "75": {
+      "id": "75",
+      "name": "Drewes",
+      "teamId": "24",
+      "position": 1,
+      "marketValue": 5274260,
+      "averagePoints": 80,
+      "totalPoints": 0
+    },
+    "1245": {
+      "id": "1245",
+      "name": "Horn",
+      "teamId": "24",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1405": {
+      "id": "1405",
+      "name": "Riemann",
+      "teamId": "24",
+      "position": 1,
+      "marketValue": 3718402,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1514": {
+      "id": "1514",
+      "name": "Losilla",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 1914257,
+      "averagePoints": 21,
+      "totalPoints": 0
+    },
+    "1785": {
+      "id": "1785",
+      "name": "Passlack",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 2495651,
+      "averagePoints": 27,
+      "totalPoints": 0
+    },
+    "1881": {
+      "id": "1881",
+      "name": "Holtmann",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 3428837,
+      "averagePoints": 17,
+      "totalPoints": 0
+    },
+    "1954": {
+      "id": "1954",
+      "name": "Bernardo",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 5086386,
+      "averagePoints": 1,
+      "totalPoints": 0
+    },
+    "2460": {
+      "id": "2460",
+      "name": "Wittek",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 6938924,
+      "averagePoints": 64,
+      "totalPoints": 0
+    },
+    "2533": {
+      "id": "2533",
+      "name": "Daschner",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 1184376,
+      "averagePoints": 13,
+      "totalPoints": 0
+    },
+    "2561": {
+      "id": "2561",
+      "name": "Kwarteng",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 7,
+      "totalPoints": 0
+    },
+    "2883": {
+      "id": "2883",
+      "name": "Broschinski",
+      "teamId": "24",
+      "position": 4,
+      "marketValue": 1915545,
+      "averagePoints": 9,
+      "totalPoints": 0
+    },
+    "2990": {
+      "id": "2990",
+      "name": "Gamboa",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 1409362,
+      "averagePoints": 22,
+      "totalPoints": 0
+    },
+    "2994": {
+      "id": "2994",
+      "name": "Mašović",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 3270654,
+      "averagePoints": 62,
+      "totalPoints": 0
+    },
+    "3305": {
+      "id": "3305",
+      "name": "Medić",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 5881078,
+      "averagePoints": 50,
+      "totalPoints": 0
+    },
+    "3558": {
+      "id": "3558",
+      "name": "Ordets",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 1629164,
+      "averagePoints": 21,
+      "totalPoints": 0
+    },
+    "4317": {
+      "id": "4317",
+      "name": "Pannewig",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": -6,
+      "totalPoints": 0
+    },
+    "4318": {
+      "id": "4318",
+      "name": "Oermann",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 3703021,
+      "averagePoints": 6,
+      "totalPoints": 0
+    },
+    "4520": {
+      "id": "4520",
+      "name": "Bamba",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": -12,
+      "totalPoints": 0
+    },
+    "6186": {
+      "id": "6186",
+      "name": "Loosli",
+      "teamId": "24",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "6288": {
+      "id": "6288",
+      "name": "Bero",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 2490479,
+      "averagePoints": 34,
+      "totalPoints": 0
+    },
+    "7506": {
+      "id": "7506",
+      "name": "Elezi",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "8230": {
+      "id": "8230",
+      "name": "Sissoko",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 3324651,
+      "averagePoints": 37,
+      "totalPoints": 0
+    },
+    "8308": {
+      "id": "8308",
+      "name": "de Wit",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 3394215,
+      "averagePoints": 33,
+      "totalPoints": 0
+    },
+    "9441": {
+      "id": "9441",
+      "name": "Baldé",
+      "teamId": "24",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": -8,
+      "totalPoints": 0
+    },
+    "9442": {
+      "id": "9442",
+      "name": "Boadu",
+      "teamId": "24",
+      "position": 4,
+      "marketValue": 1870037,
+      "averagePoints": 43,
+      "totalPoints": 0
+    },
+    "9640": {
+      "id": "9640",
+      "name": "Miyoshi",
+      "teamId": "24",
+      "position": 3,
+      "marketValue": 2555265,
+      "averagePoints": 6,
+      "totalPoints": 0
+    },
+    "697": {
+      "id": "697",
+      "name": "Burchert",
+      "teamId": "39",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1534": {
+      "id": "1534",
+      "name": "Zoller",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1866": {
+      "id": "1866",
+      "name": "Wahl",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 8385290,
+      "averagePoints": 67,
+      "totalPoints": 0
+    },
+    "1878": {
+      "id": "1878",
+      "name": "Eggestein",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 4720652,
+      "averagePoints": 28,
+      "totalPoints": 0
+    },
+    "2090": {
+      "id": "2090",
+      "name": "Ritzka",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 4126134,
+      "averagePoints": 19,
+      "totalPoints": 0
+    },
+    "2899": {
+      "id": "2899",
+      "name": "Boukhalfa",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 1292729,
+      "averagePoints": 41,
+      "totalPoints": 0
+    },
+    "3014": {
+      "id": "3014",
+      "name": "Nemeth",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 676706,
+      "averagePoints": 68,
+      "totalPoints": 0
+    },
+    "3206": {
+      "id": "3206",
+      "name": "Wagner",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "3292": {
+      "id": "3292",
+      "name": "Irvine",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 13899894,
+      "averagePoints": 92,
+      "totalPoints": 0
+    },
+    "3298": {
+      "id": "3298",
+      "name": "Vasilj",
+      "teamId": "39",
+      "position": 1,
+      "marketValue": 13406707,
+      "averagePoints": 103,
+      "totalPoints": 0
+    },
+    "3300": {
+      "id": "3300",
+      "name": "Smith",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 12435382,
+      "averagePoints": 98,
+      "totalPoints": 0
+    },
+    "3301": {
+      "id": "3301",
+      "name": "Dźwigała",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "3377": {
+      "id": "3377",
+      "name": "Albers",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 3118882,
+      "averagePoints": 9,
+      "totalPoints": 0
+    },
+    "3452": {
+      "id": "3452",
+      "name": "Voll",
+      "teamId": "39",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3532": {
+      "id": "3532",
+      "name": "Metcalfe",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 618692,
+      "averagePoints": 26,
+      "totalPoints": 0
+    },
+    "3533": {
+      "id": "3533",
+      "name": "Saliakas",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 3743732,
+      "averagePoints": 49,
+      "totalPoints": 0
+    },
+    "4591": {
+      "id": "4591",
+      "name": "Afolayan",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 5256412,
+      "averagePoints": 52,
+      "totalPoints": 0
+    },
+    "4603": {
+      "id": "4603",
+      "name": "Maurides",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "4604": {
+      "id": "4604",
+      "name": "Saad",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 1171574,
+      "averagePoints": 74,
+      "totalPoints": 0
+    },
+    "4615": {
+      "id": "4615",
+      "name": "Mets",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 9076831,
+      "averagePoints": 80,
+      "totalPoints": 0
+    },
+    "6209": {
+      "id": "6209",
+      "name": "Treu",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 3338209,
+      "averagePoints": 53,
+      "totalPoints": 0
+    },
+    "6293": {
+      "id": "6293",
+      "name": "Sinani",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 9,
+      "totalPoints": 0
+    },
+    "7218": {
+      "id": "7218",
+      "name": "Banks",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 4,
+      "totalPoints": 0
+    },
+    "7496": {
+      "id": "7496",
+      "name": "Ahlstrand",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": -1,
+      "totalPoints": 0
+    },
+    "8387": {
+      "id": "8387",
+      "name": "Stevens",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "8397": {
+      "id": "8397",
+      "name": "Guilavogui",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 4414310,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "9839": {
+      "id": "9839",
+      "name": "Schmitz",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 1549250,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "51": {
+      "id": "51",
+      "name": "Khedira",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 5182424,
+      "averagePoints": 49,
+      "totalPoints": 0
+    },
+    "477": {
+      "id": "477",
+      "name": "Vogt",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 9335297,
+      "averagePoints": 70,
+      "totalPoints": 0
+    },
+    "579": {
+      "id": "579",
+      "name": "Volland",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 906732,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "620": {
+      "id": "620",
+      "name": "Schwolow",
+      "teamId": "40",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1553": {
+      "id": "1553",
+      "name": "Haberer",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 2166239,
+      "averagePoints": 24,
+      "totalPoints": 0
+    },
+    "1877": {
+      "id": "1877",
+      "name": "Bénes",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 2318890,
+      "averagePoints": 38,
+      "totalPoints": 0
+    },
+    "2279": {
+      "id": "2279",
+      "name": "Rönnow",
+      "teamId": "40",
+      "position": 1,
+      "marketValue": 15899808,
+      "averagePoints": 110,
+      "totalPoints": 0
+    },
+    "2302": {
+      "id": "2302",
+      "name": "Jeong",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 6219409,
+      "averagePoints": 53,
+      "totalPoints": 0
+    },
+    "2321": {
+      "id": "2321",
+      "name": "Roussillon",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 834161,
+      "averagePoints": -11,
+      "totalPoints": 0
+    },
+    "2400": {
+      "id": "2400",
+      "name": "Trimmel",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 5567706,
+      "averagePoints": 60,
+      "totalPoints": 0
+    },
+    "2491": {
+      "id": "2491",
+      "name": "Skarke",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 19,
+      "totalPoints": 0
+    },
+    "2717": {
+      "id": "2717",
+      "name": "Skov",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 4578355,
+      "averagePoints": 45,
+      "totalPoints": 0
+    },
+    "2814": {
+      "id": "2814",
+      "name": "Tousart",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 50,
+      "totalPoints": 0
+    },
+    "3102": {
+      "id": "3102",
+      "name": "Rothe",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 11165157,
+      "averagePoints": 86,
+      "totalPoints": 0
+    },
+    "3187": {
+      "id": "3187",
+      "name": "Schäfer",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 1837306,
+      "averagePoints": 36,
+      "totalPoints": 0
+    },
+    "3364": {
+      "id": "3364",
+      "name": "Klaus",
+      "teamId": "40",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3454": {
+      "id": "3454",
+      "name": "Jordan",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 2776234,
+      "averagePoints": 33,
+      "totalPoints": 0
+    },
+    "3473": {
+      "id": "3473",
+      "name": "Doekhi",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 11698320,
+      "averagePoints": 70,
+      "totalPoints": 0
+    },
+    "4265": {
+      "id": "4265",
+      "name": "Leite",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 18135089,
+      "averagePoints": 98,
+      "totalPoints": 0
+    },
+    "4446": {
+      "id": "4446",
+      "name": "Kemlein",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 5835504,
+      "averagePoints": 61,
+      "totalPoints": 0
+    },
+    "4598": {
+      "id": "4598",
+      "name": "Juranović",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 3904053,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "6111": {
+      "id": "6111",
+      "name": "Hollerbach",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 7108280,
+      "averagePoints": 49,
+      "totalPoints": 0
+    },
+    "6117": {
+      "id": "6117",
+      "name": "Prtajin",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7507": {
+      "id": "7507",
+      "name": "Vertessen",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 7949830,
+      "averagePoints": 53,
+      "totalPoints": 0
+    },
+    "7723": {
+      "id": "7723",
+      "name": "Querfeld",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 4628382,
+      "averagePoints": 21,
+      "totalPoints": 0
+    },
+    "8228": {
+      "id": "8228",
+      "name": "Preu",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "9683": {
+      "id": "9683",
+      "name": "Ilic",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1225": {
+      "id": "1225",
+      "name": "Zingerle",
+      "teamId": "43",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1246": {
+      "id": "1246",
+      "name": "Orban",
+      "teamId": "43",
+      "position": 2,
+      "marketValue": 27529093,
+      "averagePoints": 160,
+      "totalPoints": 0
+    },
+    "1333": {
+      "id": "1333",
+      "name": "Klostermann",
+      "teamId": "43",
+      "position": 2,
+      "marketValue": 16194269,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "1653": {
+      "id": "1653",
+      "name": "Kampl",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 15085543,
+      "averagePoints": 104,
+      "totalPoints": 0
+    },
+    "1689": {
+      "id": "1689",
+      "name": "Henrichs",
+      "teamId": "43",
+      "position": 2,
+      "marketValue": 20213959,
+      "averagePoints": 76,
+      "totalPoints": 0
+    },
+    "1865": {
+      "id": "1865",
+      "name": "Poulsen",
+      "teamId": "43",
+      "position": 4,
+      "marketValue": 2433126,
+      "averagePoints": 22,
+      "totalPoints": 0
+    },
+    "1896": {
+      "id": "1896",
+      "name": "Gulácsi",
+      "teamId": "43",
+      "position": 1,
+      "marketValue": 21013264,
+      "averagePoints": 132,
+      "totalPoints": 0
+    },
+    "2275": {
+      "id": "2275",
+      "name": "Baumgartner",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 8563120,
+      "averagePoints": 39,
+      "totalPoints": 0
+    },
+    "2365": {
+      "id": "2365",
+      "name": "Haidara",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 19244932,
+      "averagePoints": 73,
+      "totalPoints": 0
+    },
+    "2522": {
+      "id": "2522",
+      "name": "Raum",
+      "teamId": "43",
+      "position": 2,
+      "marketValue": 15417901,
+      "averagePoints": 117,
+      "totalPoints": 0
+    },
+    "2649": {
+      "id": "2649",
+      "name": "Schlager",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 7256165,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2747": {
+      "id": "2747",
+      "name": "Silva",
+      "teamId": "43",
+      "position": 4,
+      "marketValue": 3537531,
+      "averagePoints": 39,
+      "totalPoints": 0
+    },
+    "6176": {
+      "id": "6176",
+      "name": "Seiwald",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 5216405,
+      "averagePoints": 62,
+      "totalPoints": 0
+    },
+    "6177": {
+      "id": "6177",
+      "name": "Šeško",
+      "teamId": "43",
+      "position": 4,
+      "marketValue": 30525536,
+      "averagePoints": 82,
+      "totalPoints": 0
+    },
+    "6300": {
+      "id": "6300",
+      "name": "Ouédraogo",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 4475675,
+      "averagePoints": -9,
+      "totalPoints": 0
+    },
+    "6664": {
+      "id": "6664",
+      "name": "Openda",
+      "teamId": "43",
+      "position": 4,
+      "marketValue": 45358305,
+      "averagePoints": 109,
+      "totalPoints": 0
+    },
+    "6667": {
+      "id": "6667",
+      "name": "Bitshiabu",
+      "teamId": "43",
+      "position": 2,
+      "marketValue": 4562301,
+      "averagePoints": 43,
+      "totalPoints": 0
+    },
+    "6672": {
+      "id": "6672",
+      "name": "Simons",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 28920092,
+      "averagePoints": 158,
+      "totalPoints": 0
+    },
+    "7224": {
+      "id": "7224",
+      "name": "Castello Jr.",
+      "teamId": "43",
+      "position": 2,
+      "marketValue": 20613270,
+      "averagePoints": 102,
+      "totalPoints": 0
+    },
+    "7424": {
+      "id": "7424",
+      "name": "Elmas",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 1532753,
+      "averagePoints": 13,
+      "totalPoints": 0
+    },
+    "7493": {
+      "id": "7493",
+      "name": "Vermeeren",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 9170029,
+      "averagePoints": 47,
+      "totalPoints": 0
+    },
+    "7730": {
+      "id": "7730",
+      "name": "Geertruida",
+      "teamId": "43",
+      "position": 2,
+      "marketValue": 15365545,
+      "averagePoints": 82,
+      "totalPoints": 0
+    },
+    "8227": {
+      "id": "8227",
+      "name": "Vandevoordt",
+      "teamId": "43",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 70,
+      "totalPoints": 0
+    },
+    "9438": {
+      "id": "9438",
+      "name": "Gebel",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "9507": {
+      "id": "9507",
+      "name": "Nusa",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 24432855,
+      "averagePoints": 98,
+      "totalPoints": 0
+    },
+    "699": {
+      "id": "699",
+      "name": "Theuerkauf",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "755": {
+      "id": "755",
+      "name": "Müller",
+      "teamId": "50",
+      "position": 1,
+      "marketValue": 8500120,
+      "averagePoints": 83,
+      "totalPoints": 0
+    },
+    "841": {
+      "id": "841",
+      "name": "Mainka",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 13973117,
+      "averagePoints": 87,
+      "totalPoints": 0
+    },
+    "1527": {
+      "id": "1527",
+      "name": "Eicher",
+      "teamId": "50",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1622": {
+      "id": "1622",
+      "name": "Busch",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 2121793,
+      "averagePoints": 52,
+      "totalPoints": 0
+    },
+    "1687": {
+      "id": "1687",
+      "name": "Gimber",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 7320094,
+      "averagePoints": 67,
+      "totalPoints": 0
+    },
+    "1871": {
+      "id": "1871",
+      "name": "Föhrenbach",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 6320556,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "1929": {
+      "id": "1929",
+      "name": "Dorsch",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 4415304,
+      "averagePoints": 43,
+      "totalPoints": 0
+    },
+    "2399": {
+      "id": "2399",
+      "name": "Maloney",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 3464450,
+      "averagePoints": 44,
+      "totalPoints": 0
+    },
+    "2455": {
+      "id": "2455",
+      "name": "Honsak",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 4479198,
+      "averagePoints": 43,
+      "totalPoints": 0
+    },
+    "2630": {
+      "id": "2630",
+      "name": "Thomalla",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": -20,
+      "totalPoints": 0
+    },
+    "2690": {
+      "id": "2690",
+      "name": "Siersleben",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 806626,
+      "averagePoints": 26,
+      "totalPoints": 0
+    },
+    "2809": {
+      "id": "2809",
+      "name": "Schimmer",
+      "teamId": "50",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": -14,
+      "totalPoints": 0
+    },
+    "3027": {
+      "id": "3027",
+      "name": "Pieringer",
+      "teamId": "50",
+      "position": 4,
+      "marketValue": 9448309,
+      "averagePoints": 80,
+      "totalPoints": 0
+    },
+    "3175": {
+      "id": "3175",
+      "name": "Wanner",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 15201051,
+      "averagePoints": 58,
+      "totalPoints": 0
+    },
+    "3249": {
+      "id": "3249",
+      "name": "Schöppner",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 12483919,
+      "averagePoints": 92,
+      "totalPoints": 0
+    },
+    "3253": {
+      "id": "3253",
+      "name": "Feller",
+      "teamId": "50",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3289": {
+      "id": "3289",
+      "name": "Kaufmann",
+      "teamId": "50",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 12,
+      "totalPoints": 0
+    },
+    "3339": {
+      "id": "3339",
+      "name": "Keller",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3396": {
+      "id": "3396",
+      "name": "Conteh",
+      "teamId": "50",
+      "position": 4,
+      "marketValue": 1240359,
+      "averagePoints": 11,
+      "totalPoints": 0
+    },
+    "3412": {
+      "id": "3412",
+      "name": "Niehues",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3515": {
+      "id": "3515",
+      "name": "Beck",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 4573089,
+      "averagePoints": 48,
+      "totalPoints": 0
+    },
+    "3522": {
+      "id": "3522",
+      "name": "Scienza",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 10390503,
+      "averagePoints": 82,
+      "totalPoints": 0
+    },
+    "6134": {
+      "id": "6134",
+      "name": "Traoré",
+      "teamId": "50",
+      "position": 2,
+      "marketValue": 4681339,
+      "averagePoints": 47,
+      "totalPoints": 0
+    },
+    "7234": {
+      "id": "7234",
+      "name": "Breunig",
+      "teamId": "50",
+      "position": 4,
+      "marketValue": 1998293,
+      "averagePoints": 32,
+      "totalPoints": 0
+    },
+    "8248": {
+      "id": "8248",
+      "name": "Kerber",
+      "teamId": "50",
+      "position": 3,
+      "marketValue": 672189,
+      "averagePoints": 20,
+      "totalPoints": 0
+    },
+    "380": {
+      "id": "380",
+      "name": "Holtby",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 765535,
+      "averagePoints": 27,
+      "totalPoints": 0
+    },
+    "1529": {
+      "id": "1529",
+      "name": "Skrzybski",
+      "teamId": "51",
+      "position": 4,
+      "marketValue": 1575871,
+      "averagePoints": 33,
+      "totalPoints": 0
+    },
+    "1565": {
+      "id": "1565",
+      "name": "Schulz",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "1691": {
+      "id": "1691",
+      "name": "Porath",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 3264532,
+      "averagePoints": 38,
+      "totalPoints": 0
+    },
+    "1844": {
+      "id": "1844",
+      "name": "Erras",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 4879430,
+      "averagePoints": 80,
+      "totalPoints": 0
+    },
+    "2024": {
+      "id": "2024",
+      "name": "Engelhardt",
+      "teamId": "51",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2135": {
+      "id": "2135",
+      "name": "Arp",
+      "teamId": "51",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": -7,
+      "totalPoints": 0
+    },
+    "2568": {
+      "id": "2568",
+      "name": "Weiner",
+      "teamId": "51",
+      "position": 1,
+      "marketValue": 4365302,
+      "averagePoints": 55,
+      "totalPoints": 0
+    },
+    "2762": {
+      "id": "2762",
+      "name": "Becker",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 1629643,
+      "averagePoints": 33,
+      "totalPoints": 0
+    },
+    "2943": {
+      "id": "2943",
+      "name": "Geschwill",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 3050033,
+      "averagePoints": 65,
+      "totalPoints": 0
+    },
+    "3020": {
+      "id": "3020",
+      "name": "Puchacz",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 1012911,
+      "averagePoints": 23,
+      "totalPoints": 0
+    },
+    "3100": {
+      "id": "3100",
+      "name": "Kleine-Bekel",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3267": {
+      "id": "3267",
+      "name": "Dähne",
+      "teamId": "51",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3268": {
+      "id": "3268",
+      "name": "Komenda",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 1855308,
+      "averagePoints": 29,
+      "totalPoints": 0
+    },
+    "3275": {
+      "id": "3275",
+      "name": "Pichler",
+      "teamId": "51",
+      "position": 4,
+      "marketValue": 1328915,
+      "averagePoints": 34,
+      "totalPoints": 0
+    },
+    "3545": {
+      "id": "3545",
+      "name": "Rosenboom",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 3766343,
+      "averagePoints": 37,
+      "totalPoints": 0
+    },
+    "6199": {
+      "id": "6199",
+      "name": "Machino",
+      "teamId": "51",
+      "position": 4,
+      "marketValue": 5758824,
+      "averagePoints": 54,
+      "totalPoints": 0
+    },
+    "6200": {
+      "id": "6200",
+      "name": "Ivezic",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 1827079,
+      "averagePoints": 51,
+      "totalPoints": 0
+    },
+    "6201": {
+      "id": "6201",
+      "name": "Remberg",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 690817,
+      "averagePoints": 29,
+      "totalPoints": 0
+    },
+    "6203": {
+      "id": "6203",
+      "name": "Johansson",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 1743068,
+      "averagePoints": 50,
+      "totalPoints": 0
+    },
+    "7484": {
+      "id": "7484",
+      "name": "Bernhardsson",
+      "teamId": "51",
+      "position": 4,
+      "marketValue": 1836268,
+      "averagePoints": 33,
+      "totalPoints": 0
+    },
+    "8224": {
+      "id": "8224",
+      "name": "Knudsen",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 2487564,
+      "averagePoints": 27,
+      "totalPoints": 0
+    },
+    "8249": {
+      "id": "8249",
+      "name": "Harres",
+      "teamId": "51",
+      "position": 4,
+      "marketValue": 6672480,
+      "averagePoints": 74,
+      "totalPoints": 0
+    },
+    "8383": {
+      "id": "8383",
+      "name": "Gigovic",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 4395663,
+      "averagePoints": 43,
+      "totalPoints": 0
+    },
+    "9504": {
+      "id": "9504",
+      "name": "Kelati",
+      "teamId": "51",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 43,
+      "totalPoints": 0
+    },
+    "9639": {
+      "id": "9639",
+      "name": "Javorçek",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": -13,
+      "totalPoints": 0
+    },
+    "9796": {
+      "id": "9796",
+      "name": "Zec",
+      "teamId": "51",
+      "position": 2,
+      "marketValue": 4610101,
+      "averagePoints": 0,
+      "totalPoints": 0
+    }
+  },
+  "valid_team_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "date": "2024-11-27"
+}

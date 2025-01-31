@@ -1,0 +1,97 @@
+:root {
+  --text-color: #333333;
+  --input-border: #ced4da;
+  --button-background: #007bff;
+  --button-hover: #0056b3;
+  --button-disabled: #6c757d;
+  --error-color: #dc3545;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1e1e1e;
+    --text-color: #e0e0e0;
+    --input-border: #444444;
+    --button-background: #0056b3;
+    --button-hover: #003d82;
+    --button-disabled: #4a4a4a;
+    --error-color: #ff6b6b;
+  }
+} */
+
+.sign-in-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sign-in-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.chooseLeagueContainer{
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 100%;
+}
+.sign-in-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-background);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in-container button:hover {
+  background-color: var(--button-hover);
+}
+
+.sign-in-container button:disabled {
+  background-color: var(--button-disabled);
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: var(--error-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Standardize button and input widths */
+button,
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  max-width: 300px;
+  box-sizing: border-box;
+}

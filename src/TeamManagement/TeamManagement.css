@@ -1,0 +1,212 @@
+.team-management {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.football-pitch {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: #4CAF50;
+  position: relative;
+}
+
+.football-pitch::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(76, 175, 80, 0.6);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  transition: background-color 0.3s ease;
+}
+
+.row.highlighted, .bench-players.highlighted {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+.player-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.player-container.highlighted {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+}
+
+.player-container.is-dragging {
+  z-index: 1000;
+}
+
+.player-container.replacement-indicator::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px dashed red;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+/* Prevent wobbling when hovering directly over a player */
+.player-container:hover {
+  transform: none;
+}
+
+.forwards, .midfielders, .defenders, .goalkeepers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.forwards > *, .midfielders > *, .defenders > *, .goalkeepers > * {
+  flex: 0 1 auto;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .team-management {
+    padding: 2px;
+  }
+  .team-management .player-stats{
+    font-size: 8px;
+  }
+  .forwards > *, .midfielders > *, .defenders > *, .goalkeepers > * {
+    margin: 0 2px;
+  }
+  .team-management .player-card{
+    padding: 0;
+  }
+}
+
+.bench {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.bench h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.bench-players {
+  display: flex;
+  flex-wrap: wrap;
+  transition: background-color 0.3s ease;
+}
+
+.team-management .player-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 10px;
+
+}
+#player-card{
+  background-color: #fcffff;
+}
+.team-management .player-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.team-management .player-image {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    background-color: #f8f4fc;
+    box-shadow: 0 4px 12px rgba(42, 40, 40, 0.3);
+
+}
+.team-management .player-stats {
+  font-size: 12px;
+  width: 100%;
+  display: flex;  
+  gap: 8px;
+  padding: 8px;
+}
+@media (max-width: 768px) {
+  .team-management .player-card {
+
+    padding: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .team-management .player-image {
+    width: 50px;
+    height: 50px;
+  }
+  .team-management .player-stats {
+    font-size: 8px;
+  }
+}
+
+
+  
+.stats-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.team-management .bench .player-card {
+  width: 80px;
+}
+
+.team-management .bench .player-image {
+  height: 60px;
+}
+
+.bench .player-card {
+  width: 80px;
+}
+
+.bench .player-image {
+  height: 80px;
+}
+
+/* Style for the dragging item */
+.react-beautiful-dnd-drag-placeholder {
+  opacity: 0;
+}
+
+.row.highlighted {
+  background-color: rgba(0, 255, 0, 0.2);
+  border: 2px dashed green;
+}

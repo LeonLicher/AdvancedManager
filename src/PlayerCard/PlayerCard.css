@@ -1,0 +1,394 @@
+.player-card.selected {
+    border: 2px solid var(--card-border);
+    box-shadow: 0 0 10px var(--card-shadow);
+  }
+  
+  .player-expiry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    color: var(--secondary-text);
+    margin-bottom: 10px;
+  }
+  
+  .expiry-icon {
+    margin-right: 5px;
+    color: #ffc107;
+  }
+  
+  .expiry-time {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .expiry-date {
+    font-size: 0.9em;
+    color: var(--secondary-text);
+  }
+  
+  .toggle-history-button {
+    background-color: var(--button-background);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-history-button:hover {
+    background-color: var(--button-hover);
+  }
+  
+  .current-offer {
+    font-size: 0.9em;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .highest-bid {
+    font-size: 0.9em;
+    color: #dc3545;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-bid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-height: 1.2em;
+  }
+  
+  .bid-icon {
+    margin-right: 5px;
+    font-size: 0.9em;
+  }
+  
+  .price-changes {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    font-size: 0.7em;
+    width: calc(100% - 40px); /* Adjust based on the width of your buttons */
+    overflow: hidden;
+  }
+  
+  .price-change-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 60px;
+  }
+  
+  .price-change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .price-change-date {
+    font-size: 0.8em;
+    color: var(--secondary-text);
+    margin-bottom: 1px;
+  }
+  
+  .price-change-value {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 0.9em;
+  }
+  
+  .price-change-value svg {
+    margin-right: 1px;
+    font-size: 0.8em;
+  }
+  
+  .price-change-percentage {
+    font-size: 0.75em;
+    opacity: 0.9;
+  }
+  
+  .no-price-changes {
+    color: var(--secondary-text);
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .price-changes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .price-changes-wrapper {
+    width: calc(100% - 40px); /* Adjusted for smaller buttons */
+    overflow: hidden;
+  }
+  
+  .price-changes-slider {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .price-change-item {
+    flex: 0 0 33.33%;
+    padding: 0 2px;
+  }
+  
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 0.8em;
+    color: #495057;
+    cursor: pointer;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    transition: color 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+  }
+  
+  .carousel-button:disabled {
+    color: #adb5bd;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .carousel-button:hover:not(:disabled) {
+    color: #212529;
+  }
+  
+  .carousel-button svg {
+    width: 0.8em;
+    height: 0.8em;
+  }
+  
+  .price-change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .price-change-date {
+    font-size: 0.6em;
+    color: var(--secondary-text);
+    margin-bottom: 1px;
+  }
+  
+  .price-change-value {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    white-space: nowrap;
+  }
+  
+  .price-change-value svg {
+    margin-right: 1px;
+    font-size: 0.7em;
+  }
+  
+  .price-change-percentage {
+    font-size: 0.65em;
+    margin-top: 1px;
+  }
+  /* PlayerCard styles */
+.player-card-wrapper .player-card {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 15px; /* Increased padding */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Make the card take full width of its grid cell */
+    max-width: 280px; /* Increased maximum width */
+    margin: 0 auto; /* Center the card if it's smaller than its cell */
+}
+
+.player-image-container {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 15px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.player-image-container .player-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.player-image-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.player-image-placeholder::after {
+  content: '\1F464'; /* Unicode character for a person icon */
+  font-size: 50px;
+  color: #bdbdbd;
+}
+
+.player-name {
+    margin: 0 0 10px 0; /* Increased margin */
+    font-size: 1.1em; /* Increased font size */
+    color: var(--text-color);
+}
+
+.player-price {
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 15px; /* Increased margin */
+    font-size: 1em; /* Increased font size */
+}
+
+.buy-options {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.percentage-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.7em;
+}
+
+.percentage-button:hover {
+    background-color: #218838;
+}
+
+.custom-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.custom-price input {
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+.custom-price .formatted-price {
+    font-size: 0.8em;
+    color: var(--secondary-text);
+    min-width: 80px;
+}
+
+.custom-price .buy-button {
+    font-size: 0.7em;
+}
+
+.debug-button {
+    background-color: var(--secondary-text);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.debug-button:hover {
+    background-color: #5a6268;
+}
+
+/*
+
+@media (prefers-color-scheme: dark) {
+  .player-card {
+    background-color: #2c2c2c;
+    border-color: #444;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+  }
+
+  .player-name {
+    color: #ffffff;
+  }
+
+  .player-price {
+    color: #4caf50;
+  }
+
+  .percentage-button {
+    background-color: #4caf50;
+  }
+
+  .percentage-button:hover {
+    background-color: #45a049;
+  }
+
+  .custom-price input {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #555;
+  }
+  .price-changes-container {
+    background-color: #333;
+  }
+
+  .custom-price .formatted-price {
+    color: #adb5bd;
+  }
+
+  .debug-button {
+    background-color: #555;
+  }
+
+  .debug-button:hover {
+    background-color: #666;
+  }
+} */

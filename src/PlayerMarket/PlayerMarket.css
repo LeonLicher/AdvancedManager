@@ -1,0 +1,133 @@
+.player-market {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 200px;
+  width: 80%;
+  margin-left: 10%;
+}
+@media screen and (max-width: 480px) {
+  .player-market {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.player-list {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-card-wrapper{
+  /* width: 100%; */
+}
+/* Dark mode styles */
+/*
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .player-market-container {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .player-card {
+    background-color: #2c2c2c;
+    border-color: #444;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+  }
+
+  .player-name {
+    color: #ffffff;
+  }
+
+  .market-value {
+    color: #4caf50;
+  }
+
+  .custom-price input {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #555;
+  }
+
+  .custom-price .formatted-price {
+    color: #adb5bd;
+  }
+    
+}
+@media (max-width: 767px) {
+  .player-list {
+    flex-direction: column;
+    gap: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}  
+.player-card-with-stats {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.player-stats-container {
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90vw;
+  
+  background-color: #f5f5f5;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.player-stats-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.player-market .player-card {
+  width: 400px;  
+  margin: 10px;
+  padding-top: 30px;
+  padding-bottom: 12px;
+  justify-content: center;
+}
+
+.player-market .player-image {
+  width: 180px;  
+  height: 180px; 
+
+.player-market .player-info {
+  padding: 15px;
+}
+.player-market .custom-price {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  left: 50%;
+}
+.player-market .player-name {
+  font-size: 18px;  
+}
+
+.player-market .player-stats {
+  font-size: 14px;
+}
+
+.player-market .stat-row {
+  margin-bottom: 8px;
+} 
+*/

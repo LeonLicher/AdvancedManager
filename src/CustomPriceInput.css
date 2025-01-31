@@ -1,0 +1,64 @@
+.custom-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-price input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.price-change-button {
+  background-color: #ccc; /* Disabled color */
+  color: #888;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: not-allowed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.price-change-button:not(:disabled) {
+  background-color: #f0f0f0; /* Enabled color */
+  color: #333;
+  cursor: pointer;
+}
+
+.price-change-button:not(:disabled):hover {
+  background-color: #e0e0e0; /* Slightly darker on hover */
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+/* Dark mode styles */
+/* @media (prefers-color-scheme: dark) {
+  .custom-price input {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+  }
+
+  .price-change-button {
+    background-color: #444;
+    color: #888;
+  }
+
+  .price-change-button:not(:disabled) {
+    background-color: #2c2c2c; 
+    color: #fff;
+  }
+
+  .price-change-button:not(:disabled):hover {
+    background-color: #3c3c3c;
+  }
+
+  .error {
+    color: #ff6b6b;
+  }
+} */
