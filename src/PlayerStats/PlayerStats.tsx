@@ -1,8 +1,9 @@
-import React, { useState, useMemo } from 'react';
-import { Label, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { format } from 'date-fns';
+import React, { useMemo, useState } from 'react';
+import { Label, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { AxisDomain } from 'recharts/types/util/types';
-import { IMarketPlayer } from '../PlayerMarket/PlayerMarket';
+import { IMarketPlayer } from '../types/MarketPlayer';
+import './PlayerStats.css';
 
 export interface IPlayerStats {
   marketValues: { d: string; m: number }[];

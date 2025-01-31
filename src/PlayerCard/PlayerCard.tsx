@@ -2,8 +2,8 @@ import React, { useMemo, useState } from 'react';
 import { FaArrowDown, FaArrowUp, FaChevronLeft, FaChevronRight, FaClock, FaGavel } from 'react-icons/fa';
 import CustomPriceInput from '../CustomPriceInput';
 import { useHttpClient } from '../HttpClientContext';
-import { IMarketPlayer } from '../PlayerMarket/PlayerMarket';
 import { IPlayerStats } from '../PlayerStats/PlayerStats';
+import { IMarketPlayer } from '../types/MarketPlayer';
 import './PlayerCard.css';
 
 

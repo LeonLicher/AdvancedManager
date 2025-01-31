@@ -2,7 +2,6 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { DragDropContext, Draggable, Droppable, DropResult } from 'react-beautiful-dnd';
 import PlayerComponent from '../components/PlayerComponent';
 import { useHttpClient } from '../HttpClientContext';
-import '../LiveMatchday/LiveMatchday.css';
 import './TeamManagement.css';
 interface TeamManagementProps {
   leagueId: string;
