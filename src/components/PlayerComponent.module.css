@@ -1,0 +1,198 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --border-color: #dddddd;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --hover-shadow-color: rgba(0, 0, 0, 0.2);
+  --stat-label-color: #666666;
+}
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #2a2a2a;
+    --text-color: #ffffff;
+    --border-color: #444444;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --hover-shadow-color: rgba(255, 255, 255, 0.1);
+    --stat-label-color: #bbbbbb;
+  }
+} */
+#player-card-points-only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-card {
+  width: 150px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  transition: all 0.3s ease;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.player-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--hover-shadow-color);
+}
+
+.player-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.player-info {
+  padding: 8px;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-name {
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.player-stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 8px;
+}
+
+.player-card .stat-value {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.stat-label {
+  color: var(--stat-label-color);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Points-only styles */
+.player-card .points-only {
+  width: 100px;
+  height: auto;
+  padding: 8px;
+}
+
+.points-only .player-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.points-only .player-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.points-only .player-name {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.points-only .player-points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.points-only .points-value {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Ensure text is readable on gradient background */
+.points-only .player-name,
+.points-only .points-value {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+/* Add colors for different stats */
+.market-value {
+  color: #4ecdc4;
+}
+
+.points {
+  color: #ff6b6b;
+}
+
+.avg-points {
+  color: #45b7d1;
+}
+
+.points-per-value {
+  color: #f7b731;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .player-card {
+    width: 180px;
+  }
+
+  .player-image {
+    width: 160px;
+    height: 160px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+  }
+
+  .stat-value {
+    font-size: 16px;
+  }
+}
+
+.player-card .game-date {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.player-game-date {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 2px;
+}

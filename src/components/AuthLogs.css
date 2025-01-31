@@ -1,0 +1,14 @@
+.auth-logs {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .auth-logs {
+    padding: 10px;
+  }
+  
+  .auth-logs > div {
+    overflow-x: auto;
+  }
+} 

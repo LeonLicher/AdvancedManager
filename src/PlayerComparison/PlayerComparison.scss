@@ -1,0 +1,100 @@
+.player-comparison {
+  padding: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .header-container {
+    margin-bottom: 32px;
+
+    h2 {
+      color: #333;
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+  .content {
+    display: flex;
+    gap: 32px;
+    min-height: calc(100vh - 200px);
+
+    .players-table {
+      flex: 1;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+
+      .best {
+        display: inline-flex;
+        padding: 5px 10px;
+        border-radius: 8px;
+        background-color: rgba(34, 197, 94, 0.2);
+      }
+  
+      .worse {
+        display: inline-flex;
+        padding: 5px 10px;
+        border-radius: 8px;
+        background-color: rgba(239, 68, 68, 0.15);
+      }
+    }
+  }
+
+  .empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 48px;
+    height: 100%;
+
+    p {
+      color: #64748b;
+      font-size: 16px;
+    }
+  }
+
+  .opponents-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 180px;
+    padding: 2px 4px;
+    margin-left: auto;
+    gap: 4px;
+
+    &::-webkit-scrollbar {
+      height: 0;
+      width: 0;
+      display: none;
+    }
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    .scrollable-opponent {
+      opacity: 0.7;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    img {
+      height: 24px;
+    }
+  }
+}
+
+// Responsive styles
+@media screen and (max-width: 768px) {
+  .player-comparison {
+    padding: 16px;
+
+    .content {
+      flex-direction: column;
+    }
+  }
+} 

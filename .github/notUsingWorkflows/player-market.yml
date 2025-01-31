@@ -1,0 +1,22 @@
+# name: Run Player Market
+
+# on:
+#   schedule:
+#     - cron: '2 */6 * * *'  # Runs every 6 hours
+#   workflow_dispatch:  # Allows manual triggering
+
+# jobs:
+#   run-player-market:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@v2
+#     - name: Use Node.js
+#       uses: actions/setup-node@v2
+#       with:
+#         node-version: '18'
+#     - run: npm ci
+#     - name: Run Player Market
+#       run: npm run run-player-market
+#       env:
+#         KICKBASE_USERNAME: ${{ secrets.KICKBASE_USERNAME }}
+#         KICKBASE_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
