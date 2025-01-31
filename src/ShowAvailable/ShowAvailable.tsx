@@ -190,21 +190,7 @@ const AvailablePlayers: React.FC = () => {
             />
           </div>
           <div className="flex items-center gap-6">
-            <div className="position-selector flex items-center gap-2">
-              {POSITIONS.map((position) => (
-                <button
-                  key={position.id}
-                  onClick={() => setSelectedPosition(position.id)}
-                  className={`px-3 py-1 rounded-md text-sm ${
-                    selectedPosition === position.id
-                      ? 'bg-primary text-primary-foreground'
-                      : 'bg-secondary hover:bg-secondary/80'
-                  }`}
-                >
-                  {position.name}
-                </button>
-              ))}
-            </div>
+
             <div className="switch-container">
               <div className="flex">
                 <Label 
@@ -226,10 +212,26 @@ const AvailablePlayers: React.FC = () => {
                 </Label>
               </div>
             </div>
+            
           </div>
         </div>
+        
       </div>
-
+      <div className="position-selector flex items-center gap-2">
+              {POSITIONS.map((position) => (
+                <button
+                  key={position.id}
+                  onClick={() => setSelectedPosition(position.id)}
+                  className={`px-3 py-1 rounded-md text-sm ${
+                    selectedPosition === position.id
+                      ? 'bg-primary text-primary-foreground'
+                      : 'bg-secondary hover:bg-secondary/80'
+                  }`}
+                >
+                  {position.name}
+                </button>
+              ))}
+            </div>
       <div className="graph-container">
         <ResponsiveContainer width="100%" height={600}>
           <ScatterChart
@@ -248,6 +250,7 @@ const AvailablePlayers: React.FC = () => {
             <YAxis 
               type="number"
               dataKey={showTotalPoints ? "tp" : "ap"}
+              width={5}
               name={showTotalPoints ? "Total Points" : "Average Points"}
               domain={[0,]}
               label={{ 
