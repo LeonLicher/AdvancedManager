@@ -2,28 +2,27 @@
 
 Ein fortgeschrittenes Management-Tool für Kickbase-Manager, das erweiterte Funktionen und Analysen für ein besseres Spielerlebnis bietet.
 
-![Kickbase Advanced Manager](public/preview.png)
+## 📸 Vorschau
 
-## 🌟 Features
+### Team Management
+![Team Management](public/preview/KAM%20TeamManagement.png)
+*Intuitive Drag & Drop Formation mit taktischer Übersicht*
 
-### 🎮 Team Management
-- **Drag & Drop Formation**: Intuitive Aufstellung durch Drag & Drop
-- **Taktische Übersicht**: Visualisierung der Mannschaftsformation auf einem Fußballfeld
-- **Automatische Formationsanpassung**: Intelligente Vorschläge für optimale Formationen
+### Spieler-Analyse
+![Spieler Analyse](public/preview/KAM%20Spieleranalyse.png)
+*Detaillierte Statistiken und Leistungsindikatoren*
 
-### 📊 Spieler-Analyse
-- **Detaillierte Statistiken**: Umfassende Spielerstatistiken und Leistungsindikatoren
-- **Marktwert-Tracking**: Verfolgen Sie die Marktwertentwicklung Ihrer Spieler
-- **Performance-Metriken**: Durchschnittspunkte, PPM (Punkte pro Million) und mehr
+### Team-Bewertung
+![Team Bewertung](public/preview/KAM%20Teambewertung.png)
+*Umfassende Team-Analyse und Bewertung*
 
-### 💰 Markt-Tools
-- **Overpay Helper**: Unterstützung bei Kaufentscheidungen
-- **Preisvergleich**: Vergleichen Sie Spielerwerte und Leistungen
+### Spieler-Vergleich
+![Spieler Vergleich](public/preview/KAM%20Spielervergleich.png)
+*Direkter Vergleich von Spielerstatistiken*
 
-### 📱 Responsive Design
-- Optimiert für Desktop und Mobile
-- Benutzerfreundliche Oberfläche
-- Moderne UI-Komponenten
+### Overpay Helper
+![Overpay Helper](public/preview/KAM%20Overpay.png)
+*Unterstützung bei Kaufentscheidungen*
 
 ## 🚀 Technologien
 
