@@ -8,12 +8,11 @@ Ein fortgeschrittenes Management-Tool für Kickbase-Manager, das erweiterte Funk
 
 ### 🎮 Team Management
 - **Drag & Drop Formation**: Intuitive Aufstellung durch Drag & Drop
+- **Performance-Metriken**: Durchschnittspunkte, PPM (Punkte pro Million) und mehr
 - **Taktische Übersicht**: Visualisierung der Mannschaftsformation auf einem Fußballfeld
-- **Automatische Formationsanpassung**: Intelligente Vorschläge für optimale Formationen
 
-### 📊 Spieler-Analyse
-- **Detaillierte Statistiken**: Umfassende Spielerstatistiken und Leistungsindikatoren
-- **Marktwert-Tracking**: Verfolgen Sie die Marktwertentwicklung Ihrer Spieler
+### 📊 Spieleranalyse
+- **Detaillierte Statistiken**: Grafische Darstellung von Martkwert gegenüber Durschnittspunkten und Gesamtpunkten
 - **Performance-Metriken**: Durchschnittspunkte, PPM (Punkte pro Million) und mehr
 
 ### 💰 Markt-Tools
@@ -38,7 +37,7 @@ Ein fortgeschrittenes Management-Tool für Kickbase-Manager, das erweiterte Funk
 
 1. Repository klonen:
 \`\`\`bash
-git clone https://github.com/LeonLicher/kickbase-advanced-manager.git
+git clone [https://github.com/LeonLicher/AdvancedManager](https://github.com/LeonLicher/AdvancedManager)
 \`\`\`
 
 2. Abhängigkeiten installieren:
@@ -50,21 +49,6 @@ npm install
 \`\`\`bash
 npm run dev
 \`\`\`
-
-## 🔧 Konfiguration
-
-1. Erstellen Sie eine \`.env\` Datei im Root-Verzeichnis
-2. Fügen Sie Ihre Kickbase API-Credentials hinzu:
-\`\`\`env
-VITE_KICKBASE_API_KEY=your_api_key
-\`\`\`
-
-## 📝 Scripts
-
-- \`npm run dev\`: Startet den Entwicklungsserver
-- \`npm run build\`: Erstellt die Produktions-Build
-- \`npm run deploy\`: Deployed die Anwendung auf GitHub Pages
-- \`npm run lint\`: Führt ESLint-Überprüfungen durch
 
 ## 🤝 Beitragen
 
