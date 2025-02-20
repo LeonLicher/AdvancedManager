@@ -25,6 +25,7 @@ const NavBar: React.FC = () => {
     { path: '/team-analyzer', icon: 'bi-star', label: 'Teambewertung'},
     { path: '/compare', icon: 'bi-arrow-left-right', label: 'Vergleich'},
     { path: '/overpay', icon: 'bi-cash-coin', label: 'Overpay'},
+    { path: '/calculator', icon: 'bi-calculator', label: 'Calculator'},
   ];
 
   return (
@@ -130,6 +131,16 @@ const NavBar: React.FC = () => {
                         location.pathname === '/overpay' ? 'bg-accent text-accent-foreground' : ''
                       }`}
                     >Overpay
+                    </button>
+                  </NavigationMenuItem>
+
+                  <NavigationMenuItem>
+                    <button
+                      onClick={() => navigate('/calculator')}
+                      className={`${navButtonClass} ${
+                        location.pathname === '/calculator' ? 'bg-accent text-accent-foreground' : ''
+                      }`}
+                    >Calculator
                     </button>
                   </NavigationMenuItem>
                 </>

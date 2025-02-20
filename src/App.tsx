@@ -13,7 +13,7 @@ import TeamAnalyzer from './TeamAnalyzer/TeamAnalyzer';
 import TeamManagement from './TeamManagement/TeamManagement';
 import { TransferHistoryProvider } from './TransferHistoryContext';
 import { getDeviceInfo } from './utils/getDeviceInfo';
-
+import Calculator from './Calculator/Calculator';
 function App() {
   const [isSignedIn, setIsSignedIn] = useState(false);
   const [leagueId, setLeagueId] = useState('');
@@ -93,6 +93,7 @@ function App() {
                     <Route path="/team-analyzer" element={<TeamAnalyzer leagueId={leagueId} userId={userId} />} />
                     <Route path="/compare" element={<PlayerComparison leagueId={leagueId} />} />
                     <Route path="/overpay" element={<OverpayHelper leagueId={leagueId} />} />
+                    <Route path="/calculator"  element={<Calculator leagueId={leagueId}/>} />
                   </Route>
                 ) : (
                   <Route path="*" element={<Navigate to="/signin" replace />} />
