@@ -23,22 +23,6 @@ interface SquadPlayer {
   p?: number;     // points
 }
 
-// Detailed player interface from /players/{id} endpoint
-interface PlayerDetail {
-  id: string;
-  firstName: string;
-  lastName: string;
-  teamId: string;
-  tfhmvt: number;  // market value trend for next matchday
-  // Add other relevant fields as needed
-}
-
-interface SelectedPlayer {
-  id: string;
-  currentValue: number;
-  projectedChange: number;
-}
-
 // Add new interface for budget response
 interface BudgetResponse {
   pbas: number;  // Previous balance
@@ -112,7 +96,6 @@ const Calculator: React.FC<CalculatorProps> = ({ leagueId }) => {
   const [selectedPlayers, setSelectedPlayers] = useState<string[]>([]); // Track selected player IDs
   const [budget, setBudget] = useState<BudgetResponse | null>(null);
   const [nextMatches, setNextMatches] = useState<TeamMatches>({});
-  const [teamMapping, setTeamMapping] = useState<{ [key: string]: string }>({});
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<SortOption>('mv-desc');
