@@ -118,7 +118,6 @@ const Calculator: React.FC<CalculatorProps> = ({ leagueId }) => {
           }
         });
 
-        setTeamMapping(teamMap);
       } catch (error) {
         console.error('Error loading team mapping:', error);
       }
