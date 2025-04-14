@@ -100,7 +100,7 @@ const LoginForm: React.FC<LoginFormProps> = ({
 }) => (
   <div className="sign-in-container">
     <div className="header-container">
-      <h2>Einloggen</h2>
+      <h2>Anmelden</h2>
       <img src="./logo/logo.png" alt="Logo" className="sign-in-logo" />
     </div>
     <p className="sign-in-subtext">mit Kickbase Anmeldedaten</p>
@@ -147,7 +147,7 @@ const LoginForm: React.FC<LoginFormProps> = ({
             <span className="dot"></span>
           </span>
         ) : (
-          'Einloggen'
+          'Anmelden'
         )}
       </button>
     </form>
