@@ -24,6 +24,7 @@ $transition-default: all 0.2s ease-in-out;
   box-shadow: 0 4px 12px $shadow-color;
   width: 100%;
   transition: $transition-default;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   
   &:hover {
     box-shadow: 0 8px 24px $shadow-hover;
@@ -54,8 +55,23 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 20px;
-  background-color: #f5f8fa;
   box-sizing: border-box;
+  background-image: url('/background/camp-nou.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  &:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
 }
 
 // SignIn Container
@@ -64,7 +80,7 @@ body {
   background-color: $background-color;
   color: $text-color;
   margin-top: 80px;
-  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 
   .header-container {
     display: grid;
@@ -275,7 +291,10 @@ body {
 // League Selection Container
 .choose-league-container {
   @include card-container;
-  margin-top: 120px;
+  margin-top: 80px;
+  padding: 24px;
+  background-color: $background-color;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   
   h2 {
     text-align: center;
