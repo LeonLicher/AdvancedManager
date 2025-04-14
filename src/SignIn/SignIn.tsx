@@ -280,24 +280,26 @@ const SignIn: React.FC<SignInProps> = ({ onSignInSuccess, handleSignInAttempt })
   return (
     <>
       {!loginResponse && <div className="signin-page-background"></div>}
-      {loginResponse ? (
-        <LeagueSelection 
-          leagues={loginResponse.srvl} 
-          onLeagueSelect={handleLeagueSelection} 
-        />
-      ) : (
-        <LoginForm 
-          email={email}
-          setEmail={setEmail}
-          password={password}
-          setPassword={setPassword}
-          isLoading={isLoading}
-          error={error}
-          onSubmit={handleLogin}
-          rememberMe={rememberMe}
-          setRememberMe={setRememberMe}
-        />
-      )}
+      <div className="signin-page-wrapper">
+        {loginResponse ? (
+          <LeagueSelection 
+            leagues={loginResponse.srvl} 
+            onLeagueSelect={handleLeagueSelection} 
+          />
+        ) : (
+          <LoginForm 
+            email={email}
+            setEmail={setEmail}
+            password={password}
+            setPassword={setPassword}
+            isLoading={isLoading}
+            error={error}
+            onSubmit={handleLogin}
+            rememberMe={rememberMe}
+            setRememberMe={setRememberMe}
+          />
+        )}
+      </div>
     </>
   );
 };
