@@ -47,24 +47,34 @@ body, input, button {
   font-family: $font-family;
 }
 
-// Page container
+// Page container - restored to original state
 body {
   display: flex;
   justify-content: center;
-//   align-items: center;
+  //align-items: center;
   min-height: 100vh;
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #f5f8fa;
+}
+
+// SignIn page specific background
+.signin-page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url('/background/camp-nou.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  z-index: -2;
   
-  &:before {
+  &:after {
     content: '';
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
