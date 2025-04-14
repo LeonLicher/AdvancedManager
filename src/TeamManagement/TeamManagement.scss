@@ -1,0 +1,274 @@
+// Variables
+$primary-color: #4CAF50;
+$primary-color-light: rgba(76, 175, 80,.6);
+$white: #ffffff;
+$highlight-color: rgba(255, 255, 0, 0.3);
+$highlight-color-bright: rgba(0, 255, 0, 0.2);
+$reposition-highlight: rgba(0, 162, 255, 0.25);
+$box-shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
+$box-shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.08);
+$box-shadow-dark: 0 4px 12px rgba(42, 40, 40, 0.3);
+$border-radius-small: 8px;
+$border-radius-medium: 10px;
+$border-radius-large: 20px;
+$transition-default: all 0.2s ease;
+$transition-color: background-color 0.3s ease;
+$transition-transform: transform 0.3s ease, box-shadow 0.3s ease;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// Main Styles
+.team-management {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .player-card {
+    position: relative;
+    max-width: 100px;
+    border-radius: $border-radius-large;
+    overflow: hidden;
+    transition: $transition-default;
+    @include flex-column;
+    align-items: center;
+    background: $white;
+    box-shadow: $box-shadow-medium;
+    padding: 10px;
+  }
+
+  .player-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .player-image {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    background-color: #f8f4fc;
+    box-shadow: $box-shadow-dark;
+  }
+
+  .player-stats {
+    font-size: 12px;
+    width: 100%;
+    display: flex;  
+    gap: 8px;
+    padding: 8px;
+    justify-content: center;
+  }
+
+  .stat-item {
+    @include flex-column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stat-label {
+    font-size: 10px;
+    color: #666;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .stat-value {
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    display: block;
+  }
+
+  .bench {
+    .player-card {
+      width: 80px;
+    }
+
+    .player-image {
+      height: 60px;
+    }
+  }
+}
+
+.football-pitch {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid $white;
+  border-radius: $border-radius-medium;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: $primary-color;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $primary-color-light;
+    border-radius: $border-radius-small;
+    box-shadow: $box-shadow-light;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  transition: $transition-color;
+
+  &.highlighted {
+    background-color: $highlight-color-bright;
+    border: 2px dashed green;
+  }
+}
+
+.row.highlighted, .bench-players.highlighted {
+  background-color: $highlight-color;
+}
+
+.player-container {
+  transition: $transition-transform;
+  position: relative;
+
+  &.highlighted {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 162, 255, 0.5);
+    border: 2px solid rgba(0, 162, 255, 0.7);
+    z-index: 2;
+  }
+
+  &.is-dragging {
+    z-index: 1000;
+    transform: scale(1.1);
+    cursor: grabbing;
+  }
+
+  &.replacement-indicator::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px dashed rgb(0, 140, 255);
+    border-radius: 5px;
+    pointer-events: none;
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    cursor: grab;
+  }
+}
+
+.forwards, .midfielders, .defenders, .goalkeepers {
+  @include flex-center;
+  width: 100%;
+
+  > * {
+    flex: 0 1 auto;
+    margin: 0 10px;
+  }
+}
+
+.bench {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: $white;
+  box-shadow: $box-shadow-light;
+  border-radius: $border-radius-small;
+
+  h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .player-card {
+    width: 80px;
+  }
+
+  .player-image {
+    height: 80px;
+  }
+}
+
+.bench-players {
+  display: flex;
+  flex-wrap: wrap;
+  transition: $transition-color;
+}
+
+#player-card {
+  background-color: #fcffff;
+}
+
+.stats-column {
+  @include flex-column;
+  gap: 8px;
+}
+
+.react-beautiful-dnd-drag-placeholder {
+  opacity: 0;
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .team-management {
+    padding: 2px;
+
+    .player-stats {
+      font-size: 8px;
+    }
+
+    .player-card {
+      padding: 0px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    .player-image {
+      width: 50px;
+      height: 50px;
+    }
+
+    .player-stats {
+      font-size: 8px;
+      padding: 4px;
+    }
+
+    .stat-label {
+      font-size: 8px;
+    }
+
+    .stat-value {
+      font-size: 10px;
+    }
+  }
+
+  .forwards, .midfielders, .defenders, .goalkeepers {
+    > * {
+      margin: 0 2px;
+    }
+  }
+} 

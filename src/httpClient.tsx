@@ -94,7 +94,7 @@ class HttpClient {
     }
 
     public getPlayerImageUrl(playerId: string): string {
-    //   console.log(this.getFormattedUsedPlayerIds());
+      console.log(this.getFormattedUsedPlayerIds());
       return `/AdvancedManager/player-images/${playerId}.png`;
     }
 
