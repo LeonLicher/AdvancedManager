@@ -276,7 +276,6 @@ const TeamAnalyzer: React.FC<TeamAnalyzerProps> = ({ leagueId, userId }) => {
             size="lg"
             onClick={analyzeTeam}
             disabled={isAnalyzing || isLoading}
-            className="analyze-button"
           >
             {isAnalyzing ? "Analysiere..." : "Team analysieren"}
           </Button>

@@ -163,7 +163,6 @@ interface LeagueSelectionProps {
 const LeagueSelection: React.FC<LeagueSelectionProps> = ({ leagues, onLeagueSelect }) => (
   <div className="choose-league-container">
     <h2>Liga auswählen</h2>
-    <p className="selection-instructions">Bitte wähle deine Liga aus der Liste aus</p>
     <div>
       <Select onValueChange={onLeagueSelect} defaultOpen>
         <SelectTrigger className="league-select__trigger">

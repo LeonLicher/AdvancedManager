@@ -1,6 +1,6 @@
 import { DropResult } from 'react-beautiful-dnd';
 import { Player } from './types';
-import { isValidMove, sortBenchPlayers } from './utils';
+import { generateBestEleven, isValidMove, sortBenchPlayers } from './utils';
 
 /**
  * Handles player movement logic based on drag and drop operations
@@ -9,10 +9,10 @@ export class PlayerMovementHandler {
   /**
    * Process player movement after drag and drop
    */
-  static handlePlayerMovement(
+  static async handlePlayerMovement(
     result: DropResult, 
     players: Player[]
-  ): Player[] | null {
+  ): Promise<Player[] | null> {
     const { source, destination, draggableId } = result;
 
     // Return null if there's no destination or the item was dropped in the same place
@@ -29,6 +29,33 @@ export class PlayerMovementHandler {
     // Return null if the player wasn't found
     if (!movedPlayer) {
       return null;
+    }
+
+    // Handle auto-formation case
+    if (destination.droppableId === 'auto-formation') {
+      const bestEleven = await generateBestEleven(players);
+      
+      // Calculate total points before optimization
+      const previousActivePoints = players
+        .filter(p => p.dayStatus === 1)
+        .reduce((sum, player) => sum + player.averagePoints, 0);
+      
+      // Calculate total points after optimization
+      const newActivePoints = bestEleven
+        .reduce((sum, player) => sum + player.averagePoints, 0);
+      
+      console.log('💫 Optimierung der Startelf:');
+      console.log(`Vorher: ${previousActivePoints.toFixed(2)} Punkte`);
+      console.log(`Nachher: ${newActivePoints.toFixed(2)} Punkte`);
+      console.log(`Verbesserung: ${(newActivePoints - previousActivePoints).toFixed(2)} Punkte`);
+      
+      return players.map(player => {
+        const bestPlayer = bestEleven.find(p => p.id === player.id);
+        return {
+          ...player,
+          dayStatus: bestPlayer ? 1 : 0
+        };
+      });
     }
 
     // Return null if the move is not valid
