@@ -28,6 +28,7 @@ export const useTeamManagement = (leagueId: string, userId: string) => {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             mappedPlayer[longName as keyof Player] = player[shortName as keyof typeof player] as any;
           }
+          // player.
           mappedPlayer.dayStatus = 'lo' in player ? 1 : 0;
           return mappedPlayer as Player;
         }) || []);
@@ -121,10 +122,10 @@ export const useTeamManagement = (leagueId: string, userId: string) => {
   }, [players, highlightValidDropZones]);
 
   // Handle drag end
-  const onDragEnd = useCallback((result: DropResult) => {
+  const onDragEnd = useCallback(async (result: DropResult) => {
     setHighlightedZones([]);
     
-    const newPlayers = PlayerMovementHandler.handlePlayerMovement(result, players);
+    const newPlayers = await PlayerMovementHandler.handlePlayerMovement(result, players);
     if (newPlayers) {
       console.log("Updated player list:", newPlayers);
       updateFormation(newPlayers);

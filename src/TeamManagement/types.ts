@@ -6,7 +6,7 @@ export interface Player {
   teamSymbol: string;
   userId: string;
   firstName: string;
-  lastName?: string;
+  lastName: string;
   profile?: string;
   status: number;
   position: number;
