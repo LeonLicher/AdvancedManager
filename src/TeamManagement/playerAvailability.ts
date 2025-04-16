@@ -1,4 +1,10 @@
-import { Player } from './types';
+import { HTMLParser } from "./services/htmlParser";
+import { Player } from "./types";
+import { getLogger } from "./utils/logger";
+import { teamUrlMapper } from "./utils/teamUrlMapper";
+
+// Setup logging
+const logger = getLogger("playerAvailability");
 
 export interface PlayerAvailabilityInfo {
   isLikelyToPlay: boolean;
@@ -7,213 +13,126 @@ export interface PlayerAvailabilityInfo {
   lastChecked: Date;
 }
 
+// Cache management
 const CACHE_DURATION = 1000 * 60 * 60; // 1 hour
 const availabilityCache = new Map<string, PlayerAvailabilityInfo>();
 
-/**
- * Get team URL based on team ID
- */
-function getTeamUrl(teamId: string): string {
-  // Map of team IDs to their ligainsider URLs
-  const teamUrls: { [key: string]: string } = {
-    '1': 'fc-bayern-muenchen',
-    '3': 'eintracht-frankfurt',
-    '4': 'bayer-04-leverkusen',
-    '5': 'borussia-moenchengladbach',
-    '7': 'eintracht-frankfurt',
-    '9': 'vfb-stuttgart',
-    '10': 'tsg-hoffenheim',
-    '11': 'vfl-bochum',
-    '12': 'vfb-stuttgart',
-    '14': 'borussia-dortmund',
-    '16': 'vfl-wolfsburg',
-    '17': '1-fsv-mainz-05',
-    '18': 'sc-freiburg',
-    '20': 'fc-st-pauli',
-    '21': 'fc-augsburg',
-    '24': 'vfl-bochum',
-    '40': '1-fc-union-berlin',
-    '43': 'rb-leipzig',
-    '50': 'ksv-holstein',
-    '51': '1-fc-koeln',
-    '1246': '1-fc-union-berlin',
-    '1259': '1-fc-heidenheim',
-    '1295': 'ksv-holstein',
-    '1311': 'rb-leipzig'
-  };
-
-  const teamPath = teamUrls[teamId] || 'bayer-04-leverkusen'; // Default if team not found
-
-  const link = `https://www.ligainsider.de/${teamPath}/${teamId}/`
-
-  console.log("🚀 ~ getTeamUrl ~ link:", link)
-  return link;
-
-}
+// Throttle log messages to prevent duplicate logs
+const LOG_THROTTLE_DURATION = 5000; // 5 seconds
+const lastLogTimes = new Map<string, number>();
 
 /**
- * Parse the HTML content to find player status
+ * Throttled logging to prevent duplicate messages
  */
-async function parsePlayerStatus(html: string, playerName: string): Promise<PlayerAvailabilityInfo | null> {
-  try {
-    // Convert HTML string to DOM for easier parsing
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
-    console.log("Parsed HTML document for", playerName);
+function throttledLog(
+  playerId: string,
+  logType: string,
+  message: string,
+  ...args: any[]
+): void {
+  const key = `${playerId}_${logType}`;
+  const now = Date.now();
+  const lastTime = lastLogTimes.get(key) || 0;
 
-    // First try to find the player in the boost elements (lineup section)
-    const boostElements = doc.querySelectorAll('[class^="boost"]');
-    console.log('Found boost elements:', boostElements.length);
-    
-    for (const element of Array.from(boostElements)) {
-      const playerText = element.textContent?.trim() || '';
-      console.log('Checking boost element:', playerText, 'Looking for:', playerName);
-      
-      // Check if the player name is in the boost element (case insensitive)
-      if (playerText.toLowerCase().includes(playerName.toLowerCase())) {
-        console.log('Found matching player in lineup:', playerName);
-        
-        // Check if there's injury info nearby
-        const statusElement = element.closest('.stadium_container_bg') || element.parentElement;
-        if (statusElement) {
-          const statusText = statusElement.textContent || '';
-          console.log('Found status text:', statusText);
-          const isInjured = statusText.includes('Verletzt') || 
-                           statusText.includes('Angeschlagen') || 
-                           statusText.includes('Gesperrt') ||
-                           statusText.includes('Trainingsrückstand');
-          
-          let reason = '';
-          if (isInjured) {
-            // Try to extract the reason if available
-            const reasonMatch = statusText.match(/(?:Verletzt|Angeschlagen|Gesperrt|Trainingsrückstand):\s*(.+?)(?:\s|$)/);
-            reason = reasonMatch ? reasonMatch[1] : statusText;
-          }
-
-          return {
-            isLikelyToPlay: isInjured,
-            reason: isInjured ? reason : undefined,
-            confidence: isInjured ? 0.9 : 0.8,
-            lastChecked: new Date()
-          };
-        } else {
-          // Player found in lineup without status, likely to play
-          return {
-            isLikelyToPlay: true,
-            confidence: 0.8,
-            lastChecked: new Date()
-          };
-        }
-      }
+  if (now - lastTime > LOG_THROTTLE_DURATION) {
+    if (logType === "info") {
+      logger.info(message, ...args);
+    } else if (logType === "warning") {
+      logger.warning(message, ...args);
+    } else if (logType === "error") {
+      logger.error(message, ...args);
+    } else {
+      logger.debug(message, ...args);
     }
-    
-    // If not found in boost elements, try all img elements
-    const imgElements = doc.querySelectorAll('img');
-    console.log('Found img elements:', imgElements.length);
-    
-    for (const img of Array.from(imgElements)) {
-      const srcAttr = img.getAttribute('src') || '';
-      console.log('Checking image src:', srcAttr, 'Looking for:', playerName);
-      
-      // Check if the image src contains the player name (case insensitive)
-      if (srcAttr.toLowerCase().includes(playerName.toLowerCase())) {
-        console.log('Found matching image for player:', playerName, 'at URL:', srcAttr);
-        
-        // If in "Gegen ... fehlen" section, player is injured
-        const injurySection = img.closest('table') || img.closest('section');
-        if (injurySection && injurySection.textContent?.includes('fehlen')) {
-          // Try to find the reason
-          const reasonText = injurySection.textContent || '';
-          const reasonMatch = reasonText.match(new RegExp(`${playerName}.*?(Verletzt|Angeschlagen|Gesperrt|Trainingsrückstand).*?`, 'i'));
-          const reason = reasonMatch ? reasonMatch[0] : 'Nicht im Kader';
-          
-          return {
-            isLikelyToPlay: false,
-            reason: reason,
-            confidence: 0.9,
-            lastChecked: new Date()
-          };
-        }
-        
-        // Otherwise player is likely available
-        return {
-          isLikelyToPlay: true,
-          confidence: 0.7,
-          lastChecked: new Date()
-        };
-      }
-    }
-    
-    // If player was not found in the lineup or images
-    return {
-      isLikelyToPlay: false,
-      reason: 'Nicht im Kader',
-      confidence: 0.7,
-      lastChecked: new Date()
-    };
-  } catch (error) {
-    console.error('Error parsing player status:', error);
-    return null;
+    lastLogTimes.set(key, now);
   }
 }
 
 /**
  * Check if a player is likely to play based on ligainsider.com data
  */
-export async function checkPlayerAvailability(player: Player): Promise<PlayerAvailabilityInfo> {
-  const cacheKey = `${player.firstName}_${player.teamId}`;
+export async function checkPlayerAvailability(
+  player: Player
+): Promise<PlayerAvailabilityInfo> {
+  const playerName = player.firstName;
+  const cacheKey = `${playerName}_${player.teamId}`;
   const cachedInfo = availabilityCache.get(cacheKey);
-  
+
   // Return cached data if it's less than 1 hour old
-  if (cachedInfo && (new Date().getTime() - cachedInfo.lastChecked.getTime()) < CACHE_DURATION) {
+  if (
+    cachedInfo &&
+    new Date().getTime() - cachedInfo.lastChecked.getTime() < CACHE_DURATION
+  ) {
+    throttledLog(
+      player.id,
+      "info",
+      `Returning cached availability info for ${playerName} (Team ID: ${player.teamId})`
+    );
     return cachedInfo;
   }
 
   try {
     const teamId = player.teamId;
-    console.log("🚀 ~ checkPlayerAvailability ~ team:", player.teamName)
-    console.log("🚀 ~ checkPlayerAvailability ~ teamId:", teamId)
-    console.log("------------")
-    
-    // Use the team page URL
-    const teamUrl = getTeamUrl(teamId);;
-    console.log(`Checking availability for ${player.firstName} at ${teamUrl}`);
+    throttledLog(
+      player.id,
+      "info",
+      `Checking availability for player ${playerName} (${
+        player.lastName || ""
+      }, ${player.teamName}, ID: ${teamId})`
+    );
 
-    // Use allorigins.win as a CORS proxy to get the HTML content
-    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(teamUrl)}`;
-    const response = await fetch(proxyUrl);
+    // Get the team URL from our mapper
+    const teamUrl = teamUrlMapper.getTeamUrl(teamId, playerName);
+    throttledLog(
+      player.id,
+      "info",
+      `Using URL: ${teamUrl} to check availability for ${playerName}`
+    );
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
+    // Use HTML parser to check player status
+    throttledLog(player.id, "info", `Using HTML parser for ${playerName}`);
+    const htmlParser = new HTMLParser(logger);
+    const status = await htmlParser.fetchAndParsePlayerStatus(
+      teamUrl,
+      playerName
+    );
 
-    const html = await response.text();
-    console.log('Received HTML length:', html.length);
-    
-    const status = await parsePlayerStatus(html, player.firstName);
-    
     if (status) {
+      throttledLog(
+        player.id,
+        "info",
+        `HTML parsing found status for ${playerName}: isLikelyToPlay=${status.isLikelyToPlay}, confidence=${status.confidence}`
+      );
       // Cache the result
       availabilityCache.set(cacheKey, status);
       return status;
     }
 
     // Default fallback if we couldn't determine status
+    throttledLog(
+      player.id,
+      "warning",
+      `Could not determine status for ${playerName}, using default`
+    );
     const defaultInfo: PlayerAvailabilityInfo = {
       isLikelyToPlay: true,
       confidence: 0.6,
-      lastChecked: new Date()
+      lastChecked: new Date(),
     };
 
     availabilityCache.set(cacheKey, defaultInfo);
     return defaultInfo;
-
   } catch (error) {
-    console.error(`Error checking availability for ${player.firstName}:`, error);
+    throttledLog(
+      player.id,
+      "error",
+      `Error checking availability for ${playerName}:`,
+      error
+    );
     return {
       isLikelyToPlay: true, // Assume player is available if check fails
       confidence: 0.5,
-      lastChecked: new Date()
+      lastChecked: new Date(),
     };
   }
 }
@@ -221,18 +140,64 @@ export async function checkPlayerAvailability(player: Player): Promise<PlayerAva
 /**
  * Get availability status for multiple players
  */
-export async function checkTeamAvailability(players: Player[]): Promise<Map<string, PlayerAvailabilityInfo>> {
+export async function checkTeamAvailability(
+  players: Player[]
+): Promise<Map<string, PlayerAvailabilityInfo>> {
+  logger.info(`Checking availability for ${players.length} players`);
   const availabilityMap = new Map<string, PlayerAvailabilityInfo>();
-  
+  const unavailablePlayers: string[] = [];
+
   // Check availability for all players in parallel
-  const checks = players.map(async player => {
+  const checks = players.map(async (player) => {
+    // const playerlist = ["Schmid", "Ducksch", "Weiser", "Undav"];
+    // if (!playerlist.includes(player.firstName)) return;
+
     const availability = await checkPlayerAvailability(player);
+
+    // If player status has reason "Nicht im Kader" or "Nicht im Kader gefunden",
+    // they should be removed from starting eleven
+    if (
+      !availability.isLikelyToPlay ||
+      availability.reason === "Nicht im Kader" ||
+      availability.reason === "Nicht im Kader gefunden"
+    ) {
+      unavailablePlayers.push(player.firstName);
+      throttledLog(
+        player.id,
+        "warning",
+        `Player ${player.firstName} not found on team site or unavailable - REMOVING FROM STARTING ELEVEN`
+      );
+
+      // Force player as unavailable with high confidence
+      availability.isLikelyToPlay = false;
+      availability.confidence = 0.95;
+      availability.reason = availability.reason || "Nicht im Kader gefunden";
+    }
+
     availabilityMap.set(player.id, availability);
+    throttledLog(
+      player.id,
+      "info",
+      `Player ${player.firstName}: isLikelyToPlay=${availability.isLikelyToPlay}, confidence=${availability.confidence}`
+    );
   });
-  
+
   await Promise.all(checks);
+
+  if (unavailablePlayers.length > 0) {
+    logger.warning(
+      `The following players should be removed from starting eleven: ${unavailablePlayers.join(
+        ", "
+      )}`
+    );
+  }
+
+  logger.info(`Finished checking availability for all players`);
   return availabilityMap;
 }
+
+// Keep track of the last calculated points to avoid duplicate logs
+const lastCalculatedPoints = new Map<string, number>();
 
 /**
  * Calculate an adjusted score for a player based on their availability
@@ -241,10 +206,33 @@ export function calculateAdjustedPoints(
   player: Player,
   availability: PlayerAvailabilityInfo
 ): number {
+  let adjustedPoints = 0;
+
   if (!availability.isLikelyToPlay) {
-    return 0; // Player won't play, so expected points are 0
+    adjustedPoints = 0; // Player won't play, so expected points are 0
+  } else {
+    // Adjust points based on confidence in availability
+    adjustedPoints = player.averagePoints * availability.confidence;
   }
 
-  // Adjust points based on confidence in availability
-  return player.averagePoints * availability.confidence;
-} 
+  // Check if the points changed since last calculation
+  const lastPoints = lastCalculatedPoints.get(player.id);
+  if (lastPoints !== adjustedPoints) {
+    if (!availability.isLikelyToPlay) {
+      throttledLog(
+        player.id,
+        "info",
+        `${player.firstName} is not likely to play, adjusted points: 0`
+      );
+    } else {
+      throttledLog(
+        player.id,
+        "info",
+        `${player.firstName} adjusted points: ${adjustedPoints} (avg: ${player.averagePoints}, confidence: ${availability.confidence})`
+      );
+    }
+    lastCalculatedPoints.set(player.id, adjustedPoints);
+  }
+
+  return adjustedPoints;
+}
