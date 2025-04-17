@@ -97,6 +97,36 @@ class HttpClient {
       return `/AdvancedManager/player-images/${playerId}.png`;
     }
 
+    /**
+     * Check if a player is available to play
+     * This directly calls the availability endpoint
+     */
+    public async checkPlayerAvailability(playerName: string, teamId?: string): Promise<boolean> {
+        try {
+            // If we don't have enough info, assume the player is available
+            if (!playerName) {
+                console.warn("Missing player name for availability check");
+                return true;
+            }
+
+            const playerData = {
+                firstName: playerName,
+                teamId: teamId || "unknown" // Safe fallback
+            };
+
+            const response = await this.post<{isLikelyToPlay: boolean}>(
+                "/api/check-availability",
+                { player: playerData }
+            );
+            
+            return response.isLikelyToPlay;
+        } catch (error) {
+            console.error(`Error checking availability for ${playerName}:`, error);
+            // Default to available on error for safety
+            return true;
+        }
+    }
+
     // New method to get formatted used player IDs
     public getFormattedUsedPlayerIds(): string {
         return Array.from(this.usedPlayerIds).join(',');

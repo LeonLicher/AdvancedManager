@@ -19,6 +19,10 @@ export interface Player {
   lo?: number;
   mvgl?: number;
   lst?: number;
+  // Add computed properties
+  name?: string; // Computed from firstName + lastName
+  points?: number; // Alias for averagePoints
+  isAvailable?: boolean; // Availability status
 }
 
 // Define position mapping type
@@ -34,22 +38,22 @@ export interface TeamManagementProps {
 
 // Map API field names to our field names
 export const nameMapping: { [key: string]: string } = {
-  'i': 'id',
-  'tid': 'teamId',
-  'n': 'firstName',
-  'st': 'status',
-  'pos': 'position',
-  'mv': 'marketValue',
-  'mvt': 'marketValueTrend',
-  'p': 'totalPoints',
-  'ap': 'averagePoints',
-  'mdst': 'dayStatus',
-  'mvgl': 'mvgl',
-  'lst': 'lst',
+  i: "id",
+  tid: "teamId",
+  n: "firstName",
+  st: "status",
+  pos: "position",
+  mv: "marketValue",
+  mvt: "marketValueTrend",
+  p: "totalPoints",
+  ap: "averagePoints",
+  mdst: "dayStatus",
+  mvgl: "mvgl",
+  lst: "lst",
 };
 
 // Define a type for position filters
 export interface PositionConfig {
   name: string;
   filter: (p: Player) => boolean;
-} 
+}

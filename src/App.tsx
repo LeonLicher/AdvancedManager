@@ -28,7 +28,7 @@ function App() {
 
   // http://localhost:3001
   // https://kickbackend.onrender.com
-  const [httpClient] = useState(() => new HttpClient('https://api.kickbase.com', 'http://localhost:3001'));
+  const [httpClient] = useState(() => new HttpClient('https://api.kickbase.com', 'https://kickbackend.onrender.com'));
 
   // Check if cookie consent was already given
   useEffect(() => {
