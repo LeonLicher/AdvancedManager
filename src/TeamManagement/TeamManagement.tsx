@@ -43,7 +43,7 @@ const TeamManagement: React.FC<TeamManagementProps> = ({ leagueId, userId }) => 
       // Create HttpClient
       const httpClient = new HttpClient(
         "https://kickbase.com", 
-        "http://localhost:3001"
+        "https://kickbackend.onrender.com"
       );
       
       // Prepare players before processing

@@ -209,21 +209,6 @@ async function checkTeamAvailabilityDirect(
   return availabilityMap;
 }
 
-/**
- * Get the number of players needed for each position in a formation
- */
-const getPositionCountsForFormation = (
-  formation: string
-): Record<number, number> => {
-  const [defenders, midfielders, forwards] = formation.split("-").map(Number);
-  return {
-    1: 1, // Always one goalkeeper
-    2: defenders,
-    3: midfielders,
-    4: forwards,
-  };
-};
-
 export const generateBestEleven = async (
   players: Player[],
   httpClient: HttpClient
@@ -249,61 +234,91 @@ export const generateBestEleven = async (
       playersWithName
     );
 
-    // Create players with availability info
-    const playersWithAvailability = playersWithName.map((player) => {
-      const availability = availabilityMap.get(player.id);
-      return {
-        ...player,
-        isAvailable: availability ? availability.isLikelyToPlay : true,
-      };
-    });
+    // Create players with availability info and filter out unavailable players
+    const availablePlayers = playersWithName
+      .map((player) => {
+        const availability = availabilityMap.get(player.id);
+        return {
+          ...player,
+          isAvailable: availability ? availability.isLikelyToPlay : true,
+        };
+      })
+      .filter((player) => player.isAvailable);
 
-    // Filter out unavailable players
-    const availablePlayers = playersWithAvailability.filter(
-      (player) => player.isAvailable
-    );
-
-    // Sort by points (adjusted for availability)
-    const sortedPlayers = [...availablePlayers].sort((a, b) => {
-      const adjustedPointsA = a.isAvailable
-        ? a.points || a.averagePoints || 0
-        : 0;
-      const adjustedPointsB = b.isAvailable
-        ? b.points || b.averagePoints || 0
-        : 0;
-      return adjustedPointsB - adjustedPointsA;
-    });
-
-    // Find the best formation based on available players
-    const bestFormation = getBestPossibleFormation(sortedPlayers);
-    console.log(`Best possible formation: ${bestFormation}`);
-
-    // Map of positions to number of players needed for that position in the formation
-    const positionCounts = getPositionCountsForFormation(bestFormation);
-
-    // Group players by position
+    // Group available players by position and sort by averagePoints
     const playersByPosition: Record<number, Player[]> = {};
     POSITIONS.forEach((position) => {
-      playersByPosition[position] = sortedPlayers
-        .filter((player) => player.position === position)
-        .sort(
-          (a, b) =>
-            (b.points || b.averagePoints || 0) -
-            (a.points || a.averagePoints || 0)
-        );
+      playersByPosition[position] = availablePlayers
+        .filter((p) => p.position === position)
+        .sort((a, b) => (b.averagePoints || 0) - (a.averagePoints || 0));
     });
 
-    // Select the best players for each position based on the formation
-    const bestEleven: Player[] = [];
+    // Evaluate each formation to find the one that gives highest total points
+    let bestFormationName = "";
+    let bestFormationPlayers: Player[] = [];
+    let bestFormationScore = -1;
 
-    for (const position of POSITIONS) {
-      const count = positionCounts[position] || 0;
-      const bestPlayersForPosition =
-        playersByPosition[position]?.slice(0, count) || [];
-      bestEleven.push(...bestPlayersForPosition);
+    // Try each formation
+    for (const formation of FORMATIONS) {
+      const requiredCounts: { [key in 1 | 2 | 3 | 4]: number } = {
+        1: 1, // goalkeeper
+        2: formation.positions.defenders,
+        3: formation.positions.midfielders,
+        4: formation.positions.forwards,
+      };
+
+      // Check if we have enough players for this formation
+      const hasEnoughPlayers = POSITIONS.every(
+        (pos) =>
+          (playersByPosition[pos]?.length || 0) >=
+          requiredCounts[pos as 1 | 2 | 3 | 4]
+      );
+
+      if (!hasEnoughPlayers) {
+        console.log(
+          `Skipping formation ${formation.name} - not enough players`
+        );
+        continue;
+      }
+
+      // Select best players for each position based on formation requirements
+      const selectedPlayers: Player[] = [];
+      let formationScore = 0;
+
+      for (const position of POSITIONS) {
+        const count = requiredCounts[position as 1 | 2 | 3 | 4];
+        const bestPlayersForPosition = playersByPosition[position].slice(
+          0,
+          count
+        );
+
+        selectedPlayers.push(...bestPlayersForPosition);
+        formationScore += bestPlayersForPosition.reduce(
+          (sum, p) => sum + (p.averagePoints || 0),
+          0
+        );
+      }
+
+      console.log(`Formation ${formation.name} score: ${formationScore}`);
+
+      // Update best formation if this one has higher score
+      if (formationScore > bestFormationScore) {
+        bestFormationScore = formationScore;
+        bestFormationName = formation.name;
+        bestFormationPlayers = selectedPlayers;
+      }
     }
 
-    return bestEleven.slice(0, 11);
+    if (bestFormationPlayers.length === 0) {
+      throw new Error(
+        "Could not find a valid formation with available players"
+      );
+    }
+
+    console.log(
+      `Selected best formation: ${bestFormationName} with score ${bestFormationScore}`
+    );
+    return bestFormationPlayers;
   } catch (error) {
     throw handleTeamManagementError(error, "generating best eleven");
   }
@@ -321,7 +336,7 @@ export const handleTeamManagementError = (
       ? error.message
       : typeof error === "string"
       ? error
-      : "Unknown error";
+      : "Unknown error";  
 
   console.error(`Error in ${context}:`, error);
 

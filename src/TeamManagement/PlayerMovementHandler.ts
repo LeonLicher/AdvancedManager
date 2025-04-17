@@ -1,7 +1,12 @@
 import { DropResult } from 'react-beautiful-dnd';
 import { Player } from './types';
 import { generateBestEleven, isValidMove, sortBenchPlayers } from './utils';
-
+import HttpClient from '../httpClient';
+      // Create HttpClient
+      const httpClient = new HttpClient(
+        "https://kickbase.com", 
+        "https://kickbackend.onrender.com"
+      );
 /**
  * Handles player movement logic based on drag and drop operations
  */
@@ -33,7 +38,7 @@ export class PlayerMovementHandler {
 
     // Handle auto-formation case
     if (destination.droppableId === 'auto-formation') {
-      const bestEleven = await generateBestEleven(players);
+      const bestEleven = await generateBestEleven(players,httpClient);
       
       // Calculate total points before optimization
       const previousActivePoints = players
