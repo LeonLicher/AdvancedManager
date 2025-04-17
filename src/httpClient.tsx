@@ -39,7 +39,7 @@ class HttpClient {
     ): Promise<T> {
 
         let fullUrl: string;
-        if(url.includes('auth')) {
+        if(url.includes('api')) {
             fullUrl = `${this.backendUrl}${url}`;
 
         } else {

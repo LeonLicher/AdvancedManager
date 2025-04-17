@@ -28,7 +28,7 @@ function App() {
 
   // http://localhost:3001
   // https://kickbackend.onrender.com
-  const [httpClient] = useState(() => new HttpClient('https://api.kickbase.com', 'https://kickbackend.onrender.com'));
+  const [httpClient] = useState(() => new HttpClient('https://api.kickbase.com', 'http://localhost:3001'));
 
   // Check if cookie consent was already given
   useEffect(() => {
@@ -54,7 +54,7 @@ function App() {
     setIsSignedIn(true);
     httpClient.setToken(newToken);
 
-    httpClient.post('/auth/log', {
+    httpClient.post('/api/log', {
       userId: newUserId,
       userName: newUserName,
       action: 'login',
@@ -71,7 +71,7 @@ function App() {
     const deviceInfo = getDeviceInfo();
     
     try {
-      await httpClient.post('/auth/log', {
+      await httpClient.post('/api/log', {
         userId: success ? userId : 'unknown',
         userName: userName,
         action: 'login',

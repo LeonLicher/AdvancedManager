@@ -138,7 +138,7 @@ const TeamAnalyzer: React.FC<TeamAnalyzerProps> = ({ leagueId, userId }) => {
     setIsAnalyzing(true);
     try {
       const response = await httpClient.post<{ players: { id: string; analysis: AnalysisResponse }[] }>(
-        '/auth/analysis/team',
+        '/api/analysis/team',
         {
           players: players.map(player => ({
             id: player.i,

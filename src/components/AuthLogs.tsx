@@ -71,7 +71,7 @@ const AuthLogs: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const fetchLogs = async () => {
     try {
-      const response = await httpClient.get<AuthLog[]>('/auth/logs');
+      const response = await httpClient.get<AuthLog[]>('/api/logs');
       setLogs(response);
     } catch (error) {
       console.error('Error fetching logs:', error);

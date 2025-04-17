@@ -136,7 +136,7 @@ const OverpayHelper: React.FC<OverpayHelperProps> = ({ leagueId }) => {
     try {
       // Get alternatives first
       const alternativesResponse = await httpClient.post<{ players: { id: string; analysis: { alternatives: Alternative[] } }[] }>(
-        '/auth/analysis/team',
+        '/api/analysis/team',
         {
           players: [{
             id: player.i,
