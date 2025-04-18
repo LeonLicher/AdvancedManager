@@ -1,3 +1,4 @@
+import { DomFilter } from "../components/FilterDropdown/FilterDropdown";
 import HttpClient from "../httpClient";
 import type { PlayerAvailabilityInfo } from "./playerAvailability";
 import { Player } from "./types";
@@ -132,7 +133,8 @@ interface TeamAvailabilityResponse {
  */
 async function checkTeamAvailabilityDirect(
   httpClient: HttpClient,
-  players: Player[]
+  players: Player[],
+  filter?: DomFilter
 ): Promise<Map<string, PlayerAvailabilityInfo>> {
   const availabilityMap = new Map<string, PlayerAvailabilityInfo>();
 
@@ -148,7 +150,7 @@ async function checkTeamAvailabilityDirect(
     // Call the team availability endpoint using HttpClient
     const response = await httpClient.post<TeamAvailabilityResponse>(
       "/api/check-team-availability",
-      { players: playerData }
+      { players: playerData, filterName: filter }
     );
 
     // Process the availability map
@@ -211,9 +213,11 @@ async function checkTeamAvailabilityDirect(
 
 export const generateBestEleven = async (
   players: Player[],
-  httpClient: HttpClient
+  httpClient: HttpClient,
+  filter?: DomFilter
 ): Promise<Player[]> => {
   console.log("Generating best eleven from players:", players);
+  console.log("Using filter:", filter);
 
   if (!players || players.length === 0) {
     console.error("No players available to generate best eleven");
@@ -231,7 +235,8 @@ export const generateBestEleven = async (
     // Use the existing checkTeamAvailabilityDirect function to get availability data
     const availabilityMap = await checkTeamAvailabilityDirect(
       httpClient,
-      playersWithName
+      playersWithName,
+      filter
     );
 
     // Create players with availability info and filter out unavailable players
@@ -336,7 +341,7 @@ export const handleTeamManagementError = (
       ? error.message
       : typeof error === "string"
       ? error
-      : "Unknown error";  
+      : "Unknown error";
 
   console.error(`Error in ${context}:`, error);
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
+import FilterDropdown, { DomFilter } from '../components/FilterDropdown/FilterDropdown';
 import LoadingOverlay from '../components/LoadingOverlay/LoadingOverlay';
 import HttpClient from '../httpClient';
 import Bench from './Bench';
@@ -15,6 +16,7 @@ import { generateBestEleven, getBestPossibleFormation } from './utils';
 const TeamManagement: React.FC<TeamManagementProps> = ({ leagueId, userId }) => {
   const [isOptimizing, setIsOptimizing] = useState(false);
   const [optimizationError, setOptimizationError] = useState<string | null>(null);
+  const [selectedFilter, setSelectedFilter] = useState<DomFilter>('ALTERNATIVES');
   
   const {
     players,
@@ -50,8 +52,8 @@ const TeamManagement: React.FC<TeamManagementProps> = ({ leagueId, userId }) => 
       // Prepare players before processing
       const preparedPlayers = preparePlayersForProcessing(players);
       
-      // Generate best eleven
-      const bestEleven = await generateBestEleven(preparedPlayers, httpClient);
+      // Generate best eleven with selected filter
+      const bestEleven = await generateBestEleven(preparedPlayers, httpClient, selectedFilter);
       
       if (bestEleven && bestEleven.length > 0) {
         // Update players status based on best eleven
@@ -101,6 +103,13 @@ const TeamManagement: React.FC<TeamManagementProps> = ({ leagueId, userId }) => 
           <div className="error-message">{error || optimizationError}</div>
         )}
         <div className="team-management__controls">
+          <div className="team-management__filter">
+            <label className="text-sm font-medium mb-1 block">Team-Option:</label>
+            <FilterDropdown 
+              value={selectedFilter} 
+              onChange={setSelectedFilter}
+            />
+          </div>
           <button 
             className="team-management__generate-btn"
             onClick={handleGenerateBestEleven}

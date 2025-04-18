@@ -1,5 +1,6 @@
 import { useCallback } from 'react';
 import { useHttpClient } from "../HttpClientContext";
+import { DomFilter } from '../components/FilterDropdown/FilterDropdown';
 import { Player } from "./types";
 
 export interface PlayerAvailabilityInfo {
@@ -120,7 +121,8 @@ export function usePlayerAvailability() {
    * Check if a player is likely to play
    */
   const checkPlayerAvailability = useCallback(async (
-    player: Player
+    player: Player,
+    filter?: DomFilter
   ): Promise<PlayerAvailabilityInfo> => {
     try {
       throttledLog(
@@ -141,7 +143,7 @@ export function usePlayerAvailability() {
       // Call the API endpoint for a single player using HttpClient
       const response = await httpClient.post<SingleAvailabilityResponse>(
         "/api/check-availability",
-        { player: playerData }
+        { player: playerData, filter }
       );
 
       // Ensure we have a Date object
@@ -179,7 +181,8 @@ export function usePlayerAvailability() {
    * Get availability status for multiple players
    */
   const checkTeamAvailability = useCallback(async (
-    players: Player[]
+    players: Player[],
+    filter?: DomFilter
   ): Promise<Map<string, PlayerAvailabilityInfo>> => {
     logger.info(`Checking availability for ${players.length} players`);
     const availabilityMap = new Map<string, PlayerAvailabilityInfo>();
@@ -196,7 +199,7 @@ export function usePlayerAvailability() {
       // Call the team availability endpoint using HttpClient
       const response = await httpClient.post<TeamAvailabilityResponse>(
         "/api/check-team-availability", 
-        { players: playerData }
+        { players: playerData, filter }
       );
 
       // Process the availability map
