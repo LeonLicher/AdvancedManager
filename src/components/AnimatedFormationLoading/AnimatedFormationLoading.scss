@@ -1,0 +1,92 @@
+.formation-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  z-index: 20;
+  transform: translateY(-350px);
+}
+
+.formation-loading__pitch {
+  position: relative;
+  width: 350px;
+  height: 560px;
+  background: rgba(76, 175, 80, 0.6);
+  border: 4px solid #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+// Pitch lines
+.formation-loading__center-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+.formation-loading__halfway-line {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 0;
+  border-top: 2px solid #fff;
+  opacity: 0.7;
+}
+.formation-loading__penalty-box {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  opacity: 0.7;
+}
+.formation-loading__penalty-box--top {
+  top: 0;
+}
+.formation-loading__penalty-box--bottom {
+  bottom: 0;
+}
+
+// Players
+.formation-loading__player {
+  position: absolute;
+  transform: translate(-50%, -50%) translateY(30px);
+  opacity: 0;
+  animation: player-fade-in 0.5s cubic-bezier(0.4,0,0.2,1) forwards;
+}
+.formation-loading__player-icon {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border: 3px solid #09f;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+@keyframes player-fade-in {
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0);
+  }
+}
+
+.formation-loading__text {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #222;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 0 1px 4px #fff;
+} 

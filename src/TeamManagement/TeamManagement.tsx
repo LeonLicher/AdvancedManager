@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
+import LoadingOverlay from '../components/LoadingOverlay/LoadingOverlay';
 import HttpClient from '../httpClient';
 import Bench from './Bench';
 import TeamFormation from './TeamFormation';
@@ -94,6 +95,8 @@ const TeamManagement: React.FC<TeamManagementProps> = ({ leagueId, userId }) => 
   return (
     <DragDropContext onDragStart={onDragStart} onDragEnd={onDragEnd}>
       <div className="team-management">
+        <LoadingOverlay isLoading={isOptimizing} text="" />
+
         {(error || optimizationError) && (
           <div className="error-message">{error || optimizationError}</div>
         )}
