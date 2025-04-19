@@ -36,6 +36,10 @@ const AnimatedFormationLoading: React.FC<AnimatedFormationLoadingProps> = ({
                 <div className="formation-loading__halfway-line" />
                 <div className="formation-loading__penalty-box formation-loading__penalty-box--top" />
                 <div className="formation-loading__penalty-box formation-loading__penalty-box--bottom" />
+                
+                {/* Football */}
+                <div className="formation-loading__ball" />
+                
                 {/* Players */}
                 {defaultPositions.map((pos, idx) => (
                     <div
