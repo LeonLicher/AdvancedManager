@@ -24,7 +24,7 @@ const TeamManagement: React.FC<TeamManagementProps> = ({
         null
     )
     const [selectedFilter, setSelectedFilter] =
-        useState<DomFilter>('ALTERNATIVES')
+        useState<DomFilter>('STARTELF')
 
     const {
         players,

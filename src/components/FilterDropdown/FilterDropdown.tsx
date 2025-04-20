@@ -7,7 +7,7 @@ import {
     SelectValue,
 } from '../ui/select'
 
-export type DomFilter = 'PFEIL' | 'ALTERNATIVES' | null
+export type DomFilter = 'GESETZT' | 'STARTELF' | null
 
 interface FilterOption {
     value: DomFilter
@@ -17,12 +17,12 @@ interface FilterOption {
 
 const filterOptions: FilterOption[] = [
     {
-        value: 'PFEIL',
+        value: 'GESETZT',
         label: 'GESETZT',
         description: 'Spieler die alternativlos in der Startelf sind',
     },
     {
-        value: 'ALTERNATIVES',
+        value: 'STARTELF',
         label: 'STARTELF',
         description:
             'Spieler erste Wahl sind, aber auch eine Alternative haben können',

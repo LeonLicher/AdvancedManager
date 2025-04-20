@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import {
-  Navigate,
-  Route,
-  BrowserRouter as Router,
-  Routes,
+    Navigate,
+    Route,
+    BrowserRouter as Router,
+    Routes,
 } from 'react-router-dom'
 import Calculator from './Calculator/Calculator'
 import HttpClient from './httpClient'
