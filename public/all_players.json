@@ -1,12 +1,21 @@
 {
   "players": {
+    "173": {
+      "id": "173",
+      "name": "Tah",
+      "teamId": "2",
+      "position": 2,
+      "marketValue": 43852784,
+      "averagePoints": 127,
+      "totalPoints": 0
+    },
     "237": {
       "id": "237",
       "name": "Neuer",
       "teamId": "2",
       "position": 1,
-      "marketValue": 13766626,
-      "averagePoints": 94,
+      "marketValue": 16022159,
+      "averagePoints": 109,
       "totalPoints": 0
     },
     "383": {
@@ -18,31 +27,13 @@
       "averagePoints": 116,
       "totalPoints": 0
     },
-    "450": {
-      "id": "450",
-      "name": "Müller",
-      "teamId": "2",
-      "position": 3,
-      "marketValue": 10291086,
-      "averagePoints": 71,
-      "totalPoints": 0
-    },
     "660": {
       "id": "660",
       "name": "Goretzka",
       "teamId": "2",
       "position": 3,
-      "marketValue": 11875440,
-      "averagePoints": 95,
-      "totalPoints": 0
-    },
-    "1222": {
-      "id": "1222",
-      "name": "Sané",
-      "teamId": "2",
-      "position": 3,
-      "marketValue": 25885921,
-      "averagePoints": 79,
+      "marketValue": 23732567,
+      "averagePoints": 105,
       "totalPoints": 0
     },
     "1685": {
@@ -50,8 +41,8 @@
       "name": "Kimmich",
       "teamId": "2",
       "position": 3,
-      "marketValue": 44251771,
-      "averagePoints": 204,
+      "marketValue": 55170694,
+      "averagePoints": 198,
       "totalPoints": 0
     },
     "1774": {
@@ -59,8 +50,8 @@
       "name": "Coman",
       "teamId": "2",
       "position": 3,
-      "marketValue": 23184641,
-      "averagePoints": 139,
+      "marketValue": 24839408,
+      "averagePoints": 108,
       "totalPoints": 0
     },
     "1862": {
@@ -68,8 +59,8 @@
       "name": "Guerreiro",
       "teamId": "2",
       "position": 2,
-      "marketValue": 24936267,
-      "averagePoints": 123,
+      "marketValue": 15774744,
+      "averagePoints": 133,
       "totalPoints": 0
     },
     "1961": {
@@ -77,8 +68,8 @@
       "name": "Gnabry",
       "teamId": "2",
       "position": 3,
-      "marketValue": 24103365,
-      "averagePoints": 131,
+      "marketValue": 22592714,
+      "averagePoints": 102,
       "totalPoints": 0
     },
     "1991": {
@@ -86,17 +77,17 @@
       "name": "Upamecano",
       "teamId": "2",
       "position": 2,
-      "marketValue": 28299440,
-      "averagePoints": 158,
+      "marketValue": 26838986,
+      "averagePoints": 154,
       "totalPoints": 0
     },
     "2038": {
       "id": "2038",
       "name": "Laimer",
       "teamId": "2",
-      "position": 3,
-      "marketValue": 9555179,
-      "averagePoints": 50,
+      "position": 2,
+      "marketValue": 21928860,
+      "averagePoints": 90,
       "totalPoints": 0
     },
     "2300": {
@@ -104,8 +95,8 @@
       "name": "Stanišić",
       "teamId": "2",
       "position": 2,
-      "marketValue": 5387855,
-      "averagePoints": 0,
+      "marketValue": 23836149,
+      "averagePoints": 105,
       "totalPoints": 0
     },
     "2366": {
@@ -113,8 +104,8 @@
       "name": "Davies",
       "teamId": "2",
       "position": 2,
-      "marketValue": 27479509,
-      "averagePoints": 141,
+      "marketValue": 10811554,
+      "averagePoints": 139,
       "totalPoints": 0
     },
     "2804": {
@@ -122,8 +113,17 @@
       "name": "Musiala",
       "teamId": "2",
       "position": 3,
-      "marketValue": 50590916,
-      "averagePoints": 201,
+      "marketValue": 20262905,
+      "averagePoints": 160,
+      "totalPoints": 0
+    },
+    "3072": {
+      "id": "3072",
+      "name": "Urbig",
+      "teamId": "2",
+      "position": 1,
+      "marketValue": 1815957,
+      "averagePoints": 96,
       "totalPoints": 0
     },
     "3089": {
@@ -131,17 +131,26 @@
       "name": "Ito",
       "teamId": "2",
       "position": 2,
-      "marketValue": 3971040,
-      "averagePoints": 0,
+      "marketValue": 2787916,
+      "averagePoints": 91,
       "totalPoints": 0
     },
-    "4314": {
-      "id": "4314",
-      "name": "Tel",
+    "3120": {
+      "id": "3120",
+      "name": "Bischof",
       "teamId": "2",
-      "position": 4,
-      "marketValue": 4018242,
-      "averagePoints": 37,
+      "position": 3,
+      "marketValue": 19588981,
+      "averagePoints": 107,
+      "totalPoints": 0
+    },
+    "3175": {
+      "id": "3175",
+      "name": "Wanner",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 8046113,
+      "averagePoints": 42,
       "totalPoints": 0
     },
     "6080": {
@@ -149,8 +158,8 @@
       "name": "Pavlović",
       "teamId": "2",
       "position": 3,
-      "marketValue": 22182396,
-      "averagePoints": 125,
+      "marketValue": 23805223,
+      "averagePoints": 120,
       "totalPoints": 0
     },
     "6668": {
@@ -158,8 +167,8 @@
       "name": "Minjae",
       "teamId": "2",
       "position": 2,
-      "marketValue": 29468405,
-      "averagePoints": 153,
+      "marketValue": 16206946,
+      "averagePoints": 132,
       "totalPoints": 0
     },
     "7226": {
@@ -167,35 +176,8 @@
       "name": "Kane",
       "teamId": "2",
       "position": 4,
-      "marketValue": 60701092,
-      "averagePoints": 253,
-      "totalPoints": 0
-    },
-    "7264": {
-      "id": "7264",
-      "name": "Peretz",
-      "teamId": "2",
-      "position": 1,
-      "marketValue": 1106800,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "7440": {
-      "id": "7440",
-      "name": "Aznou",
-      "teamId": "2",
-      "position": 2,
-      "marketValue": 500000,
-      "averagePoints": 31,
-      "totalPoints": 0
-    },
-    "7459": {
-      "id": "7459",
-      "name": "Dier",
-      "teamId": "2",
-      "position": 2,
-      "marketValue": 2092992,
-      "averagePoints": 33,
+      "marketValue": 61703165,
+      "averagePoints": 184,
       "totalPoints": 0
     },
     "7498": {
@@ -203,17 +185,8 @@
       "name": "Boey",
       "teamId": "2",
       "position": 2,
-      "marketValue": 8078096,
-      "averagePoints": 65,
-      "totalPoints": 0
-    },
-    "7830": {
-      "id": "7830",
-      "name": "Palhinha",
-      "teamId": "2",
-      "position": 3,
-      "marketValue": 13645780,
-      "averagePoints": 73,
+      "marketValue": 2141556,
+      "averagePoints": 71,
       "totalPoints": 0
     },
     "8329": {
@@ -221,17 +194,44 @@
       "name": "Olise",
       "teamId": "2",
       "position": 3,
-      "marketValue": 43643413,
-      "averagePoints": 173,
+      "marketValue": 55127096,
+      "averagePoints": 198,
+      "totalPoints": 0
+    },
+    "10789": {
+      "id": "10789",
+      "name": "Karl",
+      "teamId": "2",
+      "position": 3,
+      "marketValue": 5630467,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11675": {
+      "id": "11675",
+      "name": "Díaz",
+      "teamId": "2",
+      "position": 4,
+      "marketValue": 44206412,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "54": {
       "id": "54",
       "name": "Can",
       "teamId": "3",
-      "position": 3,
-      "marketValue": 10869984,
-      "averagePoints": 65,
+      "position": 2,
+      "marketValue": 5681251,
+      "averagePoints": 81,
+      "totalPoints": 0
+    },
+    "75": {
+      "id": "75",
+      "name": "Drewes",
+      "teamId": "3",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 76,
       "totalPoints": 0
     },
     "163": {
@@ -239,7 +239,7 @@
       "name": "Süle",
       "teamId": "3",
       "position": 2,
-      "marketValue": 5921380,
+      "marketValue": 14358017,
       "averagePoints": 81,
       "totalPoints": 0
     },
@@ -248,8 +248,8 @@
       "name": "Brandt",
       "teamId": "3",
       "position": 3,
-      "marketValue": 30209638,
-      "averagePoints": 111,
+      "marketValue": 25775997,
+      "averagePoints": 110,
       "totalPoints": 0
     },
     "1473": {
@@ -257,8 +257,8 @@
       "name": "Groß",
       "teamId": "3",
       "position": 3,
-      "marketValue": 22911362,
-      "averagePoints": 91,
+      "marketValue": 21381023,
+      "averagePoints": 98,
       "totalPoints": 0
     },
     "1704": {
@@ -266,8 +266,8 @@
       "name": "Anton",
       "teamId": "3",
       "position": 2,
-      "marketValue": 23420717,
-      "averagePoints": 110,
+      "marketValue": 26897252,
+      "averagePoints": 112,
       "totalPoints": 0
     },
     "1856": {
@@ -275,8 +275,8 @@
       "name": "Sabitzer",
       "teamId": "3",
       "position": 3,
-      "marketValue": 15572503,
-      "averagePoints": 58,
+      "marketValue": 7405620,
+      "averagePoints": 62,
       "totalPoints": 0
     },
     "1873": {
@@ -284,8 +284,17 @@
       "name": "Kobel",
       "teamId": "3",
       "position": 1,
-      "marketValue": 12614960,
-      "averagePoints": 72,
+      "marketValue": 17650050,
+      "averagePoints": 90,
+      "totalPoints": 0
+    },
+    "1918": {
+      "id": "1918",
+      "name": "Özcan",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 939681,
+      "averagePoints": 39,
       "totalPoints": 0
     },
     "1920": {
@@ -293,8 +302,17 @@
       "name": "Guirassy",
       "teamId": "3",
       "position": 4,
-      "marketValue": 42131523,
-      "averagePoints": 132,
+      "marketValue": 50411366,
+      "averagePoints": 126,
+      "totalPoints": 0
+    },
+    "2037": {
+      "id": "2037",
+      "name": "Haller",
+      "teamId": "3",
+      "position": 4,
+      "marketValue": 1690938,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "2148": {
@@ -302,7 +320,7 @@
       "name": "Meyer",
       "teamId": "3",
       "position": 1,
-      "marketValue": 3256985,
+      "marketValue": 500000,
       "averagePoints": 85,
       "totalPoints": 0
     },
@@ -311,8 +329,8 @@
       "name": "Schlotterbeck",
       "teamId": "3",
       "position": 2,
-      "marketValue": 26629180,
-      "averagePoints": 115,
+      "marketValue": 15228098,
+      "averagePoints": 117,
       "totalPoints": 0
     },
     "2395": {
@@ -320,8 +338,8 @@
       "name": "Ryerson",
       "teamId": "3",
       "position": 2,
-      "marketValue": 18985152,
-      "averagePoints": 85,
+      "marketValue": 19269280,
+      "averagePoints": 89,
       "totalPoints": 0
     },
     "2692": {
@@ -329,8 +347,8 @@
       "name": "Reyna",
       "teamId": "3",
       "position": 3,
-      "marketValue": 1638785,
-      "averagePoints": 34,
+      "marketValue": 2094158,
+      "averagePoints": 39,
       "totalPoints": 0
     },
     "2714": {
@@ -338,8 +356,8 @@
       "name": "Beier",
       "teamId": "3",
       "position": 4,
-      "marketValue": 17748155,
-      "averagePoints": 59,
+      "marketValue": 15943870,
+      "averagePoints": 73,
       "totalPoints": 0
     },
     "2736": {
@@ -347,26 +365,8 @@
       "name": "Bensebaini",
       "teamId": "3",
       "position": 2,
-      "marketValue": 10136021,
-      "averagePoints": 79,
-      "totalPoints": 0
-    },
-    "2759": {
-      "id": "2759",
-      "name": "Azhil",
-      "teamId": "3",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 6,
-      "totalPoints": 0
-    },
-    "2979": {
-      "id": "2979",
-      "name": "Lotka",
-      "teamId": "3",
-      "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 17832805,
+      "averagePoints": 92,
       "totalPoints": 0
     },
     "3069": {
@@ -374,26 +374,8 @@
       "name": "Nmecha",
       "teamId": "3",
       "position": 3,
-      "marketValue": 14502348,
-      "averagePoints": 75,
-      "totalPoints": 0
-    },
-    "3087": {
-      "id": "3087",
-      "name": "Malen",
-      "teamId": "3",
-      "position": 4,
-      "marketValue": 14008113,
-      "averagePoints": 52,
-      "totalPoints": 0
-    },
-    "3219": {
-      "id": "3219",
-      "name": "Gittens",
-      "teamId": "3",
-      "position": 3,
-      "marketValue": 20963724,
-      "averagePoints": 94,
+      "marketValue": 19667533,
+      "averagePoints": 81,
       "totalPoints": 0
     },
     "3482": {
@@ -401,8 +383,8 @@
       "name": "Adeyemi",
       "teamId": "3",
       "position": 4,
-      "marketValue": 18600066,
-      "averagePoints": 127,
+      "marketValue": 27556526,
+      "averagePoints": 90,
       "totalPoints": 0
     },
     "4312": {
@@ -410,8 +392,8 @@
       "name": "Couto",
       "teamId": "3",
       "position": 2,
-      "marketValue": 8828616,
-      "averagePoints": 28,
+      "marketValue": 4720813,
+      "averagePoints": 43,
       "totalPoints": 0
     },
     "4617": {
@@ -419,17 +401,8 @@
       "name": "Duranville",
       "teamId": "3",
       "position": 3,
-      "marketValue": 2990636,
-      "averagePoints": 42,
-      "totalPoints": 0
-    },
-    "6673": {
-      "id": "6673",
-      "name": "Wätjen",
-      "teamId": "3",
-      "position": 3,
-      "marketValue": 843259,
-      "averagePoints": 25,
+      "marketValue": 1035529,
+      "averagePoints": 13,
       "totalPoints": 0
     },
     "7441": {
@@ -438,7 +411,7 @@
       "teamId": "3",
       "position": 3,
       "marketValue": 500000,
-      "averagePoints": -3,
+      "averagePoints": -6,
       "totalPoints": 0
     },
     "8371": {
@@ -446,8 +419,8 @@
       "name": "Kabar",
       "teamId": "3",
       "position": 2,
-      "marketValue": 2206458,
-      "averagePoints": -5,
+      "marketValue": 500000,
+      "averagePoints": 10,
       "totalPoints": 0
     },
     "9440": {
@@ -456,6 +429,24 @@
       "teamId": "3",
       "position": 2,
       "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10115": {
+      "id": "10115",
+      "name": "Svensson",
+      "teamId": "3",
+      "position": 2,
+      "marketValue": 23209515,
+      "averagePoints": 101,
+      "totalPoints": 0
+    },
+    "11099": {
+      "id": "11099",
+      "name": "Bellingham",
+      "teamId": "3",
+      "position": 3,
+      "marketValue": 26358919,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -473,8 +464,8 @@
       "name": "Trapp",
       "teamId": "4",
       "position": 1,
-      "marketValue": 13818361,
-      "averagePoints": 105,
+      "marketValue": 13725303,
+      "averagePoints": 93,
       "totalPoints": 0
     },
     "461": {
@@ -483,7 +474,7 @@
       "teamId": "4",
       "position": 2,
       "marketValue": 500000,
-      "averagePoints": 50,
+      "averagePoints": 25,
       "totalPoints": 0
     },
     "513": {
@@ -491,8 +482,8 @@
       "name": "Götze",
       "teamId": "4",
       "position": 3,
-      "marketValue": 7996668,
-      "averagePoints": 76,
+      "marketValue": 7307890,
+      "averagePoints": 74,
       "totalPoints": 0
     },
     "736": {
@@ -500,8 +491,8 @@
       "name": "Dahoud",
       "teamId": "4",
       "position": 3,
-      "marketValue": 8022498,
-      "averagePoints": 75,
+      "marketValue": 500000,
+      "averagePoints": 57,
       "totalPoints": 0
     },
     "2144": {
@@ -509,17 +500,26 @@
       "name": "Koch",
       "teamId": "4",
       "position": 2,
-      "marketValue": 21600332,
-      "averagePoints": 94,
+      "marketValue": 28680087,
+      "averagePoints": 114,
       "totalPoints": 0
     },
-    "2378": {
-      "id": "2378",
-      "name": "Tuta",
+    "2190": {
+      "id": "2190",
+      "name": "Batshuayi",
       "teamId": "4",
-      "position": 2,
-      "marketValue": 25307728,
-      "averagePoints": 122,
+      "position": 4,
+      "marketValue": 4075856,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "2255": {
+      "id": "2255",
+      "name": "Burkardt",
+      "teamId": "4",
+      "position": 4,
+      "marketValue": 33019532,
+      "averagePoints": 105,
       "totalPoints": 0
     },
     "2718": {
@@ -527,17 +527,17 @@
       "name": "Skhiri",
       "teamId": "4",
       "position": 3,
-      "marketValue": 11597592,
-      "averagePoints": 60,
+      "marketValue": 9638123,
+      "averagePoints": 73,
       "totalPoints": 0
     },
-    "2792": {
-      "id": "2792",
-      "name": "Marmoush",
+    "2791": {
+      "id": "2791",
+      "name": "Ngankam",
       "teamId": "4",
       "position": 4,
-      "marketValue": 35677457,
-      "averagePoints": 220,
+      "marketValue": 561457,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "2863": {
@@ -545,8 +545,8 @@
       "name": "Knauff",
       "teamId": "4",
       "position": 3,
-      "marketValue": 11689301,
-      "averagePoints": 68,
+      "marketValue": 10096287,
+      "averagePoints": 69,
       "totalPoints": 0
     },
     "2864": {
@@ -554,17 +554,17 @@
       "name": "Collins",
       "teamId": "4",
       "position": 2,
-      "marketValue": 11126518,
-      "averagePoints": 101,
+      "marketValue": 7245150,
+      "averagePoints": 69,
       "totalPoints": 0
     },
-    "3304": {
-      "id": "3304",
-      "name": "Matanović",
+    "2887": {
+      "id": "2887",
+      "name": "Dōan",
       "teamId": "4",
-      "position": 4,
-      "marketValue": 3448676,
-      "averagePoints": 32,
+      "position": 3,
+      "marketValue": 33734283,
+      "averagePoints": 116,
       "totalPoints": 0
     },
     "3543": {
@@ -572,8 +572,8 @@
       "name": "Brown",
       "teamId": "4",
       "position": 2,
-      "marketValue": 10115721,
-      "averagePoints": 136,
+      "marketValue": 23438112,
+      "averagePoints": 102,
       "totalPoints": 0
     },
     "4406": {
@@ -581,8 +581,17 @@
       "name": "Dina Ebimbe",
       "teamId": "4",
       "position": 3,
-      "marketValue": 6122139,
-      "averagePoints": 47,
+      "marketValue": 500000,
+      "averagePoints": 39,
+      "totalPoints": 0
+    },
+    "4545": {
+      "id": "4545",
+      "name": "Aaronson",
+      "teamId": "4",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "6081": {
@@ -590,8 +599,8 @@
       "name": "Uzun",
       "teamId": "4",
       "position": 3,
-      "marketValue": 4728999,
-      "averagePoints": 24,
+      "marketValue": 10742606,
+      "averagePoints": 55,
       "totalPoints": 0
     },
     "6185": {
@@ -599,8 +608,8 @@
       "name": "Larsson",
       "teamId": "4",
       "position": 3,
-      "marketValue": 11980841,
-      "averagePoints": 70,
+      "marketValue": 16516534,
+      "averagePoints": 74,
       "totalPoints": 0
     },
     "7275": {
@@ -608,8 +617,8 @@
       "name": "Kaua Santos",
       "teamId": "4",
       "position": 1,
-      "marketValue": 2646089,
-      "averagePoints": 129,
+      "marketValue": 1436752,
+      "averagePoints": 106,
       "totalPoints": 0
     },
     "7277": {
@@ -617,8 +626,8 @@
       "name": "Chaïbi",
       "teamId": "4",
       "position": 3,
-      "marketValue": 5075290,
-      "averagePoints": 43,
+      "marketValue": 5076882,
+      "averagePoints": 52,
       "totalPoints": 0
     },
     "7289": {
@@ -626,8 +635,17 @@
       "name": "Nkounkou",
       "teamId": "4",
       "position": 2,
-      "marketValue": 4251554,
-      "averagePoints": 44,
+      "marketValue": 1105273,
+      "averagePoints": 29,
+      "totalPoints": 0
+    },
+    "7325": {
+      "id": "7325",
+      "name": "Baum",
+      "teamId": "4",
+      "position": 2,
+      "marketValue": 4287318,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "7491": {
@@ -635,17 +653,8 @@
       "name": "Bahoya",
       "teamId": "4",
       "position": 4,
-      "marketValue": 2681070,
-      "averagePoints": 37,
-      "totalPoints": 0
-    },
-    "7508": {
-      "id": "7508",
-      "name": "Ekitiké",
-      "teamId": "4",
-      "position": 4,
-      "marketValue": 30413580,
-      "averagePoints": 130,
+      "marketValue": 11957349,
+      "averagePoints": 51,
       "totalPoints": 0
     },
     "7686": {
@@ -653,8 +662,8 @@
       "name": "Amenda",
       "teamId": "4",
       "position": 2,
-      "marketValue": 2182958,
-      "averagePoints": 44,
+      "marketValue": 500000,
+      "averagePoints": 36,
       "totalPoints": 0
     },
     "7885": {
@@ -662,8 +671,8 @@
       "name": "Kristensen",
       "teamId": "4",
       "position": 2,
-      "marketValue": 10648949,
-      "averagePoints": 78,
+      "marketValue": 27357397,
+      "averagePoints": 110,
       "totalPoints": 0
     },
     "8057": {
@@ -671,17 +680,8 @@
       "name": "Theate",
       "teamId": "4",
       "position": 2,
-      "marketValue": 19030527,
-      "averagePoints": 85,
-      "totalPoints": 0
-    },
-    "8253": {
-      "id": "8253",
-      "name": "Lisztes",
-      "teamId": "4",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 26988939,
+      "averagePoints": 107,
       "totalPoints": 0
     },
     "8351": {
@@ -689,8 +689,17 @@
       "name": "Højlund",
       "teamId": "4",
       "position": 3,
-      "marketValue": 583936,
-      "averagePoints": -10,
+      "marketValue": 4421498,
+      "averagePoints": 35,
+      "totalPoints": 0
+    },
+    "10050": {
+      "id": "10050",
+      "name": "Wahi",
+      "teamId": "4",
+      "position": 4,
+      "marketValue": 4598181,
+      "averagePoints": 7,
       "totalPoints": 0
     },
     "49": {
@@ -698,8 +707,8 @@
       "name": "Ginter",
       "teamId": "5",
       "position": 2,
-      "marketValue": 18674110,
-      "averagePoints": 76,
+      "marketValue": 20077215,
+      "averagePoints": 92,
       "totalPoints": 0
     },
     "89": {
@@ -707,8 +716,8 @@
       "name": "Günter",
       "teamId": "5",
       "position": 2,
-      "marketValue": 14221428,
-      "averagePoints": 83,
+      "marketValue": 8688568,
+      "averagePoints": 74,
       "totalPoints": 0
     },
     "118": {
@@ -716,8 +725,8 @@
       "name": "Grifo",
       "teamId": "5",
       "position": 3,
-      "marketValue": 31381799,
-      "averagePoints": 147,
+      "marketValue": 36634136,
+      "averagePoints": 116,
       "totalPoints": 0
     },
     "493": {
@@ -725,8 +734,8 @@
       "name": "Gregoritsch",
       "teamId": "5",
       "position": 4,
-      "marketValue": 2651087,
-      "averagePoints": 5,
+      "marketValue": 3454521,
+      "averagePoints": 28,
       "totalPoints": 0
     },
     "581": {
@@ -734,17 +743,8 @@
       "name": "Höfler",
       "teamId": "5",
       "position": 3,
-      "marketValue": 3532251,
-      "averagePoints": 37,
-      "totalPoints": 0
-    },
-    "1138": {
-      "id": "1138",
-      "name": "Gulde",
-      "teamId": "5",
-      "position": 2,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 36,
       "totalPoints": 0
     },
     "1226": {
@@ -752,8 +752,8 @@
       "name": "Philipp",
       "teamId": "5",
       "position": 4,
-      "marketValue": 621283,
-      "averagePoints": 0,
+      "marketValue": 500000,
+      "averagePoints": 14,
       "totalPoints": 0
     },
     "1257": {
@@ -761,8 +761,8 @@
       "name": "Kübler",
       "teamId": "5",
       "position": 2,
-      "marketValue": 14810366,
-      "averagePoints": 88,
+      "marketValue": 6058313,
+      "averagePoints": 79,
       "totalPoints": 0
     },
     "1645": {
@@ -770,8 +770,8 @@
       "name": "Eggestein",
       "teamId": "5",
       "position": 3,
-      "marketValue": 10657743,
-      "averagePoints": 72,
+      "marketValue": 14623102,
+      "averagePoints": 84,
       "totalPoints": 0
     },
     "1767": {
@@ -783,13 +783,22 @@
       "averagePoints": 0,
       "totalPoints": 0
     },
+    "1858": {
+      "id": "1858",
+      "name": "Jung",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 3114978,
+      "averagePoints": 61,
+      "totalPoints": 0
+    },
     "1910": {
       "id": "1910",
       "name": "Müller",
       "teamId": "5",
       "position": 1,
       "marketValue": 500000,
-      "averagePoints": 20,
+      "averagePoints": 61,
       "totalPoints": 0
     },
     "2084": {
@@ -797,8 +806,17 @@
       "name": "Lienhart",
       "teamId": "5",
       "position": 2,
-      "marketValue": 17030287,
-      "averagePoints": 87,
+      "marketValue": 15155502,
+      "averagePoints": 85,
+      "totalPoints": 0
+    },
+    "2125": {
+      "id": "2125",
+      "name": "Beste",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 6025547,
+      "averagePoints": 24,
       "totalPoints": 0
     },
     "2176": {
@@ -806,17 +824,8 @@
       "name": "Höler",
       "teamId": "5",
       "position": 4,
-      "marketValue": 2283870,
-      "averagePoints": 8,
-      "totalPoints": 0
-    },
-    "2346": {
-      "id": "2346",
-      "name": "Muslija",
-      "teamId": "5",
-      "position": 3,
-      "marketValue": 1459244,
-      "averagePoints": 21,
+      "marketValue": 8903844,
+      "averagePoints": 65,
       "totalPoints": 0
     },
     "2722": {
@@ -824,35 +833,17 @@
       "name": "Osterhage",
       "teamId": "5",
       "position": 3,
-      "marketValue": 7630317,
-      "averagePoints": 56,
-      "totalPoints": 0
-    },
-    "2887": {
-      "id": "2887",
-      "name": "Dōan",
-      "teamId": "5",
-      "position": 3,
-      "marketValue": 25431584,
-      "averagePoints": 109,
+      "marketValue": 9321951,
+      "averagePoints": 59,
       "totalPoints": 0
     },
     "2939": {
       "id": "2939",
       "name": "Dinkçi",
       "teamId": "5",
-      "position": 4,
-      "marketValue": 9588052,
-      "averagePoints": 73,
-      "totalPoints": 0
-    },
-    "2946": {
-      "id": "2946",
-      "name": "Sildillia",
-      "teamId": "5",
-      "position": 2,
-      "marketValue": 500000,
-      "averagePoints": 1,
+      "position": 3,
+      "marketValue": 6817186,
+      "averagePoints": 50,
       "totalPoints": 0
     },
     "3017": {
@@ -860,8 +851,8 @@
       "name": "Weißhaupt",
       "teamId": "5",
       "position": 3,
-      "marketValue": 1268970,
-      "averagePoints": 15,
+      "marketValue": 3266530,
+      "averagePoints": 39,
       "totalPoints": 0
     },
     "3019": {
@@ -869,17 +860,17 @@
       "name": "Atubolu",
       "teamId": "5",
       "position": 1,
-      "marketValue": 13042601,
-      "averagePoints": 91,
+      "marketValue": 18955376,
+      "averagePoints": 107,
       "totalPoints": 0
     },
-    "3208": {
-      "id": "3208",
-      "name": "Schmidt",
+    "3304": {
+      "id": "3304",
+      "name": "Matanović",
       "teamId": "5",
-      "position": 2,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "position": 4,
+      "marketValue": 6774724,
+      "averagePoints": 23,
       "totalPoints": 0
     },
     "3306": {
@@ -896,8 +887,17 @@
       "name": "Röhl",
       "teamId": "5",
       "position": 3,
-      "marketValue": 1847564,
-      "averagePoints": 35,
+      "marketValue": 3734800,
+      "averagePoints": 31,
+      "totalPoints": 0
+    },
+    "4335": {
+      "id": "4335",
+      "name": "Scherhant",
+      "teamId": "5",
+      "position": 4,
+      "marketValue": 3703291,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "6172": {
@@ -905,8 +905,17 @@
       "name": "Adamu",
       "teamId": "5",
       "position": 4,
-      "marketValue": 10083015,
-      "averagePoints": 45,
+      "marketValue": 5744092,
+      "averagePoints": 32,
+      "totalPoints": 0
+    },
+    "6209": {
+      "id": "6209",
+      "name": "Treu",
+      "teamId": "5",
+      "position": 2,
+      "marketValue": 5516971,
+      "averagePoints": 61,
       "totalPoints": 0
     },
     "7215": {
@@ -914,8 +923,8 @@
       "name": "Makengo",
       "teamId": "5",
       "position": 2,
-      "marketValue": 500000,
-      "averagePoints": 13,
+      "marketValue": 3827420,
+      "averagePoints": 29,
       "totalPoints": 0
     },
     "7216": {
@@ -923,17 +932,296 @@
       "name": "Rosenfelder",
       "teamId": "5",
       "position": 2,
-      "marketValue": 3040492,
-      "averagePoints": 38,
+      "marketValue": 500000,
+      "averagePoints": 41,
       "totalPoints": 0
     },
-    "8364": {
-      "id": "8364",
-      "name": "Ogbus",
+    "9515": {
+      "id": "9515",
+      "name": "Manzambi",
       "teamId": "5",
+      "position": 3,
+      "marketValue": 6101778,
+      "averagePoints": 53,
+      "totalPoints": 0
+    },
+    "11006": {
+      "id": "11006",
+      "name": "Suzuki",
+      "teamId": "5",
+      "position": 3,
+      "marketValue": 10450672,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11007": {
+      "id": "11007",
+      "name": "Irié",
+      "teamId": "5",
+      "position": 4,
+      "marketValue": 1277435,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "133": {
+      "id": "133",
+      "name": "Meffert",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 1590838,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1295": {
+      "id": "1295",
+      "name": "Schonlau",
+      "teamId": "6",
       "position": 2,
       "marketValue": 500000,
-      "averagePoints": 5,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1863": {
+      "id": "1863",
+      "name": "Heuer Fernandes",
+      "teamId": "6",
+      "position": 1,
+      "marketValue": 7601483,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1865": {
+      "id": "1865",
+      "name": "Poulsen",
+      "teamId": "6",
+      "position": 4,
+      "marketValue": 8999381,
+      "averagePoints": 27,
+      "totalPoints": 0
+    },
+    "1889": {
+      "id": "1889",
+      "name": "Jatta",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 673754,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1978": {
+      "id": "1978",
+      "name": "Torunarigha",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 13770922,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2444": {
+      "id": "2444",
+      "name": "Glatzel",
+      "teamId": "6",
+      "position": 4,
+      "marketValue": 7428660,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2553": {
+      "id": "2553",
+      "name": "Katterbach",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 2102073,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2691": {
+      "id": "2691",
+      "name": "Pherai",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3023": {
+      "id": "3023",
+      "name": "Ramos",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 1332726,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3277": {
+      "id": "3277",
+      "name": "Muheim",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 12766643,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3318": {
+      "id": "3318",
+      "name": "Königsdörffer",
+      "teamId": "6",
+      "position": 4,
+      "marketValue": 6533569,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3521": {
+      "id": "3521",
+      "name": "Elfadli",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 10813828,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "4404": {
+      "id": "4404",
+      "name": "Dompé",
+      "teamId": "6",
+      "position": 4,
+      "marketValue": 12753902,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "4423": {
+      "id": "4423",
+      "name": "Mikelbrencis",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 1693918,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "6201": {
+      "id": "6201",
+      "name": "Remberg",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 7432255,
+      "averagePoints": 49,
+      "totalPoints": 0
+    },
+    "6217": {
+      "id": "6217",
+      "name": "Philippe",
+      "teamId": "6",
+      "position": 4,
+      "marketValue": 8764294,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7264": {
+      "id": "7264",
+      "name": "Peretz",
+      "teamId": "6",
+      "position": 1,
+      "marketValue": 6701449,
+      "averagePoints": 42,
+      "totalPoints": 0
+    },
+    "7350": {
+      "id": "7350",
+      "name": "Stange",
+      "teamId": "6",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "8272": {
+      "id": "8272",
+      "name": "Hermann",
+      "teamId": "6",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "9413": {
+      "id": "9413",
+      "name": "Baldé",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "9421": {
+      "id": "9421",
+      "name": "Hefti",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "9695": {
+      "id": "9695",
+      "name": "Sahiti",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 2108769,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10102": {
+      "id": "10102",
+      "name": "Agyekum",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10116": {
+      "id": "10116",
+      "name": "Soumahoro",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 4218263,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10120": {
+      "id": "10120",
+      "name": "Røssing-Lelesiit",
+      "teamId": "6",
+      "position": 4,
+      "marketValue": 2244609,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11512": {
+      "id": "11512",
+      "name": "Capaldo",
+      "teamId": "6",
+      "position": 3,
+      "marketValue": 10875988,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11752": {
+      "id": "11752",
+      "name": "Omari",
+      "teamId": "6",
+      "position": 2,
+      "marketValue": 5952864,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "72": {
+      "id": "72",
+      "name": "Flekken",
+      "teamId": "7",
+      "position": 1,
+      "marketValue": 16818348,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "78": {
@@ -941,8 +1229,8 @@
       "name": "Hofmann",
       "teamId": "7",
       "position": 3,
-      "marketValue": 10210378,
-      "averagePoints": 83,
+      "marketValue": 4696865,
+      "averagePoints": 56,
       "totalPoints": 0
     },
     "97": {
@@ -954,49 +1242,13 @@
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "173": {
-      "id": "173",
-      "name": "Tah",
-      "teamId": "7",
-      "position": 2,
-      "marketValue": 34749648,
-      "averagePoints": 126,
-      "totalPoints": 0
-    },
-    "573": {
-      "id": "573",
-      "name": "Xhaka",
-      "teamId": "7",
-      "position": 3,
-      "marketValue": 50650428,
-      "averagePoints": 189,
-      "totalPoints": 0
-    },
     "663": {
       "id": "663",
       "name": "Andrich",
       "teamId": "7",
       "position": 3,
-      "marketValue": 26690405,
-      "averagePoints": 104,
-      "totalPoints": 0
-    },
-    "1761": {
-      "id": "1761",
-      "name": "Hrádecký",
-      "teamId": "7",
-      "position": 1,
-      "marketValue": 9168016,
-      "averagePoints": 74,
-      "totalPoints": 0
-    },
-    "2241": {
-      "id": "2241",
-      "name": "Mukiele",
-      "teamId": "7",
-      "position": 2,
-      "marketValue": 1825030,
-      "averagePoints": 15,
+      "marketValue": 13559506,
+      "averagePoints": 85,
       "totalPoints": 0
     },
     "2746": {
@@ -1004,8 +1256,8 @@
       "name": "Schick",
       "teamId": "7",
       "position": 4,
-      "marketValue": 11468757,
-      "averagePoints": 73,
+      "marketValue": 34475369,
+      "averagePoints": 108,
       "totalPoints": 0
     },
     "2766": {
@@ -1013,8 +1265,8 @@
       "name": "Palacios",
       "teamId": "7",
       "position": 3,
-      "marketValue": 16607594,
-      "averagePoints": 129,
+      "marketValue": 20400502,
+      "averagePoints": 94,
       "totalPoints": 0
     },
     "2783": {
@@ -1022,26 +1274,17 @@
       "name": "Tapsoba",
       "teamId": "7",
       "position": 2,
-      "marketValue": 27130756,
-      "averagePoints": 108,
+      "marketValue": 23193566,
+      "averagePoints": 96,
       "totalPoints": 0
     },
-    "2795": {
-      "id": "2795",
-      "name": "Wirtz",
+    "2846": {
+      "id": "2846",
+      "name": "Tillman",
       "teamId": "7",
       "position": 3,
-      "marketValue": 52646458,
-      "averagePoints": 198,
-      "totalPoints": 0
-    },
-    "2948": {
-      "id": "2948",
-      "name": "Frimpong",
-      "teamId": "7",
-      "position": 2,
-      "marketValue": 26825413,
-      "averagePoints": 63,
+      "marketValue": 26057785,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "3128": {
@@ -1049,8 +1292,8 @@
       "name": "Hincapié",
       "teamId": "7",
       "position": 2,
-      "marketValue": 25044177,
-      "averagePoints": 92,
+      "marketValue": 25325902,
+      "averagePoints": 113,
       "totalPoints": 0
     },
     "3132": {
@@ -1058,8 +1301,8 @@
       "name": "Adli",
       "teamId": "7",
       "position": 4,
-      "marketValue": 3556870,
-      "averagePoints": 44,
+      "marketValue": 6634687,
+      "averagePoints": 49,
       "totalPoints": 0
     },
     "4199": {
@@ -1067,8 +1310,17 @@
       "name": "García",
       "teamId": "7",
       "position": 3,
-      "marketValue": 10562470,
-      "averagePoints": 68,
+      "marketValue": 15946306,
+      "averagePoints": 99,
+      "totalPoints": 0
+    },
+    "6061": {
+      "id": "6061",
+      "name": "Maza",
+      "teamId": "7",
+      "position": 4,
+      "marketValue": 8161418,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "6173": {
@@ -1076,8 +1328,8 @@
       "name": "Grimaldo",
       "teamId": "7",
       "position": 2,
-      "marketValue": 49626228,
-      "averagePoints": 158,
+      "marketValue": 39643926,
+      "averagePoints": 127,
       "totalPoints": 0
     },
     "6174": {
@@ -1085,8 +1337,8 @@
       "name": "Arthur",
       "teamId": "7",
       "position": 2,
-      "marketValue": 1314686,
-      "averagePoints": 53,
+      "marketValue": 4958685,
+      "averagePoints": 37,
       "totalPoints": 0
     },
     "6745": {
@@ -1094,17 +1346,8 @@
       "name": "Boniface",
       "teamId": "7",
       "position": 4,
-      "marketValue": 35911509,
-      "averagePoints": 111,
-      "totalPoints": 0
-    },
-    "7241": {
-      "id": "7241",
-      "name": "Kovár",
-      "teamId": "7",
-      "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 41,
+      "marketValue": 18003000,
+      "averagePoints": 85,
       "totalPoints": 0
     },
     "7269": {
@@ -1112,16 +1355,16 @@
       "name": "Tella",
       "teamId": "7",
       "position": 3,
-      "marketValue": 3453571,
-      "averagePoints": 26,
+      "marketValue": 9866566,
+      "averagePoints": 55,
       "totalPoints": 0
     },
-    "7463": {
-      "id": "7463",
-      "name": "Onyeka",
+    "7963": {
+      "id": "7963",
+      "name": "Quansah",
       "teamId": "7",
-      "position": 3,
-      "marketValue": 643146,
+      "position": 2,
+      "marketValue": 20756722,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -1130,8 +1373,8 @@
       "name": "Belocian",
       "teamId": "7",
       "position": 2,
-      "marketValue": 881866,
-      "averagePoints": 27,
+      "marketValue": 500000,
+      "averagePoints": 20,
       "totalPoints": 0
     },
     "8374": {
@@ -1139,16 +1382,34 @@
       "name": "Terrier",
       "teamId": "7",
       "position": 4,
-      "marketValue": 10440898,
-      "averagePoints": 71,
+      "marketValue": 1378779,
+      "averagePoints": 59,
       "totalPoints": 0
     },
-    "9612": {
-      "id": "9612",
-      "name": "Stepanov",
+    "11181": {
+      "id": "11181",
+      "name": "Tape",
+      "teamId": "7",
+      "position": 2,
+      "marketValue": 4073500,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11513": {
+      "id": "11513",
+      "name": "Kofane",
       "teamId": "7",
       "position": 4,
-      "marketValue": 1024164,
+      "marketValue": 8203983,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11662": {
+      "id": "11662",
+      "name": "Alfa-Ruprecht",
+      "teamId": "7",
+      "position": 4,
+      "marketValue": 5843758,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -1157,8 +1418,8 @@
       "name": "Nübel",
       "teamId": "9",
       "position": 1,
-      "marketValue": 13582320,
-      "averagePoints": 87,
+      "marketValue": 16461532,
+      "averagePoints": 88,
       "totalPoints": 0
     },
     "1664": {
@@ -1166,8 +1427,8 @@
       "name": "Mittelstädt",
       "teamId": "9",
       "position": 2,
-      "marketValue": 28269691,
-      "averagePoints": 116,
+      "marketValue": 34692310,
+      "averagePoints": 124,
       "totalPoints": 0
     },
     "1758": {
@@ -1176,7 +1437,7 @@
       "teamId": "9",
       "position": 2,
       "marketValue": 500000,
-      "averagePoints": 20,
+      "averagePoints": 38,
       "totalPoints": 0
     },
     "2068": {
@@ -1184,7 +1445,7 @@
       "name": "Zagadou",
       "teamId": "9",
       "position": 2,
-      "marketValue": 786702,
+      "marketValue": 3008852,
       "averagePoints": 18,
       "totalPoints": 0
     },
@@ -1193,8 +1454,8 @@
       "name": "Führich",
       "teamId": "9",
       "position": 3,
-      "marketValue": 19400542,
-      "averagePoints": 74,
+      "marketValue": 18888699,
+      "averagePoints": 77,
       "totalPoints": 0
     },
     "2199": {
@@ -1202,8 +1463,8 @@
       "name": "Vagnoman",
       "teamId": "9",
       "position": 2,
-      "marketValue": 12710485,
-      "averagePoints": 68,
+      "marketValue": 2361802,
+      "averagePoints": 60,
       "totalPoints": 0
     },
     "2214": {
@@ -1211,8 +1472,8 @@
       "name": "Karazor",
       "teamId": "9",
       "position": 3,
-      "marketValue": 19167279,
-      "averagePoints": 64,
+      "marketValue": 22415795,
+      "averagePoints": 91,
       "totalPoints": 0
     },
     "2237": {
@@ -1229,8 +1490,8 @@
       "name": "Stiller",
       "teamId": "9",
       "position": 3,
-      "marketValue": 31990521,
-      "averagePoints": 108,
+      "marketValue": 36686307,
+      "averagePoints": 125,
       "totalPoints": 0
     },
     "2758": {
@@ -1238,8 +1499,8 @@
       "name": "Woltemade",
       "teamId": "9",
       "position": 4,
-      "marketValue": 6140186,
-      "averagePoints": 27,
+      "marketValue": 31467823,
+      "averagePoints": 80,
       "totalPoints": 0
     },
     "2764": {
@@ -1247,8 +1508,8 @@
       "name": "Keitel",
       "teamId": "9",
       "position": 3,
-      "marketValue": 1532062,
-      "averagePoints": 0,
+      "marketValue": 2918335,
+      "averagePoints": 32,
       "totalPoints": 0
     },
     "2854": {
@@ -1256,26 +1517,17 @@
       "name": "Demirović",
       "teamId": "9",
       "position": 4,
-      "marketValue": 22708542,
-      "averagePoints": 65,
+      "marketValue": 17595561,
+      "averagePoints": 67,
       "totalPoints": 0
     },
     "2988": {
       "id": "2988",
       "name": "Leweling",
       "teamId": "9",
-      "position": 4,
-      "marketValue": 13849899,
-      "averagePoints": 85,
-      "totalPoints": 0
-    },
-    "3130": {
-      "id": "3130",
-      "name": "Millot",
-      "teamId": "9",
       "position": 3,
-      "marketValue": 24870038,
-      "averagePoints": 92,
+      "marketValue": 14476863,
+      "averagePoints": 66,
       "totalPoints": 0
     },
     "3190": {
@@ -1283,17 +1535,8 @@
       "name": "Chabot",
       "teamId": "9",
       "position": 2,
-      "marketValue": 21640737,
-      "averagePoints": 98,
-      "totalPoints": 0
-    },
-    "4439": {
-      "id": "4439",
-      "name": "Touré",
-      "teamId": "9",
-      "position": 4,
-      "marketValue": 8393922,
-      "averagePoints": 61,
+      "marketValue": 20138282,
+      "averagePoints": 95,
       "totalPoints": 0
     },
     "4589": {
@@ -1301,26 +1544,8 @@
       "name": "Diehl",
       "teamId": "9",
       "position": 4,
-      "marketValue": 4934629,
-      "averagePoints": 52,
-      "totalPoints": 0
-    },
-    "6085": {
-      "id": "6085",
-      "name": "Seimen",
-      "teamId": "9",
-      "position": 1,
       "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "6748": {
-      "id": "6748",
-      "name": "Krätzig",
-      "teamId": "9",
-      "position": 2,
-      "marketValue": 1420378,
-      "averagePoints": 36,
+      "averagePoints": 31,
       "totalPoints": 0
     },
     "7158": {
@@ -1328,8 +1553,8 @@
       "name": "Undav",
       "teamId": "9",
       "position": 4,
-      "marketValue": 28553570,
-      "averagePoints": 101,
+      "marketValue": 28406697,
+      "averagePoints": 87,
       "totalPoints": 0
     },
     "7257": {
@@ -1337,35 +1562,17 @@
       "name": "Stergiou",
       "teamId": "9",
       "position": 2,
-      "marketValue": 3055154,
-      "averagePoints": 167,
+      "marketValue": 2297242,
+      "averagePoints": 84,
       "totalPoints": 0
     },
-    "7301": {
-      "id": "7301",
-      "name": "Rouault",
+    "7349": {
+      "id": "7349",
+      "name": "Jeltsch",
       "teamId": "9",
       "position": 2,
-      "marketValue": 10511359,
-      "averagePoints": 65,
-      "totalPoints": 0
-    },
-    "7530": {
-      "id": "7530",
-      "name": "Chase",
-      "teamId": "9",
-      "position": 2,
-      "marketValue": 6802926,
-      "averagePoints": 60,
-      "totalPoints": 0
-    },
-    "7676": {
-      "id": "7676",
-      "name": "Rieder",
-      "teamId": "9",
-      "position": 3,
-      "marketValue": 10537868,
-      "averagePoints": 64,
+      "marketValue": 11282309,
+      "averagePoints": 56,
       "totalPoints": 0
     },
     "8247": {
@@ -1373,8 +1580,17 @@
       "name": "Hendriks",
       "teamId": "9",
       "position": 2,
-      "marketValue": 3028666,
-      "averagePoints": 19,
+      "marketValue": 3205344,
+      "averagePoints": 46,
+      "totalPoints": 0
+    },
+    "9384": {
+      "id": "9384",
+      "name": "Darvich",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 5140699,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "9615": {
@@ -1382,8 +1598,44 @@
       "name": "Al Dakhil",
       "teamId": "9",
       "position": 2,
-      "marketValue": 4451450,
-      "averagePoints": 14,
+      "marketValue": 4526267,
+      "averagePoints": 62,
+      "totalPoints": 0
+    },
+    "9746": {
+      "id": "9746",
+      "name": "Andrés",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 5376407,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10112": {
+      "id": "10112",
+      "name": "Jaquez",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 2672429,
+      "averagePoints": 60,
+      "totalPoints": 0
+    },
+    "11043": {
+      "id": "11043",
+      "name": "Assignon",
+      "teamId": "9",
+      "position": 2,
+      "marketValue": 14434287,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11258": {
+      "id": "11258",
+      "name": "Jovanovic",
+      "teamId": "9",
+      "position": 3,
+      "marketValue": 6430106,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "43": {
@@ -1391,17 +1643,8 @@
       "name": "Weiser",
       "teamId": "10",
       "position": 2,
-      "marketValue": 19481909,
-      "averagePoints": 93,
-      "totalPoints": 0
-    },
-    "82": {
-      "id": "82",
-      "name": "Ducksch",
-      "teamId": "10",
-      "position": 4,
-      "marketValue": 23077684,
-      "averagePoints": 115,
+      "marketValue": 8634035,
+      "averagePoints": 100,
       "totalPoints": 0
     },
     "157": {
@@ -1409,8 +1652,8 @@
       "name": "Stark",
       "teamId": "10",
       "position": 2,
-      "marketValue": 9005439,
-      "averagePoints": 83,
+      "marketValue": 12473464,
+      "averagePoints": 86,
       "totalPoints": 0
     },
     "624": {
@@ -1418,7 +1661,7 @@
       "name": "Bittencourt",
       "teamId": "10",
       "position": 3,
-      "marketValue": 5030807,
+      "marketValue": 5217996,
       "averagePoints": 44,
       "totalPoints": 0
     },
@@ -1427,44 +1670,8 @@
       "name": "Zetterer",
       "teamId": "10",
       "position": 1,
-      "marketValue": 7537663,
-      "averagePoints": 67,
-      "totalPoints": 0
-    },
-    "1823": {
-      "id": "1823",
-      "name": "Veljković",
-      "teamId": "10",
-      "position": 2,
-      "marketValue": 8365716,
-      "averagePoints": 71,
-      "totalPoints": 0
-    },
-    "1858": {
-      "id": "1858",
-      "name": "Jung",
-      "teamId": "10",
-      "position": 2,
-      "marketValue": 8017469,
-      "averagePoints": 68,
-      "totalPoints": 0
-    },
-    "1868": {
-      "id": "1868",
-      "name": "Keïta",
-      "teamId": "10",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "1955": {
-      "id": "1955",
-      "name": "Burke",
-      "teamId": "10",
-      "position": 3,
-      "marketValue": 1321061,
-      "averagePoints": 29,
+      "marketValue": 12263885,
+      "averagePoints": 87,
       "totalPoints": 0
     },
     "1996": {
@@ -1472,8 +1679,8 @@
       "name": "Friedl",
       "teamId": "10",
       "position": 2,
-      "marketValue": 8842188,
-      "averagePoints": 69,
+      "marketValue": 13636486,
+      "averagePoints": 84,
       "totalPoints": 0
     },
     "2294": {
@@ -1481,8 +1688,8 @@
       "name": "Pieper",
       "teamId": "10",
       "position": 2,
-      "marketValue": 3270830,
-      "averagePoints": 32,
+      "marketValue": 2627674,
+      "averagePoints": 70,
       "totalPoints": 0
     },
     "2367": {
@@ -1490,8 +1697,8 @@
       "name": "Schmid",
       "teamId": "10",
       "position": 3,
-      "marketValue": 17869093,
-      "averagePoints": 95,
+      "marketValue": 24182287,
+      "averagePoints": 113,
       "totalPoints": 0
     },
     "2842": {
@@ -1499,8 +1706,8 @@
       "name": "Agu",
       "teamId": "10",
       "position": 2,
-      "marketValue": 7458813,
-      "averagePoints": 69,
+      "marketValue": 10122508,
+      "averagePoints": 75,
       "totalPoints": 0
     },
     "3166": {
@@ -1508,8 +1715,8 @@
       "name": "Topp",
       "teamId": "10",
       "position": 4,
-      "marketValue": 6594794,
-      "averagePoints": 24,
+      "marketValue": 8783160,
+      "averagePoints": 30,
       "totalPoints": 0
     },
     "3218": {
@@ -1517,7 +1724,7 @@
       "name": "Backhaus",
       "teamId": "10",
       "position": 1,
-      "marketValue": 500000,
+      "marketValue": 2210290,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -1526,8 +1733,8 @@
       "name": "Njinmah",
       "teamId": "10",
       "position": 4,
-      "marketValue": 7999598,
-      "averagePoints": 44,
+      "marketValue": 6177675,
+      "averagePoints": 39,
       "totalPoints": 0
     },
     "3450": {
@@ -1539,22 +1746,22 @@
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "3453": {
-      "id": "3453",
-      "name": "Köhn",
-      "teamId": "10",
-      "position": 2,
-      "marketValue": 7706168,
-      "averagePoints": 47,
-      "totalPoints": 0
-    },
     "3481": {
       "id": "3481",
       "name": "Stage",
       "teamId": "10",
       "position": 3,
-      "marketValue": 10604893,
-      "averagePoints": 108,
+      "marketValue": 11437392,
+      "averagePoints": 110,
+      "totalPoints": 0
+    },
+    "7156": {
+      "id": "7156",
+      "name": "Wöber",
+      "teamId": "10",
+      "position": 2,
+      "marketValue": 11605368,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "7167": {
@@ -1562,8 +1769,8 @@
       "name": "Lynen",
       "teamId": "10",
       "position": 3,
-      "marketValue": 6544300,
-      "averagePoints": 61,
+      "marketValue": 10428093,
+      "averagePoints": 69,
       "totalPoints": 0
     },
     "7282": {
@@ -1572,7 +1779,7 @@
       "teamId": "10",
       "position": 2,
       "marketValue": 500000,
-      "averagePoints": 5,
+      "averagePoints": 12,
       "totalPoints": 0
     },
     "7469": {
@@ -1580,8 +1787,8 @@
       "name": "Malatini",
       "teamId": "10",
       "position": 2,
-      "marketValue": 7234259,
-      "averagePoints": 81,
+      "marketValue": 2551489,
+      "averagePoints": 61,
       "totalPoints": 0
     },
     "7509": {
@@ -1589,8 +1796,8 @@
       "name": "Alvero",
       "teamId": "10",
       "position": 3,
-      "marketValue": 1050393,
-      "averagePoints": 8,
+      "marketValue": 3110360,
+      "averagePoints": 9,
       "totalPoints": 0
     },
     "7510": {
@@ -1598,7 +1805,7 @@
       "name": "Hansen-Aarøen",
       "teamId": "10",
       "position": 3,
-      "marketValue": 500000,
+      "marketValue": 1619837,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -1607,8 +1814,26 @@
       "name": "Grüll",
       "teamId": "10",
       "position": 3,
-      "marketValue": 3044463,
-      "averagePoints": 31,
+      "marketValue": 3966381,
+      "averagePoints": 45,
+      "totalPoints": 0
+    },
+    "9923": {
+      "id": "9923",
+      "name": "Mbangula",
+      "teamId": "10",
+      "position": 4,
+      "marketValue": 11089322,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "9996": {
+      "id": "9996",
+      "name": "Covic",
+      "teamId": "10",
+      "position": 3,
+      "marketValue": 5890749,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "44": {
@@ -1616,8 +1841,8 @@
       "name": "Arnold",
       "teamId": "11",
       "position": 3,
-      "marketValue": 18089515,
-      "averagePoints": 86,
+      "marketValue": 17420588,
+      "averagePoints": 93,
       "totalPoints": 0
     },
     "1259": {
@@ -1626,7 +1851,7 @@
       "teamId": "11",
       "position": 1,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 101,
       "totalPoints": 0
     },
     "1298": {
@@ -1634,62 +1859,8 @@
       "name": "Gerhardt",
       "teamId": "11",
       "position": 3,
-      "marketValue": 4610303,
-      "averagePoints": 35,
-      "totalPoints": 0
-    },
-    "1918": {
-      "id": "1918",
-      "name": "Özcan",
-      "teamId": "11",
-      "position": 3,
-      "marketValue": 3550470,
-      "averagePoints": 38,
-      "totalPoints": 0
-    },
-    "2141": {
-      "id": "2141",
-      "name": "Baku",
-      "teamId": "11",
-      "position": 3,
-      "marketValue": 8519241,
-      "averagePoints": 71,
-      "totalPoints": 0
-    },
-    "2278": {
-      "id": "2278",
-      "name": "Pervan",
-      "teamId": "11",
-      "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "2496": {
-      "id": "2496",
-      "name": "Behrens",
-      "teamId": "11",
-      "position": 4,
-      "marketValue": 3314465,
-      "averagePoints": 9,
-      "totalPoints": 0
-    },
-    "2724": {
-      "id": "2724",
-      "name": "Nmecha",
-      "teamId": "11",
-      "position": 4,
-      "marketValue": 4694603,
-      "averagePoints": 31,
-      "totalPoints": 0
-    },
-    "2725": {
-      "id": "2725",
-      "name": "Bornauw",
-      "teamId": "11",
-      "position": 2,
-      "marketValue": 12865827,
-      "averagePoints": 92,
+      "marketValue": 1772921,
+      "averagePoints": 39,
       "totalPoints": 0
     },
     "3004": {
@@ -1697,8 +1868,26 @@
       "name": "Vranckx",
       "teamId": "11",
       "position": 3,
-      "marketValue": 1544438,
-      "averagePoints": 16,
+      "marketValue": 500000,
+      "averagePoints": 20,
+      "totalPoints": 0
+    },
+    "3044": {
+      "id": "3044",
+      "name": "Lindstrøm",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 8065464,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3070": {
+      "id": "3070",
+      "name": "Zehnter",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 6738795,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "3124": {
@@ -1706,8 +1895,8 @@
       "name": "Wimmer",
       "teamId": "11",
       "position": 3,
-      "marketValue": 6021229,
-      "averagePoints": 23,
+      "marketValue": 10115501,
+      "averagePoints": 66,
       "totalPoints": 0
     },
     "3191": {
@@ -1715,8 +1904,8 @@
       "name": "Paredes",
       "teamId": "11",
       "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 2292304,
+      "averagePoints": 57,
       "totalPoints": 0
     },
     "3193": {
@@ -1724,8 +1913,8 @@
       "name": "Tiago Tomás",
       "teamId": "11",
       "position": 4,
-      "marketValue": 11198455,
-      "averagePoints": 68,
+      "marketValue": 3538384,
+      "averagePoints": 53,
       "totalPoints": 0
     },
     "3196": {
@@ -1733,8 +1922,8 @@
       "name": "Wind",
       "teamId": "11",
       "position": 4,
-      "marketValue": 10501059,
-      "averagePoints": 69,
+      "marketValue": 8155268,
+      "averagePoints": 76,
       "totalPoints": 0
     },
     "3362": {
@@ -1742,17 +1931,17 @@
       "name": "Fischer",
       "teamId": "11",
       "position": 2,
-      "marketValue": 4799338,
-      "averagePoints": 49,
+      "marketValue": 4108636,
+      "averagePoints": 52,
       "totalPoints": 0
     },
-    "3475": {
-      "id": "3475",
-      "name": "Kaminski",
+    "4148": {
+      "id": "4148",
+      "name": "Souza",
       "teamId": "11",
       "position": 3,
-      "marketValue": 4223988,
-      "averagePoints": 54,
+      "marketValue": 11967342,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "4266": {
@@ -1760,8 +1949,26 @@
       "name": "Svanberg",
       "teamId": "11",
       "position": 3,
-      "marketValue": 2439460,
-      "averagePoints": 58,
+      "marketValue": 4005830,
+      "averagePoints": 59,
+      "totalPoints": 0
+    },
+    "4296": {
+      "id": "4296",
+      "name": "Pejcinovic",
+      "teamId": "11",
+      "position": 4,
+      "marketValue": 3523022,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "4611": {
+      "id": "4611",
+      "name": "Jenz",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 3867133,
+      "averagePoints": 98,
       "totalPoints": 0
     },
     "6077": {
@@ -1769,17 +1976,17 @@
       "name": "Odogu",
       "teamId": "11",
       "position": 2,
-      "marketValue": 2001549,
-      "averagePoints": 0,
+      "marketValue": 500000,
+      "averagePoints": 57,
       "totalPoints": 0
     },
-    "6179": {
-      "id": "6179",
-      "name": "Zesiger",
+    "6180": {
+      "id": "6180",
+      "name": "Černý",
       "teamId": "11",
-      "position": 2,
-      "marketValue": 3201875,
-      "averagePoints": 45,
+      "position": 3,
+      "marketValue": 3538030,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "7153": {
@@ -1787,8 +1994,8 @@
       "name": "Dárdai",
       "teamId": "11",
       "position": 3,
-      "marketValue": 9189036,
-      "averagePoints": 88,
+      "marketValue": 4687376,
+      "averagePoints": 49,
       "totalPoints": 0
     },
     "7163": {
@@ -1805,8 +2012,8 @@
       "name": "Mæhle",
       "teamId": "11",
       "position": 2,
-      "marketValue": 7550957,
-      "averagePoints": 79,
+      "marketValue": 11520227,
+      "averagePoints": 74,
       "totalPoints": 0
     },
     "7243": {
@@ -1814,17 +2021,8 @@
       "name": "Majer",
       "teamId": "11",
       "position": 3,
-      "marketValue": 4424370,
-      "averagePoints": 65,
-      "totalPoints": 0
-    },
-    "7580": {
-      "id": "7580",
-      "name": "Bröger",
-      "teamId": "11",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 7720447,
+      "averagePoints": 58,
       "totalPoints": 0
     },
     "7807": {
@@ -1832,8 +2030,17 @@
       "name": "Vavro",
       "teamId": "11",
       "position": 2,
-      "marketValue": 11601291,
-      "averagePoints": 107,
+      "marketValue": 24949757,
+      "averagePoints": 116,
+      "totalPoints": 0
+    },
+    "7877": {
+      "id": "7877",
+      "name": "Skov Olsen",
+      "teamId": "11",
+      "position": 3,
+      "marketValue": 5877293,
+      "averagePoints": 55,
       "totalPoints": 0
     },
     "8229": {
@@ -1841,8 +2048,8 @@
       "name": "Grabara",
       "teamId": "11",
       "position": 1,
-      "marketValue": 14368505,
-      "averagePoints": 114,
+      "marketValue": 15320113,
+      "averagePoints": 98,
       "totalPoints": 0
     },
     "8348": {
@@ -1850,8 +2057,17 @@
       "name": "Amoura",
       "teamId": "11",
       "position": 4,
-      "marketValue": 18099559,
-      "averagePoints": 108,
+      "marketValue": 26016506,
+      "averagePoints": 99,
+      "totalPoints": 0
+    },
+    "9517": {
+      "id": "9517",
+      "name": "Angély",
+      "teamId": "11",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "9621": {
@@ -1859,8 +2075,17 @@
       "name": "Koulierakis",
       "teamId": "11",
       "position": 2,
-      "marketValue": 12823022,
+      "marketValue": 13662399,
       "averagePoints": 81,
+      "totalPoints": 0
+    },
+    "11167": {
+      "id": "11167",
+      "name": "Zielinski",
+      "teamId": "11",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "1809": {
@@ -1868,8 +2093,8 @@
       "name": "Wolf",
       "teamId": "13",
       "position": 2,
-      "marketValue": 8268968,
-      "averagePoints": 55,
+      "marketValue": 7930017,
+      "averagePoints": 59,
       "totalPoints": 0
     },
     "1811": {
@@ -1877,8 +2102,8 @@
       "name": "Gouweleeuw",
       "teamId": "13",
       "position": 2,
-      "marketValue": 12306406,
-      "averagePoints": 78,
+      "marketValue": 18149969,
+      "averagePoints": 99,
       "totalPoints": 0
     },
     "2005": {
@@ -1886,8 +2111,8 @@
       "name": "Maier",
       "teamId": "13",
       "position": 3,
-      "marketValue": 2263181,
-      "averagePoints": 40,
+      "marketValue": 500000,
+      "averagePoints": 33,
       "totalPoints": 0
     },
     "2030": {
@@ -1895,8 +2120,8 @@
       "name": "Tietz",
       "teamId": "13",
       "position": 4,
-      "marketValue": 8223647,
-      "averagePoints": 56,
+      "marketValue": 8474783,
+      "averagePoints": 54,
       "totalPoints": 0
     },
     "2091": {
@@ -1904,8 +2129,8 @@
       "name": "Rexhbecaj",
       "teamId": "13",
       "position": 3,
-      "marketValue": 6234132,
-      "averagePoints": 57,
+      "marketValue": 4073843,
+      "averagePoints": 51,
       "totalPoints": 0
     },
     "2195": {
@@ -1913,17 +2138,8 @@
       "name": "Dahmen",
       "teamId": "13",
       "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "2263": {
-      "id": "2263",
-      "name": "Jensen",
-      "teamId": "13",
-      "position": 3,
-      "marketValue": 526068,
-      "averagePoints": 9,
+      "marketValue": 18475561,
+      "averagePoints": 115,
       "totalPoints": 0
     },
     "2274": {
@@ -1931,17 +2147,8 @@
       "name": "Schlotterbeck",
       "teamId": "13",
       "position": 2,
-      "marketValue": 14880639,
-      "averagePoints": 90,
-      "totalPoints": 0
-    },
-    "2494": {
-      "id": "2494",
-      "name": "Okugawa",
-      "teamId": "13",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 4671295,
+      "averagePoints": 84,
       "totalPoints": 0
     },
     "2582": {
@@ -1949,8 +2156,8 @@
       "name": "Bauer",
       "teamId": "13",
       "position": 2,
-      "marketValue": 2784345,
-      "averagePoints": 46,
+      "marketValue": 500000,
+      "averagePoints": 45,
       "totalPoints": 0
     },
     "2651": {
@@ -1958,26 +2165,8 @@
       "name": "Pedersen",
       "teamId": "13",
       "position": 2,
-      "marketValue": 1335625,
-      "averagePoints": 11,
-      "totalPoints": 0
-    },
-    "2664": {
-      "id": "2664",
-      "name": "Vargas",
-      "teamId": "13",
-      "position": 3,
-      "marketValue": 4766153,
-      "averagePoints": 31,
-      "totalPoints": 0
-    },
-    "2885": {
-      "id": "2885",
-      "name": "Gumny",
-      "teamId": "13",
-      "position": 2,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 11,
       "totalPoints": 0
     },
     "3024": {
@@ -1994,26 +2183,8 @@
       "name": "Jakić",
       "teamId": "13",
       "position": 3,
-      "marketValue": 5497043,
-      "averagePoints": 52,
-      "totalPoints": 0
-    },
-    "3329": {
-      "id": "3329",
-      "name": "Breithaupt",
-      "teamId": "13",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 61,
-      "totalPoints": 0
-    },
-    "3502": {
-      "id": "3502",
-      "name": "Koudossou",
-      "teamId": "13",
-      "position": 2,
-      "marketValue": 500000,
-      "averagePoints": 14,
+      "marketValue": 7661968,
+      "averagePoints": 60,
       "totalPoints": 0
     },
     "4571": {
@@ -2025,13 +2196,40 @@
       "averagePoints": 28,
       "totalPoints": 0
     },
+    "4604": {
+      "id": "4604",
+      "name": "Saad",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 4987742,
+      "averagePoints": 45,
+      "totalPoints": 0
+    },
     "4654": {
       "id": "4654",
       "name": "Kömür",
       "teamId": "13",
       "position": 3,
-      "marketValue": 500000,
-      "averagePoints": -11,
+      "marketValue": 6792454,
+      "averagePoints": 30,
+      "totalPoints": 0
+    },
+    "6168": {
+      "id": "6168",
+      "name": "Fellhauer",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 4197944,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "6179": {
+      "id": "6179",
+      "name": "Zesiger",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 8168962,
+      "averagePoints": 86,
       "totalPoints": 0
     },
     "7696": {
@@ -2039,8 +2237,8 @@
       "name": "Labrović",
       "teamId": "13",
       "position": 1,
-      "marketValue": 9801777,
-      "averagePoints": 90,
+      "marketValue": 500000,
+      "averagePoints": 78,
       "totalPoints": 0
     },
     "8254": {
@@ -2048,8 +2246,8 @@
       "name": "Essende",
       "teamId": "13",
       "position": 4,
-      "marketValue": 4593389,
-      "averagePoints": 21,
+      "marketValue": 501737,
+      "averagePoints": 36,
       "totalPoints": 0
     },
     "8311": {
@@ -2058,7 +2256,16 @@
       "teamId": "13",
       "position": 4,
       "marketValue": 500000,
-      "averagePoints": 11,
+      "averagePoints": 18,
+      "totalPoints": 0
+    },
+    "8355": {
+      "id": "8355",
+      "name": "Banks",
+      "teamId": "13",
+      "position": 2,
+      "marketValue": 3944090,
+      "averagePoints": 35,
       "totalPoints": 0
     },
     "8384": {
@@ -2066,17 +2273,8 @@
       "name": "Giannoulis",
       "teamId": "13",
       "position": 2,
-      "marketValue": 8337855,
-      "averagePoints": 72,
-      "totalPoints": 0
-    },
-    "9641": {
-      "id": "9641",
-      "name": "Onyeka",
-      "teamId": "13",
-      "position": 3,
-      "marketValue": 8637634,
-      "averagePoints": 68,
+      "marketValue": 10488720,
+      "averagePoints": 85,
       "totalPoints": 0
     },
     "9642": {
@@ -2084,8 +2282,8 @@
       "name": "Matsima",
       "teamId": "13",
       "position": 2,
-      "marketValue": 7739628,
-      "averagePoints": 71,
+      "marketValue": 21121286,
+      "averagePoints": 102,
       "totalPoints": 0
     },
     "9684": {
@@ -2093,8 +2291,26 @@
       "name": "Claude-Maurice",
       "teamId": "13",
       "position": 3,
-      "marketValue": 13040427,
-      "averagePoints": 101,
+      "marketValue": 17805074,
+      "averagePoints": 91,
+      "totalPoints": 0
+    },
+    "11190": {
+      "id": "11190",
+      "name": "Dong",
+      "teamId": "13",
+      "position": 4,
+      "marketValue": 1699000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11556": {
+      "id": "11556",
+      "name": "Massengo",
+      "teamId": "13",
+      "position": 3,
+      "marketValue": 9498660,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "96": {
@@ -2102,8 +2318,8 @@
       "name": "Akpoguma",
       "teamId": "14",
       "position": 2,
-      "marketValue": 10569236,
-      "averagePoints": 73,
+      "marketValue": 1849540,
+      "averagePoints": 60,
       "totalPoints": 0
     },
     "524": {
@@ -2111,8 +2327,8 @@
       "name": "Baumann",
       "teamId": "14",
       "position": 1,
-      "marketValue": 16351302,
-      "averagePoints": 108,
+      "marketValue": 15089548,
+      "averagePoints": 99,
       "totalPoints": 0
     },
     "1308": {
@@ -2121,7 +2337,7 @@
       "teamId": "14",
       "position": 4,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": -19,
       "totalPoints": 0
     },
     "1671": {
@@ -2129,62 +2345,26 @@
       "name": "Prömel",
       "teamId": "14",
       "position": 3,
-      "marketValue": 1618611,
+      "marketValue": 2795131,
       "averagePoints": 51,
-      "totalPoints": 0
-    },
-    "1703": {
-      "id": "1703",
-      "name": "Grillitsch",
-      "teamId": "14",
-      "position": 2,
-      "marketValue": 13397835,
-      "averagePoints": 83,
-      "totalPoints": 0
-    },
-    "1726": {
-      "id": "1726",
-      "name": "Kaderábek",
-      "teamId": "14",
-      "position": 2,
-      "marketValue": 7210999,
-      "averagePoints": 45,
-      "totalPoints": 0
-    },
-    "1739": {
-      "id": "1739",
-      "name": "Lenz",
-      "teamId": "14",
-      "position": 2,
-      "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "1781": {
-      "id": "1781",
-      "name": "Bruun Larsen",
-      "teamId": "14",
-      "position": 3,
-      "marketValue": 3969102,
-      "averagePoints": 41,
       "totalPoints": 0
     },
     "1815": {
       "id": "1815",
       "name": "Kramarić",
       "teamId": "14",
-      "position": 4,
-      "marketValue": 29159914,
-      "averagePoints": 110,
+      "position": 3,
+      "marketValue": 26852131,
+      "averagePoints": 100,
       "totalPoints": 0
     },
-    "1990": {
-      "id": "1990",
-      "name": "Geiger",
+    "1954": {
+      "id": "1954",
+      "name": "Bernardo",
       "teamId": "14",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 2,
+      "position": 2,
+      "marketValue": 11055509,
+      "averagePoints": 83,
       "totalPoints": 0
     },
     "2373": {
@@ -2192,17 +2372,8 @@
       "name": "Kabak",
       "teamId": "14",
       "position": 2,
-      "marketValue": 500000,
+      "marketValue": 1610180,
       "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "2552": {
-      "id": "2552",
-      "name": "Bülter",
-      "teamId": "14",
-      "position": 3,
-      "marketValue": 10386045,
-      "averagePoints": 83,
       "totalPoints": 0
     },
     "2596": {
@@ -2210,17 +2381,17 @@
       "name": "Becker",
       "teamId": "14",
       "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 1806528,
+      "averagePoints": 47,
       "totalPoints": 0
     },
-    "2737": {
-      "id": "2737",
-      "name": "Samassékou",
+    "2803": {
+      "id": "2803",
+      "name": "Lemperle",
       "teamId": "14",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 13,
+      "position": 4,
+      "marketValue": 6998672,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "2852": {
@@ -2229,25 +2400,16 @@
       "teamId": "14",
       "position": 1,
       "marketValue": 500000,
+      "averagePoints": 86,
+      "totalPoints": 0
+    },
+    "3158": {
+      "id": "3158",
+      "name": "Asllani",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 15094697,
       "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "2987": {
-      "id": "2987",
-      "name": "Stach",
-      "teamId": "14",
-      "position": 3,
-      "marketValue": 21582721,
-      "averagePoints": 95,
-      "totalPoints": 0
-    },
-    "3120": {
-      "id": "3120",
-      "name": "Bischof",
-      "teamId": "14",
-      "position": 3,
-      "marketValue": 10663523,
-      "averagePoints": 104,
       "totalPoints": 0
     },
     "3230": {
@@ -2255,8 +2417,8 @@
       "name": "Tohumcu",
       "teamId": "14",
       "position": 3,
-      "marketValue": 4384211,
-      "averagePoints": 26,
+      "marketValue": 500000,
+      "averagePoints": 14,
       "totalPoints": 0
     },
     "3471": {
@@ -2264,53 +2426,17 @@
       "name": "Hložek",
       "teamId": "14",
       "position": 4,
-      "marketValue": 9128788,
-      "averagePoints": 88,
+      "marketValue": 9486363,
+      "averagePoints": 80,
       "totalPoints": 0
     },
-    "4352": {
-      "id": "4352",
-      "name": "Nsoki",
-      "teamId": "14",
-      "position": 2,
-      "marketValue": 3483302,
-      "averagePoints": 32,
-      "totalPoints": 0
-    },
-    "4421": {
-      "id": "4421",
-      "name": "Berisha",
-      "teamId": "14",
-      "position": 4,
-      "marketValue": 3177786,
-      "averagePoints": 29,
-      "totalPoints": 0
-    },
-    "6746": {
-      "id": "6746",
-      "name": "Szalai",
-      "teamId": "14",
-      "position": 2,
-      "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "7157": {
-      "id": "7157",
-      "name": "Tabaković",
-      "teamId": "14",
-      "position": 4,
-      "marketValue": 4237070,
-      "averagePoints": 34,
-      "totalPoints": 0
-    },
-    "7483": {
-      "id": "7483",
-      "name": "Jurásek",
+    "4358": {
+      "id": "4358",
+      "name": "Damar",
       "teamId": "14",
       "position": 3,
-      "marketValue": 2107869,
-      "averagePoints": 22,
+      "marketValue": 5942174,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "7543": {
@@ -2318,8 +2444,8 @@
       "name": "Moerstedt",
       "teamId": "14",
       "position": 4,
-      "marketValue": 1458451,
-      "averagePoints": 5,
+      "marketValue": 4148767,
+      "averagePoints": 24,
       "totalPoints": 0
     },
     "7544": {
@@ -2327,7 +2453,7 @@
       "name": "Drexler",
       "teamId": "14",
       "position": 2,
-      "marketValue": 2211351,
+      "marketValue": 2576650,
       "averagePoints": 17,
       "totalPoints": 0
     },
@@ -2335,9 +2461,18 @@
       "id": "7717",
       "name": "Prass",
       "teamId": "14",
-      "position": 3,
-      "marketValue": 6491355,
-      "averagePoints": 54,
+      "position": 2,
+      "marketValue": 4005731,
+      "averagePoints": 51,
+      "totalPoints": 0
+    },
+    "7745": {
+      "id": "7745",
+      "name": "Coufal",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 7371172,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "7750": {
@@ -2345,8 +2480,8 @@
       "name": "Hranác",
       "teamId": "14",
       "position": 2,
-      "marketValue": 500000,
-      "averagePoints": -3,
+      "marketValue": 1793760,
+      "averagePoints": 16,
       "totalPoints": 0
     },
     "8289": {
@@ -2363,8 +2498,8 @@
       "name": "Gendrey",
       "teamId": "14",
       "position": 2,
-      "marketValue": 3852679,
-      "averagePoints": 55,
+      "marketValue": 500000,
+      "averagePoints": 50,
       "totalPoints": 0
     },
     "9682": {
@@ -2372,8 +2507,71 @@
       "name": "Chaves",
       "teamId": "14",
       "position": 2,
-      "marketValue": 6216132,
-      "averagePoints": 62,
+      "marketValue": 8647127,
+      "averagePoints": 74,
+      "totalPoints": 0
+    },
+    "9995": {
+      "id": "9995",
+      "name": "Mokwa",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 13,
+      "totalPoints": 0
+    },
+    "10009": {
+      "id": "10009",
+      "name": "Orban",
+      "teamId": "14",
+      "position": 4,
+      "marketValue": 4121363,
+      "averagePoints": 32,
+      "totalPoints": 0
+    },
+    "10049": {
+      "id": "10049",
+      "name": "Behrens",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 30,
+      "totalPoints": 0
+    },
+    "10105": {
+      "id": "10105",
+      "name": "Touré",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 5102205,
+      "averagePoints": 40,
+      "totalPoints": 0
+    },
+    "11161": {
+      "id": "11161",
+      "name": "Machida",
+      "teamId": "14",
+      "position": 2,
+      "marketValue": 11921668,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11162": {
+      "id": "11162",
+      "name": "Avdullahu",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 10222395,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11631": {
+      "id": "11631",
+      "name": "Burger",
+      "teamId": "14",
+      "position": 3,
+      "marketValue": 7508868,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "619": {
@@ -2381,8 +2579,8 @@
       "name": "Stöger",
       "teamId": "15",
       "position": 3,
-      "marketValue": 25418191,
-      "averagePoints": 104,
+      "marketValue": 10961432,
+      "averagePoints": 69,
       "totalPoints": 0
     },
     "849": {
@@ -2390,8 +2588,8 @@
       "name": "Kleindienst",
       "teamId": "15",
       "position": 4,
-      "marketValue": 29040424,
-      "averagePoints": 149,
+      "marketValue": 12865268,
+      "averagePoints": 113,
       "totalPoints": 0
     },
     "1223": {
@@ -2399,8 +2597,8 @@
       "name": "Friedrich",
       "teamId": "15",
       "position": 2,
-      "marketValue": 9889540,
-      "averagePoints": 98,
+      "marketValue": 2738248,
+      "averagePoints": 55,
       "totalPoints": 0
     },
     "1330": {
@@ -2408,17 +2606,8 @@
       "name": "Weigl",
       "teamId": "15",
       "position": 3,
-      "marketValue": 16136230,
-      "averagePoints": 88,
-      "totalPoints": 0
-    },
-    "1387": {
-      "id": "1387",
-      "name": "Sippel",
-      "teamId": "15",
-      "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 9707182,
+      "averagePoints": 76,
       "totalPoints": 0
     },
     "1686": {
@@ -2426,8 +2615,8 @@
       "name": "Elvedi",
       "teamId": "15",
       "position": 2,
-      "marketValue": 10857031,
-      "averagePoints": 97,
+      "marketValue": 14418915,
+      "averagePoints": 99,
       "totalPoints": 0
     },
     "1883": {
@@ -2435,8 +2624,8 @@
       "name": "Nicolas",
       "teamId": "15",
       "position": 1,
-      "marketValue": 10547830,
-      "averagePoints": 111,
+      "marketValue": 10196312,
+      "averagePoints": 104,
       "totalPoints": 0
     },
     "2074": {
@@ -2444,8 +2633,8 @@
       "name": "Hack",
       "teamId": "15",
       "position": 3,
-      "marketValue": 10055454,
-      "averagePoints": 65,
+      "marketValue": 15212616,
+      "averagePoints": 81,
       "totalPoints": 0
     },
     "2261": {
@@ -2453,17 +2642,8 @@
       "name": "Neuhaus",
       "teamId": "15",
       "position": 3,
-      "marketValue": 4005117,
-      "averagePoints": 9,
-      "totalPoints": 0
-    },
-    "2288": {
-      "id": "2288",
-      "name": "Plea",
-      "teamId": "15",
-      "position": 4,
-      "marketValue": 17988316,
-      "averagePoints": 90,
+      "marketValue": 3013302,
+      "averagePoints": 18,
       "totalPoints": 0
     },
     "2560": {
@@ -2471,17 +2651,8 @@
       "name": "Sander",
       "teamId": "15",
       "position": 3,
-      "marketValue": 3154902,
-      "averagePoints": 30,
-      "totalPoints": 0
-    },
-    "2644": {
-      "id": "2644",
-      "name": "Lainer",
-      "teamId": "15",
-      "position": 2,
-      "marketValue": 3138120,
-      "averagePoints": 31,
+      "marketValue": 3956924,
+      "averagePoints": 50,
       "totalPoints": 0
     },
     "2799": {
@@ -2489,8 +2660,17 @@
       "name": "Netz",
       "teamId": "15",
       "position": 2,
-      "marketValue": 3459812,
-      "averagePoints": 74,
+      "marketValue": 4684526,
+      "averagePoints": 37,
+      "totalPoints": 0
+    },
+    "2862": {
+      "id": "2862",
+      "name": "Castrop",
+      "teamId": "15",
+      "position": 3,
+      "marketValue": 4704594,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "2897": {
@@ -2498,8 +2678,8 @@
       "name": "Reitz",
       "teamId": "15",
       "position": 3,
-      "marketValue": 13444305,
-      "averagePoints": 81,
+      "marketValue": 15561492,
+      "averagePoints": 78,
       "totalPoints": 0
     },
     "2941": {
@@ -2507,8 +2687,8 @@
       "name": "Scally",
       "teamId": "15",
       "position": 2,
-      "marketValue": 8494406,
-      "averagePoints": 62,
+      "marketValue": 7217076,
+      "averagePoints": 58,
       "totalPoints": 0
     },
     "3063": {
@@ -2516,8 +2696,8 @@
       "name": "Chiarodia",
       "teamId": "15",
       "position": 2,
-      "marketValue": 1563050,
-      "averagePoints": 14,
+      "marketValue": 2503720,
+      "averagePoints": 38,
       "totalPoints": 0
     },
     "3085": {
@@ -2526,16 +2706,7 @@
       "teamId": "15",
       "position": 4,
       "marketValue": 500000,
-      "averagePoints": -32,
-      "totalPoints": 0
-    },
-    "3129": {
-      "id": "3129",
-      "name": "Itakura",
-      "teamId": "15",
-      "position": 2,
-      "marketValue": 16903653,
-      "averagePoints": 94,
+      "averagePoints": -24,
       "totalPoints": 0
     },
     "4333": {
@@ -2543,8 +2714,8 @@
       "name": "Ullrich",
       "teamId": "15",
       "position": 2,
-      "marketValue": 6827320,
-      "averagePoints": 69,
+      "marketValue": 7064777,
+      "averagePoints": 50,
       "totalPoints": 0
     },
     "4419": {
@@ -2553,7 +2724,7 @@
       "teamId": "15",
       "position": 3,
       "marketValue": 500000,
-      "averagePoints": 22,
+      "averagePoints": 51,
       "totalPoints": 0
     },
     "4590": {
@@ -2561,8 +2732,17 @@
       "name": "Omlin",
       "teamId": "15",
       "position": 1,
-      "marketValue": 7263147,
-      "averagePoints": 124,
+      "marketValue": 5630760,
+      "averagePoints": 78,
+      "totalPoints": 0
+    },
+    "6199": {
+      "id": "6199",
+      "name": "Machino",
+      "teamId": "15",
+      "position": 4,
+      "marketValue": 9698980,
+      "averagePoints": 60,
       "totalPoints": 0
     },
     "6319": {
@@ -2570,17 +2750,44 @@
       "name": "Honorat",
       "teamId": "15",
       "position": 3,
-      "marketValue": 22704667,
-      "averagePoints": 138,
+      "marketValue": 26468393,
+      "averagePoints": 121,
       "totalPoints": 0
     },
-    "6665": {
-      "id": "6665",
-      "name": "Čvančara",
+    "7157": {
+      "id": "7157",
+      "name": "Tabaković",
       "teamId": "15",
       "position": 4,
-      "marketValue": 2848782,
-      "averagePoints": 24,
+      "marketValue": 7520072,
+      "averagePoints": 35,
+      "totalPoints": 0
+    },
+    "7470": {
+      "id": "7470",
+      "name": "Fukuda",
+      "teamId": "15",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 3,
+      "totalPoints": 0
+    },
+    "10280": {
+      "id": "10280",
+      "name": "Cardoso",
+      "teamId": "15",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 111,
+      "totalPoints": 0
+    },
+    "11010": {
+      "id": "11010",
+      "name": "Diks",
+      "teamId": "15",
+      "position": 2,
+      "marketValue": 16220613,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "60": {
@@ -2588,8 +2795,8 @@
       "name": "Kohr",
       "teamId": "18",
       "position": 2,
-      "marketValue": 10130559,
-      "averagePoints": 81,
+      "marketValue": 11834081,
+      "averagePoints": 91,
       "totalPoints": 0
     },
     "550": {
@@ -2597,8 +2804,8 @@
       "name": "Bell",
       "teamId": "18",
       "position": 2,
-      "marketValue": 8231627,
-      "averagePoints": 101,
+      "marketValue": 9954552,
+      "averagePoints": 99,
       "totalPoints": 0
     },
     "577": {
@@ -2615,8 +2822,8 @@
       "name": "Da Costa",
       "teamId": "18",
       "position": 2,
-      "marketValue": 3599717,
-      "averagePoints": 89,
+      "marketValue": 10528317,
+      "averagePoints": 78,
       "totalPoints": 0
     },
     "1590": {
@@ -2624,8 +2831,8 @@
       "name": "Zentner",
       "teamId": "18",
       "position": 1,
-      "marketValue": 19486101,
-      "averagePoints": 131,
+      "marketValue": 21113591,
+      "averagePoints": 117,
       "totalPoints": 0
     },
     "1639": {
@@ -2633,26 +2840,8 @@
       "name": "Amiri",
       "teamId": "18",
       "position": 3,
-      "marketValue": 26951868,
-      "averagePoints": 147,
-      "totalPoints": 0
-    },
-    "1804": {
-      "id": "1804",
-      "name": "Onisiwo",
-      "teamId": "18",
-      "position": 4,
-      "marketValue": 500000,
-      "averagePoints": 18,
-      "totalPoints": 0
-    },
-    "1971": {
-      "id": "1971",
-      "name": "Barkok",
-      "teamId": "18",
-      "position": 3,
-      "marketValue": 548405,
-      "averagePoints": 11,
+      "marketValue": 36879193,
+      "averagePoints": 130,
       "totalPoints": 0
     },
     "2232": {
@@ -2660,17 +2849,17 @@
       "name": "Mwene",
       "teamId": "18",
       "position": 2,
-      "marketValue": 14788197,
-      "averagePoints": 96,
+      "marketValue": 10128444,
+      "averagePoints": 70,
       "totalPoints": 0
     },
-    "2255": {
-      "id": "2255",
-      "name": "Burkardt",
+    "2399": {
+      "id": "2399",
+      "name": "Maloney",
       "teamId": "18",
-      "position": 4,
-      "marketValue": 21769501,
-      "averagePoints": 96,
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 31,
       "totalPoints": 0
     },
     "2476": {
@@ -2678,8 +2867,8 @@
       "name": "Lee",
       "teamId": "18",
       "position": 3,
-      "marketValue": 11938664,
-      "averagePoints": 83,
+      "marketValue": 14607153,
+      "averagePoints": 90,
       "totalPoints": 0
     },
     "2515": {
@@ -2687,8 +2876,8 @@
       "name": "Leitsch",
       "teamId": "18",
       "position": 2,
-      "marketValue": 6504686,
-      "averagePoints": 69,
+      "marketValue": 500000,
+      "averagePoints": 42,
       "totalPoints": 0
     },
     "2895": {
@@ -2696,8 +2885,8 @@
       "name": "Nebel",
       "teamId": "18",
       "position": 3,
-      "marketValue": 7631882,
-      "averagePoints": 64,
+      "marketValue": 25180167,
+      "averagePoints": 99,
       "totalPoints": 0
     },
     "2922": {
@@ -2705,8 +2894,8 @@
       "name": "Sieb",
       "teamId": "18",
       "position": 4,
-      "marketValue": 4250040,
-      "averagePoints": 39,
+      "marketValue": 1655585,
+      "averagePoints": 29,
       "totalPoints": 0
     },
     "3013": {
@@ -2715,7 +2904,7 @@
       "teamId": "18",
       "position": 1,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 121,
       "totalPoints": 0
     },
     "3041": {
@@ -2723,17 +2912,17 @@
       "name": "Widmer",
       "teamId": "18",
       "position": 2,
-      "marketValue": 1410103,
+      "marketValue": 500000,
       "averagePoints": 15,
       "totalPoints": 0
     },
-    "3081": {
-      "id": "3081",
-      "name": "Vidović",
+    "3078": {
+      "id": "3078",
+      "name": "Bobzien",
       "teamId": "18",
       "position": 4,
-      "marketValue": 500000,
-      "averagePoints": -2,
+      "marketValue": 4766228,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "3470": {
@@ -2741,8 +2930,8 @@
       "name": "Caci",
       "teamId": "18",
       "position": 2,
-      "marketValue": 11631834,
-      "averagePoints": 87,
+      "marketValue": 12719173,
+      "averagePoints": 88,
       "totalPoints": 0
     },
     "4460": {
@@ -2750,8 +2939,8 @@
       "name": "Weiper",
       "teamId": "18",
       "position": 4,
-      "marketValue": 500000,
-      "averagePoints": -1,
+      "marketValue": 10652130,
+      "averagePoints": 34,
       "totalPoints": 0
     },
     "4576": {
@@ -2759,17 +2948,17 @@
       "name": "Hanche-Olsen",
       "teamId": "18",
       "position": 2,
-      "marketValue": 4086925,
-      "averagePoints": 44,
+      "marketValue": 3908003,
+      "averagePoints": 57,
       "totalPoints": 0
     },
-    "4611": {
-      "id": "4611",
-      "name": "Jenz",
+    "6111": {
+      "id": "6111",
+      "name": "Hollerbach",
       "teamId": "18",
-      "position": 2,
-      "marketValue": 12112440,
-      "averagePoints": 95,
+      "position": 4,
+      "marketValue": 13321375,
+      "averagePoints": 62,
       "totalPoints": 0
     },
     "8223": {
@@ -2778,7 +2967,7 @@
       "teamId": "18",
       "position": 2,
       "marketValue": 500000,
-      "averagePoints": 8,
+      "averagePoints": 15,
       "totalPoints": 0
     },
     "8307": {
@@ -2786,277 +2975,277 @@
       "name": "Sano",
       "teamId": "18",
       "position": 3,
-      "marketValue": 11349519,
-      "averagePoints": 74,
+      "marketValue": 15584318,
+      "averagePoints": 84,
       "totalPoints": 0
     },
-    "9638": {
-      "id": "9638",
-      "name": "Hong",
+    "10064": {
+      "id": "10064",
+      "name": "Nordin",
+      "teamId": "18",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 2,
+      "totalPoints": 0
+    },
+    "11160": {
+      "id": "11160",
+      "name": "Bos",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11179": {
+      "id": "11179",
+      "name": "Schopp",
+      "teamId": "18",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11261": {
+      "id": "11261",
+      "name": "Kawasaki",
       "teamId": "18",
       "position": 3,
-      "marketValue": 1397647,
-      "averagePoints": 29,
+      "marketValue": 4697677,
+      "averagePoints": 0,
       "totalPoints": 0
     },
-    "46": {
-      "id": "46",
-      "name": "Hofmann",
-      "teamId": "24",
-      "position": 4,
-      "marketValue": 4671911,
-      "averagePoints": 53,
-      "totalPoints": 0
-    },
-    "75": {
-      "id": "75",
-      "name": "Drewes",
-      "teamId": "24",
+    "417": {
+      "id": "417",
+      "name": "Zieler",
+      "teamId": "28",
       "position": 1,
-      "marketValue": 5274260,
-      "averagePoints": 80,
+      "marketValue": 4327516,
+      "averagePoints": 0,
       "totalPoints": 0
     },
-    "1245": {
-      "id": "1245",
-      "name": "Horn",
-      "teamId": "24",
+    "737": {
+      "id": "737",
+      "name": "Waldschmidt",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 3621031,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1249": {
+      "id": "1249",
+      "name": "Heintz",
+      "teamId": "28",
+      "position": 2,
+      "marketValue": 1681263,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "1580": {
+      "id": "1580",
+      "name": "Schwäbe",
+      "teamId": "28",
       "position": 1,
-      "marketValue": 500000,
+      "marketValue": 11408494,
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "1405": {
-      "id": "1405",
-      "name": "Riemann",
-      "teamId": "24",
-      "position": 1,
-      "marketValue": 3718402,
+    "1903": {
+      "id": "1903",
+      "name": "Kainz",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 3096026,
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "1514": {
-      "id": "1514",
-      "name": "Losilla",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 1914257,
-      "averagePoints": 21,
-      "totalPoints": 0
-    },
-    "1785": {
-      "id": "1785",
-      "name": "Passlack",
-      "teamId": "24",
+    "2069": {
+      "id": "2069",
+      "name": "Hübers",
+      "teamId": "28",
       "position": 2,
-      "marketValue": 2495651,
-      "averagePoints": 27,
+      "marketValue": 10892577,
+      "averagePoints": 0,
       "totalPoints": 0
     },
-    "1881": {
-      "id": "1881",
-      "name": "Holtmann",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 3428837,
-      "averagePoints": 17,
-      "totalPoints": 0
-    },
-    "1954": {
-      "id": "1954",
-      "name": "Bernardo",
-      "teamId": "24",
-      "position": 2,
-      "marketValue": 5086386,
-      "averagePoints": 1,
-      "totalPoints": 0
-    },
-    "2460": {
-      "id": "2460",
-      "name": "Wittek",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 6938924,
-      "averagePoints": 64,
-      "totalPoints": 0
-    },
-    "2533": {
-      "id": "2533",
-      "name": "Daschner",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 1184376,
-      "averagePoints": 13,
-      "totalPoints": 0
-    },
-    "2561": {
-      "id": "2561",
-      "name": "Kwarteng",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 7,
-      "totalPoints": 0
-    },
-    "2883": {
-      "id": "2883",
-      "name": "Broschinski",
-      "teamId": "24",
+    "2201": {
+      "id": "2201",
+      "name": "Maina",
+      "teamId": "28",
       "position": 4,
-      "marketValue": 1915545,
-      "averagePoints": 9,
+      "marketValue": 7948504,
+      "averagePoints": 0,
       "totalPoints": 0
     },
-    "2990": {
-      "id": "2990",
-      "name": "Gamboa",
-      "teamId": "24",
-      "position": 2,
-      "marketValue": 1409362,
-      "averagePoints": 22,
-      "totalPoints": 0
-    },
-    "2994": {
-      "id": "2994",
-      "name": "Mašović",
-      "teamId": "24",
-      "position": 2,
-      "marketValue": 3270654,
-      "averagePoints": 62,
-      "totalPoints": 0
-    },
-    "3305": {
-      "id": "3305",
-      "name": "Medić",
-      "teamId": "24",
-      "position": 2,
-      "marketValue": 5881078,
-      "averagePoints": 50,
-      "totalPoints": 0
-    },
-    "3558": {
-      "id": "3558",
-      "name": "Ordets",
-      "teamId": "24",
-      "position": 2,
-      "marketValue": 1629164,
-      "averagePoints": 21,
-      "totalPoints": 0
-    },
-    "4317": {
-      "id": "4317",
-      "name": "Pannewig",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": -6,
-      "totalPoints": 0
-    },
-    "4318": {
-      "id": "4318",
-      "name": "Oermann",
-      "teamId": "24",
-      "position": 2,
-      "marketValue": 3703021,
-      "averagePoints": 6,
-      "totalPoints": 0
-    },
-    "4520": {
-      "id": "4520",
-      "name": "Bamba",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": -12,
-      "totalPoints": 0
-    },
-    "6186": {
-      "id": "6186",
-      "name": "Loosli",
-      "teamId": "24",
+    "2349": {
+      "id": "2349",
+      "name": "Kilian",
+      "teamId": "28",
       "position": 2,
       "marketValue": 500000,
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "6288": {
-      "id": "6288",
-      "name": "Bero",
-      "teamId": "24",
+    "2358": {
+      "id": "2358",
+      "name": "Krauß",
+      "teamId": "28",
       "position": 3,
-      "marketValue": 2490479,
-      "averagePoints": 34,
+      "marketValue": 8565295,
+      "averagePoints": 60,
       "totalPoints": 0
     },
-    "7506": {
-      "id": "7506",
-      "name": "Elezi",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 500000,
+    "2453": {
+      "id": "2453",
+      "name": "Pacarada",
+      "teamId": "28",
+      "position": 2,
+      "marketValue": 4140158,
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "8230": {
-      "id": "8230",
-      "name": "Sissoko",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 3324651,
-      "averagePoints": 37,
-      "totalPoints": 0
-    },
-    "8308": {
-      "id": "8308",
-      "name": "de Wit",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 3394215,
-      "averagePoints": 33,
-      "totalPoints": 0
-    },
-    "9441": {
-      "id": "9441",
-      "name": "Baldé",
-      "teamId": "24",
-      "position": 4,
-      "marketValue": 500000,
-      "averagePoints": -8,
-      "totalPoints": 0
-    },
-    "9442": {
-      "id": "9442",
-      "name": "Boadu",
-      "teamId": "24",
-      "position": 4,
-      "marketValue": 1870037,
-      "averagePoints": 43,
-      "totalPoints": 0
-    },
-    "9640": {
-      "id": "9640",
-      "name": "Miyoshi",
-      "teamId": "24",
-      "position": 3,
-      "marketValue": 2555265,
-      "averagePoints": 6,
-      "totalPoints": 0
-    },
-    "697": {
-      "id": "697",
-      "name": "Burchert",
-      "teamId": "39",
+    "2536": {
+      "id": "2536",
+      "name": "Köbbing",
+      "teamId": "28",
       "position": 1,
       "marketValue": 500000,
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "1534": {
-      "id": "1534",
-      "name": "Zoller",
-      "teamId": "39",
+    "2552": {
+      "id": "2552",
+      "name": "Bülter",
+      "teamId": "28",
+      "position": 4,
+      "marketValue": 6653724,
+      "averagePoints": 69,
+      "totalPoints": 0
+    },
+    "2702": {
+      "id": "2702",
+      "name": "Martel",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 13215787,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2765": {
+      "id": "2765",
+      "name": "Thielmann",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 2360893,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "2855": {
+      "id": "2855",
+      "name": "Ache",
+      "teamId": "28",
+      "position": 4,
+      "marketValue": 11886492,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "3475": {
+      "id": "3475",
+      "name": "Kaminski",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 3550918,
+      "averagePoints": 45,
+      "totalPoints": 0
+    },
+    "3500": {
+      "id": "3500",
+      "name": "Huseinbasic",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 1580819,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "6175": {
+      "id": "6175",
+      "name": "Christensen",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "7219": {
+      "id": "7219",
+      "name": "Jóhannesson",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 9415485,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "8274": {
+      "id": "8274",
+      "name": "El Mala",
+      "teamId": "28",
+      "position": 3,
+      "marketValue": 9285035,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "8385": {
+      "id": "8385",
+      "name": "Pauli",
+      "teamId": "28",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10003": {
+      "id": "10003",
+      "name": "Gazibegovic",
+      "teamId": "28",
+      "position": 2,
+      "marketValue": 1497407,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10024": {
+      "id": "10024",
+      "name": "Schmied",
+      "teamId": "28",
+      "position": 2,
+      "marketValue": 1863319,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10121": {
+      "id": "10121",
+      "name": "Rondic",
+      "teamId": "28",
       "position": 4,
       "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11570": {
+      "id": "11570",
+      "name": "Sebulonsen",
+      "teamId": "28",
+      "position": 2,
+      "marketValue": 7393585,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11747": {
+      "id": "11747",
+      "name": "Lund",
+      "teamId": "28",
+      "position": 2,
+      "marketValue": 5633679,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -3065,17 +3254,8 @@
       "name": "Wahl",
       "teamId": "39",
       "position": 2,
-      "marketValue": 8385290,
-      "averagePoints": 67,
-      "totalPoints": 0
-    },
-    "1878": {
-      "id": "1878",
-      "name": "Eggestein",
-      "teamId": "39",
-      "position": 4,
-      "marketValue": 4720652,
-      "averagePoints": 28,
+      "marketValue": 10058878,
+      "averagePoints": 79,
       "totalPoints": 0
     },
     "2090": {
@@ -3083,17 +3263,8 @@
       "name": "Ritzka",
       "teamId": "39",
       "position": 2,
-      "marketValue": 4126134,
-      "averagePoints": 19,
-      "totalPoints": 0
-    },
-    "2899": {
-      "id": "2899",
-      "name": "Boukhalfa",
-      "teamId": "39",
-      "position": 3,
-      "marketValue": 1292729,
-      "averagePoints": 41,
+      "marketValue": 500000,
+      "averagePoints": 28,
       "totalPoints": 0
     },
     "3014": {
@@ -3101,17 +3272,8 @@
       "name": "Nemeth",
       "teamId": "39",
       "position": 2,
-      "marketValue": 676706,
-      "averagePoints": 68,
-      "totalPoints": 0
-    },
-    "3206": {
-      "id": "3206",
-      "name": "Wagner",
-      "teamId": "39",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 5,
+      "marketValue": 6168876,
+      "averagePoints": 63,
       "totalPoints": 0
     },
     "3292": {
@@ -3119,8 +3281,8 @@
       "name": "Irvine",
       "teamId": "39",
       "position": 3,
-      "marketValue": 13899894,
-      "averagePoints": 92,
+      "marketValue": 4859450,
+      "averagePoints": 77,
       "totalPoints": 0
     },
     "3298": {
@@ -3128,8 +3290,8 @@
       "name": "Vasilj",
       "teamId": "39",
       "position": 1,
-      "marketValue": 13406707,
-      "averagePoints": 103,
+      "marketValue": 13083515,
+      "averagePoints": 95,
       "totalPoints": 0
     },
     "3300": {
@@ -3137,8 +3299,8 @@
       "name": "Smith",
       "teamId": "39",
       "position": 2,
-      "marketValue": 12435382,
-      "averagePoints": 98,
+      "marketValue": 11525061,
+      "averagePoints": 80,
       "totalPoints": 0
     },
     "3301": {
@@ -3147,16 +3309,7 @@
       "teamId": "39",
       "position": 2,
       "marketValue": 500000,
-      "averagePoints": 5,
-      "totalPoints": 0
-    },
-    "3377": {
-      "id": "3377",
-      "name": "Albers",
-      "teamId": "39",
-      "position": 4,
-      "marketValue": 3118882,
-      "averagePoints": 9,
+      "averagePoints": 11,
       "totalPoints": 0
     },
     "3452": {
@@ -3165,7 +3318,7 @@
       "teamId": "39",
       "position": 1,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 31,
       "totalPoints": 0
     },
     "3532": {
@@ -3173,8 +3326,8 @@
       "name": "Metcalfe",
       "teamId": "39",
       "position": 3,
-      "marketValue": 618692,
-      "averagePoints": 26,
+      "marketValue": 500000,
+      "averagePoints": 13,
       "totalPoints": 0
     },
     "3533": {
@@ -3182,8 +3335,8 @@
       "name": "Saliakas",
       "teamId": "39",
       "position": 2,
-      "marketValue": 3743732,
-      "averagePoints": 49,
+      "marketValue": 5383252,
+      "averagePoints": 64,
       "totalPoints": 0
     },
     "4591": {
@@ -3191,26 +3344,8 @@
       "name": "Afolayan",
       "teamId": "39",
       "position": 4,
-      "marketValue": 5256412,
-      "averagePoints": 52,
-      "totalPoints": 0
-    },
-    "4603": {
-      "id": "4603",
-      "name": "Maurides",
-      "teamId": "39",
-      "position": 4,
-      "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "4604": {
-      "id": "4604",
-      "name": "Saad",
-      "teamId": "39",
-      "position": 3,
-      "marketValue": 1171574,
-      "averagePoints": 74,
+      "marketValue": 4580632,
+      "averagePoints": 40,
       "totalPoints": 0
     },
     "4615": {
@@ -3218,17 +3353,8 @@
       "name": "Mets",
       "teamId": "39",
       "position": 2,
-      "marketValue": 9076831,
+      "marketValue": 500000,
       "averagePoints": 80,
-      "totalPoints": 0
-    },
-    "6209": {
-      "id": "6209",
-      "name": "Treu",
-      "teamId": "39",
-      "position": 2,
-      "marketValue": 3338209,
-      "averagePoints": 53,
       "totalPoints": 0
     },
     "6293": {
@@ -3236,8 +3362,8 @@
       "name": "Sinani",
       "teamId": "39",
       "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 9,
+      "marketValue": 5699435,
+      "averagePoints": 46,
       "totalPoints": 0
     },
     "7218": {
@@ -3246,7 +3372,7 @@
       "teamId": "39",
       "position": 3,
       "marketValue": 500000,
-      "averagePoints": 4,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "7496": {
@@ -3255,7 +3381,7 @@
       "teamId": "39",
       "position": 3,
       "marketValue": 500000,
-      "averagePoints": -1,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "8387": {
@@ -3264,24 +3390,96 @@
       "teamId": "39",
       "position": 2,
       "marketValue": 500000,
+      "averagePoints": 19,
+      "totalPoints": 0
+    },
+    "8838": {
+      "id": "8838",
+      "name": "Oppie",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 9656032,
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "8397": {
-      "id": "8397",
-      "name": "Guilavogui",
-      "teamId": "39",
-      "position": 4,
-      "marketValue": 4414310,
-      "averagePoints": 31,
-      "totalPoints": 0
-    },
-    "9839": {
-      "id": "9839",
-      "name": "Schmitz",
+    "10006": {
+      "id": "10006",
+      "name": "Sands",
       "teamId": "39",
       "position": 3,
-      "marketValue": 1549250,
+      "marketValue": 3719627,
+      "averagePoints": 39,
+      "totalPoints": 0
+    },
+    "10010": {
+      "id": "10010",
+      "name": "Ceesay",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": -9,
+      "totalPoints": 0
+    },
+    "11039": {
+      "id": "11039",
+      "name": "Robatsch",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11164": {
+      "id": "11164",
+      "name": "Fujita",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 4169616,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11165": {
+      "id": "11165",
+      "name": "Spari",
+      "teamId": "39",
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11182": {
+      "id": "11182",
+      "name": "Jones",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 500000,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11183": {
+      "id": "11183",
+      "name": "Pereira Lage",
+      "teamId": "39",
+      "position": 3,
+      "marketValue": 6812387,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11184": {
+      "id": "11184",
+      "name": "Pyrka",
+      "teamId": "39",
+      "position": 2,
+      "marketValue": 2776956,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11259": {
+      "id": "11259",
+      "name": "Hountondji",
+      "teamId": "39",
+      "position": 4,
+      "marketValue": 5075946,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -3290,35 +3488,8 @@
       "name": "Khedira",
       "teamId": "40",
       "position": 3,
-      "marketValue": 5182424,
-      "averagePoints": 49,
-      "totalPoints": 0
-    },
-    "477": {
-      "id": "477",
-      "name": "Vogt",
-      "teamId": "40",
-      "position": 2,
-      "marketValue": 9335297,
-      "averagePoints": 70,
-      "totalPoints": 0
-    },
-    "579": {
-      "id": "579",
-      "name": "Volland",
-      "teamId": "40",
-      "position": 4,
-      "marketValue": 906732,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "620": {
-      "id": "620",
-      "name": "Schwolow",
-      "teamId": "40",
-      "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 7728845,
+      "averagePoints": 58,
       "totalPoints": 0
     },
     "1553": {
@@ -3326,8 +3497,8 @@
       "name": "Haberer",
       "teamId": "40",
       "position": 3,
-      "marketValue": 2166239,
-      "averagePoints": 24,
+      "marketValue": 2425532,
+      "averagePoints": 38,
       "totalPoints": 0
     },
     "1877": {
@@ -3335,8 +3506,17 @@
       "name": "Bénes",
       "teamId": "40",
       "position": 3,
-      "marketValue": 2318890,
-      "averagePoints": 38,
+      "marketValue": 2521417,
+      "averagePoints": 32,
+      "totalPoints": 0
+    },
+    "1955": {
+      "id": "1955",
+      "name": "Burke",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 4093157,
+      "averagePoints": 44,
       "totalPoints": 0
     },
     "2279": {
@@ -3344,8 +3524,8 @@
       "name": "Rönnow",
       "teamId": "40",
       "position": 1,
-      "marketValue": 15899808,
-      "averagePoints": 110,
+      "marketValue": 15242449,
+      "averagePoints": 108,
       "totalPoints": 0
     },
     "2302": {
@@ -3353,17 +3533,8 @@
       "name": "Jeong",
       "teamId": "40",
       "position": 3,
-      "marketValue": 6219409,
-      "averagePoints": 53,
-      "totalPoints": 0
-    },
-    "2321": {
-      "id": "2321",
-      "name": "Roussillon",
-      "teamId": "40",
-      "position": 2,
-      "marketValue": 834161,
-      "averagePoints": -11,
+      "marketValue": 3258057,
+      "averagePoints": 55,
       "totalPoints": 0
     },
     "2400": {
@@ -3371,17 +3542,17 @@
       "name": "Trimmel",
       "teamId": "40",
       "position": 2,
-      "marketValue": 5567706,
-      "averagePoints": 60,
+      "marketValue": 4425177,
+      "averagePoints": 62,
       "totalPoints": 0
     },
     "2491": {
       "id": "2491",
       "name": "Skarke",
       "teamId": "40",
-      "position": 3,
+      "position": 4,
       "marketValue": 500000,
-      "averagePoints": 19,
+      "averagePoints": 21,
       "totalPoints": 0
     },
     "2717": {
@@ -3389,8 +3560,8 @@
       "name": "Skov",
       "teamId": "40",
       "position": 3,
-      "marketValue": 4578355,
-      "averagePoints": 45,
+      "marketValue": 4823957,
+      "averagePoints": 62,
       "totalPoints": 0
     },
     "2814": {
@@ -3399,7 +3570,7 @@
       "teamId": "40",
       "position": 3,
       "marketValue": 500000,
-      "averagePoints": 50,
+      "averagePoints": 35,
       "totalPoints": 0
     },
     "3102": {
@@ -3407,8 +3578,8 @@
       "name": "Rothe",
       "teamId": "40",
       "position": 2,
-      "marketValue": 11165157,
-      "averagePoints": 86,
+      "marketValue": 4017047,
+      "averagePoints": 55,
       "totalPoints": 0
     },
     "3187": {
@@ -3416,8 +3587,8 @@
       "name": "Schäfer",
       "teamId": "40",
       "position": 3,
-      "marketValue": 1837306,
-      "averagePoints": 36,
+      "marketValue": 4207869,
+      "averagePoints": 47,
       "totalPoints": 0
     },
     "3364": {
@@ -3429,13 +3600,13 @@
       "averagePoints": 0,
       "totalPoints": 0
     },
-    "3454": {
-      "id": "3454",
-      "name": "Jordan",
+    "3419": {
+      "id": "3419",
+      "name": "Raab",
       "teamId": "40",
-      "position": 4,
-      "marketValue": 2776234,
-      "averagePoints": 33,
+      "position": 1,
+      "marketValue": 500000,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "3473": {
@@ -3443,8 +3614,8 @@
       "name": "Doekhi",
       "teamId": "40",
       "position": 2,
-      "marketValue": 11698320,
-      "averagePoints": 70,
+      "marketValue": 11921594,
+      "averagePoints": 81,
       "totalPoints": 0
     },
     "4265": {
@@ -3452,8 +3623,17 @@
       "name": "Leite",
       "teamId": "40",
       "position": 2,
-      "marketValue": 18135089,
-      "averagePoints": 98,
+      "marketValue": 15485438,
+      "averagePoints": 102,
+      "totalPoints": 0
+    },
+    "4352": {
+      "id": "4352",
+      "name": "Nsoki",
+      "teamId": "40",
+      "position": 2,
+      "marketValue": 2326033,
+      "averagePoints": 39,
       "totalPoints": 0
     },
     "4446": {
@@ -3461,8 +3641,8 @@
       "name": "Kemlein",
       "teamId": "40",
       "position": 3,
-      "marketValue": 5835504,
-      "averagePoints": 61,
+      "marketValue": 4875046,
+      "averagePoints": 36,
       "totalPoints": 0
     },
     "4598": {
@@ -3470,35 +3650,17 @@
       "name": "Juranović",
       "teamId": "40",
       "position": 2,
-      "marketValue": 3904053,
+      "marketValue": 4451302,
+      "averagePoints": 47,
+      "totalPoints": 0
+    },
+    "6750": {
+      "id": "6750",
+      "name": "Ansah",
+      "teamId": "40",
+      "position": 4,
+      "marketValue": 1512725,
       "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "6111": {
-      "id": "6111",
-      "name": "Hollerbach",
-      "teamId": "40",
-      "position": 4,
-      "marketValue": 7108280,
-      "averagePoints": 49,
-      "totalPoints": 0
-    },
-    "6117": {
-      "id": "6117",
-      "name": "Prtajin",
-      "teamId": "40",
-      "position": 4,
-      "marketValue": 500000,
-      "averagePoints": 0,
-      "totalPoints": 0
-    },
-    "7507": {
-      "id": "7507",
-      "name": "Vertessen",
-      "teamId": "40",
-      "position": 4,
-      "marketValue": 7949830,
-      "averagePoints": 53,
       "totalPoints": 0
     },
     "7723": {
@@ -3506,13 +3668,22 @@
       "name": "Querfeld",
       "teamId": "40",
       "position": 2,
-      "marketValue": 4628382,
-      "averagePoints": 21,
+      "marketValue": 12151686,
+      "averagePoints": 71,
       "totalPoints": 0
     },
     "8228": {
       "id": "8228",
       "name": "Preu",
+      "teamId": "40",
+      "position": 3,
+      "marketValue": 500000,
+      "averagePoints": 5,
+      "totalPoints": 0
+    },
+    "8381": {
+      "id": "8381",
+      "name": "Burcu",
       "teamId": "40",
       "position": 3,
       "marketValue": 500000,
@@ -3524,8 +3695,17 @@
       "name": "Ilic",
       "teamId": "40",
       "position": 4,
+      "marketValue": 8966483,
+      "averagePoints": 66,
+      "totalPoints": 0
+    },
+    "10106": {
+      "id": "10106",
+      "name": "Ljubicic",
+      "teamId": "40",
+      "position": 4,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 17,
       "totalPoints": 0
     },
     "1225": {
@@ -3542,8 +3722,8 @@
       "name": "Orban",
       "teamId": "43",
       "position": 2,
-      "marketValue": 27529093,
-      "averagePoints": 160,
+      "marketValue": 27115889,
+      "averagePoints": 130,
       "totalPoints": 0
     },
     "1333": {
@@ -3551,8 +3731,8 @@
       "name": "Klostermann",
       "teamId": "43",
       "position": 2,
-      "marketValue": 16194269,
-      "averagePoints": 83,
+      "marketValue": 3253479,
+      "averagePoints": 78,
       "totalPoints": 0
     },
     "1653": {
@@ -3560,8 +3740,8 @@
       "name": "Kampl",
       "teamId": "43",
       "position": 3,
-      "marketValue": 15085543,
-      "averagePoints": 104,
+      "marketValue": 631973,
+      "averagePoints": 69,
       "totalPoints": 0
     },
     "1689": {
@@ -3569,17 +3749,8 @@
       "name": "Henrichs",
       "teamId": "43",
       "position": 2,
-      "marketValue": 20213959,
-      "averagePoints": 76,
-      "totalPoints": 0
-    },
-    "1865": {
-      "id": "1865",
-      "name": "Poulsen",
-      "teamId": "43",
-      "position": 4,
-      "marketValue": 2433126,
-      "averagePoints": 22,
+      "marketValue": 3501675,
+      "averagePoints": 69,
       "totalPoints": 0
     },
     "1896": {
@@ -3587,8 +3758,17 @@
       "name": "Gulácsi",
       "teamId": "43",
       "position": 1,
-      "marketValue": 21013264,
-      "averagePoints": 132,
+      "marketValue": 13727304,
+      "averagePoints": 120,
+      "totalPoints": 0
+    },
+    "2141": {
+      "id": "2141",
+      "name": "Baku",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 12803258,
+      "averagePoints": 79,
       "totalPoints": 0
     },
     "2275": {
@@ -3596,8 +3776,8 @@
       "name": "Baumgartner",
       "teamId": "43",
       "position": 3,
-      "marketValue": 8563120,
-      "averagePoints": 39,
+      "marketValue": 3810517,
+      "averagePoints": 46,
       "totalPoints": 0
     },
     "2365": {
@@ -3605,8 +3785,8 @@
       "name": "Haidara",
       "teamId": "43",
       "position": 3,
-      "marketValue": 19244932,
-      "averagePoints": 73,
+      "marketValue": 533818,
+      "averagePoints": 55,
       "totalPoints": 0
     },
     "2522": {
@@ -3614,8 +3794,8 @@
       "name": "Raum",
       "teamId": "43",
       "position": 2,
-      "marketValue": 15417901,
-      "averagePoints": 117,
+      "marketValue": 23343868,
+      "averagePoints": 97,
       "totalPoints": 0
     },
     "2649": {
@@ -3623,8 +3803,8 @@
       "name": "Schlager",
       "teamId": "43",
       "position": 3,
-      "marketValue": 7256165,
-      "averagePoints": 0,
+      "marketValue": 11798614,
+      "averagePoints": 23,
       "totalPoints": 0
     },
     "2747": {
@@ -3632,8 +3812,8 @@
       "name": "Silva",
       "teamId": "43",
       "position": 4,
-      "marketValue": 3537531,
-      "averagePoints": 39,
+      "marketValue": 5056655,
+      "averagePoints": 35,
       "totalPoints": 0
     },
     "6176": {
@@ -3641,17 +3821,8 @@
       "name": "Seiwald",
       "teamId": "43",
       "position": 3,
-      "marketValue": 5216405,
-      "averagePoints": 62,
-      "totalPoints": 0
-    },
-    "6177": {
-      "id": "6177",
-      "name": "Šeško",
-      "teamId": "43",
-      "position": 4,
-      "marketValue": 30525536,
-      "averagePoints": 82,
+      "marketValue": 9079799,
+      "averagePoints": 72,
       "totalPoints": 0
     },
     "6300": {
@@ -3659,7 +3830,7 @@
       "name": "Ouédraogo",
       "teamId": "43",
       "position": 3,
-      "marketValue": 4475675,
+      "marketValue": 746846,
       "averagePoints": -9,
       "totalPoints": 0
     },
@@ -3668,8 +3839,8 @@
       "name": "Openda",
       "teamId": "43",
       "position": 4,
-      "marketValue": 45358305,
-      "averagePoints": 109,
+      "marketValue": 30587737,
+      "averagePoints": 78,
       "totalPoints": 0
     },
     "6667": {
@@ -3677,8 +3848,8 @@
       "name": "Bitshiabu",
       "teamId": "43",
       "position": 2,
-      "marketValue": 4562301,
-      "averagePoints": 43,
+      "marketValue": 7031506,
+      "averagePoints": 66,
       "totalPoints": 0
     },
     "6672": {
@@ -3686,8 +3857,8 @@
       "name": "Simons",
       "teamId": "43",
       "position": 3,
-      "marketValue": 28920092,
-      "averagePoints": 158,
+      "marketValue": 36211291,
+      "averagePoints": 155,
       "totalPoints": 0
     },
     "7224": {
@@ -3695,17 +3866,17 @@
       "name": "Castello Jr.",
       "teamId": "43",
       "position": 2,
-      "marketValue": 20613270,
-      "averagePoints": 102,
+      "marketValue": 11605724,
+      "averagePoints": 79,
       "totalPoints": 0
     },
-    "7424": {
-      "id": "7424",
-      "name": "Elmas",
+    "7239": {
+      "id": "7239",
+      "name": "Finkgräfe",
       "teamId": "43",
-      "position": 3,
-      "marketValue": 1532753,
-      "averagePoints": 13,
+      "position": 2,
+      "marketValue": 749314,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "7493": {
@@ -3713,8 +3884,8 @@
       "name": "Vermeeren",
       "teamId": "43",
       "position": 3,
-      "marketValue": 9170029,
-      "averagePoints": 47,
+      "marketValue": 5933128,
+      "averagePoints": 43,
       "totalPoints": 0
     },
     "7730": {
@@ -3722,8 +3893,17 @@
       "name": "Geertruida",
       "teamId": "43",
       "position": 2,
-      "marketValue": 15365545,
-      "averagePoints": 82,
+      "marketValue": 2358930,
+      "averagePoints": 66,
+      "totalPoints": 0
+    },
+    "8061": {
+      "id": "8061",
+      "name": "Bakayoko",
+      "teamId": "43",
+      "position": 4,
+      "marketValue": 21752304,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "8227": {
@@ -3731,17 +3911,8 @@
       "name": "Vandevoordt",
       "teamId": "43",
       "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 70,
-      "totalPoints": 0
-    },
-    "9438": {
-      "id": "9438",
-      "name": "Gebel",
-      "teamId": "43",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 6793642,
+      "averagePoints": 63,
       "totalPoints": 0
     },
     "9507": {
@@ -3749,16 +3920,52 @@
       "name": "Nusa",
       "teamId": "43",
       "position": 3,
-      "marketValue": 24432855,
-      "averagePoints": 98,
+      "marketValue": 16053554,
+      "averagePoints": 70,
       "totalPoints": 0
     },
-    "699": {
-      "id": "699",
-      "name": "Theuerkauf",
-      "teamId": "50",
+    "9570": {
+      "id": "9570",
+      "name": "Nedeljkovic",
+      "teamId": "43",
       "position": 2,
+      "marketValue": 4737339,
+      "averagePoints": 39,
+      "totalPoints": 0
+    },
+    "9776": {
+      "id": "9776",
+      "name": "Maksimovic",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 6741576,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "10113": {
+      "id": "10113",
+      "name": "Gomis",
+      "teamId": "43",
+      "position": 4,
       "marketValue": 500000,
+      "averagePoints": 22,
+      "totalPoints": 0
+    },
+    "10771": {
+      "id": "10771",
+      "name": "Diomande",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 8098273,
+      "averagePoints": 0,
+      "totalPoints": 0
+    },
+    "11008": {
+      "id": "11008",
+      "name": "Banzuzi",
+      "teamId": "43",
+      "position": 3,
+      "marketValue": 10921066,
       "averagePoints": 0,
       "totalPoints": 0
     },
@@ -3767,8 +3974,8 @@
       "name": "Müller",
       "teamId": "50",
       "position": 1,
-      "marketValue": 8500120,
-      "averagePoints": 83,
+      "marketValue": 4559194,
+      "averagePoints": 77,
       "totalPoints": 0
     },
     "841": {
@@ -3776,17 +3983,8 @@
       "name": "Mainka",
       "teamId": "50",
       "position": 2,
-      "marketValue": 13973117,
-      "averagePoints": 87,
-      "totalPoints": 0
-    },
-    "1527": {
-      "id": "1527",
-      "name": "Eicher",
-      "teamId": "50",
-      "position": 1,
-      "marketValue": 500000,
-      "averagePoints": 0,
+      "marketValue": 17500149,
+      "averagePoints": 99,
       "totalPoints": 0
     },
     "1622": {
@@ -3794,8 +3992,8 @@
       "name": "Busch",
       "teamId": "50",
       "position": 2,
-      "marketValue": 2121793,
-      "averagePoints": 52,
+      "marketValue": 1345399,
+      "averagePoints": 46,
       "totalPoints": 0
     },
     "1687": {
@@ -3803,8 +4001,8 @@
       "name": "Gimber",
       "teamId": "50",
       "position": 2,
-      "marketValue": 7320094,
-      "averagePoints": 67,
+      "marketValue": 6384613,
+      "averagePoints": 53,
       "totalPoints": 0
     },
     "1871": {
@@ -3812,8 +4010,8 @@
       "name": "Föhrenbach",
       "teamId": "50",
       "position": 2,
-      "marketValue": 6320556,
-      "averagePoints": 65,
+      "marketValue": 5050936,
+      "averagePoints": 39,
       "totalPoints": 0
     },
     "1929": {
@@ -3821,35 +4019,26 @@
       "name": "Dorsch",
       "teamId": "50",
       "position": 3,
-      "marketValue": 4415304,
-      "averagePoints": 43,
-      "totalPoints": 0
-    },
-    "2399": {
-      "id": "2399",
-      "name": "Maloney",
-      "teamId": "50",
-      "position": 3,
-      "marketValue": 3464450,
-      "averagePoints": 44,
+      "marketValue": 6043815,
+      "averagePoints": 45,
       "totalPoints": 0
     },
     "2455": {
       "id": "2455",
       "name": "Honsak",
       "teamId": "50",
-      "position": 3,
-      "marketValue": 4479198,
-      "averagePoints": 43,
+      "position": 4,
+      "marketValue": 6414332,
+      "averagePoints": 50,
       "totalPoints": 0
     },
-    "2630": {
-      "id": "2630",
-      "name": "Thomalla",
+    "2597": {
+      "id": "2597",
+      "name": "Ramaj",
       "teamId": "50",
-      "position": 3,
-      "marketValue": 500000,
-      "averagePoints": -20,
+      "position": 1,
+      "marketValue": 10590500,
+      "averagePoints": 0,
       "totalPoints": 0
     },
     "2690": {
@@ -3857,8 +4046,8 @@
       "name": "Siersleben",
       "teamId": "50",
       "position": 2,
-      "marketValue": 806626,
-      "averagePoints": 26,
+      "marketValue": 5740405,
+      "averagePoints": 57,
       "totalPoints": 0
     },
     "2809": {
@@ -3867,7 +4056,7 @@
       "teamId": "50",
       "position": 4,
       "marketValue": 500000,
-      "averagePoints": -14,
+      "averagePoints": -7,
       "totalPoints": 0
     },
     "3027": {
@@ -3875,17 +4064,17 @@
       "name": "Pieringer",
       "teamId": "50",
       "position": 4,
-      "marketValue": 9448309,
-      "averagePoints": 80,
+      "marketValue": 500000,
+      "averagePoints": 65,
       "totalPoints": 0
     },
-    "3175": {
-      "id": "3175",
-      "name": "Wanner",
+    "3176": {
+      "id": "3176",
+      "name": "Ibrahimović",
       "teamId": "50",
       "position": 3,
-      "marketValue": 15201051,
-      "averagePoints": 58,
+      "marketValue": 4837910,
+      "averagePoints": 20,
       "totalPoints": 0
     },
     "3249": {
@@ -3893,8 +4082,8 @@
       "name": "Schöppner",
       "teamId": "50",
       "position": 3,
-      "marketValue": 12483919,
-      "averagePoints": 92,
+      "marketValue": 9857758,
+      "averagePoints": 77,
       "totalPoints": 0
     },
     "3253": {
@@ -3903,7 +4092,7 @@
       "teamId": "50",
       "position": 1,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 80,
       "totalPoints": 0
     },
     "3289": {
@@ -3912,7 +4101,7 @@
       "teamId": "50",
       "position": 4,
       "marketValue": 500000,
-      "averagePoints": 12,
+      "averagePoints": 5,
       "totalPoints": 0
     },
     "3339": {
@@ -3921,7 +4110,7 @@
       "teamId": "50",
       "position": 2,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 16,
       "totalPoints": 0
     },
     "3396": {
@@ -3929,7 +4118,7 @@
       "name": "Conteh",
       "teamId": "50",
       "position": 4,
-      "marketValue": 1240359,
+      "marketValue": 500000,
       "averagePoints": 11,
       "totalPoints": 0
     },
@@ -3939,7 +4128,7 @@
       "teamId": "50",
       "position": 3,
       "marketValue": 500000,
-      "averagePoints": 0,
+      "averagePoints": 6,
       "totalPoints": 0
     },
     "3515": {
@@ -3947,8 +4136,8 @@
       "name": "Beck",
       "teamId": "50",
       "position": 3,
-      "marketValue": 4573089,
-      "averagePoints": 48,
+      "marketValue": 1959318,
+      "averagePoints": 51,
       "totalPoints": 0
     },
     "3522": {
@@ -3956,8 +4145,17 @@
       "name": "Scienza",
       "teamId": "50",
       "position": 3,
-      "marketValue": 10390503,
-      "averagePoints": 82,
+      "marketValue": 2957738,
+      "averagePoints": 54,
+      "totalPoints": 0
+    },
+    "4632": {
+      "id": "4632",
+      "name": "Zivzivadze",
+      "teamId": "50",
+      "position": 4,
+      "marketValue": 7477910,
+      "averagePoints": 53,
       "totalPoints": 0
     },
     "6134": {
@@ -3965,8 +4163,8 @@
       "name": "Traoré",
       "teamId": "50",
       "position": 2,
-      "marketValue": 4681339,
-      "averagePoints": 47,
+      "marketValue": 2459873,
+      "averagePoints": 52,
       "totalPoints": 0
     },
     "7234": {
@@ -3974,8 +4172,8 @@
       "name": "Breunig",
       "teamId": "50",
       "position": 4,
-      "marketValue": 1998293,
-      "averagePoints": 32,
+      "marketValue": 500000,
+      "averagePoints": 18,
       "totalPoints": 0
     },
     "8248": {
@@ -3983,8 +4181,8 @@
       "name": "Kerber",
       "teamId": "50",
       "position": 3,
-      "marketValue": 672189,
-      "averagePoints": 20,
+      "marketValue": 500000,
+      "averagePoints": 21,
       "totalPoints": 0
     }
   },
@@ -4038,5 +4236,5 @@
     49,
     50
   ],
-  "date": "2024-11-27"
+  "date": "2025-08-11"
 }
