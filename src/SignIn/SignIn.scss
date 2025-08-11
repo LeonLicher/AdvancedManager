@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Variables
 $background-color: #ffffff;
 $text-color: #333333;
@@ -115,7 +117,7 @@ body {
   
   .sign-in-subtext {
     text-align: center;
-    color: lighten($text-color, 25%);
+    color: color.adjust($text-color, $lightness: 25%);
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 24px;
@@ -129,7 +131,7 @@ body {
   h2 {
     margin: 0;
     font-weight: 600;
-    color: darken($text-color, 10%);
+    color: color.adjust($text-color, $lightness: -10%);
     
     &:after {
       display: none;
@@ -144,7 +146,7 @@ body {
       margin-bottom: 4px;
       font-weight: 500;
       font-size: 14px;
-      color: darken($text-color, 5%);
+      color: color.adjust($text-color, $lightness: -5%);
     }
 
     input {
@@ -162,7 +164,7 @@ body {
       }
       
       &::placeholder {
-        color: lighten($text-color, 30%);
+        color: color.adjust($text-color, $lightness: 30%);
       }
     }
   }
@@ -310,14 +312,14 @@ body {
     text-align: center;
     margin-bottom: 16px;
     font-weight: 600;
-    color: darken($text-color, 10%);
+    color: color.adjust($text-color, $lightness: -10%);
   }
   
   .selection-instructions {
     text-align: center;
     margin-bottom: 24px;
     font-size: 15px;
-    color: lighten($text-color, 15%);
+    color: color.adjust($text-color, $lightness: 15%);
   }
 
   .league-select {
@@ -336,7 +338,7 @@ body {
       transition: $transition-default;
       
       &:hover {
-        border-color: lighten($primary-color, 20%);
+        border-color: color.adjust($primary-color, $lightness: 20%);
         background-color: rgba($primary-color, 0.03);
       }
       
