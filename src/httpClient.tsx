@@ -89,6 +89,8 @@ class HttpClient {
     }
 
     public getPlayerImageUrl(playerId: string): string {
+        console.log(`Fetching image for player ID: ${playerId}`)
+        console.log(this.getMissingPlayerIds())
         return `/AdvancedManager/player-images/${playerId}.png`
     }
 
@@ -100,6 +102,15 @@ class HttpClient {
     // Keep the existing method for compatibility
     public getUsedPlayerIds(): string[] {
         return Array.from(this.usedPlayerIds)
+    }
+
+    // Get missing player IDs and log them
+    public getMissingPlayerIds(): string[] {
+        const missing = Array.from(this.usedPlayerIds).filter(id => !this.localPlayerIds.has(id))
+        if (missing.length > 0) {
+            console.log(`Missing player IDs: ${missing.join(',')}`)
+        }
+        return missing
     }
 }
 
