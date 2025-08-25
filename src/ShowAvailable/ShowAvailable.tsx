@@ -141,6 +141,7 @@ const AvailablePlayers: React.FC = () => {
     } | null>(null)
     const [showTotalPoints, setShowTotalPoints] = useState(false)
     const [selectedPosition, setSelectedPosition] = useState<number>(0) // 0 means all positions
+    const [useOldData, setUseOldData] = useState(true) // false means current data, true means 2425 data
 
     // Memoize filtered scatter data
     const scatterData = useMemo(
@@ -185,8 +186,10 @@ const AvailablePlayers: React.FC = () => {
     // Fetch data only once and process it efficiently
     useEffect(() => {
         const controller = new AbortController()
+        
+        const dataFile = useOldData ? '/AdvancedManager/detailed_players2425.json' : '/AdvancedManager/detailed_players.json'
 
-        fetch('/AdvancedManager/detailed_players.json', {
+        fetch(dataFile, {
             signal: controller.signal,
         })
             .then((response) => response.json())
@@ -215,7 +218,7 @@ const AvailablePlayers: React.FC = () => {
             })
 
         return () => controller.abort()
-    }, [])
+    }, [useOldData])
 
     const handleSelectPlayer = useCallback((player: any) => {
         const playerData: PlayerData = {
@@ -247,6 +250,27 @@ const AvailablePlayers: React.FC = () => {
                         />
                     </div>
                     <div className="flex items-center gap-6">
+                        <div className="switch-container">
+                            <div className="flex">
+                                <Label
+                                    htmlFor="data-mode"
+                                    className={!useOldData ? 'active' : ''}
+                                >
+                                    Aktuelle Daten
+                                </Label>
+                                <Switch
+                                    id="data-mode"
+                                    checked={useOldData}
+                                    onCheckedChange={setUseOldData}
+                                />
+                                <Label
+                                    htmlFor="data-mode"
+                                    className={useOldData ? 'active' : ''}
+                                >
+                                    24/25 Daten
+                                </Label>
+                            </div>
+                        </div>
                         <div className="switch-container">
                             <div className="flex">
                                 <Label
