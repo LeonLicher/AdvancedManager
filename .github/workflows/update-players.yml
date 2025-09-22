@@ -70,8 +70,27 @@ jobs:
               working-directory: python
               run: |
                   echo "🚀 Starting player data update..."
-                  python getDetailedPlayers.py
-                  echo "✅ Player data update completed"
+                  echo "📋 Environment variables check:"
+                  echo "KICKBASE_EMAIL: ${KICKBASE_EMAIL:0:5}..." # Show first 5 chars
+                  echo "KICKBASE_PASSWORD: ${KICKBASE_PASSWORD:+SET}" # Show if set
+                  echo "BEARER_TOKEN: ${BEARER_TOKEN:0:10}..." # Show first 10 chars
+                  
+                  echo "📋 Current working directory: $(pwd)"
+                  echo "📋 Files before script run:"
+                  ls -la
+                  
+                  echo "🐍 Running Python script with verbose output..."
+                  if python getDetailedPlayers.py; then
+                    echo "✅ Python script completed successfully"
+                  else
+                    echo "❌ Python script failed with exit code $?"
+                    echo "📋 Files after failed script run:"
+                    ls -la
+                    exit 1
+                  fi
+                  
+                  echo "📋 Files after script run:"
+                  ls -la
 
             - name: Verify output file
               run: |
@@ -79,7 +98,7 @@ jobs:
                   echo "📂 Current directory: $(pwd)"
                   echo "📋 Files in python directory:"
                   ls -la python/ || echo "python directory not found"
-                  
+
                   # Check if the file exists in the python directory
                   if [ ! -f "python/detailed_players.json" ]; then
                     echo "❌ python/detailed_players.json not found"
@@ -92,9 +111,11 @@ jobs:
                   # Check file size
                   FILE_SIZE=$(stat -c%s python/detailed_players.json)
                   echo "📄 File size: $FILE_SIZE bytes"
-                  
+
                   if [ "$FILE_SIZE" -eq 0 ]; then
                     echo "❌ detailed_players.json is empty"
+                    echo "🔍 This suggests the Python script encountered an error or didn't write any data"
+                    echo "📋 Check the Python script output above for error messages"
                     exit 1
                   fi
 
