@@ -75,14 +75,38 @@ jobs:
 
             - name: Verify output file
               run: |
+                  # Debug: Show current directory and list files
+                  echo "📂 Current directory: $(pwd)"
+                  echo "📋 Files in python directory:"
+                  ls -la python/ || echo "python directory not found"
+                  
+                  # Check if the file exists in the python directory
                   if [ ! -f "python/detailed_players.json" ]; then
-                    echo "❌ detailed_players.json was not created"
+                    echo "❌ python/detailed_players.json not found"
+                    
+                    # Check if it was created in the wrong location
+                    find . -name "detailed_players.json" -type f 2>/dev/null || echo "No detailed_players.json found anywhere"
                     exit 1
                   fi
 
+                  # Check file size
+                  FILE_SIZE=$(stat -c%s python/detailed_players.json)
+                  echo "📄 File size: $FILE_SIZE bytes"
+                  
+                  if [ "$FILE_SIZE" -eq 0 ]; then
+                    echo "❌ detailed_players.json is empty"
+                    exit 1
+                  fi
+
+                  # Show first few lines for debugging
+                  echo "📋 First 5 lines of the file:"
+                  head -n 5 python/detailed_players.json
+
                   # Check if file is valid JSON
-                  if ! python -m json.tool python/detailed_players.json > /dev/null 2>&1; then
+                  if ! python -c "import json; json.load(open('python/detailed_players.json'))" 2>/dev/null; then
                     echo "❌ detailed_players.json is not valid JSON"
+                    echo "📋 File contents (first 500 chars):"
+                    head -c 500 python/detailed_players.json
                     exit 1
                   fi
 
