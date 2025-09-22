@@ -1,0 +1,338 @@
+{
+  "players": {
+    "173": {
+      "i": "173",
+      "fn": "Jonathan",
+      "ln": "Tah",
+      "shn": 4,
+      "tid": "2",
+      "tn": "Bayern",
+      "oui": "0",
+      "st": 0,
+      "stl": [],
+      "stxt": "Fit",
+      "pos": 2,
+      "iposl": false,
+      "tp": 489,
+      "ap": 122,
+      "sec": 22980,
+      "g": 0,
+      "a": 0,
+      "ph": [
+        {
+          "hp": true,
+          "p": 100
+        },
+        {
+          "hp": true,
+          "p": 187
+        },
+        {
+          "hp": true,
+          "p": 97
+        },
+        {
+          "hp": true,
+          "p": 105
+        }
+      ],
+      "mv": 38177720,
+      "cv": 37900000,
+      "tfhmvt": 42484,
+      "mvt": 1,
+      "day": 4,
+      "r": 0,
+      "y": 1,
+      "mdsum": [
+        {
+          "t1": "14",
+          "t2": "2",
+          "t1g": 1,
+          "t2g": 4,
+          "day": 4,
+          "md": "2025-09-20T13:30:00Z",
+          "cur": true,
+          "mdst": 2,
+          "t1im": "content/file/5212904732a04199aab426e44067347c.svg",
+          "t2im": "content/file/ff70df040a9f4179a7b45219225a2273.svg"
+        },
+        {
+          "t1": "2",
+          "t2": "10",
+          "t1g": 0,
+          "t2g": 0,
+          "day": 5,
+          "md": "2025-09-26T18:30:00Z",
+          "cur": false,
+          "mdst": 0,
+          "t1im": "content/file/ff70df040a9f4179a7b45219225a2273.svg",
+          "t2im": "content/file/a7e609e72fb04c6d8c96e8ed82f0315d.svg"
+        },
+        {
+          "t1": "4",
+          "t2": "2",
+          "t1g": 0,
+          "t2g": 0,
+          "day": 6,
+          "md": "2025-10-04T16:30:00Z",
+          "cur": false,
+          "mdst": 0,
+          "t1im": "content/file/422de82bee3b47eb898699d6d27095ba.svg",
+          "t2im": "content/file/ff70df040a9f4179a7b45219225a2273.svg"
+        }
+      ],
+      "stud": 248,
+      "smc": 4,
+      "ismc": 4,
+      "smdc": 4,
+      "sl": true,
+      "plpt": "Ligainsider",
+      "plpurl": "content/file/ef187fece16544febb50bd330706fd7d.png",
+      "dt": "2025-01-17T14:30:06Z",
+      "opl": [
+        {
+          "li": "5378755",
+          "oui": "0",
+          "lnm": "Kegelbrüder OS",
+          "iposl": false
+        },
+        {
+          "li": "6441041",
+          "oui": "0",
+          "lnm": "Test",
+          "iposl": false
+        },
+        {
+          "li": "7166177",
+          "oui": "0",
+          "lnm": "Kegelbrüder OS",
+          "iposl": false
+        }
+      ],
+      "pim": "content/file/bbdbcc801d7245e79786231de87b80b7.png",
+      "tim": "content/file/ff70df040a9f4179a7b45219225a2273.svg",
+      "prob": 1,
+      "plpim": "content/file/d372eddc14b14048adc79e78b42c8a4a.png",
+      "ts": "2025-09-22T15:36:30Z"
+    },
+    "237": {
+      "i": "237",
+      "fn": "Manuel",
+      "ln": "Neuer",
+      "shn": 1,
+      "tid": "2",
+      "tn": "Bayern",
+      "oui": "0",
+      "st": 0,
+      "stl": [],
+      "stxt": "Fit",
+      "pos": 1,
+      "iposl": false,
+      "tp": 492,
+      "ap": 123,
+      "sec": 24669,
+      "g": 0,
+      "a": 0,
+      "ph": [
+        {
+          "hp": true,
+          "p": 117
+        },
+        {
+          "hp": true,
+          "p": 170
+        },
+        {
+          "hp": true,
+          "p": 67
+        },
+        {
+          "hp": true,
+          "p": 138
+        }
+      ],
+      "mv": 18358278,
+      "cv": 18000000,
+      "tfhmvt": 78358,
+      "mvt": 1,
+      "day": 4,
+      "r": 0,
+      "y": 0,
+      "mdsum": [
+        {
+          "t1": "14",
+          "t2": "2",
+          "t1g": 1,
+          "t2g": 4,
+          "day": 4,
+          "md": "2025-09-20T13:30:00Z",
+          "cur": true,
+          "mdst": 2,
+          "t1im": "content/file/5212904732a04199aab426e44067347c.svg",
+          "t2im": "content/file/ff70df040a9f4179a7b45219225a2273.svg"
+        },
+        {
+          "t1": "2",
+          "t2": "10",
+          "t1g": 0,
+          "t2g": 0,
+          "day": 5,
+          "md": "2025-09-26T18:30:00Z",
+          "cur": false,
+          "mdst": 0,
+          "t1im": "content/file/ff70df040a9f4179a7b45219225a2273.svg",
+          "t2im": "content/file/a7e609e72fb04c6d8c96e8ed82f0315d.svg"
+        },
+        {
+          "t1": "4",
+          "t2": "2",
+          "t1g": 0,
+          "t2g": 0,
+          "day": 6,
+          "md": "2025-10-04T16:30:00Z",
+          "cur": false,
+          "mdst": 0,
+          "t1im": "content/file/422de82bee3b47eb898699d6d27095ba.svg",
+          "t2im": "content/file/ff70df040a9f4179a7b45219225a2273.svg"
+        }
+      ],
+      "stud": 142,
+      "smc": 4,
+      "ismc": 4,
+      "smdc": 4,
+      "sl": true,
+      "plpt": "Ligainsider",
+      "plpurl": "content/file/ef187fece16544febb50bd330706fd7d.png",
+      "dt": "2025-05-03T12:48:37Z",
+      "opl": [
+        {
+          "li": "5378755",
+          "oui": "3625551",
+          "lnm": "Kegelbrüder OS",
+          "onm": "Apple User",
+          "iposl": false
+        },
+        {
+          "li": "6441041",
+          "oui": "0",
+          "lnm": "Test",
+          "iposl": false
+        },
+        {
+          "li": "7166177",
+          "oui": "0",
+          "lnm": "Kegelbrüder OS",
+          "iposl": false
+        }
+      ],
+      "pim": "content/file/aadd45c3d6354126886481e0a33a3c1f.png",
+      "tim": "content/file/ff70df040a9f4179a7b45219225a2273.svg",
+      "prob": 1,
+      "plpim": "content/file/d372eddc14b14048adc79e78b42c8a4a.png",
+      "ts": "2025-09-22T15:36:30Z"
+    },
+    "383": {
+      "i": "383",
+      "fn": "Sven",
+      "ln": "Ulreich",
+      "shn": 26,
+      "tid": "2",
+      "tn": "Bayern",
+      "oui": "0",
+      "st": 0,
+      "stl": [],
+      "stxt": "Fit",
+      "pos": 1,
+      "iposl": false,
+      "ph": [
+        {
+          "hp": false
+        },
+        {
+          "hp": false
+        },
+        {
+          "hp": false
+        },
+        {
+          "hp": false
+        }
+      ],
+      "mv": 500000,
+      "cv": 500000,
+      "tfhmvt": 0,
+      "mvt": 0,
+      "day": 4,
+      "mdsum": [
+        {
+          "t1": "14",
+          "t2": "2",
+          "t1g": 1,
+          "t2g": 4,
+          "day": 4,
+          "md": "2025-09-20T13:30:00Z",
+          "cur": true,
+          "mdst": 2,
+          "t1im": "content/file/5212904732a04199aab426e44067347c.svg",
+          "t2im": "content/file/ff70df040a9f4179a7b45219225a2273.svg"
+        },
+        {
+          "t1": "2",
+          "t2": "10",
+          "t1g": 0,
+          "t2g": 0,
+          "day": 5,
+          "md": "2025-09-26T18:30:00Z",
+          "cur": false,
+          "mdst": 0,
+          "t1im": "content/file/ff70df040a9f4179a7b45219225a2273.svg",
+          "t2im": "content/file/a7e609e72fb04c6d8c96e8ed82f0315d.svg"
+        },
+        {
+          "t1": "4",
+          "t2": "2",
+          "t1g": 0,
+          "t2g": 0,
+          "day": 6,
+          "md": "2025-10-04T16:30:00Z",
+          "cur": false,
+          "mdst": 0,
+          "t1im": "content/file/422de82bee3b47eb898699d6d27095ba.svg",
+          "t2im": "content/file/ff70df040a9f4179a7b45219225a2273.svg"
+        }
+      ],
+      "stud": 155,
+      "smdc": 4,
+      "sl": true,
+      "plpt": "Ligainsider",
+      "plpurl": "content/file/ef187fece16544febb50bd330706fd7d.png",
+      "dt": "2025-04-20T10:41:28Z",
+      "opl": [
+        {
+          "li": "5378755",
+          "oui": "0",
+          "lnm": "Kegelbrüder OS",
+          "iposl": false
+        },
+        {
+          "li": "6441041",
+          "oui": "0",
+          "lnm": "Test",
+          "iposl": false
+        },
+        {
+          "li": "7166177",
+          "oui": "0",
+          "lnm": "Kegelbrüder OS",
+          "iposl": false
+        }
+      ],
+      "pim": "content/file/903ab63179ea4d5bb2d3308d33ed94a8.png",
+      "tim": "content/file/ff70df040a9f4179a7b45219225a2273.svg",
+      "prob": 5,
+      "plpim": "content/file/d372eddc14b14048adc79e78b42c8a4a.png",
+      "ts": "2025-09-22T15:36:30Z"
+    }
+  },
+  "date": "2025-09-22"
+}
