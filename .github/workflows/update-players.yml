@@ -32,6 +32,7 @@ jobs:
               env:
                   KICKBASE_EMAIL: ${{ secrets.KICKBASE_EMAIL }}
                   KICKBASE_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
+                  BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
               run: |
                   if [ -z "$KICKBASE_EMAIL" ]; then
                     echo "❌ KICKBASE_EMAIL secret is not set"
@@ -41,15 +42,21 @@ jobs:
                     echo "❌ KICKBASE_PASSWORD secret is not set"
                     exit 1
                   fi
+                  if [ -z "$BEARER_TOKEN" ]; then
+                    echo "❌ BEARER_TOKEN secret is not set"
+                    exit 1
+                  fi
                   echo "✅ Environment validated"
 
             - name: Set up environment variables
               env:
                   KICKBASE_EMAIL: ${{ secrets.KICKBASE_EMAIL }}
                   KICKBASE_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
+                  BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
               run: |
                   echo "KICKBASE_EMAIL=$KICKBASE_EMAIL" >> $GITHUB_ENV
                   echo "KICKBASE_PASSWORD=$KICKBASE_PASSWORD" >> $GITHUB_ENV
+                  echo "BEARER_TOKEN=$BEARER_TOKEN" >> $GITHUB_ENV
 
             - name: Check required files
               run: |
