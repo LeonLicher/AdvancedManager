@@ -74,21 +74,24 @@ jobs:
                   echo "KICKBASE_EMAIL: ${KICKBASE_EMAIL:0:5}..." # Show first 5 chars
                   echo "KICKBASE_PASSWORD: ${KICKBASE_PASSWORD:+SET}" # Show if set
                   echo "BEARER_TOKEN: ${BEARER_TOKEN:0:10}..." # Show first 10 chars
-                  
+
                   echo "📋 Current working directory: $(pwd)"
                   echo "📋 Files before script run:"
                   ls -la
-                  
+
                   echo "🐍 Running Python script with verbose output..."
-                  if python getDetailedPlayers.py; then
+                  python -u getDetailedPlayers.py 2>&1
+                  PYTHON_EXIT_CODE=$?
+                  
+                  if [ $PYTHON_EXIT_CODE -eq 0 ]; then
                     echo "✅ Python script completed successfully"
                   else
-                    echo "❌ Python script failed with exit code $?"
+                    echo "❌ Python script failed with exit code $PYTHON_EXIT_CODE"
                     echo "📋 Files after failed script run:"
                     ls -la
                     exit 1
                   fi
-                  
+
                   echo "📋 Files after script run:"
                   ls -la
 
