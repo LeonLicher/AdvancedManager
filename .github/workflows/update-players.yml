@@ -82,7 +82,7 @@ jobs:
                   echo "🐍 Running Python script with verbose output..."
                   python -u getDetailedPlayers.py 2>&1
                   PYTHON_EXIT_CODE=$?
-                  
+
                   if [ $PYTHON_EXIT_CODE -eq 0 ]; then
                     echo "✅ Python script completed successfully"
                   else
