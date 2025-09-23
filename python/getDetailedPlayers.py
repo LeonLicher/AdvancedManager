@@ -6,6 +6,10 @@ import logging
 import random
 import os
 import sys
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Set up logging with more detailed output
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -13,6 +17,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Constants
 BASE_URL = "https://api.kickbase.com/v4/competitions/1/players/{}?leagueId=5378755"
 BEARER_TOKEN = os.getenv('BEARER_TOKEN')
+if not BEARER_TOKEN:
+    BEARER_TOKEN = os.getenv('BEARER_TOKEN')  # Fallback to alternative env var
 
 # Enhanced environment variable validation
 print(f"🔍 Environment validation:")
@@ -118,21 +124,47 @@ def main():
     print("🚀 Starting to collect detailed player data")
     logging.info("Starting to collect detailed player data")
     
+    # Print current working directory for debugging
+    current_dir = os.getcwd()
+    print(f"📁 Current working directory: {current_dir}")
+    
+    # Define possible paths for all_players.json
+    possible_paths = [
+        'all_players.json',  # Current directory
+        os.path.join(os.path.dirname(__file__), 'all_players.json'),  # Same directory as script
+        os.path.join(os.path.dirname(__file__), '..', 'public', 'all_players.json'),  # public folder
+    ]
+    
+    # Try to find all_players.json in different locations
+    all_players_file = None
+    for path in possible_paths:
+        if os.path.exists(path):
+            all_players_file = path
+            print(f"✅ Found all_players.json at: {path}")
+            break
+    
+    if not all_players_file:
+        print("❌ all_players.json not found in any of these locations:")
+        for path in possible_paths:
+            print(f"  - {os.path.abspath(path)}")
+        print("Please ensure all_players.json exists or run the data collection notebook first.")
+        sys.exit(1)
+    
     # First, load the existing player IDs from all_players.json
     try:
-        with open('all_players.json', 'r', encoding='utf-8') as f:
+        with open(all_players_file, 'r', encoding='utf-8') as f:
             basic_data = json.load(f)
             player_ids = list(basic_data['players'].keys())
             total_players = len(player_ids)
             print(f"📊 Found {total_players} players to process")
             logging.info(f"Found {total_players} players to process")
     except FileNotFoundError as e:
-        error_msg = "❌ all_players.json not found. Please run worthIt.ipynb first."
+        error_msg = f"❌ {all_players_file} not found. Please run worthIt.ipynb first."
         print(error_msg)
         logging.error(error_msg)
         sys.exit(1)
     except json.JSONDecodeError as e:
-        error_msg = f"❌ Error parsing all_players.json: {e}"
+        error_msg = f"❌ Error parsing {all_players_file}: {e}"
         print(error_msg)
         logging.error(error_msg)
         sys.exit(1)
