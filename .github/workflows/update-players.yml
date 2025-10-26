@@ -1,0 +1,212 @@
+name: Update Player Data Weekly
+
+on:
+    schedule:
+        # Run every Monday at 9:00 PM UTC
+        - cron: '0 21 * * 1'
+    workflow_dispatch: # Allow manual trigger
+
+jobs:
+    update-players:
+        runs-on: ubuntu-latest
+        timeout-minutes: 60 # Prevent jobs from running too long
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: '3.11'
+                  cache: 'pip'
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r requirements.txt
+
+            - name: Validate environment
+              env:
+                  KICKBASE_EMAIL: ${{ secrets.KICKBASE_EMAIL }}
+                  KICKBASE_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
+                  BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
+              run: |
+                  if [ -z "$KICKBASE_EMAIL" ]; then
+                    echo "❌ KICKBASE_EMAIL secret is not set"
+                    exit 1
+                  fi
+                  if [ -z "$KICKBASE_PASSWORD" ]; then
+                    echo "❌ KICKBASE_PASSWORD secret is not set"
+                    exit 1
+                  fi
+                  if [ -z "$BEARER_TOKEN" ]; then
+                    echo "❌ BEARER_TOKEN secret is not set"
+                    exit 1
+                  fi
+                  echo "✅ Environment validated"
+
+            - name: Set up environment variables
+              env:
+                  KICKBASE_EMAIL: ${{ secrets.KICKBASE_EMAIL }}
+                  KICKBASE_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
+                  BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
+              run: |
+                  echo "KICKBASE_EMAIL=$KICKBASE_EMAIL" >> $GITHUB_ENV
+                  echo "KICKBASE_PASSWORD=$KICKBASE_PASSWORD" >> $GITHUB_ENV
+                  echo "BEARER_TOKEN=$BEARER_TOKEN" >> $GITHUB_ENV
+
+            - name: Check required files
+              run: |
+                  if [ ! -f "python/all_players.json" ]; then
+                    echo "❌ python/all_players.json not found"
+                    exit 1
+                  fi
+                  echo "✅ Required files exist"
+
+            - name: Update detailed players data
+              working-directory: python
+              run: |
+                  echo "🚀 Starting player data update..."
+                  echo "📋 Environment variables check:"
+                  echo "KICKBASE_EMAIL: ${KICKBASE_EMAIL:0:5}..." # Show first 5 chars
+                  echo "KICKBASE_PASSWORD: ${KICKBASE_PASSWORD:+SET}" # Show if set
+                  echo "BEARER_TOKEN: ${BEARER_TOKEN:0:10}..." # Show first 10 chars
+
+                  echo "📋 Current working directory: $(pwd)"
+                  echo "📋 Files before script run:"
+                  ls -la
+
+                  echo "🐍 Running Python script with verbose output..."
+                  python -u getDetailedPlayers.py 2>&1
+                  PYTHON_EXIT_CODE=$?
+
+                  if [ $PYTHON_EXIT_CODE -eq 0 ]; then
+                    echo "✅ Python script completed successfully"
+                  else
+                    echo "❌ Python script failed with exit code $PYTHON_EXIT_CODE"
+                    echo "📋 Files after failed script run:"
+                    ls -la
+                    exit 1
+                  fi
+
+                  echo "📋 Files after script run:"
+                  ls -la
+
+            - name: Verify output file
+              run: |
+                  # Debug: Show current directory and list files
+                  echo "📂 Current directory: $(pwd)"
+                  echo "📋 Files in python directory:"
+                  ls -la python/ || echo "python directory not found"
+
+                  # Check if the file exists in the python directory
+                  if [ ! -f "python/detailed_players.json" ]; then
+                    echo "❌ python/detailed_players.json not found"
+                    
+                    # Check if it was created in the wrong location
+                    find . -name "detailed_players.json" -type f 2>/dev/null || echo "No detailed_players.json found anywhere"
+                    exit 1
+                  fi
+
+                  # Check file size
+                  FILE_SIZE=$(stat -c%s python/detailed_players.json)
+                  echo "📄 File size: $FILE_SIZE bytes"
+
+                  if [ "$FILE_SIZE" -eq 0 ]; then
+                    echo "❌ detailed_players.json is empty"
+                    echo "🔍 This suggests the Python script encountered an error or didn't write any data"
+                    echo "📋 Check the Python script output above for error messages"
+                    exit 1
+                  fi
+
+                  # Show first few lines for debugging
+                  echo "📋 First 5 lines of the file:"
+                  head -n 5 python/detailed_players.json
+
+                  # Check if file is valid JSON
+                  if ! python -c "import json; json.load(open('python/detailed_players.json'))" 2>/dev/null; then
+                    echo "❌ detailed_players.json is not valid JSON"
+                    echo "📋 File contents (first 500 chars):"
+                    head -c 500 python/detailed_players.json
+                    exit 1
+                  fi
+
+                  echo "✅ Output file is valid"
+
+            - name: Check if there are changes
+              id: changes
+              run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git add python/detailed_players.json
+
+                  if git diff --staged --quiet; then
+                    echo "No changes to commit"
+                    echo "changes=false" >> $GITHUB_OUTPUT
+                    echo "has_changes=false" >> $GITHUB_ENV
+                  else
+                    echo "Changes detected"
+                    echo "changes=true" >> $GITHUB_OUTPUT
+                    echo "has_changes=true" >> $GITHUB_ENV
+                    
+                    # Get some stats about the changes
+                    LINES_CHANGED=$(git diff --staged --numstat python/detailed_players.json | awk '{print $1 + $2}')
+                    echo "lines_changed=$LINES_CHANGED" >> $GITHUB_OUTPUT
+                  fi
+
+            - name: Commit and push changes
+              if: steps.changes.outputs.changes == 'true'
+              run: |
+                  git commit -m "🤖 Weekly update of detailed player data - $(date +'%Y-%m-%d')"
+                  git push
+                  echo "✅ Changes committed and pushed successfully"
+
+            - name: Create detailed summary
+              run: |
+                  echo "# 🏈 Player Data Update Summary" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "**Date:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+
+                  if [ "${{ steps.changes.outputs.changes }}" == "true" ]; then
+                    echo "## ✅ Update Successful" >> $GITHUB_STEP_SUMMARY
+                    echo "- Player data has been updated" >> $GITHUB_STEP_SUMMARY
+                    echo "- Changes committed to repository" >> $GITHUB_STEP_SUMMARY
+                    if [ -n "${{ steps.changes.outputs.lines_changed }}" ]; then
+                      echo "- Lines changed: ${{ steps.changes.outputs.lines_changed }}" >> $GITHUB_STEP_SUMMARY
+                    fi
+                  else
+                    echo "## ℹ️ No Changes" >> $GITHUB_STEP_SUMMARY
+                    echo "- No updates to player data were found" >> $GITHUB_STEP_SUMMARY
+                    echo "- This could mean the data hasn't changed since last update" >> $GITHUB_STEP_SUMMARY
+                  fi
+
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "## 📊 File Information" >> $GITHUB_STEP_SUMMARY
+                  echo "- **File:** \`python/detailed_players.json\`" >> $GITHUB_STEP_SUMMARY
+
+                  if [ -f "python/detailed_players.json" ]; then
+                    FILE_SIZE=$(stat -c%s python/detailed_players.json)
+                    echo "- **Size:** $(numfmt --to=iec-i --suffix=B $FILE_SIZE)" >> $GITHUB_STEP_SUMMARY
+                    
+                    # Extract date from JSON if possible
+                    LAST_UPDATE=$(python -c "import json; data=json.load(open('python/detailed_players.json')); print(data.get('date', 'Unknown'))" 2>/dev/null || echo "Unknown")
+                    echo "- **Last Data Date:** $LAST_UPDATE" >> $GITHUB_STEP_SUMMARY
+                  fi
+
+            - name: Handle failure
+              if: failure()
+              run: |
+                  echo "# ❌ Player Data Update Failed" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "The weekly player data update encountered an error." >> $GITHUB_STEP_SUMMARY
+                  echo "Please check the workflow logs for details." >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "**Common issues to check:**" >> $GITHUB_STEP_SUMMARY
+                  echo "- BEARER_TOKEN secret is valid and not expired" >> $GITHUB_STEP_SUMMARY
+                  echo "- API endpoints are accessible" >> $GITHUB_STEP_SUMMARY
+                  echo "- Rate limiting issues" >> $GITHUB_STEP_SUMMARY
+                  echo "- Network connectivity problems" >> $GITHUB_STEP_SUMMARY
