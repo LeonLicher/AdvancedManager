@@ -44,7 +44,7 @@ def fetch_player_details(player_id):
     logging.info(f"Fetching detailed data for player ID: {player_id}")
 
     # Add random delay between 0.01 and 0.1 seconds
-    delay = random.uniform(0.01, 0.1)
+    delay = random.uniform(0.001, 0.01)
     logging.debug(f"Waiting {delay:.2f} seconds before request")
     time.sleep(delay)
     
