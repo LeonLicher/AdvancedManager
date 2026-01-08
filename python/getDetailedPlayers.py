@@ -7,6 +7,7 @@ import random
 import os
 import sys
 from dotenv import load_dotenv
+from login import login_to_kickbase
 
 # Load environment variables from .env file
 load_dotenv()
@@ -16,23 +17,28 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Constants
 BASE_URL = "https://api.kickbase.com/v4/competitions/1/players/{}?leagueId=5378755"
+
+# Try to get BEARER_TOKEN from environment, if not present, attempt login
 BEARER_TOKEN = os.getenv('BEARER_TOKEN')
-if not BEARER_TOKEN:
-    BEARER_TOKEN = os.getenv('BEARER_TOKEN')  # Fallback to alternative env var
 
 # Enhanced environment variable validation
 print(f"🔍 Environment validation:")
 print(f"BEARER_TOKEN exists: {'Yes' if BEARER_TOKEN else 'No'}")
-if BEARER_TOKEN:
-    print(f"BEARER_TOKEN length: {len(BEARER_TOKEN)}")
-    print(f"BEARER_TOKEN starts with: {BEARER_TOKEN[:10]}...")
-else:
-    print("❌ BEARER_TOKEN not found in environment variables")
-    print("Available environment variables:")
-    for key in os.environ.keys():
-        if 'TOKEN' in key.upper() or 'KICKBASE' in key.upper():
-            print(f"  {key}: {'SET' if os.environ[key] else 'EMPTY'}")
-    sys.exit(1)
+
+if not BEARER_TOKEN:
+    print("⚠️  BEARER_TOKEN not found in environment, attempting login...")
+    BEARER_TOKEN = login_to_kickbase()
+    
+    if BEARER_TOKEN:
+        print("✅ Successfully obtained token via login")
+        os.environ['BEARER_TOKEN'] = BEARER_TOKEN
+    else:
+        print("❌ Failed to obtain BEARER_TOKEN")
+        print("Make sure KICKBASE_EMAIL and KICKBASE_PASSWORD are set")
+        sys.exit(1)
+
+print(f"BEARER_TOKEN length: {len(BEARER_TOKEN)}")
+print(f"BEARER_TOKEN starts with: {BEARER_TOKEN[:10]}...")
 
 HEADERS = {
     "Authorization": f"Bearer {BEARER_TOKEN}",

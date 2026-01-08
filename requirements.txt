@@ -3,3 +3,4 @@ python-dotenv
 jupyter
 pandas
 plotly
+numpy
