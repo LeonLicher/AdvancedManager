@@ -54,7 +54,7 @@ const formatPrice = (price: number): string => {
             currency: 'EUR',
             maximumFractionDigits: 1,
             minimumFractionDigits: 1,
-        }).format(price / 1000000) + 'M'
+        }).format(price / 1000000)
     )
 }
 
