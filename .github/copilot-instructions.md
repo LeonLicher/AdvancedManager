@@ -131,6 +131,7 @@ For up-to-date details on endpoints, authentication, and data structures, see th
 [Kickbase API Documentation (kevinskyba)](https://github.com/kevinskyba/kickbase-api-doc/blob/master/kickbase-v4.swagger.json)
 
 **Important API Details:**
+
 - All endpoints use `/v4/` versioning (e.g., `https://api.kickbase.com/v4/user/login`)
 - Login requires specific field names: `em` (email), `pass` (password), `ext` (true), `loy` (false), `rep` (empty object)
 - API returns `tkn` (token) and `tknex` (token expiry), not `token`
