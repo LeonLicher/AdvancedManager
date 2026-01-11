@@ -170,6 +170,14 @@ const AvailablePlayers: React.FC = () => {
         [players, selectedPlayer, showTotalPoints, selectedPosition]
     )
 
+    // Find the max market value for X axis, rounded up to next full million
+    const maxMarketValue = useMemo(() => {
+        if (scatterData.length === 0) return 0
+        const max = Math.max(...scatterData.map((p) => p.mv))
+        // round up to next full million
+        return Math.ceil(max / 1_000_000) * 1_000_000
+    }, [scatterData])
+
     const handlePlayerClick = useCallback((data: any) => {
         if (data && data.payload) {
             setSelectedPlayer(data.payload)
@@ -323,7 +331,7 @@ const AvailablePlayers: React.FC = () => {
                             tickFormatter={(value: number) =>
                                 `${value / 1000000}M`
                             }
-                            domain={['auto', 'auto']}
+                            domain={[0, maxMarketValue]}
                             label={{
                                 value: 'Marktwert in Millionen',
                                 position: 'bottom',
