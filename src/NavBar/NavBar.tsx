@@ -20,7 +20,7 @@ const NavBar: React.FC = () => {
         { path: '/team', icon: 'bi-people', label: 'Team' },
         // { path: '/authlogs', icon: 'bi-shield-lock', label: 'Auth'},
         { path: '/available', icon: 'bi-person-plus', label: 'Spieleranalyse' },
-        { path: '/team-analyzer', icon: 'bi-star', label: 'Teambewertung' },
+        // { path: '/team-analyzer', icon: 'bi-star', label: 'Teambewertung' },
         { path: '/compare', icon: 'bi-arrow-left-right', label: 'Vergleich' },
         { path: '/overpay', icon: 'bi-cash-coin', label: 'Overpay' },
         { path: '/calculator', icon: 'bi-calculator', label: 'Calculator' },
@@ -108,7 +108,7 @@ const NavBar: React.FC = () => {
                                         </button>
                                     </NavigationMenuItem>
 
-                                    <NavigationMenuItem>
+                                    {/* <NavigationMenuItem>
                                         <button
                                             onClick={() =>
                                                 navigate('/team-analyzer')
@@ -122,7 +122,7 @@ const NavBar: React.FC = () => {
                                         >
                                             Teambewertung
                                         </button>
-                                    </NavigationMenuItem>
+                                    </NavigationMenuItem> */}
 
                                     <NavigationMenuItem>
                                         <button
