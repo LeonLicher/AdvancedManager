@@ -48,6 +48,21 @@ interface TooltipProps {
     httpClient: any
 }
 
+const useIsMobile = () => {
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768)
+        }
+
+        window.addEventListener('resize', handleResize)
+        return () => window.removeEventListener('resize', handleResize)
+    }, [])
+
+    return isMobile
+}
+
 const formatPrice = (price: number): string => {
     return (
         new Intl.NumberFormat('de-DE', {
@@ -131,6 +146,7 @@ CustomTooltip.displayName = 'CustomTooltip'
 
 const AvailablePlayers: React.FC = () => {
     const httpClient = useHttpClient()
+    const isMobile = useIsMobile()
     const [players, setPlayers] = useState<PlayerData[]>([])
     const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(
         null
@@ -244,20 +260,20 @@ const AvailablePlayers: React.FC = () => {
     return (
         <div className="available-players">
             <div className="header-container">
-                <div className="flex flex-wrap items-center justify-between w-full gap-4">
-                    <div className="flex flex-wrap items-center gap-4">
-                        <h2>
-                            Marktwert gegen{' '}
-                            {showTotalPoints
-                                ? 'Gesamtpunkte'
-                                : 'Durschnittspunkte'}
-                        </h2>
-                        <PlayerSearch
-                            onSelectPlayer={handleSelectPlayer}
-                            buttonLabel="Spieler suchen"
-                        />
-                    </div>
-                    <div className="flex items-center gap-6">
+                <div className="flex flex-col w-full gap-4">
+                    <div className="flex flex-wrap items-center justify-between w-full gap-4">
+                        <div className="flex flex-wrap items-center gap-4">
+                            <h2>
+                                Marktwert gegen{' '}
+                                {showTotalPoints
+                                    ? 'Gesamtpunkte'
+                                    : 'Durschnittspunkte'}
+                            </h2>
+                            <PlayerSearch
+                                onSelectPlayer={handleSelectPlayer}
+                                buttonLabel="Spieler suchen"
+                            />
+                        </div>
                         <div className="switch-container">
                             <div className="flex">
                                 <Label
@@ -279,6 +295,8 @@ const AvailablePlayers: React.FC = () => {
                                 </Label>
                             </div>
                         </div>
+                    </div>
+                    <div className="flex items-center justify-end w-full">
                         <div className="switch-container">
                             <div className="flex">
                                 <Label
@@ -319,9 +337,12 @@ const AvailablePlayers: React.FC = () => {
                 ))}
             </div>
             <div className="graph-container">
-                <ResponsiveContainer width="100%" height={600}>
+                <ResponsiveContainer width="100%" height={isMobile ? 400 : 600}>
                     <ScatterChart
-                        margin={{ top: 20, right: 20, bottom: 20, left: 70 }}
+                        margin={isMobile 
+                            ? { top: 10, right: 5, bottom: 30, left: 10 }
+                            : { top: 20, right: 20, bottom: 20, left: 70 }
+                        }
                     >
                         <CartesianGrid strokeDasharray="9 9" stroke="#eee" />
                         <XAxis
