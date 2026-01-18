@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import {
     CartesianGrid,
+    LabelList,
     ResponsiveContainer,
     Scatter,
     ScatterChart,
@@ -156,6 +157,7 @@ const AvailablePlayers: React.FC = () => {
         y: number
     } | null>(null)
     const [showTotalPoints, setShowTotalPoints] = useState(false)
+    const [showNames, setShowNames] = useState(false)
     const [selectedPosition, setSelectedPosition] = useState<number>(0) // 0 means all positions
     const [useOldData, setUseOldData] = useState(true) // false means current data, true means 2425 data
 
@@ -319,6 +321,29 @@ const AvailablePlayers: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="flex items-center justify-end w-full">
+                        <div className="switch-container">
+                            <div className="flex">
+                                <Label
+                                    htmlFor="names-mode"
+                                    className={!showNames ? 'active' : ''}
+                                >
+                                    Namen ausblenden
+                                </Label>
+                                <Switch
+                                    id="names-mode"
+                                    checked={showNames}
+                                    onCheckedChange={setShowNames}
+                                />
+                                <Label
+                                    htmlFor="names-mode"
+                                    className={showNames ? 'active' : ''}
+                                >
+                                    Namen anzeigen
+                                </Label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="position-selector flex items-center gap-2">
@@ -401,7 +426,20 @@ const AvailablePlayers: React.FC = () => {
                                     : 'var(--avg-points-color)'
                             }
                             onClick={handlePlayerClick}
-                        />
+                        >
+                            {showNames && (
+                                <LabelList
+                                    dataKey="ln"
+                                    position="top"
+                                    style={{
+                                        fontSize: isMobile ? '10px' : '11px',
+                                        fill: '#666',
+                                        pointerEvents: 'none',
+                                    }}
+                                    offset={8}
+                                />
+                            )}
+                        </Scatter>
                     </ScatterChart>
                 </ResponsiveContainer>
             </div>
