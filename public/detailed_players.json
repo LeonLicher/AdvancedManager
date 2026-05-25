@@ -40,8 +40,8 @@
           "hp": false
         }
       ],
-      "mv": 33340940,
-      "tfhmvt": 112640,
+      "mv": 33804526,
+      "tfhmvt": 28182,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -87,7 +87,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 23,
       "ismc": 28,
       "smdc": 1,
@@ -123,8 +123,11 @@
       "tid": "2",
       "tn": "Bayern",
       "oui": "0",
-      "st": 0,
-      "stl": [],
+      "st": 2,
+      "stl": [
+        2
+      ],
+      "stxt": "Calf problems - misses DFB-cup final",
       "pos": 1,
       "iposl": false,
       "tp": 2083,
@@ -151,8 +154,8 @@
           "hp": false
         }
       ],
-      "mv": 6099039,
-      "tfhmvt": 181731,
+      "mv": 7503041,
+      "tfhmvt": 164113,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -198,14 +201,14 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 59,
+      "stud": 3,
       "smc": 22,
       "ismc": 22,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
       "plpurl": "content/file/ef187fece16544febb50bd330706fd7d.png",
-      "dt": "2026-03-20T16:42:17Z",
+      "dt": "2026-05-22T13:01:10Z",
       "opl": [
         {
           "li": "5378755",
@@ -305,7 +308,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 21,
+      "stud": 28,
       "smc": 1,
       "ismc": 1,
       "smdc": 1,
@@ -372,9 +375,9 @@
           "p": 122
         }
       ],
-      "mv": 26109699,
-      "tfhmvt": 68054,
-      "mvt": 1,
+      "mv": 24029726,
+      "tfhmvt": -537712,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -419,7 +422,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 5,
+      "stud": 12,
       "smc": 25,
       "ismc": 31,
       "smdc": 1,
@@ -487,8 +490,8 @@
           "p": 215
         }
       ],
-      "mv": 58260245,
-      "tfhmvt": 18070,
+      "mv": 58366579,
+      "tfhmvt": 12094,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -534,7 +537,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 123,
+      "stud": 130,
       "smc": 24,
       "ismc": 29,
       "smdc": 1,
@@ -599,9 +602,9 @@
           "p": 232
         }
       ],
-      "mv": 7164976,
-      "tfhmvt": -4312,
-      "mvt": 1,
+      "mv": 5941104,
+      "tfhmvt": -178274,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -646,7 +649,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 14,
+      "stud": 21,
       "smc": 8,
       "ismc": 18,
       "smdc": 1,
@@ -713,9 +716,9 @@
           "hp": false
         }
       ],
-      "mv": 12201605,
-      "tfhmvt": -581240,
-      "mvt": 2,
+      "mv": 10857201,
+      "tfhmvt": 61827,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -760,7 +763,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 26,
+      "stud": 33,
       "smc": 16,
       "ismc": 21,
       "smdc": 1,
@@ -824,8 +827,8 @@
           "hp": false
         }
       ],
-      "mv": 29513905,
-      "tfhmvt": 121072,
+      "mv": 30035424,
+      "tfhmvt": 38922,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -871,7 +874,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 112,
+      "stud": 119,
       "smc": 21,
       "ismc": 24,
       "smdc": 1,
@@ -940,8 +943,8 @@
           "p": 39
         }
       ],
-      "mv": 31280120,
-      "tfhmvt": 110083,
+      "mv": 31678078,
+      "tfhmvt": 27421,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -987,7 +990,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 49,
+      "stud": 56,
       "smc": 22,
       "ismc": 29,
       "smdc": 1,
@@ -1056,9 +1059,9 @@
           "p": 105
         }
       ],
-      "mv": 28517872,
-      "tfhmvt": 113264,
-      "mvt": 1,
+      "mv": 27998712,
+      "tfhmvt": -55954,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -1103,7 +1106,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 103,
+      "stud": 110,
       "smc": 19,
       "ismc": 26,
       "smdc": 1,
@@ -1170,9 +1173,9 @@
           "p": 200
         }
       ],
-      "mv": 10593878,
-      "tfhmvt": -587332,
-      "mvt": 2,
+      "mv": 9919456,
+      "tfhmvt": 96404,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -1217,7 +1220,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 10,
+      "stud": 17,
       "smc": 6,
       "ismc": 13,
       "smdc": 1,
@@ -1284,8 +1287,8 @@
           "p": 125
         }
       ],
-      "mv": 29012792,
-      "tfhmvt": 127459,
+      "mv": 29678365,
+      "tfhmvt": 72467,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -1331,7 +1334,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smc": 7,
       "ismc": 15,
       "smdc": 1,
@@ -1399,9 +1402,9 @@
           "p": 150
         }
       ],
-      "mv": 4948461,
-      "tfhmvt": -208395,
-      "mvt": 2,
+      "mv": 5498013,
+      "tfhmvt": 170242,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -1446,7 +1449,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smc": 11,
       "ismc": 14,
       "smdc": 1,
@@ -1510,8 +1513,8 @@
           "p": 129
         }
       ],
-      "mv": 10891003,
-      "tfhmvt": -311105,
+      "mv": 9282972,
+      "tfhmvt": -95476,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -1557,7 +1560,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 35,
+      "stud": 42,
       "smc": 10,
       "ismc": 16,
       "smdc": 1,
@@ -1621,8 +1624,8 @@
           "hp": false
         }
       ],
-      "mv": 12167205,
-      "tfhmvt": 91037,
+      "mv": 13024748,
+      "tfhmvt": 136154,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -1668,7 +1671,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 17,
+      "stud": 24,
       "smc": 14,
       "ismc": 26,
       "smdc": 1,
@@ -1735,8 +1738,8 @@
           "p": 189
         }
       ],
-      "mv": 9169240,
-      "tfhmvt": -369748,
+      "mv": 7555811,
+      "tfhmvt": -217635,
       "mvt": 2,
       "day": 34,
       "r": 1,
@@ -1782,7 +1785,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 115,
+      "stud": 122,
       "smc": 12,
       "ismc": 23,
       "smdc": 1,
@@ -1846,8 +1849,8 @@
           "hp": false
         }
       ],
-      "mv": 27752124,
-      "tfhmvt": 60932,
+      "mv": 26976851,
+      "tfhmvt": 30002,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -1893,7 +1896,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smc": 16,
       "ismc": 24,
       "smdc": 1,
@@ -1964,8 +1967,8 @@
           "p": 125
         }
       ],
-      "mv": 14049995,
-      "tfhmvt": -455598,
+      "mv": 12357151,
+      "tfhmvt": -184396,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -2011,7 +2014,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 2,
+      "stud": 9,
       "smc": 19,
       "ismc": 25,
       "smdc": 1,
@@ -2080,8 +2083,8 @@
           "p": 163
         }
       ],
-      "mv": 66608583,
-      "tfhmvt": 29952,
+      "mv": 66777977,
+      "tfhmvt": 20993,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -2127,7 +2130,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 42,
+      "stud": 49,
       "smc": 25,
       "ismc": 31,
       "smdc": 1,
@@ -2290,8 +2293,8 @@
           "p": 152
         }
       ],
-      "mv": 62159484,
-      "tfhmvt": 27660,
+      "mv": 62364817,
+      "tfhmvt": 25857,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -2337,7 +2340,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 133,
+      "stud": 140,
       "smc": 23,
       "ismc": 32,
       "smdc": 1,
@@ -2399,8 +2402,8 @@
           "hp": false
         }
       ],
-      "mv": 21360142,
-      "tfhmvt": 84975,
+      "mv": 22034082,
+      "tfhmvt": 92833,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -2446,7 +2449,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 14,
+      "stud": 21,
       "smc": 16,
       "ismc": 26,
       "smdc": 1,
@@ -2515,8 +2518,8 @@
           "p": 225
         }
       ],
-      "mv": 51273086,
-      "tfhmvt": 24727,
+      "mv": 51428885,
+      "tfhmvt": 18986,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -2627,9 +2630,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 963083,
+      "tfhmvt": 111658,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -2674,7 +2677,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 78,
+      "stud": 85,
       "smc": 7,
       "ismc": 9,
       "smdc": 1,
@@ -2774,7 +2777,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -2881,7 +2884,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 10,
+      "stud": 17,
       "smc": 7,
       "ismc": 11,
       "smdc": 1,
@@ -2950,9 +2953,9 @@
           "p": 2
         }
       ],
-      "mv": 22139571,
-      "tfhmvt": 84295,
-      "mvt": 1,
+      "mv": 19097090,
+      "tfhmvt": -488608,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -2997,7 +3000,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 66,
+      "stud": 73,
       "smc": 17,
       "ismc": 29,
       "smdc": 1,
@@ -3158,8 +3161,8 @@
           "p": 133
         }
       ],
-      "mv": 34696833,
-      "tfhmvt": 15764,
+      "mv": 34861999,
+      "tfhmvt": 13638,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -3205,7 +3208,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 3,
+      "stud": 10,
       "smc": 32,
       "ismc": 32,
       "smdc": 1,
@@ -3275,9 +3278,9 @@
           "p": 29
         }
       ],
-      "mv": 17041851,
-      "tfhmvt": 37850,
-      "mvt": 1,
+      "mv": 15303790,
+      "tfhmvt": -199104,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -3322,7 +3325,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 94,
+      "stud": 101,
       "smc": 21,
       "ismc": 26,
       "smdc": 1,
@@ -3389,8 +3392,8 @@
           "p": 65
         }
       ],
-      "mv": 18352604,
-      "tfhmvt": 22242,
+      "mv": 18775183,
+      "tfhmvt": 74144,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -3436,7 +3439,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 129,
+      "stud": 136,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -3546,7 +3549,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 151,
+      "stud": 158,
       "smc": 0,
       "ismc": 11,
       "smdc": 1,
@@ -3613,9 +3616,9 @@
           "p": 101
         }
       ],
-      "mv": 37720658,
-      "tfhmvt": 73776,
-      "mvt": 1,
+      "mv": 37852610,
+      "tfhmvt": -51053,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -3660,7 +3663,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 24,
+      "stud": 31,
       "smc": 27,
       "ismc": 33,
       "smdc": 1,
@@ -3717,8 +3720,8 @@
           "hp": false
         }
       ],
-      "mv": 617852,
-      "tfhmvt": 5073,
+      "mv": 813329,
+      "tfhmvt": 32668,
       "mvt": 1,
       "day": 34,
       "mdsum": [
@@ -3762,7 +3765,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -3827,8 +3830,8 @@
           "p": 67
         }
       ],
-      "mv": 39794488,
-      "tfhmvt": 43673,
+      "mv": 40161223,
+      "tfhmvt": 37603,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -3874,7 +3877,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 67,
+      "stud": 74,
       "smc": 28,
       "ismc": 28,
       "smdc": 1,
@@ -3941,8 +3944,8 @@
           "p": 3
         }
       ],
-      "mv": 26917683,
-      "tfhmvt": 49215,
+      "mv": 27115867,
+      "tfhmvt": 9091,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -3988,7 +3991,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 260,
+      "stud": 267,
       "smc": 26,
       "ismc": 31,
       "smdc": 1,
@@ -4057,8 +4060,8 @@
           "p": 13
         }
       ],
-      "mv": 28130254,
-      "tfhmvt": 82923,
+      "mv": 28400799,
+      "tfhmvt": 14776,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -4104,7 +4107,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 168,
+      "stud": 175,
       "smc": 24,
       "ismc": 32,
       "smdc": 1,
@@ -4173,9 +4176,9 @@
           "p": 106
         }
       ],
-      "mv": 14494291,
-      "tfhmvt": -577344,
-      "mvt": 2,
+      "mv": 12892263,
+      "tfhmvt": 16998,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 6,
@@ -4220,7 +4223,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 12,
+      "stud": 19,
       "smc": 15,
       "ismc": 21,
       "smdc": 1,
@@ -4284,8 +4287,8 @@
           "hp": false
         }
       ],
-      "mv": 9063858,
-      "tfhmvt": 119005,
+      "mv": 10373194,
+      "tfhmvt": 167954,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -4331,7 +4334,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 10,
+      "stud": 17,
       "smc": 25,
       "ismc": 29,
       "smdc": 1,
@@ -4397,8 +4400,8 @@
           "hp": false
         }
       ],
-      "mv": 5208803,
-      "tfhmvt": 50923,
+      "mv": 5643704,
+      "tfhmvt": 137354,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -4444,7 +4447,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 12,
+      "stud": 19,
       "smc": 15,
       "ismc": 28,
       "smdc": 1,
@@ -4510,8 +4513,8 @@
           "hp": false
         }
       ],
-      "mv": 807192,
-      "tfhmvt": 24335,
+      "mv": 1265510,
+      "tfhmvt": 107556,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -4557,7 +4560,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 15,
+      "stud": 22,
       "smc": 11,
       "ismc": 19,
       "smdc": 1,
@@ -4752,7 +4755,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 87,
+      "stud": 94,
       "smc": 0,
       "ismc": 6,
       "smdc": 1,
@@ -4859,7 +4862,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 108,
+      "stud": 115,
       "smc": 0,
       "ismc": 1,
       "smdc": 1,
@@ -4966,7 +4969,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 34,
+      "stud": 41,
       "smc": 2,
       "ismc": 4,
       "smdc": 1,
@@ -5033,8 +5036,8 @@
           "p": -14
         }
       ],
-      "mv": 6518432,
-      "tfhmvt": 15555,
+      "mv": 7121461,
+      "tfhmvt": 114805,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -5080,7 +5083,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 234,
+      "stud": 241,
       "smc": 7,
       "ismc": 28,
       "smdc": 1,
@@ -5146,9 +5149,9 @@
           "p": 3
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 1349557,
+      "tfhmvt": 170296,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 2,
@@ -5193,7 +5196,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 65,
+      "stud": 72,
       "smc": 8,
       "ismc": 28,
       "smdc": 1,
@@ -5261,9 +5264,9 @@
           "p": 34
         }
       ],
-      "mv": 16999540,
-      "tfhmvt": -32386,
-      "mvt": 2,
+      "mv": 17137793,
+      "tfhmvt": 30904,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -5308,7 +5311,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 60,
+      "stud": 67,
       "smc": 27,
       "ismc": 33,
       "smdc": 1,
@@ -5375,8 +5378,8 @@
           "p": 37
         }
       ],
-      "mv": 13885800,
-      "tfhmvt": 86371,
+      "mv": 14430804,
+      "tfhmvt": 57649,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -5422,7 +5425,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 15,
+      "stud": 22,
       "smc": 20,
       "ismc": 32,
       "smdc": 1,
@@ -5615,7 +5618,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -5721,7 +5724,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 110,
+      "stud": 117,
       "smc": 0,
       "ismc": 1,
       "smdc": 1,
@@ -5785,9 +5788,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 714127,
+      "tfhmvt": 44039,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -5832,7 +5835,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 119,
+      "stud": 126,
       "smc": 8,
       "ismc": 21,
       "smdc": 1,
@@ -5943,7 +5946,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 117,
+      "stud": 124,
       "smc": 8,
       "ismc": 15,
       "smdc": 1,
@@ -6010,8 +6013,8 @@
           "p": 47
         }
       ],
-      "mv": 6802138,
-      "tfhmvt": 79368,
+      "mv": 7571111,
+      "tfhmvt": 103107,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -6057,7 +6060,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 17,
+      "stud": 24,
       "smc": 21,
       "ismc": 22,
       "smdc": 1,
@@ -6124,8 +6127,8 @@
           "p": 89
         }
       ],
-      "mv": 26419610,
-      "tfhmvt": 22078,
+      "mv": 26547298,
+      "tfhmvt": 8120,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -6171,7 +6174,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 82,
+      "stud": 89,
       "smc": 32,
       "ismc": 32,
       "smdc": 1,
@@ -6233,9 +6236,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 596370,
+      "tfhmvt": 23822,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -6280,7 +6283,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 61,
+      "stud": 68,
       "smc": 1,
       "ismc": 6,
       "smdc": 1,
@@ -6347,8 +6350,8 @@
           "p": -6
         }
       ],
-      "mv": 19625474,
-      "tfhmvt": 17593,
+      "mv": 19470545,
+      "tfhmvt": 36401,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -6394,7 +6397,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 89,
+      "stud": 96,
       "smc": 15,
       "ismc": 22,
       "smdc": 1,
@@ -6461,8 +6464,8 @@
           "p": 2
         }
       ],
-      "mv": 716817,
-      "tfhmvt": 29246,
+      "mv": 1184245,
+      "tfhmvt": 89100,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -6508,7 +6511,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 126,
+      "stud": 133,
       "smc": 16,
       "ismc": 25,
       "smdc": 1,
@@ -6665,9 +6668,9 @@
           "p": 8
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 1178335,
+      "tfhmvt": 131942,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -6712,7 +6715,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 59,
+      "stud": 66,
       "smc": 12,
       "ismc": 28,
       "smdc": 1,
@@ -6777,9 +6780,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 879711,
+      "tfhmvt": 142763,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -6824,7 +6827,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 19,
+      "stud": 26,
       "smc": 16,
       "ismc": 23,
       "smdc": 1,
@@ -6889,8 +6892,8 @@
           "hp": false
         }
       ],
-      "mv": 12672122,
-      "tfhmvt": 26906,
+      "mv": 13219798,
+      "tfhmvt": 101897,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -6936,7 +6939,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 30,
+      "stud": 37,
       "smc": 28,
       "ismc": 31,
       "smdc": 1,
@@ -7005,8 +7008,8 @@
           "p": 31
         }
       ],
-      "mv": 23058715,
-      "tfhmvt": 39400,
+      "mv": 23355040,
+      "tfhmvt": 33235,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -7052,7 +7055,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 52,
+      "stud": 59,
       "smc": 29,
       "ismc": 33,
       "smdc": 1,
@@ -7119,8 +7122,8 @@
           "p": 9
         }
       ],
-      "mv": 22557881,
-      "tfhmvt": 158323,
+      "mv": 23333212,
+      "tfhmvt": 69824,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -7166,7 +7169,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 61,
+      "stud": 68,
       "smc": 15,
       "ismc": 21,
       "smdc": 1,
@@ -7233,8 +7236,8 @@
           "p": 115
         }
       ],
-      "mv": 8728319,
-      "tfhmvt": -264819,
+      "mv": 7803533,
+      "tfhmvt": -66897,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -7280,7 +7283,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 119,
+      "stud": 126,
       "smc": 21,
       "ismc": 25,
       "smdc": 1,
@@ -7343,9 +7346,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 950404,
+      "tfhmvt": 126346,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -7390,7 +7393,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 17,
+      "stud": 24,
       "smc": 13,
       "ismc": 13,
       "smdc": 1,
@@ -7457,9 +7460,9 @@
           "p": 58
         }
       ],
-      "mv": 8469482,
-      "tfhmvt": -165337,
-      "mvt": 2,
+      "mv": 8272760,
+      "tfhmvt": 14580,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 2,
@@ -7504,7 +7507,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 24,
+      "stud": 31,
       "smc": 21,
       "ismc": 28,
       "smdc": 1,
@@ -7612,7 +7615,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 11,
+      "stud": 18,
       "smc": 0,
       "ismc": 5,
       "smdc": 1,
@@ -7682,8 +7685,8 @@
           "hp": false
         }
       ],
-      "mv": 5192472,
-      "tfhmvt": 49373,
+      "mv": 5593218,
+      "tfhmvt": 63293,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -7729,7 +7732,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 2,
+      "stud": 9,
       "smc": 15,
       "ismc": 27,
       "smdc": 1,
@@ -7796,9 +7799,9 @@
           "p": 58
         }
       ],
-      "mv": 12798321,
-      "tfhmvt": -20033,
-      "mvt": 2,
+      "mv": 12885232,
+      "tfhmvt": 14763,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 5,
@@ -7843,7 +7846,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 287,
+      "stud": 294,
       "smc": 18,
       "ismc": 24,
       "smdc": 1,
@@ -7908,8 +7911,8 @@
           "hp": false
         }
       ],
-      "mv": 3252650,
-      "tfhmvt": 50738,
+      "mv": 4222758,
+      "tfhmvt": 182664,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -7955,7 +7958,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 24,
+      "stud": 31,
       "smc": 19,
       "ismc": 22,
       "smdc": 1,
@@ -8017,8 +8020,8 @@
           "p": 67
         }
       ],
-      "mv": 9851771,
-      "tfhmvt": -11243,
+      "mv": 10019897,
+      "tfhmvt": 78418,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -8064,7 +8067,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 59,
+      "stud": 66,
       "smc": 24,
       "ismc": 24,
       "smdc": 1,
@@ -8129,8 +8132,8 @@
           "p": 32
         }
       ],
-      "mv": 1960524,
-      "tfhmvt": -149175,
+      "mv": 1152012,
+      "tfhmvt": -81628,
       "mvt": 2,
       "day": 34,
       "r": 1,
@@ -8176,7 +8179,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 12,
       "ismc": 24,
       "smdc": 1,
@@ -8334,9 +8337,9 @@
           "p": 146
         }
       ],
-      "mv": 23733800,
-      "tfhmvt": -362344,
-      "mvt": 2,
+      "mv": 23277345,
+      "tfhmvt": 44530,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -8381,7 +8384,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 2,
+      "stud": 9,
       "smc": 32,
       "ismc": 32,
       "smdc": 1,
@@ -8448,8 +8451,8 @@
           "p": 56
         }
       ],
-      "mv": 1231846,
-      "tfhmvt": -100392,
+      "mv": 737238,
+      "tfhmvt": -48236,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -8495,7 +8498,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 839,
+      "stud": 846,
       "smc": 18,
       "ismc": 24,
       "smdc": 1,
@@ -8563,8 +8566,8 @@
           "p": 205
         }
       ],
-      "mv": 9682111,
-      "tfhmvt": -27351,
+      "mv": 9415029,
+      "tfhmvt": -89355,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -8610,7 +8613,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 1009,
+      "stud": 1016,
       "smc": 21,
       "ismc": 33,
       "smdc": 1,
@@ -8726,7 +8729,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 187,
+      "stud": 194,
       "smc": 2,
       "ismc": 13,
       "smdc": 1,
@@ -8835,7 +8838,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 0,
       "ismc": 2,
       "smdc": 1,
@@ -8900,8 +8903,8 @@
           "p": 62
         }
       ],
-      "mv": 3222530,
-      "tfhmvt": 13195,
+      "mv": 3762650,
+      "tfhmvt": 119918,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -8947,7 +8950,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 68,
+      "stud": 75,
       "smc": 19,
       "ismc": 23,
       "smdc": 1,
@@ -9014,8 +9017,8 @@
           "p": 171
         }
       ],
-      "mv": 16020808,
-      "tfhmvt": 19949,
+      "mv": 16363680,
+      "tfhmvt": 40685,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -9061,7 +9064,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 155,
+      "stud": 162,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -9163,7 +9166,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -9270,7 +9273,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 119,
+      "stud": 126,
       "smc": 4,
       "ismc": 12,
       "smdc": 1,
@@ -9370,7 +9373,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 204,
+      "stud": 211,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -9433,8 +9436,8 @@
           "p": 15
         }
       ],
-      "mv": 6130099,
-      "tfhmvt": 92004,
+      "mv": 7008709,
+      "tfhmvt": 126945,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -9480,7 +9483,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 74,
+      "stud": 81,
       "smc": 14,
       "ismc": 20,
       "smdc": 1,
@@ -9545,8 +9548,8 @@
           "p": 55
         }
       ],
-      "mv": 3613666,
-      "tfhmvt": -7268,
+      "mv": 4107898,
+      "tfhmvt": 115671,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -9592,7 +9595,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 8,
+      "stud": 15,
       "smc": 20,
       "ismc": 28,
       "smdc": 1,
@@ -9661,8 +9664,8 @@
           "p": 94
         }
       ],
-      "mv": 3504508,
-      "tfhmvt": -129114,
+      "mv": 2760995,
+      "tfhmvt": -87718,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -9708,7 +9711,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 108,
+      "stud": 115,
       "smc": 25,
       "ismc": 33,
       "smdc": 1,
@@ -9819,7 +9822,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 13,
       "ismc": 20,
       "smdc": 1,
@@ -9885,8 +9888,8 @@
           "hp": false
         }
       ],
-      "mv": 5593476,
-      "tfhmvt": 168965,
+      "mv": 6115763,
+      "tfhmvt": -6945,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -9932,7 +9935,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 23,
+      "stud": 30,
       "smc": 16,
       "ismc": 22,
       "smdc": 1,
@@ -10001,8 +10004,8 @@
           "p": 94
         }
       ],
-      "mv": 15271925,
-      "tfhmvt": 35928,
+      "mv": 15692061,
+      "tfhmvt": 44606,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -10048,7 +10051,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 215,
+      "stud": 222,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -10117,8 +10120,8 @@
           "p": 37
         }
       ],
-      "mv": 10708979,
-      "tfhmvt": 101298,
+      "mv": 11430877,
+      "tfhmvt": 93527,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -10164,7 +10167,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 257,
+      "stud": 264,
       "smc": 14,
       "ismc": 31,
       "smdc": 1,
@@ -10233,8 +10236,8 @@
           "p": 59
         }
       ],
-      "mv": 1351058,
-      "tfhmvt": -102730,
+      "mv": 1049103,
+      "tfhmvt": -28186,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -10280,7 +10283,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 1334,
+      "stud": 1341,
       "smc": 12,
       "ismc": 31,
       "smdc": 1,
@@ -10439,8 +10442,8 @@
           "hp": false
         }
       ],
-      "mv": 2814188,
-      "tfhmvt": 30140,
+      "mv": 3604556,
+      "tfhmvt": 119706,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -10486,7 +10489,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 101,
+      "stud": 108,
       "smc": 24,
       "ismc": 28,
       "smdc": 1,
@@ -10549,9 +10552,9 @@
           "p": 28
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 843557,
+      "tfhmvt": 78274,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -10596,7 +10599,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 19,
+      "stud": 26,
       "smc": 12,
       "ismc": 20,
       "smdc": 1,
@@ -10705,7 +10708,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 26,
+      "stud": 33,
       "smc": 5,
       "ismc": 12,
       "smdc": 1,
@@ -10769,8 +10772,8 @@
           "p": 190
         }
       ],
-      "mv": 19847188,
-      "tfhmvt": 59407,
+      "mv": 20339377,
+      "tfhmvt": 61548,
       "mvt": 1,
       "day": 34,
       "r": 2,
@@ -10816,7 +10819,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 33,
+      "stud": 40,
       "smc": 26,
       "ismc": 27,
       "smdc": 1,
@@ -10885,8 +10888,8 @@
           "p": 62
         }
       ],
-      "mv": 3550221,
-      "tfhmvt": -129455,
+      "mv": 3003706,
+      "tfhmvt": -47360,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -10932,7 +10935,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 14,
+      "stud": 21,
       "smc": 18,
       "ismc": 25,
       "smdc": 1,
@@ -11042,7 +11045,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 131,
+      "stud": 138,
       "smc": 3,
       "ismc": 10,
       "smdc": 1,
@@ -11200,8 +11203,8 @@
           "p": 54
         }
       ],
-      "mv": 11130316,
-      "tfhmvt": 47177,
+      "mv": 11415749,
+      "tfhmvt": 42921,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -11247,7 +11250,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 171,
+      "stud": 178,
       "smc": 33,
       "ismc": 33,
       "smdc": 1,
@@ -11361,7 +11364,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 18,
+      "stud": 25,
       "smc": 1,
       "ismc": 15,
       "smdc": 1,
@@ -11425,9 +11428,9 @@
           "p": -16
         }
       ],
-      "mv": 626194,
-      "tfhmvt": -7289,
-      "mvt": 1,
+      "mv": 500000,
+      "tfhmvt": 0,
+      "mvt": 0,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -11472,7 +11475,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 10,
+      "stud": 17,
       "smc": 12,
       "ismc": 15,
       "smdc": 1,
@@ -11538,9 +11541,9 @@
           "p": 38
         }
       ],
-      "mv": 4760952,
-      "tfhmvt": -41700,
-      "mvt": 2,
+      "mv": 5085227,
+      "tfhmvt": 94836,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -11585,7 +11588,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 10,
+      "stud": 17,
       "smc": 21,
       "ismc": 24,
       "smdc": 1,
@@ -11650,8 +11653,8 @@
           "p": 111
         }
       ],
-      "mv": 2246438,
-      "tfhmvt": -155829,
+      "mv": 1446223,
+      "tfhmvt": -87304,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -11697,7 +11700,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 7,
       "ismc": 19,
       "smdc": 1,
@@ -11797,7 +11800,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": false,
       "plpt": "Ligainsider",
@@ -12045,9 +12048,9 @@
           "p": 17
         }
       ],
-      "mv": 1478216,
-      "tfhmvt": -116087,
-      "mvt": 2,
+      "mv": 1316318,
+      "tfhmvt": 48903,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 7,
@@ -12092,7 +12095,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 5,
+      "stud": 12,
       "smc": 27,
       "ismc": 29,
       "smdc": 1,
@@ -12158,8 +12161,8 @@
           "p": 0
         }
       ],
-      "mv": 5146984,
-      "tfhmvt": 28480,
+      "mv": 5044356,
+      "tfhmvt": 1084,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -12205,7 +12208,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 29,
       "ismc": 33,
       "smdc": 1,
@@ -12313,7 +12316,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 122,
+      "stud": 129,
       "smc": 15,
       "ismc": 21,
       "smdc": 1,
@@ -12375,9 +12378,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -18829,
-      "mvt": 0,
+      "mv": 988274,
+      "tfhmvt": 106386,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -12422,7 +12425,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 20,
+      "stud": 27,
       "smc": 12,
       "ismc": 20,
       "smdc": 1,
@@ -12489,9 +12492,9 @@
           "p": 23
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -67770,
-      "mvt": 0,
+      "mv": 732912,
+      "tfhmvt": 37369,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -12536,7 +12539,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 10,
+      "stud": 17,
       "smc": 15,
       "ismc": 26,
       "smdc": 1,
@@ -12603,8 +12606,8 @@
           "p": 45
         }
       ],
-      "mv": 4591388,
-      "tfhmvt": 55033,
+      "mv": 5448484,
+      "tfhmvt": 141232,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -12650,7 +12653,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 283,
+      "stud": 290,
       "smc": 32,
       "ismc": 32,
       "smdc": 1,
@@ -12764,7 +12767,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 126,
+      "stud": 133,
       "smc": 13,
       "ismc": 28,
       "smdc": 1,
@@ -12958,7 +12961,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 134,
+      "stud": 141,
       "smc": 9,
       "ismc": 24,
       "smdc": 1,
@@ -13058,7 +13061,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 77,
+      "stud": 84,
       "smdc": 1,
       "sl": false,
       "plpt": "Ligainsider",
@@ -13122,8 +13125,8 @@
           "hp": false
         }
       ],
-      "mv": 4082133,
-      "tfhmvt": 57729,
+      "mv": 4835288,
+      "tfhmvt": 113657,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -13169,7 +13172,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 23,
+      "stud": 30,
       "smc": 20,
       "ismc": 26,
       "smdc": 1,
@@ -13278,7 +13281,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 91,
+      "stud": 98,
       "smc": 3,
       "ismc": 16,
       "smdc": 1,
@@ -13525,9 +13528,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 570897,
+      "tfhmvt": 18062,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 1,
@@ -13572,7 +13575,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 13,
+      "stud": 20,
       "smc": 5,
       "ismc": 11,
       "smdc": 1,
@@ -13637,9 +13640,9 @@
           "hp": false
         }
       ],
-      "mv": 31203960,
-      "tfhmvt": 106359,
-      "mvt": 1,
+      "mv": 31413995,
+      "tfhmvt": -25974,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 6,
@@ -13684,7 +13687,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 18,
+      "stud": 25,
       "smc": 27,
       "ismc": 28,
       "smdc": 1,
@@ -13753,9 +13756,9 @@
           "p": 90
         }
       ],
-      "mv": 2103951,
-      "tfhmvt": -96598,
-      "mvt": 2,
+      "mv": 1751219,
+      "tfhmvt": 17041,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 10,
@@ -13800,7 +13803,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 24,
       "ismc": 26,
       "smdc": 1,
@@ -13867,8 +13870,8 @@
           "p": 57
         }
       ],
-      "mv": 2119956,
-      "tfhmvt": -59690,
+      "mv": 1869401,
+      "tfhmvt": -39647,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -13914,7 +13917,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 89,
+      "stud": 96,
       "smc": 17,
       "ismc": 20,
       "smdc": 1,
@@ -13981,8 +13984,8 @@
           "p": 42
         }
       ],
-      "mv": 22409113,
-      "tfhmvt": 73640,
+      "mv": 22774233,
+      "tfhmvt": 30247,
       "mvt": 1,
       "day": 34,
       "r": 2,
@@ -14028,7 +14031,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 67,
+      "stud": 74,
       "smc": 25,
       "ismc": 29,
       "smdc": 1,
@@ -14093,9 +14096,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 2,
+      "mv": 654046,
+      "tfhmvt": 60674,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -14140,7 +14143,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 160,
+      "stud": 167,
       "smc": 10,
       "ismc": 11,
       "smdc": 1,
@@ -14205,8 +14208,8 @@
           "p": 75
         }
       ],
-      "mv": 7337733,
-      "tfhmvt": 152354,
+      "mv": 8427747,
+      "tfhmvt": 156271,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -14252,7 +14255,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 16,
+      "stud": 23,
       "smc": 24,
       "ismc": 24,
       "smdc": 1,
@@ -14317,9 +14320,9 @@
           "p": 10
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 718631,
+      "tfhmvt": 62780,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 2,
@@ -14364,7 +14367,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 239,
+      "stud": 246,
       "smc": 11,
       "ismc": 23,
       "smdc": 1,
@@ -14464,7 +14467,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 1024,
+      "stud": 1031,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -14528,8 +14531,8 @@
           "hp": false
         }
       ],
-      "mv": 17125311,
-      "tfhmvt": 126413,
+      "mv": 17636282,
+      "tfhmvt": 14663,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -14575,7 +14578,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 227,
+      "stud": 234,
       "smc": 29,
       "ismc": 32,
       "smdc": 1,
@@ -14643,8 +14646,8 @@
           "p": 161
         }
       ],
-      "mv": 29730010,
-      "tfhmvt": 118548,
+      "mv": 30270891,
+      "tfhmvt": 28247,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -14690,7 +14693,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 69,
+      "stud": 76,
       "smc": 23,
       "ismc": 28,
       "smdc": 1,
@@ -14759,8 +14762,8 @@
           "p": 125
         }
       ],
-      "mv": 17892587,
-      "tfhmvt": 73329,
+      "mv": 18685213,
+      "tfhmvt": 93322,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -14806,7 +14809,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 119,
+      "stud": 126,
       "smc": 12,
       "ismc": 18,
       "smdc": 1,
@@ -14875,8 +14878,8 @@
           "p": 194
         }
       ],
-      "mv": 28957003,
-      "tfhmvt": 67510,
+      "mv": 29275273,
+      "tfhmvt": 24148,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -14922,7 +14925,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 80,
+      "stud": 87,
       "smc": 29,
       "ismc": 29,
       "smdc": 1,
@@ -14989,8 +14992,8 @@
           "p": -13
         }
       ],
-      "mv": 13551177,
-      "tfhmvt": 34587,
+      "mv": 13882769,
+      "tfhmvt": 26890,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -15036,7 +15039,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 76,
+      "stud": 83,
       "smc": 18,
       "ismc": 29,
       "smdc": 1,
@@ -15100,9 +15103,9 @@
           "p": 49
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -49267,
-      "mvt": 0,
+      "mv": 1404309,
+      "tfhmvt": 138827,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 2,
@@ -15147,7 +15150,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 9,
+      "stud": 16,
       "smc": 6,
       "ismc": 12,
       "smdc": 1,
@@ -15214,8 +15217,8 @@
           "p": 181
         }
       ],
-      "mv": 33085963,
-      "tfhmvt": 60278,
+      "mv": 33500377,
+      "tfhmvt": 53382,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -15261,7 +15264,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 63,
+      "stud": 70,
       "smc": 31,
       "ismc": 33,
       "smdc": 1,
@@ -15325,9 +15328,9 @@
           "p": 121
         }
       ],
-      "mv": 8371625,
-      "tfhmvt": -52568,
-      "mvt": 2,
+      "mv": 8250641,
+      "tfhmvt": 38206,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 5,
@@ -15372,7 +15375,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 48,
+      "stud": 55,
       "smc": 19,
       "ismc": 23,
       "smdc": 1,
@@ -15439,8 +15442,8 @@
           "p": 79
         }
       ],
-      "mv": 26083818,
-      "tfhmvt": 71461,
+      "mv": 26385837,
+      "tfhmvt": 20394,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -15486,7 +15489,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 79,
+      "stud": 86,
       "smc": 20,
       "ismc": 28,
       "smdc": 1,
@@ -15555,8 +15558,8 @@
           "p": 202
         }
       ],
-      "mv": 45991199,
-      "tfhmvt": 57382,
+      "mv": 46206418,
+      "tfhmvt": 15065,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -15602,7 +15605,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 134,
+      "stud": 141,
       "smc": 29,
       "ismc": 29,
       "smdc": 1,
@@ -15670,8 +15673,8 @@
           "hp": false
         }
       ],
-      "mv": 1106266,
-      "tfhmvt": 34465,
+      "mv": 1122207,
+      "tfhmvt": 26583,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -15717,7 +15720,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 23,
+      "stud": 30,
       "smc": 13,
       "ismc": 20,
       "smdc": 1,
@@ -15780,8 +15783,8 @@
           "p": 83
         }
       ],
-      "mv": 5520753,
-      "tfhmvt": -695320,
+      "mv": 3829780,
+      "tfhmvt": -11559,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -15827,7 +15830,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 10,
       "ismc": 17,
       "smdc": 1,
@@ -15894,8 +15897,8 @@
           "p": 74
         }
       ],
-      "mv": 21658729,
-      "tfhmvt": 131725,
+      "mv": 22250016,
+      "tfhmvt": 49958,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -15941,7 +15944,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 34,
+      "stud": 41,
       "smc": 25,
       "ismc": 28,
       "smdc": 1,
@@ -16010,8 +16013,8 @@
           "p": 89
         }
       ],
-      "mv": 5132414,
-      "tfhmvt": 139272,
+      "mv": 5926013,
+      "tfhmvt": 106331,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -16057,7 +16060,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 243,
+      "stud": 250,
       "smc": 17,
       "ismc": 22,
       "smdc": 1,
@@ -16124,9 +16127,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 635458,
+      "tfhmvt": 42675,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -16171,7 +16174,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 45,
+      "stud": 52,
       "smc": 7,
       "ismc": 18,
       "smdc": 1,
@@ -16280,7 +16283,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 119,
+      "stud": 126,
       "smc": 2,
       "ismc": 6,
       "smdc": 1,
@@ -16350,8 +16353,8 @@
           "p": 16
         }
       ],
-      "mv": 3711494,
-      "tfhmvt": 2120,
+      "mv": 4133444,
+      "tfhmvt": 80842,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -16397,7 +16400,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 2,
+      "stud": 9,
       "smc": 12,
       "ismc": 29,
       "smdc": 1,
@@ -16463,8 +16466,8 @@
           "hp": false
         }
       ],
-      "mv": 5410166,
-      "tfhmvt": 86609,
+      "mv": 5638574,
+      "tfhmvt": 42645,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -16510,7 +16513,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 129,
+      "stud": 136,
       "smc": 16,
       "ismc": 29,
       "smdc": 1,
@@ -16713,7 +16716,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 160,
+      "stud": 167,
       "smc": 12,
       "ismc": 20,
       "smdc": 1,
@@ -16823,7 +16826,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 56,
+      "stud": 63,
       "smc": 2,
       "ismc": 10,
       "smdc": 1,
@@ -16890,8 +16893,8 @@
           "p": 147
         }
       ],
-      "mv": 20668613,
-      "tfhmvt": 64823,
+      "mv": 21154245,
+      "tfhmvt": 43888,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -16937,7 +16940,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 272,
+      "stud": 279,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -17004,8 +17007,8 @@
           "p": 28
         }
       ],
-      "mv": 35864942,
-      "tfhmvt": 85229,
+      "mv": 36128286,
+      "tfhmvt": 6089,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -17051,7 +17054,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 201,
+      "stud": 208,
       "smc": 24,
       "ismc": 32,
       "smdc": 1,
@@ -17159,7 +17162,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 214,
+      "stud": 221,
       "smc": 2,
       "ismc": 2,
       "smdc": 1,
@@ -17220,9 +17223,9 @@
           "hp": false
         }
       ],
-      "mv": 589379,
-      "tfhmvt": -37274,
-      "mvt": 2,
+      "mv": 643089,
+      "tfhmvt": 41713,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -17267,7 +17270,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 3,
       "ismc": 3,
       "smdc": 1,
@@ -17334,8 +17337,8 @@
           "p": 122
         }
       ],
-      "mv": 21027830,
-      "tfhmvt": 143985,
+      "mv": 22020734,
+      "tfhmvt": 114044,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -17381,7 +17384,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 166,
+      "stud": 173,
       "smc": 20,
       "ismc": 33,
       "smdc": 1,
@@ -17447,9 +17450,9 @@
           "p": 28
         }
       ],
-      "mv": 2003619,
-      "tfhmvt": -22567,
-      "mvt": 2,
+      "mv": 2106148,
+      "tfhmvt": 54333,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -17494,7 +17497,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 18,
       "ismc": 27,
       "smdc": 1,
@@ -17558,9 +17561,9 @@
           "p": 126
         }
       ],
-      "mv": 4060164,
-      "tfhmvt": -132366,
-      "mvt": 2,
+      "mv": 3779967,
+      "tfhmvt": 19325,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 5,
@@ -17605,7 +17608,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 16,
+      "stud": 23,
       "smc": 22,
       "ismc": 28,
       "smdc": 1,
@@ -17705,7 +17708,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 103,
+      "stud": 110,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -17770,8 +17773,8 @@
           "p": 33
         }
       ],
-      "mv": 36829832,
-      "tfhmvt": 44650,
+      "mv": 37016483,
+      "tfhmvt": 16491,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -17817,7 +17820,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 82,
+      "stud": 89,
       "smc": 30,
       "ismc": 34,
       "smdc": 1,
@@ -17930,7 +17933,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 37,
+      "stud": 44,
       "smc": 2,
       "ismc": 6,
       "smdc": 1,
@@ -17997,8 +18000,8 @@
           "p": 4
         }
       ],
-      "mv": 24716177,
-      "tfhmvt": 191357,
+      "mv": 25345934,
+      "tfhmvt": 27011,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -18044,7 +18047,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 134,
+      "stud": 141,
       "smc": 17,
       "ismc": 25,
       "smdc": 1,
@@ -18112,8 +18115,8 @@
           "p": 40
         }
       ],
-      "mv": 27756779,
-      "tfhmvt": 95774,
+      "mv": 28116960,
+      "tfhmvt": 20401,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -18159,7 +18162,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 48,
+      "stud": 55,
       "smc": 26,
       "ismc": 32,
       "smdc": 1,
@@ -18225,8 +18228,8 @@
           "p": 86
         }
       ],
-      "mv": 27506725,
-      "tfhmvt": 63909,
+      "mv": 27725361,
+      "tfhmvt": 7383,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -18272,7 +18275,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 74,
+      "stud": 81,
       "smc": 26,
       "ismc": 27,
       "smdc": 1,
@@ -18341,9 +18344,9 @@
           "p": -6
         }
       ],
-      "mv": 3909281,
-      "tfhmvt": -49232,
-      "mvt": 2,
+      "mv": 3836490,
+      "tfhmvt": 26174,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -18388,7 +18391,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 95,
+      "stud": 102,
       "smc": 10,
       "ismc": 27,
       "smdc": 1,
@@ -18488,7 +18491,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 82,
+      "stud": 89,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -18552,8 +18555,8 @@
           "hp": false
         }
       ],
-      "mv": 38850687,
-      "tfhmvt": 42696,
+      "mv": 39281119,
+      "tfhmvt": 48901,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -18599,7 +18602,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 25,
       "ismc": 29,
       "smdc": 1,
@@ -18711,7 +18714,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 59,
+      "stud": 66,
       "smc": 1,
       "ismc": 6,
       "smdc": 1,
@@ -18775,9 +18778,9 @@
           "p": -45
         }
       ],
-      "mv": 3180638,
-      "tfhmvt": -101993,
-      "mvt": 2,
+      "mv": 3392503,
+      "tfhmvt": 115275,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -18822,7 +18825,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 17,
       "ismc": 23,
       "smdc": 1,
@@ -18889,8 +18892,8 @@
           "p": 43
         }
       ],
-      "mv": 9626048,
-      "tfhmvt": 132614,
+      "mv": 10370279,
+      "tfhmvt": 68829,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -18936,7 +18939,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 109,
+      "stud": 116,
       "smc": 22,
       "ismc": 31,
       "smdc": 1,
@@ -19038,7 +19041,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 130,
+      "stud": 137,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -19145,7 +19148,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 11,
+      "stud": 18,
       "smc": 3,
       "ismc": 8,
       "smdc": 1,
@@ -19209,8 +19212,8 @@
           "p": 136
         }
       ],
-      "mv": 7611888,
-      "tfhmvt": 221852,
+      "mv": 8814608,
+      "tfhmvt": 129445,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -19256,7 +19259,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 292,
+      "stud": 299,
       "smc": 14,
       "ismc": 25,
       "smdc": 1,
@@ -19325,8 +19328,8 @@
           "p": 29
         }
       ],
-      "mv": 2156953,
-      "tfhmvt": -84873,
+      "mv": 1947497,
+      "tfhmvt": -18740,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -19372,7 +19375,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 95,
+      "stud": 102,
       "smc": 10,
       "ismc": 14,
       "smdc": 1,
@@ -19437,9 +19440,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -20332,
-      "mvt": 2,
+      "mv": 963007,
+      "tfhmvt": 96959,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 3,
@@ -19484,7 +19487,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 134,
+      "stud": 141,
       "smc": 12,
       "ismc": 24,
       "smdc": 1,
@@ -19591,7 +19594,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 37,
+      "stud": 44,
       "smc": 0,
       "ismc": 3,
       "smdc": 1,
@@ -19653,9 +19656,9 @@
           "p": 22
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 605633,
+      "tfhmvt": 25415,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -19700,7 +19703,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 59,
+      "stud": 66,
       "smc": 5,
       "ismc": 14,
       "smdc": 1,
@@ -19766,9 +19769,9 @@
           "p": 149
         }
       ],
-      "mv": 27783775,
-      "tfhmvt": -50831,
-      "mvt": 2,
+      "mv": 27280614,
+      "tfhmvt": 2113,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 6,
@@ -19813,7 +19816,7 @@
           "t2im": "content/file/9a1bb78d0ccf45f895797c0c6d8c4d40.svg"
         }
       ],
-      "stud": 113,
+      "stud": 120,
       "smc": 19,
       "ismc": 25,
       "smdc": 1,
@@ -19873,9 +19876,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 913874,
+      "tfhmvt": 72398,
+      "mvt": 1,
       "day": 34,
       "mdsum": [
         {
@@ -19918,7 +19921,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 18,
+      "stud": 25,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -19980,9 +19983,9 @@
           "p": 29
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 2,
+      "mv": 885239,
+      "tfhmvt": 66945,
+      "mvt": 1,
       "day": 34,
       "r": 2,
       "y": 4,
@@ -20027,7 +20030,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 38,
+      "stud": 45,
       "smc": 9,
       "ismc": 14,
       "smdc": 1,
@@ -20138,7 +20141,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 3,
+      "stud": 10,
       "smc": 5,
       "ismc": 17,
       "smdc": 1,
@@ -20203,9 +20206,9 @@
           "hp": false
         }
       ],
-      "mv": 12050716,
-      "tfhmvt": 33574,
-      "mvt": 1,
+      "mv": 11825372,
+      "tfhmvt": -53463,
+      "mvt": 2,
       "day": 34,
       "r": 1,
       "y": 9,
@@ -20250,7 +20253,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 18,
+      "stud": 25,
       "smc": 29,
       "ismc": 30,
       "smdc": 1,
@@ -20315,8 +20318,8 @@
           "p": 82
         }
       ],
-      "mv": 5029621,
-      "tfhmvt": 27916,
+      "mv": 5684967,
+      "tfhmvt": 107920,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -20362,7 +20365,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 38,
+      "stud": 45,
       "smc": 19,
       "ismc": 19,
       "smdc": 1,
@@ -20431,8 +20434,8 @@
           "p": 182
         }
       ],
-      "mv": 22702777,
-      "tfhmvt": 32995,
+      "mv": 22836001,
+      "tfhmvt": 10224,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -20478,7 +20481,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 114,
+      "stud": 121,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -20540,9 +20543,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 677543,
+      "tfhmvt": 47852,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -20587,7 +20590,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 12,
+      "stud": 19,
       "smc": 9,
       "ismc": 11,
       "smdc": 1,
@@ -20699,7 +20702,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 53,
+      "stud": 60,
       "smc": 7,
       "ismc": 20,
       "smdc": 1,
@@ -20766,8 +20769,8 @@
           "p": 67
         }
       ],
-      "mv": 10861774,
-      "tfhmvt": 51631,
+      "mv": 11412725,
+      "tfhmvt": 76510,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -20813,7 +20816,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 126,
+      "stud": 133,
       "smc": 32,
       "ismc": 32,
       "smdc": 1,
@@ -20882,8 +20885,8 @@
           "p": 104
         }
       ],
-      "mv": 2943682,
-      "tfhmvt": -75415,
+      "mv": 2601874,
+      "tfhmvt": -42161,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -20929,7 +20932,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 22,
+      "stud": 29,
       "smc": 22,
       "ismc": 33,
       "smdc": 1,
@@ -21031,7 +21034,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -21098,8 +21101,8 @@
           "p": 265
         }
       ],
-      "mv": 22318690,
-      "tfhmvt": 34141,
+      "mv": 22699446,
+      "tfhmvt": 39119,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -21145,7 +21148,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 11,
+      "stud": 18,
       "smc": 29,
       "ismc": 29,
       "smdc": 1,
@@ -21205,9 +21208,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 808252,
+      "tfhmvt": 74032,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -21252,7 +21255,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 32,
+      "stud": 39,
       "smc": 2,
       "ismc": 11,
       "smdc": 1,
@@ -21314,9 +21317,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 719559,
+      "tfhmvt": 58239,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -21361,7 +21364,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 0,
       "ismc": 2,
       "smdc": 1,
@@ -21428,8 +21431,8 @@
           "p": 87
         }
       ],
-      "mv": 6912735,
-      "tfhmvt": 78373,
+      "mv": 7643383,
+      "tfhmvt": 100880,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -21475,7 +21478,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smc": 31,
       "ismc": 31,
       "smdc": 1,
@@ -21544,8 +21547,8 @@
           "p": 87
         }
       ],
-      "mv": 4611552,
-      "tfhmvt": 83889,
+      "mv": 5409321,
+      "tfhmvt": 115139,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -21591,7 +21594,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 75,
+      "stud": 82,
       "smc": 14,
       "ismc": 16,
       "smdc": 1,
@@ -21703,7 +21706,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 63,
+      "stud": 70,
       "smc": 5,
       "ismc": 11,
       "smdc": 1,
@@ -21953,8 +21956,8 @@
           "p": 53
         }
       ],
-      "mv": 981716,
-      "tfhmvt": -116786,
+      "mv": 634363,
+      "tfhmvt": -48340,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -22000,7 +22003,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 200,
+      "stud": 207,
       "smc": 23,
       "ismc": 33,
       "smdc": 1,
@@ -22111,7 +22114,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 58,
+      "stud": 65,
       "smc": 2,
       "ismc": 2,
       "smdc": 1,
@@ -22177,8 +22180,8 @@
           "hp": false
         }
       ],
-      "mv": 735546,
-      "tfhmvt": -14811,
+      "mv": 1213582,
+      "tfhmvt": 89999,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -22224,7 +22227,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 64,
+      "stud": 71,
       "smc": 12,
       "ismc": 26,
       "smdc": 1,
@@ -22332,7 +22335,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 251,
+      "stud": 258,
       "smc": 2,
       "ismc": 15,
       "smdc": 1,
@@ -22396,9 +22399,9 @@
           "p": 108
         }
       ],
-      "mv": 2402488,
-      "tfhmvt": -105388,
-      "mvt": 2,
+      "mv": 2305066,
+      "tfhmvt": 11832,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 3,
@@ -22443,7 +22446,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 36,
+      "stud": 43,
       "smc": 24,
       "ismc": 27,
       "smdc": 1,
@@ -22552,7 +22555,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 5,
+      "stud": 12,
       "smc": 6,
       "ismc": 19,
       "smdc": 1,
@@ -22620,8 +22623,8 @@
           "p": 145
         }
       ],
-      "mv": 4281284,
-      "tfhmvt": -135001,
+      "mv": 3609899,
+      "tfhmvt": -80069,
       "mvt": 2,
       "day": 34,
       "r": 1,
@@ -22667,7 +22670,7 @@
           "t2im": "content/file/dc3d63ae79bf4282a4107bafcd572b99.svg"
         }
       ],
-      "stud": 9,
+      "stud": 16,
       "smc": 29,
       "ismc": 31,
       "smdc": 1,
@@ -22734,8 +22737,8 @@
           "p": 279
         }
       ],
-      "mv": 5510920,
-      "tfhmvt": -135379,
+      "mv": 5063504,
+      "tfhmvt": -109090,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -22843,9 +22846,9 @@
           "p": 24
         }
       ],
-      "mv": 2301052,
-      "tfhmvt": -133735,
-      "mvt": 2,
+      "mv": 2143657,
+      "tfhmvt": 35505,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 5,
@@ -22890,7 +22893,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 19,
+      "stud": 26,
       "smc": 20,
       "ismc": 25,
       "smdc": 1,
@@ -22996,7 +22999,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 0,
       "ismc": 0,
       "smdc": 1,
@@ -23109,7 +23112,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 12,
       "ismc": 19,
       "smdc": 1,
@@ -23219,7 +23222,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 80,
+      "stud": 87,
       "smc": 4,
       "ismc": 13,
       "smdc": 1,
@@ -23284,8 +23287,8 @@
         }
       ],
       "mv": 500000,
-      "tfhmvt": -19382,
-      "mvt": 2,
+      "tfhmvt": 0,
+      "mvt": 0,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -23330,7 +23333,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 62,
+      "stud": 69,
       "smc": 17,
       "ismc": 20,
       "smdc": 1,
@@ -23394,8 +23397,8 @@
           "p": 204
         }
       ],
-      "mv": 3307072,
-      "tfhmvt": -251541,
+      "mv": 2108596,
+      "tfhmvt": -66140,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -23441,7 +23444,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 21,
       "ismc": 25,
       "smdc": 1,
@@ -23549,7 +23552,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 1,
       "ismc": 6,
       "smdc": 1,
@@ -23659,7 +23662,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 5,
       "ismc": 11,
       "smdc": 1,
@@ -23769,7 +23772,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 10,
       "ismc": 11,
       "smdc": 1,
@@ -23836,8 +23839,8 @@
           "p": 96
         }
       ],
-      "mv": 1787654,
-      "tfhmvt": 83873,
+      "mv": 2099897,
+      "tfhmvt": -30011,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -23883,7 +23886,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 2,
+      "stud": 9,
       "smc": 22,
       "ismc": 24,
       "smdc": 1,
@@ -23993,7 +23996,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 8,
       "ismc": 24,
       "smdc": 1,
@@ -24062,8 +24065,8 @@
           "p": 134
         }
       ],
-      "mv": 5321111,
-      "tfhmvt": 155614,
+      "mv": 6291356,
+      "tfhmvt": 107200,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -24109,7 +24112,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 116,
+      "stud": 123,
       "smc": 16,
       "ismc": 30,
       "smdc": 1,
@@ -24175,8 +24178,8 @@
           "p": 35
         }
       ],
-      "mv": 1411295,
-      "tfhmvt": -125259,
+      "mv": 646655,
+      "tfhmvt": -112962,
       "mvt": 2,
       "day": 34,
       "r": 1,
@@ -24222,7 +24225,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 151,
+      "stud": 158,
       "smc": 20,
       "ismc": 22,
       "smdc": 1,
@@ -24332,7 +24335,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 48,
+      "stud": 55,
       "smc": 0,
       "ismc": 1,
       "smdc": 1,
@@ -24435,7 +24438,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 241,
+      "stud": 248,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -24498,8 +24501,8 @@
           "p": 124
         }
       ],
-      "mv": 5646402,
-      "tfhmvt": 113840,
+      "mv": 6404848,
+      "tfhmvt": 85341,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -24545,7 +24548,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 69,
+      "stud": 76,
       "smc": 14,
       "ismc": 16,
       "smdc": 1,
@@ -24610,8 +24613,8 @@
           "hp": false
         }
       ],
-      "mv": 642953,
-      "tfhmvt": 17288,
+      "mv": 784500,
+      "tfhmvt": 44919,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -24657,7 +24660,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 181,
+      "stud": 188,
       "smc": 16,
       "ismc": 28,
       "smdc": 1,
@@ -24722,8 +24725,8 @@
           "p": 125
         }
       ],
-      "mv": 8444276,
-      "tfhmvt": 133209,
+      "mv": 9252586,
+      "tfhmvt": 84538,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -24769,7 +24772,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 199,
+      "stud": 206,
       "smc": 13,
       "ismc": 17,
       "smdc": 1,
@@ -24930,8 +24933,8 @@
           "p": 114
         }
       ],
-      "mv": 14389112,
-      "tfhmvt": 123249,
+      "mv": 14962821,
+      "tfhmvt": 44132,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -24977,7 +24980,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 27,
       "ismc": 31,
       "smdc": 1,
@@ -25046,8 +25049,8 @@
           "p": 154
         }
       ],
-      "mv": 15197576,
-      "tfhmvt": 66325,
+      "mv": 15482316,
+      "tfhmvt": 8510,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -25093,7 +25096,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -25161,8 +25164,8 @@
           "p": 40
         }
       ],
-      "mv": 7455855,
-      "tfhmvt": -168038,
+      "mv": 6231360,
+      "tfhmvt": -248878,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -25208,7 +25211,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 23,
       "ismc": 30,
       "smdc": 1,
@@ -25358,8 +25361,8 @@
           "p": 89
         }
       ],
-      "mv": 11625731,
-      "tfhmvt": 119159,
+      "mv": 12226296,
+      "tfhmvt": 46344,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -25405,7 +25408,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 27,
       "ismc": 29,
       "smdc": 1,
@@ -25507,7 +25510,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -25571,8 +25574,8 @@
           "hp": false
         }
       ],
-      "mv": 1938754,
-      "tfhmvt": 135648,
+      "mv": 2718874,
+      "tfhmvt": 83090,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -25618,7 +25621,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 32,
+      "stud": 39,
       "smc": 20,
       "ismc": 24,
       "smdc": 1,
@@ -25685,8 +25688,8 @@
           "p": 21
         }
       ],
-      "mv": 1670470,
-      "tfhmvt": 157566,
+      "mv": 2508463,
+      "tfhmvt": 90358,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -25732,7 +25735,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 12,
       "ismc": 27,
       "smdc": 1,
@@ -25844,7 +25847,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 111,
+      "stud": 118,
       "smc": 8,
       "ismc": 9,
       "smdc": 1,
@@ -25911,8 +25914,8 @@
           "p": 15
         }
       ],
-      "mv": 1086364,
-      "tfhmvt": 100329,
+      "mv": 1816111,
+      "tfhmvt": 96729,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -25958,7 +25961,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 130,
+      "stud": 137,
       "smc": 12,
       "ismc": 29,
       "smdc": 1,
@@ -26023,8 +26026,8 @@
           "p": 93
         }
       ],
-      "mv": 5764946,
-      "tfhmvt": 58918,
+      "mv": 6509805,
+      "tfhmvt": 86315,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -26070,7 +26073,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 30,
+      "stud": 37,
       "smc": 10,
       "ismc": 11,
       "smdc": 1,
@@ -26229,9 +26232,9 @@
           "p": 49
         }
       ],
-      "mv": 9995038,
-      "tfhmvt": 93185,
-      "mvt": 1,
+      "mv": 9826921,
+      "tfhmvt": -82762,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -26276,7 +26279,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 152,
+      "stud": 159,
       "smc": 19,
       "ismc": 29,
       "smdc": 1,
@@ -26388,7 +26391,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 10,
       "ismc": 26,
       "smdc": 1,
@@ -26457,8 +26460,8 @@
           "p": 274
         }
       ],
-      "mv": 10707734,
-      "tfhmvt": 43537,
+      "mv": 11160579,
+      "tfhmvt": 61095,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -26504,7 +26507,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -26569,9 +26572,9 @@
           "hp": false
         }
       ],
-      "mv": 5811100,
-      "tfhmvt": -237378,
-      "mvt": 2,
+      "mv": 5304236,
+      "tfhmvt": 32365,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 5,
@@ -26616,7 +26619,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 67,
+      "stud": 74,
       "smc": 22,
       "ismc": 24,
       "smdc": 1,
@@ -26811,7 +26814,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 13,
+      "stud": 20,
       "smc": 1,
       "ismc": 7,
       "smdc": 1,
@@ -26911,7 +26914,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -26974,9 +26977,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 2,
+      "mv": 731531,
+      "tfhmvt": 57172,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 5,
@@ -27021,7 +27024,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 18,
       "ismc": 26,
       "smdc": 1,
@@ -27088,8 +27091,8 @@
           "p": 72
         }
       ],
-      "mv": 5509573,
-      "tfhmvt": 136186,
+      "mv": 6501429,
+      "tfhmvt": 141519,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -27135,7 +27138,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 129,
+      "stud": 136,
       "smc": 18,
       "ismc": 28,
       "smdc": 1,
@@ -27295,8 +27298,8 @@
           "p": 41
         }
       ],
-      "mv": 1654311,
-      "tfhmvt": 103734,
+      "mv": 2583517,
+      "tfhmvt": 140433,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -27342,7 +27345,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 203,
+      "stud": 210,
       "smc": 17,
       "ismc": 28,
       "smdc": 1,
@@ -27410,8 +27413,8 @@
           "p": 93
         }
       ],
-      "mv": 5321467,
-      "tfhmvt": 101196,
+      "mv": 6208837,
+      "tfhmvt": 127467,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -27457,7 +27460,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 74,
+      "stud": 81,
       "smc": 31,
       "ismc": 34,
       "smdc": 1,
@@ -27524,8 +27527,8 @@
           "p": 141
         }
       ],
-      "mv": 6509238,
-      "tfhmvt": 88728,
+      "mv": 6947699,
+      "tfhmvt": 37560,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -27571,7 +27574,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 20,
       "ismc": 27,
       "smdc": 1,
@@ -27638,8 +27641,8 @@
           "p": 262
         }
       ],
-      "mv": 11815479,
-      "tfhmvt": 79242,
+      "mv": 12327072,
+      "tfhmvt": 50846,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -27685,7 +27688,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 228,
+      "stud": 235,
       "smc": 28,
       "ismc": 32,
       "smdc": 1,
@@ -27787,7 +27790,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 32,
+      "stud": 39,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -27940,9 +27943,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -38649,
-      "mvt": 2,
+      "mv": 1134298,
+      "tfhmvt": 110484,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 8,
@@ -27987,7 +27990,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 65,
+      "stud": 72,
       "smc": 20,
       "ismc": 23,
       "smdc": 1,
@@ -28054,8 +28057,8 @@
           "p": 189
         }
       ],
-      "mv": 4411199,
-      "tfhmvt": -247671,
+      "mv": 3616255,
+      "tfhmvt": -75187,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -28101,7 +28104,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 25,
       "ismc": 27,
       "smdc": 1,
@@ -28165,8 +28168,8 @@
           "hp": false
         }
       ],
-      "mv": 6063346,
-      "tfhmvt": 175734,
+      "mv": 7138330,
+      "tfhmvt": 152236,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -28212,7 +28215,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 28,
+      "stud": 35,
       "smc": 17,
       "ismc": 18,
       "smdc": 1,
@@ -28280,8 +28283,8 @@
           "p": 42
         }
       ],
-      "mv": 18518310,
-      "tfhmvt": -425052,
+      "mv": 15340868,
+      "tfhmvt": -298255,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -28327,7 +28330,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 25,
       "ismc": 29,
       "smdc": 1,
@@ -28394,8 +28397,8 @@
           "p": 107
         }
       ],
-      "mv": 3614888,
-      "tfhmvt": -7814,
+      "mv": 3838391,
+      "tfhmvt": 46845,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -28441,7 +28444,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 33,
+      "stud": 40,
       "smc": 29,
       "ismc": 33,
       "smdc": 1,
@@ -28640,7 +28643,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 59,
+      "stud": 66,
       "smc": 0,
       "ismc": 6,
       "smdc": 1,
@@ -28749,7 +28752,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 1,
       "ismc": 8,
       "smdc": 1,
@@ -28816,8 +28819,8 @@
           "p": 119
         }
       ],
-      "mv": 16301264,
-      "tfhmvt": 75284,
+      "mv": 16806980,
+      "tfhmvt": 50727,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -28863,7 +28866,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 222,
+      "stud": 229,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -28970,7 +28973,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 73,
+      "stud": 80,
       "smc": 0,
       "ismc": 16,
       "smdc": 1,
@@ -29038,9 +29041,9 @@
           "p": 37
         }
       ],
-      "mv": 9049816,
-      "tfhmvt": -190209,
-      "mvt": 2,
+      "mv": 8922797,
+      "tfhmvt": 32072,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 5,
@@ -29085,7 +29088,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 125,
+      "stud": 132,
       "smc": 16,
       "ismc": 33,
       "smdc": 1,
@@ -29154,8 +29157,8 @@
           "p": 239
         }
       ],
-      "mv": 28247310,
-      "tfhmvt": 103324,
+      "mv": 28628520,
+      "tfhmvt": 15635,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -29201,7 +29204,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 26,
       "ismc": 34,
       "smdc": 1,
@@ -29269,8 +29272,8 @@
           "p": 80
         }
       ],
-      "mv": 12756635,
-      "tfhmvt": 131949,
+      "mv": 13400361,
+      "tfhmvt": 57787,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -29316,7 +29319,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 23,
+      "stud": 30,
       "smc": 26,
       "ismc": 29,
       "smdc": 1,
@@ -29383,8 +29386,8 @@
           "p": 150
         }
       ],
-      "mv": 22691933,
-      "tfhmvt": 130964,
+      "mv": 23219719,
+      "tfhmvt": 38819,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -29430,7 +29433,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 261,
+      "stud": 268,
       "smc": 18,
       "ismc": 25,
       "smdc": 1,
@@ -29499,8 +29502,8 @@
           "p": 72
         }
       ],
-      "mv": 16714048,
-      "tfhmvt": 100077,
+      "mv": 17096036,
+      "tfhmvt": 19662,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -29546,7 +29549,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 80,
+      "stud": 87,
       "smc": 24,
       "ismc": 29,
       "smdc": 1,
@@ -29648,7 +29651,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 1253,
+      "stud": 1260,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -29713,8 +29716,8 @@
           "p": 57
         }
       ],
-      "mv": 27985425,
-      "tfhmvt": 58783,
+      "mv": 28224079,
+      "tfhmvt": 16829,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -29760,7 +29763,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 450,
+      "stud": 457,
       "smc": 31,
       "ismc": 33,
       "smdc": 1,
@@ -29916,9 +29919,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 700616,
+      "tfhmvt": 48841,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -29963,7 +29966,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 23,
+      "stud": 30,
       "smc": 0,
       "ismc": 5,
       "smdc": 1,
@@ -30071,7 +30074,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 62,
+      "stud": 69,
       "smc": 2,
       "ismc": 15,
       "smdc": 1,
@@ -30181,7 +30184,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 76,
+      "stud": 83,
       "smc": 1,
       "ismc": 22,
       "smdc": 1,
@@ -30248,8 +30251,8 @@
           "p": 120
         }
       ],
-      "mv": 19163060,
-      "tfhmvt": 157934,
+      "mv": 19837440,
+      "tfhmvt": 43798,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -30295,7 +30298,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 44,
+      "stud": 51,
       "smc": 28,
       "ismc": 30,
       "smdc": 1,
@@ -30364,8 +30367,8 @@
           "p": 19
         }
       ],
-      "mv": 1918923,
-      "tfhmvt": -84511,
+      "mv": 1493974,
+      "tfhmvt": -55565,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -30411,7 +30414,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 12,
       "ismc": 32,
       "smdc": 1,
@@ -30478,8 +30481,8 @@
           "p": 112
         }
       ],
-      "mv": 28234962,
-      "tfhmvt": 88970,
+      "mv": 28575185,
+      "tfhmvt": 23931,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -30525,7 +30528,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -30592,9 +30595,9 @@
           "p": 17
         }
       ],
-      "mv": 4302998,
-      "tfhmvt": -62622,
-      "mvt": 2,
+      "mv": 4323137,
+      "tfhmvt": 37393,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 5,
@@ -30639,7 +30642,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 94,
+      "stud": 101,
       "smc": 26,
       "ismc": 29,
       "smdc": 1,
@@ -30741,7 +30744,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -30849,7 +30852,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 3,
+      "stud": 10,
       "smc": 0,
       "ismc": 8,
       "smdc": 1,
@@ -30912,8 +30915,8 @@
           "p": 128
         }
       ],
-      "mv": 2799568,
-      "tfhmvt": -131535,
+      "mv": 2270475,
+      "tfhmvt": -71875,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -30959,7 +30962,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 11,
       "ismc": 15,
       "smdc": 1,
@@ -31109,8 +31112,8 @@
           "p": 33
         }
       ],
-      "mv": 2926275,
-      "tfhmvt": 194136,
+      "mv": 3854507,
+      "tfhmvt": 57030,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -31156,7 +31159,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 37,
+      "stud": 44,
       "smc": 15,
       "ismc": 16,
       "smdc": 1,
@@ -31225,8 +31228,8 @@
           "p": 34
         }
       ],
-      "mv": 26054896,
-      "tfhmvt": 87572,
+      "mv": 26311771,
+      "tfhmvt": 6133,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -31272,7 +31275,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 127,
+      "stud": 134,
       "smc": 29,
       "ismc": 30,
       "smdc": 1,
@@ -31381,7 +31384,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 3,
+      "stud": 10,
       "smc": 1,
       "ismc": 1,
       "smdc": 1,
@@ -31448,8 +31451,8 @@
           "p": 88
         }
       ],
-      "mv": 17254621,
-      "tfhmvt": 135480,
+      "mv": 17819831,
+      "tfhmvt": 36742,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -31495,7 +31498,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 44,
+      "stud": 51,
       "smc": 32,
       "ismc": 33,
       "smdc": 1,
@@ -31564,8 +31567,8 @@
           "p": 85
         }
       ],
-      "mv": 25992841,
-      "tfhmvt": 110943,
+      "mv": 26325250,
+      "tfhmvt": 17021,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -31611,7 +31614,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 23,
+      "stud": 30,
       "smc": 30,
       "ismc": 30,
       "smdc": 1,
@@ -31680,8 +31683,8 @@
           "p": 81
         }
       ],
-      "mv": 4580400,
-      "tfhmvt": 31063,
+      "mv": 4837093,
+      "tfhmvt": 49075,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -31727,7 +31730,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 15,
       "ismc": 29,
       "smdc": 1,
@@ -31788,9 +31791,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -5532,
-      "mvt": 2,
+      "mv": 1615614,
+      "tfhmvt": 209800,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -31835,7 +31838,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 0,
       "ismc": 3,
       "smdc": 1,
@@ -31944,7 +31947,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 31,
+      "stud": 38,
       "smc": 1,
       "ismc": 6,
       "smdc": 1,
@@ -32010,8 +32013,8 @@
           "p": 133
         }
       ],
-      "mv": 20561825,
-      "tfhmvt": 80603,
+      "mv": 21092217,
+      "tfhmvt": 38432,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -32057,7 +32060,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 60,
+      "stud": 67,
       "smc": 33,
       "ismc": 33,
       "smdc": 1,
@@ -32126,8 +32129,8 @@
           "p": 81
         }
       ],
-      "mv": 17732950,
-      "tfhmvt": 62457,
+      "mv": 18241309,
+      "tfhmvt": 57518,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -32173,7 +32176,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 315,
+      "stud": 322,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -32239,9 +32242,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 1012383,
+      "tfhmvt": 136716,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -32286,7 +32289,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 33,
+      "stud": 40,
       "smc": 3,
       "ismc": 8,
       "smdc": 1,
@@ -32393,7 +32396,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 153,
+      "stud": 160,
       "smc": 11,
       "ismc": 17,
       "smdc": 1,
@@ -32460,8 +32463,8 @@
           "p": 55
         }
       ],
-      "mv": 10016342,
-      "tfhmvt": 54015,
+      "mv": 10295204,
+      "tfhmvt": 34006,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -32507,7 +32510,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 102,
+      "stud": 109,
       "smc": 29,
       "ismc": 30,
       "smdc": 1,
@@ -32619,7 +32622,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 79,
+      "stud": 86,
       "smc": 4,
       "ismc": 19,
       "smdc": 1,
@@ -32775,8 +32778,8 @@
           "p": 51
         }
       ],
-      "mv": 2233981,
-      "tfhmvt": -133261,
+      "mv": 1827847,
+      "tfhmvt": 3923,
       "mvt": 2,
       "day": 34,
       "r": 2,
@@ -32822,7 +32825,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 26,
+      "stud": 33,
       "smc": 20,
       "ismc": 26,
       "smdc": 1,
@@ -32888,9 +32891,9 @@
           "p": 75
         }
       ],
-      "mv": 8819020,
-      "tfhmvt": -280403,
-      "mvt": 2,
+      "mv": 7488228,
+      "tfhmvt": 55542,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 8,
@@ -32935,7 +32938,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 31,
       "ismc": 31,
       "smdc": 1,
@@ -33002,8 +33005,8 @@
           "p": 137
         }
       ],
-      "mv": 5163934,
-      "tfhmvt": -2308,
+      "mv": 5457445,
+      "tfhmvt": 69157,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -33049,7 +33052,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 248,
+      "stud": 255,
       "smc": 29,
       "ismc": 32,
       "smdc": 1,
@@ -33115,9 +33118,9 @@
           "p": 19
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -1498,
-      "mvt": 2,
+      "mv": 806463,
+      "tfhmvt": 48046,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -33162,7 +33165,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 135,
+      "stud": 142,
       "smc": 8,
       "ismc": 15,
       "smdc": 1,
@@ -33322,9 +33325,9 @@
           "p": -10
         }
       ],
-      "mv": 3322081,
-      "tfhmvt": -28230,
-      "mvt": 2,
+      "mv": 3763171,
+      "tfhmvt": 99037,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 7,
@@ -33369,7 +33372,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 29,
       "ismc": 31,
       "smdc": 1,
@@ -33481,7 +33484,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 179,
+      "stud": 186,
       "smc": 14,
       "ismc": 23,
       "smdc": 1,
@@ -33584,7 +33587,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -33682,7 +33685,7 @@
           "t2im": "content/file/c9b7d8772f324f9badeb285af4c5810a.svg"
         }
       ],
-      "stud": 160,
+      "stud": 167,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -33793,7 +33796,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 151,
+      "stud": 158,
       "smc": 9,
       "ismc": 32,
       "smdc": 1,
@@ -33860,8 +33863,8 @@
           "p": 2
         }
       ],
-      "mv": 11116207,
-      "tfhmvt": -163808,
+      "mv": 8760327,
+      "tfhmvt": -245261,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -33907,7 +33910,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 24,
       "ismc": 28,
       "smdc": 1,
@@ -33943,8 +33946,11 @@
       "tid": "15",
       "tn": "M'gladbach",
       "oui": "0",
-      "st": 0,
-      "stl": [],
+      "st": 1,
+      "stl": [
+        1
+      ],
+      "stxt": "Metatarsal fracture – World Cup participation in doubt",
       "pos": 4,
       "iposl": false,
       "tp": 2449,
@@ -33975,9 +33981,9 @@
           "p": 29
         }
       ],
-      "mv": 19141881,
-      "tfhmvt": 10221,
-      "mvt": 1,
+      "mv": 18437245,
+      "tfhmvt": -347218,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 5,
@@ -34022,14 +34028,14 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 4,
+      "stud": 6,
       "smc": 28,
       "ismc": 32,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
       "plpurl": "content/file/ef187fece16544febb50bd330706fd7d.png",
-      "dt": "2026-05-14T11:53:58Z",
+      "dt": "2026-05-19T12:46:00Z",
       "opl": [
         {
           "li": "5378755",
@@ -34124,7 +34130,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 19,
+      "stud": 26,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -34190,8 +34196,8 @@
           "p": 72
         }
       ],
-      "mv": 15438921,
-      "tfhmvt": 71243,
+      "mv": 15932512,
+      "tfhmvt": 68132,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -34237,7 +34243,7 @@
           "t2im": "content/file/5212904732a04199aab426e44067347c.svg"
         }
       ],
-      "stud": 19,
+      "stud": 26,
       "smc": 28,
       "ismc": 30,
       "smdc": 1,
@@ -34306,8 +34312,8 @@
           "p": 112
         }
       ],
-      "mv": 8855585,
-      "tfhmvt": 37301,
+      "mv": 9127930,
+      "tfhmvt": 39534,
       "mvt": 1,
       "day": 34,
       "r": 2,
@@ -34353,7 +34359,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 225,
+      "stud": 232,
       "smc": 28,
       "ismc": 29,
       "smdc": 1,
@@ -34460,7 +34466,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 47,
+      "stud": 54,
       "smc": 13,
       "ismc": 18,
       "smdc": 1,
@@ -34526,8 +34532,8 @@
           "p": 95
         }
       ],
-      "mv": 8522010,
-      "tfhmvt": 71913,
+      "mv": 9355443,
+      "tfhmvt": 130033,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -34573,7 +34579,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 21,
       "ismc": 21,
       "smdc": 1,
@@ -34640,9 +34646,9 @@
           "p": 86
         }
       ],
-      "mv": 8144811,
-      "tfhmvt": -400497,
-      "mvt": 2,
+      "mv": 7491330,
+      "tfhmvt": 12289,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -34687,7 +34693,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 2,
+      "stud": 9,
       "smc": 30,
       "ismc": 34,
       "smdc": 1,
@@ -34750,9 +34756,9 @@
           "hp": false
         }
       ],
-      "mv": 1000851,
-      "tfhmvt": -112045,
-      "mvt": 2,
+      "mv": 1028593,
+      "tfhmvt": 75445,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 2,
@@ -34797,7 +34803,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 10,
       "ismc": 10,
       "smdc": 1,
@@ -34862,8 +34868,8 @@
           "p": 229
         }
       ],
-      "mv": 28758864,
-      "tfhmvt": 54734,
+      "mv": 29115655,
+      "tfhmvt": 39966,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -34909,7 +34915,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 24,
       "ismc": 26,
       "smdc": 1,
@@ -34978,8 +34984,8 @@
           "p": 57
         }
       ],
-      "mv": 4839242,
-      "tfhmvt": 73028,
+      "mv": 5357137,
+      "tfhmvt": 68909,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -35025,7 +35031,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 32,
+      "stud": 39,
       "smc": 24,
       "ismc": 29,
       "smdc": 1,
@@ -35137,7 +35143,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 91,
+      "stud": 98,
       "smc": 4,
       "ismc": 21,
       "smdc": 1,
@@ -35203,9 +35209,9 @@
           "hp": false
         }
       ],
-      "mv": 1708549,
-      "tfhmvt": -99673,
-      "mvt": 2,
+      "mv": 1532432,
+      "tfhmvt": 9893,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -35250,7 +35256,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 8,
+      "stud": 15,
       "smc": 26,
       "ismc": 28,
       "smdc": 1,
@@ -35360,7 +35366,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 20,
+      "stud": 27,
       "smc": 2,
       "ismc": 3,
       "smdc": 1,
@@ -35427,8 +35433,8 @@
           "p": 89
         }
       ],
-      "mv": 14941033,
-      "tfhmvt": 55295,
+      "mv": 15338030,
+      "tfhmvt": 29885,
       "mvt": 1,
       "day": 34,
       "r": 2,
@@ -35474,7 +35480,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 24,
       "ismc": 30,
       "smdc": 1,
@@ -35587,7 +35593,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 97,
+      "stud": 104,
       "smc": 3,
       "ismc": 22,
       "smdc": 1,
@@ -35694,7 +35700,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 1524,
+      "stud": 1531,
       "smc": 3,
       "ismc": 4,
       "smdc": 1,
@@ -35760,8 +35766,8 @@
           "p": 26
         }
       ],
-      "mv": 1446470,
-      "tfhmvt": -60708,
+      "mv": 1078830,
+      "tfhmvt": -74868,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -35807,7 +35813,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 22,
       "ismc": 27,
       "smdc": 1,
@@ -35964,8 +35970,8 @@
           "p": 112
         }
       ],
-      "mv": 2685881,
-      "tfhmvt": -78028,
+      "mv": 2289868,
+      "tfhmvt": -53091,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -36011,7 +36017,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 6,
       "ismc": 10,
       "smdc": 1,
@@ -36123,7 +36129,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 76,
+      "stud": 83,
       "smc": 3,
       "ismc": 24,
       "smdc": 1,
@@ -36230,7 +36236,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 40,
+      "stud": 47,
       "smc": 8,
       "ismc": 13,
       "smdc": 1,
@@ -36340,7 +36346,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 105,
+      "stud": 112,
       "smc": 13,
       "ismc": 14,
       "smdc": 1,
@@ -36449,7 +36455,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 76,
+      "stud": 83,
       "smc": 6,
       "ismc": 21,
       "smdc": 1,
@@ -36516,9 +36522,9 @@
           "p": 90
         }
       ],
-      "mv": 16305186,
-      "tfhmvt": 53881,
-      "mvt": 1,
+      "mv": 16115687,
+      "tfhmvt": -103577,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -36563,7 +36569,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 293,
+      "stud": 300,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -36759,7 +36765,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -36947,7 +36953,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 76,
+      "stud": 83,
       "smc": 3,
       "ismc": 10,
       "smdc": 1,
@@ -37058,7 +37064,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 128,
+      "stud": 135,
       "smc": 2,
       "ismc": 9,
       "smdc": 1,
@@ -37158,7 +37164,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 151,
+      "stud": 158,
       "smdc": 1,
       "sl": false,
       "plpt": "Ligainsider",
@@ -37222,9 +37228,9 @@
           "p": 96
         }
       ],
-      "mv": 946131,
-      "tfhmvt": -170335,
-      "mvt": 2,
+      "mv": 524150,
+      "tfhmvt": 22739,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -37269,7 +37275,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 139,
+      "stud": 146,
       "smc": 7,
       "ismc": 24,
       "smdc": 1,
@@ -37377,7 +37383,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 90,
+      "stud": 97,
       "smc": 5,
       "ismc": 9,
       "smdc": 1,
@@ -37444,8 +37450,8 @@
           "p": 130
         }
       ],
-      "mv": 12854869,
-      "tfhmvt": 28310,
+      "mv": 13185238,
+      "tfhmvt": 36123,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -37491,7 +37497,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 151,
+      "stud": 158,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -37602,7 +37608,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 60,
+      "stud": 67,
       "smc": 2,
       "ismc": 15,
       "smdc": 1,
@@ -37665,9 +37671,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 701369,
+      "tfhmvt": 65211,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -37712,7 +37718,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 98,
+      "stud": 105,
       "smc": 8,
       "ismc": 8,
       "smdc": 1,
@@ -37777,9 +37783,9 @@
           "p": 34
         }
       ],
-      "mv": 624400,
-      "tfhmvt": -37620,
-      "mvt": 2,
+      "mv": 537847,
+      "tfhmvt": 26599,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -37824,7 +37830,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 74,
+      "stud": 81,
       "smc": 9,
       "ismc": 24,
       "smdc": 1,
@@ -37927,7 +37933,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 153,
+      "stud": 160,
       "smdc": 1,
       "sl": false,
       "plpt": "Ligainsider",
@@ -37989,9 +37995,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -69971,
-      "mvt": 0,
+      "mv": 784157,
+      "tfhmvt": 75414,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -38036,7 +38042,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 19,
       "ismc": 26,
       "smdc": 1,
@@ -38136,7 +38142,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": false,
       "plpt": "Ligainsider",
@@ -38201,8 +38207,8 @@
           "p": 42
         }
       ],
-      "mv": 2088129,
-      "tfhmvt": 57521,
+      "mv": 2771692,
+      "tfhmvt": 125848,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -38248,7 +38254,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 101,
+      "stud": 108,
       "smc": 18,
       "ismc": 32,
       "smdc": 1,
@@ -38316,9 +38322,9 @@
           "p": 115
         }
       ],
-      "mv": 6632155,
-      "tfhmvt": -61163,
-      "mvt": 2,
+      "mv": 7150914,
+      "tfhmvt": 132474,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 10,
@@ -38363,7 +38369,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 300,
+      "stud": 307,
       "smc": 30,
       "ismc": 31,
       "smdc": 1,
@@ -38429,9 +38435,9 @@
           "p": 39
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 692103,
+      "tfhmvt": 52969,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -38476,7 +38482,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 62,
+      "stud": 69,
       "smc": 20,
       "ismc": 26,
       "smdc": 1,
@@ -38542,9 +38548,9 @@
           "p": 19
         }
       ],
-      "mv": 3375956,
-      "tfhmvt": -129639,
-      "mvt": 2,
+      "mv": 3075669,
+      "tfhmvt": 30044,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 3,
@@ -38589,7 +38595,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 18,
       "ismc": 29,
       "smdc": 1,
@@ -38656,8 +38662,8 @@
           "p": 138
         }
       ],
-      "mv": 20648198,
-      "tfhmvt": -442883,
+      "mv": 19389019,
+      "tfhmvt": -138905,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -38703,7 +38709,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 60,
+      "stud": 67,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -38810,7 +38816,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 62,
+      "stud": 69,
       "smc": 9,
       "ismc": 15,
       "smdc": 1,
@@ -38877,8 +38883,8 @@
           "p": 149
         }
       ],
-      "mv": 4619747,
-      "tfhmvt": -102031,
+      "mv": 4321831,
+      "tfhmvt": -29999,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -38924,7 +38930,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 201,
+      "stud": 208,
       "smc": 20,
       "ismc": 25,
       "smdc": 1,
@@ -38992,8 +38998,8 @@
           "p": 55
         }
       ],
-      "mv": 2355411,
-      "tfhmvt": -95254,
+      "mv": 1914338,
+      "tfhmvt": -53581,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -39039,7 +39045,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 90,
+      "stud": 97,
       "smc": 21,
       "ismc": 31,
       "smdc": 1,
@@ -39106,9 +39112,9 @@
           "p": 55
         }
       ],
-      "mv": 20619127,
-      "tfhmvt": -9070,
-      "mvt": 2,
+      "mv": 20748763,
+      "tfhmvt": 25934,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -39153,7 +39159,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 38,
+      "stud": 45,
       "smc": 20,
       "ismc": 34,
       "smdc": 1,
@@ -39357,7 +39363,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 41,
+      "stud": 48,
       "smc": 13,
       "ismc": 16,
       "smdc": 1,
@@ -39422,8 +39428,8 @@
           "p": 45
         }
       ],
-      "mv": 1880382,
-      "tfhmvt": -73402,
+      "mv": 1591734,
+      "tfhmvt": -51136,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -39469,7 +39475,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 69,
+      "stud": 76,
       "smc": 28,
       "ismc": 31,
       "smdc": 1,
@@ -39536,8 +39542,8 @@
           "p": 33
         }
       ],
-      "mv": 1842417,
-      "tfhmvt": -62574,
+      "mv": 1540948,
+      "tfhmvt": -78409,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -39583,7 +39589,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 13,
+      "stud": 20,
       "smc": 26,
       "ismc": 33,
       "smdc": 1,
@@ -39645,8 +39651,8 @@
           "hp": false
         }
       ],
-      "mv": 918470,
-      "tfhmvt": -129854,
+      "mv": 534336,
+      "tfhmvt": -23150,
       "mvt": 2,
       "day": 34,
       "r": 1,
@@ -39692,7 +39698,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 13,
+      "stud": 20,
       "smc": 12,
       "ismc": 14,
       "smdc": 1,
@@ -39756,8 +39762,8 @@
           "p": 40
         }
       ],
-      "mv": 1568811,
-      "tfhmvt": -121080,
+      "mv": 1101803,
+      "tfhmvt": -66724,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -39803,7 +39809,7 @@
           "t2im": "content/file/dca70c4089fd4623932b245c0e81eaba.svg"
         }
       ],
-      "stud": 45,
+      "stud": 52,
       "smc": 7,
       "ismc": 14,
       "smdc": 1,
@@ -39872,9 +39878,9 @@
           "p": 125
         }
       ],
-      "mv": 6559420,
-      "tfhmvt": 2868,
-      "mvt": 1,
+      "mv": 5994204,
+      "tfhmvt": -251554,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -39919,7 +39925,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 29,
       "ismc": 30,
       "smdc": 1,
@@ -39985,8 +39991,8 @@
           "p": 71
         }
       ],
-      "mv": 552545,
-      "tfhmvt": 485,
+      "mv": 629662,
+      "tfhmvt": 15204,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -40032,7 +40038,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 12,
       "ismc": 21,
       "smdc": 1,
@@ -40132,7 +40138,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -40197,8 +40203,8 @@
           "p": 100
         }
       ],
-      "mv": 4603370,
-      "tfhmvt": 89333,
+      "mv": 5133772,
+      "tfhmvt": 26502,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -40244,7 +40250,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 34,
+      "stud": 41,
       "smc": 18,
       "ismc": 24,
       "smdc": 1,
@@ -40311,8 +40317,8 @@
           "p": 52
         }
       ],
-      "mv": 8541488,
-      "tfhmvt": 80502,
+      "mv": 8881088,
+      "tfhmvt": 19808,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -40358,7 +40364,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -40425,8 +40431,8 @@
           "hp": false
         }
       ],
-      "mv": 4530147,
-      "tfhmvt": -179155,
+      "mv": 3351084,
+      "tfhmvt": -137447,
       "mvt": 2,
       "day": 34,
       "r": 1,
@@ -40472,7 +40478,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 26,
       "ismc": 27,
       "smdc": 1,
@@ -40581,7 +40587,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 14,
       "ismc": 19,
       "smdc": 1,
@@ -40681,7 +40687,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -40793,7 +40799,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 89,
+      "stud": 96,
       "smc": 3,
       "ismc": 25,
       "smdc": 1,
@@ -40907,7 +40913,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 12,
       "ismc": 17,
       "smdc": 1,
@@ -41066,8 +41072,8 @@
           "p": 105
         }
       ],
-      "mv": 1309602,
-      "tfhmvt": -119910,
+      "mv": 549654,
+      "tfhmvt": -120515,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -41113,7 +41119,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 22,
       "ismc": 23,
       "smdc": 1,
@@ -41179,8 +41185,8 @@
           "p": 57
         }
       ],
-      "mv": 4832074,
-      "tfhmvt": -205591,
+      "mv": 4127602,
+      "tfhmvt": -127268,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -41226,7 +41232,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 115,
+      "stud": 122,
       "smc": 23,
       "ismc": 30,
       "smdc": 1,
@@ -41423,7 +41429,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 131,
+      "stud": 138,
       "smc": 14,
       "ismc": 29,
       "smdc": 1,
@@ -41531,7 +41537,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 200,
+      "stud": 207,
       "smc": 0,
       "ismc": 1,
       "smdc": 1,
@@ -41640,7 +41646,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 17,
       "ismc": 23,
       "smdc": 1,
@@ -41752,7 +41758,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 23,
       "ismc": 24,
       "smdc": 1,
@@ -41865,7 +41871,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 235,
+      "stud": 242,
       "smc": 0,
       "ismc": 20,
       "smdc": 1,
@@ -41968,7 +41974,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -42032,8 +42038,8 @@
           "hp": false
         }
       ],
-      "mv": 2481182,
-      "tfhmvt": 54324,
+      "mv": 2741071,
+      "tfhmvt": 4078,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -42079,7 +42085,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 73,
+      "stud": 80,
       "smc": 31,
       "ismc": 32,
       "smdc": 1,
@@ -42181,7 +42187,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 293,
+      "stud": 300,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -42287,7 +42293,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 6,
+      "stud": 13,
       "smc": 3,
       "ismc": 9,
       "smdc": 1,
@@ -42353,8 +42359,8 @@
           "p": 67
         }
       ],
-      "mv": 1153787,
-      "tfhmvt": -136288,
+      "mv": 500000,
+      "tfhmvt": -43380,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -42400,7 +42406,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 25,
       "ismc": 28,
       "smdc": 1,
@@ -42467,8 +42473,8 @@
           "p": 36
         }
       ],
-      "mv": 854229,
-      "tfhmvt": 51975,
+      "mv": 1144092,
+      "tfhmvt": 19623,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -42514,7 +42520,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 172,
+      "stud": 179,
       "smc": 30,
       "ismc": 31,
       "smdc": 1,
@@ -42581,9 +42587,9 @@
           "p": 19
         }
       ],
-      "mv": 630107,
-      "tfhmvt": 20035,
-      "mvt": 1,
+      "mv": 631818,
+      "tfhmvt": -50370,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 2,
@@ -42628,7 +42634,7 @@
           "t2im": "content/file/f23d72a0cf2d48a2a29ede777110aece.svg"
         }
       ],
-      "stud": 43,
+      "stud": 50,
       "smc": 15,
       "ismc": 21,
       "smdc": 1,
@@ -42697,9 +42703,9 @@
           "p": 6
         }
       ],
-      "mv": 3856843,
-      "tfhmvt": -36261,
-      "mvt": 2,
+      "mv": 3893997,
+      "tfhmvt": 23840,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 7,
@@ -42744,7 +42750,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 2,
+      "stud": 9,
       "smc": 32,
       "ismc": 32,
       "smdc": 1,
@@ -42812,7 +42818,7 @@
       ],
       "mv": 500000,
       "tfhmvt": 0,
-      "mvt": 2,
+      "mvt": 0,
       "day": 34,
       "r": 0,
       "y": 8,
@@ -42857,7 +42863,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smc": 20,
       "ismc": 28,
       "smdc": 1,
@@ -42926,8 +42932,8 @@
           "p": 139
         }
       ],
-      "mv": 2950574,
-      "tfhmvt": 126569,
+      "mv": 3797636,
+      "tfhmvt": 117227,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -42973,7 +42979,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 95,
+      "stud": 102,
       "smc": 21,
       "ismc": 29,
       "smdc": 1,
@@ -43042,9 +43048,9 @@
           "p": 79
         }
       ],
-      "mv": 2070789,
-      "tfhmvt": -128994,
-      "mvt": 2,
+      "mv": 1657722,
+      "tfhmvt": 24983,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 2,
@@ -43089,7 +43095,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 20,
+      "stud": 27,
       "smc": 30,
       "ismc": 30,
       "smdc": 1,
@@ -43200,7 +43206,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 18,
+      "stud": 25,
       "smc": 13,
       "ismc": 28,
       "smdc": 1,
@@ -43267,8 +43273,8 @@
           "p": 107
         }
       ],
-      "mv": 1775182,
-      "tfhmvt": 96270,
+      "mv": 2583158,
+      "tfhmvt": 121565,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -43314,7 +43320,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 210,
+      "stud": 217,
       "smc": 22,
       "ismc": 29,
       "smdc": 1,
@@ -43426,7 +43432,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 111,
+      "stud": 118,
       "smc": 4,
       "ismc": 22,
       "smdc": 1,
@@ -43533,7 +43539,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 45,
+      "stud": 52,
       "smc": 3,
       "ismc": 3,
       "smdc": 1,
@@ -43598,8 +43604,8 @@
           "p": 18
         }
       ],
-      "mv": 2091258,
-      "tfhmvt": 101498,
+      "mv": 3078690,
+      "tfhmvt": 144336,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -43645,7 +43651,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 66,
+      "stud": 73,
       "smc": 10,
       "ismc": 21,
       "smdc": 1,
@@ -43714,9 +43720,9 @@
           "p": 21
         }
       ],
-      "mv": 500000,
-      "tfhmvt": -22150,
-      "mvt": 0,
+      "mv": 795860,
+      "tfhmvt": 60278,
+      "mvt": 1,
       "day": 34,
       "r": 1,
       "y": 2,
@@ -43761,7 +43767,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 172,
+      "stud": 179,
       "smc": 16,
       "ismc": 28,
       "smdc": 1,
@@ -43825,8 +43831,8 @@
           "hp": false
         }
       ],
-      "mv": 4473449,
-      "tfhmvt": 129220,
+      "mv": 5300957,
+      "tfhmvt": 95503,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -43872,7 +43878,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 1431,
+      "stud": 1438,
       "smc": 3,
       "ismc": 4,
       "smdc": 1,
@@ -43984,7 +43990,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 41,
+      "stud": 48,
       "smc": 1,
       "ismc": 1,
       "smdc": 1,
@@ -44048,8 +44054,8 @@
           "p": 16
         }
       ],
-      "mv": 1210919,
-      "tfhmvt": -133554,
+      "mv": 856873,
+      "tfhmvt": -30197,
       "mvt": 2,
       "day": 34,
       "r": 1,
@@ -44095,7 +44101,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 21,
       "ismc": 29,
       "smdc": 1,
@@ -44164,8 +44170,8 @@
           "p": 122
         }
       ],
-      "mv": 22905949,
-      "tfhmvt": 103261,
+      "mv": 23353864,
+      "tfhmvt": 27214,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -44211,7 +44217,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 859,
+      "stud": 866,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -44323,7 +44329,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 832,
+      "stud": 839,
       "smc": 2,
       "ismc": 20,
       "smdc": 1,
@@ -44388,8 +44394,8 @@
           "p": 88
         }
       ],
-      "mv": 7748835,
-      "tfhmvt": 140429,
+      "mv": 8692345,
+      "tfhmvt": 114007,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -44435,7 +44441,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 58,
+      "stud": 65,
       "smc": 23,
       "ismc": 23,
       "smdc": 1,
@@ -44547,7 +44553,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 234,
+      "stud": 241,
       "smc": 10,
       "ismc": 13,
       "smdc": 1,
@@ -44614,8 +44620,8 @@
           "p": 34
         }
       ],
-      "mv": 910179,
-      "tfhmvt": 55782,
+      "mv": 1497489,
+      "tfhmvt": 98607,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -44661,7 +44667,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 215,
+      "stud": 222,
       "smc": 23,
       "ismc": 30,
       "smdc": 1,
@@ -44725,9 +44731,9 @@
           "hp": false
         }
       ],
-      "mv": 500000,
-      "tfhmvt": 0,
-      "mvt": 0,
+      "mv": 640359,
+      "tfhmvt": 35877,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -44772,7 +44778,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 75,
+      "stud": 82,
       "smc": 3,
       "ismc": 11,
       "smdc": 1,
@@ -44839,8 +44845,8 @@
           "p": 21
         }
       ],
-      "mv": 545543,
-      "tfhmvt": -45577,
+      "mv": 918177,
+      "tfhmvt": 74157,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -44886,7 +44892,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 193,
+      "stud": 200,
       "smc": 23,
       "ismc": 33,
       "smdc": 1,
@@ -44951,8 +44957,8 @@
           "p": 90
         }
       ],
-      "mv": 15644641,
-      "tfhmvt": -355931,
+      "mv": 14494689,
+      "tfhmvt": -118777,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -44998,7 +45004,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 30,
       "ismc": 31,
       "smdc": 1,
@@ -45101,7 +45107,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 4,
+      "stud": 11,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -45213,7 +45219,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 172,
+      "stud": 179,
       "smc": 6,
       "ismc": 18,
       "smdc": 1,
@@ -45278,8 +45284,8 @@
           "p": 115
         }
       ],
-      "mv": 5163231,
-      "tfhmvt": 121765,
+      "mv": 6069914,
+      "tfhmvt": 125581,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -45325,7 +45331,7 @@
           "t2im": "content/file/8d68c946b9774505b8292adfa910d0a0.svg"
         }
       ],
-      "stud": 164,
+      "stud": 171,
       "smc": 24,
       "ismc": 32,
       "smdc": 1,
@@ -45482,7 +45488,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smdc": 1,
       "sl": true,
       "plpt": "Ligainsider",
@@ -45546,8 +45552,8 @@
           "hp": false
         }
       ],
-      "mv": 33270136,
-      "tfhmvt": 58206,
+      "mv": 33545986,
+      "tfhmvt": 23795,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -45593,7 +45599,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 33,
       "ismc": 33,
       "smdc": 1,
@@ -45703,7 +45709,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 25,
+      "stud": 32,
       "smc": 1,
       "ismc": 5,
       "smdc": 1,
@@ -45866,8 +45872,8 @@
           "p": 17
         }
       ],
-      "mv": 2429794,
-      "tfhmvt": 73415,
+      "mv": 3167788,
+      "tfhmvt": 86807,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -45913,7 +45919,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 122,
+      "stud": 129,
       "smc": 3,
       "ismc": 17,
       "smdc": 1,
@@ -45975,8 +45981,8 @@
           "hp": false
         }
       ],
-      "mv": 3904285,
-      "tfhmvt": 146104,
+      "mv": 5323808,
+      "tfhmvt": 160563,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -46022,7 +46028,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smc": 23,
       "ismc": 23,
       "smdc": 1,
@@ -46089,8 +46095,8 @@
           "p": 124
         }
       ],
-      "mv": 26043772,
-      "tfhmvt": -178458,
+      "mv": 24415764,
+      "tfhmvt": -254807,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -46136,7 +46142,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 151,
+      "stud": 158,
       "smc": 28,
       "ismc": 32,
       "smdc": 1,
@@ -46207,8 +46213,8 @@
           "p": 130
         }
       ],
-      "mv": 34203109,
-      "tfhmvt": 28407,
+      "mv": 34373116,
+      "tfhmvt": 16503,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -46254,7 +46260,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 219,
+      "stud": 226,
       "smc": 32,
       "ismc": 33,
       "smdc": 1,
@@ -46405,9 +46411,9 @@
           "p": 28
         }
       ],
-      "mv": 33036695,
-      "tfhmvt": -384803,
-      "mvt": 2,
+      "mv": 28351696,
+      "tfhmvt": 24258,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 6,
@@ -46452,7 +46458,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 0,
+      "stud": 7,
       "smc": 29,
       "ismc": 30,
       "smdc": 1,
@@ -46515,9 +46521,9 @@
           "hp": false
         }
       ],
-      "mv": 11989328,
-      "tfhmvt": 93643,
-      "mvt": 1,
+      "mv": 10231754,
+      "tfhmvt": -483930,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 6,
@@ -46562,7 +46568,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 49,
+      "stud": 56,
       "smc": 21,
       "ismc": 26,
       "smdc": 1,
@@ -46630,9 +46636,9 @@
           "p": 115
         }
       ],
-      "mv": 22530996,
-      "tfhmvt": 13591,
-      "mvt": 1,
+      "mv": 22477973,
+      "tfhmvt": -110494,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 2,
@@ -46677,7 +46683,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 20,
+      "stud": 27,
       "smc": 31,
       "ismc": 33,
       "smdc": 1,
@@ -46744,8 +46750,8 @@
           "p": 47
         }
       ],
-      "mv": 14141658,
-      "tfhmvt": 74172,
+      "mv": 14910759,
+      "tfhmvt": 102926,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -46791,7 +46797,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 30,
+      "stud": 37,
       "smc": 13,
       "ismc": 19,
       "smdc": 1,
@@ -46856,8 +46862,8 @@
           "p": 120
         }
       ],
-      "mv": 4141242,
-      "tfhmvt": -74255,
+      "mv": 3958706,
+      "tfhmvt": -2272,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -46903,7 +46909,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 141,
+      "stud": 148,
       "smc": 8,
       "ismc": 11,
       "smdc": 1,
@@ -46968,8 +46974,8 @@
           "hp": false
         }
       ],
-      "mv": 23869840,
-      "tfhmvt": 205603,
+      "mv": 24756006,
+      "tfhmvt": 62799,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -47015,7 +47021,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 16,
+      "stud": 23,
       "smc": 24,
       "ismc": 26,
       "smdc": 1,
@@ -47082,8 +47088,8 @@
           "p": 124
         }
       ],
-      "mv": 3995702,
-      "tfhmvt": 97702,
+      "mv": 5101928,
+      "tfhmvt": 136825,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -47129,7 +47135,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 209,
+      "stud": 216,
       "smc": 5,
       "ismc": 13,
       "smdc": 1,
@@ -47192,8 +47198,8 @@
           "p": 16
         }
       ],
-      "mv": 1030536,
-      "tfhmvt": 66880,
+      "mv": 1672500,
+      "tfhmvt": 106959,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -47239,7 +47245,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 107,
+      "stud": 114,
       "smc": 8,
       "ismc": 20,
       "smdc": 1,
@@ -47307,9 +47313,9 @@
           "p": 135
         }
       ],
-      "mv": 8641739,
-      "tfhmvt": -242750,
-      "mvt": 2,
+      "mv": 6326270,
+      "tfhmvt": 29967,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -47354,7 +47360,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 11,
       "ismc": 12,
       "smdc": 1,
@@ -47423,9 +47429,9 @@
           "p": 265
         }
       ],
-      "mv": 23302213,
-      "tfhmvt": -91018,
-      "mvt": 2,
+      "mv": 22724905,
+      "tfhmvt": 3399,
+      "mvt": 1,
       "day": 34,
       "r": 0,
       "y": 0,
@@ -47470,7 +47476,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 127,
+      "stud": 134,
       "smc": 24,
       "ismc": 31,
       "smdc": 1,
@@ -47577,7 +47583,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smc": 3,
       "ismc": 5,
       "smdc": 1,
@@ -47684,7 +47690,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 261,
+      "stud": 268,
       "smc": 0,
       "ismc": 8,
       "smdc": 1,
@@ -47795,7 +47801,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 216,
+      "stud": 223,
       "smc": 2,
       "ismc": 18,
       "smdc": 1,
@@ -47861,8 +47867,8 @@
           "p": 109
         }
       ],
-      "mv": 1281267,
-      "tfhmvt": 152052,
+      "mv": 2241840,
+      "tfhmvt": 114210,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -47908,7 +47914,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 31,
+      "stud": 38,
       "smc": 8,
       "ismc": 29,
       "smdc": 1,
@@ -47975,8 +47981,8 @@
           "p": 271
         }
       ],
-      "mv": 35689403,
-      "tfhmvt": 88122,
+      "mv": 36151543,
+      "tfhmvt": 52467,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -48022,7 +48028,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 46,
+      "stud": 53,
       "smc": 28,
       "ismc": 33,
       "smdc": 1,
@@ -48133,7 +48139,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 3,
+      "stud": 10,
       "smc": 2,
       "ismc": 24,
       "smdc": 1,
@@ -48200,8 +48206,8 @@
           "p": 41
         }
       ],
-      "mv": 26451824,
-      "tfhmvt": -111886,
+      "mv": 23782417,
+      "tfhmvt": -202210,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -48247,7 +48253,7 @@
           "t2im": "content/file/29ceb88867954b548ca9e27d39d050c2.svg"
         }
       ],
-      "stud": 131,
+      "stud": 138,
       "smc": 27,
       "ismc": 30,
       "smdc": 1,
@@ -48359,8 +48365,8 @@
           "p": 45
         }
       ],
-      "mv": 13680820,
-      "tfhmvt": 160732,
+      "mv": 14290554,
+      "tfhmvt": 25865,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -48406,7 +48412,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 225,
+      "stud": 232,
       "smc": 34,
       "ismc": 34,
       "smdc": 1,
@@ -48472,9 +48478,9 @@
           "p": 31
         }
       ],
-      "mv": 3343865,
-      "tfhmvt": -8544,
-      "mvt": 1,
+      "mv": 2981663,
+      "tfhmvt": -92069,
+      "mvt": 2,
       "day": 34,
       "r": 0,
       "y": 4,
@@ -48519,7 +48525,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 3,
+      "stud": 10,
       "smc": 20,
       "ismc": 29,
       "smdc": 1,
@@ -48628,7 +48634,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 24,
+      "stud": 31,
       "smc": 18,
       "ismc": 21,
       "smdc": 1,
@@ -48693,8 +48699,8 @@
           "p": 62
         }
       ],
-      "mv": 1791429,
-      "tfhmvt": 142389,
+      "mv": 2437327,
+      "tfhmvt": 22150,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -48740,7 +48746,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 8,
+      "stud": 15,
       "smc": 25,
       "ismc": 27,
       "smdc": 1,
@@ -48807,8 +48813,8 @@
           "p": 7
         }
       ],
-      "mv": 1798064,
-      "tfhmvt": 125734,
+      "mv": 2340729,
+      "tfhmvt": 46845,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -48854,7 +48860,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 87,
+      "stud": 94,
       "smc": 27,
       "ismc": 32,
       "smdc": 1,
@@ -48966,7 +48972,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 245,
+      "stud": 252,
       "smc": 1,
       "ismc": 1,
       "smdc": 1,
@@ -49033,7 +49039,7 @@
       ],
       "mv": 500000,
       "tfhmvt": 0,
-      "mvt": 2,
+      "mvt": 0,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -49078,7 +49084,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 8,
+      "stud": 15,
       "smc": 15,
       "ismc": 27,
       "smdc": 1,
@@ -49141,8 +49147,8 @@
           "p": 82
         }
       ],
-      "mv": 4196234,
-      "tfhmvt": -154021,
+      "mv": 3298390,
+      "tfhmvt": -108041,
       "mvt": 2,
       "day": 34,
       "r": 0,
@@ -49188,7 +49194,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 76,
+      "stud": 83,
       "smc": 31,
       "ismc": 31,
       "smdc": 1,
@@ -49298,7 +49304,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 38,
+      "stud": 45,
       "smc": 12,
       "ismc": 15,
       "smdc": 1,
@@ -49412,7 +49418,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 225,
+      "stud": 232,
       "smc": 3,
       "ismc": 27,
       "smdc": 1,
@@ -49481,8 +49487,8 @@
           "p": 8
         }
       ],
-      "mv": 3373295,
-      "tfhmvt": 137826,
+      "mv": 3963713,
+      "tfhmvt": 34189,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -49528,7 +49534,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 128,
+      "stud": 135,
       "smc": 20,
       "ismc": 27,
       "smdc": 1,
@@ -49595,8 +49601,8 @@
           "p": 62
         }
       ],
-      "mv": 3071804,
-      "tfhmvt": 249760,
+      "mv": 3870195,
+      "tfhmvt": 47934,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -49642,7 +49648,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 16,
+      "stud": 23,
       "smc": 25,
       "ismc": 32,
       "smdc": 1,
@@ -49711,8 +49717,8 @@
           "p": 48
         }
       ],
-      "mv": 2371371,
-      "tfhmvt": 180026,
+      "mv": 2917694,
+      "tfhmvt": 25982,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -49758,7 +49764,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 29,
       "ismc": 31,
       "smdc": 1,
@@ -49824,8 +49830,8 @@
           "hp": false
         }
       ],
-      "mv": 2076064,
-      "tfhmvt": 215518,
+      "mv": 2862382,
+      "tfhmvt": 63945,
       "mvt": 1,
       "day": 34,
       "r": 0,
@@ -49871,7 +49877,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 178,
+      "stud": 185,
       "smc": 3,
       "ismc": 3,
       "smdc": 1,
@@ -49981,7 +49987,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 18,
+      "stud": 25,
       "smc": 6,
       "ismc": 16,
       "smdc": 1,
@@ -50143,7 +50149,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 31,
+      "stud": 38,
       "smc": 3,
       "ismc": 15,
       "smdc": 1,
@@ -50208,8 +50214,8 @@
         }
       ],
       "mv": 500000,
-      "tfhmvt": -25658,
-      "mvt": 2,
+      "tfhmvt": 0,
+      "mvt": 0,
       "day": 34,
       "r": 0,
       "y": 1,
@@ -50254,7 +50260,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 39,
+      "stud": 46,
       "smc": 17,
       "ismc": 24,
       "smdc": 1,
@@ -50366,7 +50372,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 148,
+      "stud": 155,
       "smc": 9,
       "ismc": 24,
       "smdc": 1,
@@ -50431,8 +50437,8 @@
           "p": 103
         }
       ],
-      "mv": 6088277,
-      "tfhmvt": 213971,
+      "mv": 7022883,
+      "tfhmvt": 62176,
       "mvt": 1,
       "day": 34,
       "r": 1,
@@ -50478,7 +50484,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 101,
+      "stud": 108,
       "smc": 14,
       "ismc": 20,
       "smdc": 1,
@@ -50591,7 +50597,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 3,
+      "stud": 10,
       "smc": 16,
       "ismc": 26,
       "smdc": 1,
@@ -50701,7 +50707,7 @@
           "t2im": "content/file/d4ac9675b44944039d463837f888cb1c.svg"
         }
       ],
-      "stud": 198,
+      "stud": 205,
       "smc": 8,
       "ismc": 18,
       "smdc": 1,
@@ -50730,6 +50736,6 @@
       "ua": "content/file/4efc4e5f2e06404ea819fc0fe05197c5.png"
     }
   },
-  "date": "2026-05-18",
+  "date": "2026-05-25",
   "count": 463
 }
