@@ -23,6 +23,14 @@ const ALLOWED_ORIGINS = [
 // Vite dev server / local preview on any port
 const LOCALHOST = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/
 
+// The two sites that use this Worker grew different path prefixes for the same
+// two endpoints: AdvancedManager calls /api/log(s), Kickbase calls /auth/log(s).
+// Both are accepted so they share one log store. Kickbase's own API lives under
+// /v4/, so neither prefix can collide with something that should be proxied.
+const LOG_WRITE_PATHS = new Set(['/api/log', '/auth/log'])
+const LOG_READ_PATHS = new Set(['/api/logs', '/auth/logs'])
+const LOCAL_PREFIXES = ['/api/', '/auth/']
+
 const MAX_LOG_BODY_BYTES = 8 * 1024
 const DEFAULT_LOG_LIMIT = 200
 const MAX_LOG_LIMIT = 1000
@@ -197,13 +205,13 @@ export default {
         const { pathname } = new URL(request.url)
 
         try {
-            if (pathname === '/api/log' && request.method === 'POST') {
+            if (LOG_WRITE_PATHS.has(pathname) && request.method === 'POST') {
                 return await handleWriteLog(request, env, origin)
             }
-            if (pathname === '/api/logs' && request.method === 'GET') {
+            if (LOG_READ_PATHS.has(pathname) && request.method === 'GET') {
                 return await handleReadLogs(request, env, origin)
             }
-            if (pathname.startsWith('/api/')) {
+            if (LOCAL_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {
                 return json({ error: 'Not found' }, 404, origin)
             }
             return await handleProxy(request, origin)
