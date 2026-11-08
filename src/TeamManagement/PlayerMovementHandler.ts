@@ -2,11 +2,9 @@ import { DropResult } from 'react-beautiful-dnd'
 import { Player } from './types'
 import { generateBestEleven, isValidMove, sortBenchPlayers } from './utils'
 import HttpClient from '../httpClient'
+import { BACKEND_URL, KICKBASE_API_URL } from '../config'
 // Create HttpClient
-const httpClient = new HttpClient(
-    'https://kickbase.com',
-    'https://kickbackend.onrender.com'
-)
+const httpClient = new HttpClient(KICKBASE_API_URL, BACKEND_URL)
 /**
  * Handles player movement logic based on drag and drop operations
  */

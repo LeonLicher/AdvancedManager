@@ -5,6 +5,7 @@ import FilterDropdown, {
 } from '../components/FilterDropdown/FilterDropdown'
 import LoadingOverlay from '../components/LoadingOverlay/LoadingOverlay'
 import HttpClient from '../httpClient'
+import { BACKEND_URL, KICKBASE_API_URL } from '../config'
 import Bench from './Bench'
 import TeamFormation from './TeamFormation'
 import './TeamManagement.scss'
@@ -55,8 +56,8 @@ const TeamManagement: React.FC<TeamManagementProps> = ({
         try {
             // Create HttpClient
             const httpClient = new HttpClient(
-                'https://kickbase.com',
-                'https://kickbackend.onrender.com'
+                KICKBASE_API_URL,
+                BACKEND_URL
             )
 
             // Prepare players before processing

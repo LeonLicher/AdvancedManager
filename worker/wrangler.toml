@@ -1,0 +1,8 @@
+name = "kickbase-proxy"
+main = "kickbase-proxy.js"
+compatibility_date = "2026-11-08"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kickbase-logs"
+database_id = "4a892708-9307-4c57-8c4e-023d2304ecb2"

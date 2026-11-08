@@ -5,8 +5,10 @@ import {
     BrowserRouter as Router,
     Routes,
 } from 'react-router-dom'
+import AuthLogs from './components/AuthLogs'
 import Calculator from './Calculator/Calculator'
 import HttpClient from './httpClient'
+import { BACKEND_URL, KICKBASE_API_URL } from './config'
 import { HttpClientProvider } from './HttpClientContext'
 import './index.css'
 import NavBar from './NavBar/NavBar'
@@ -31,15 +33,8 @@ function App() {
     const [userId, setUserId] = useState('')
     const [showCookieConsent, setShowCookieConsent] = useState(true)
 
-    // Also change in  Teammanagement.tsx
-    // http://localhost:3001
-    // https://kickbackend.onrender.com
     const [httpClient] = useState(
-        () =>
-            new HttpClient(
-                'https://api.kickbase.com',
-                'https://kickbackend.onrender.com'
-            )
+        () => new HttpClient(KICKBASE_API_URL, BACKEND_URL)
     )
 
     // Check if cookie consent was already given
@@ -66,14 +61,16 @@ function App() {
         setIsSignedIn(true)
         httpClient.setToken(newToken)
 
-        httpClient.post('/api/log', {
-            userId: newUserId,
-            userName: newUserName,
-            action: 'login',
-            success: true,
-            leagueId: srvl[0].id,
-            deviceInfo: getDeviceInfo(),
-        })
+        httpClient
+            .post('/api/log', {
+                userId: newUserId,
+                userName: newUserName,
+                action: 'login',
+                success: true,
+                leagueId: srvl[0].id,
+                deviceInfo: getDeviceInfo(),
+            })
+            .catch((err) => console.error('Failed to log login:', err))
     }
     const handleSignInAttempt = async (
         success: boolean,
@@ -147,7 +144,10 @@ function App() {
                                                     />
                                                 }
                                             />
-                                            {/* <Route path="/authlogs" element={<AuthLogs />} /> */}
+                                            <Route
+                                                path="/authlogs"
+                                                element={<AuthLogs />}
+                                            />
                                             <Route
                                                 path="/available"
                                                 element={<ShowAvailable />}

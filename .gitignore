@@ -27,3 +27,6 @@ dist-ssr
 
 *SignIn.tsx
 
+
+# Wrangler local state/cache
+.wrangler

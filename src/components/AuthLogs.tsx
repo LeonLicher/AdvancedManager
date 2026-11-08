@@ -65,25 +65,97 @@ const getBrowserInfo = (userAgent: string) => {
     return { browser, os, device }
 }
 
+// These logs contain every user's email and device fingerprint, so the Worker
+// requires an admin token to read them. A static site cannot hide a secret in
+// its bundle, so the token is entered once and kept in localStorage.
+const TOKEN_STORAGE_KEY = 'authLogsAdminToken'
+
 const AuthLogs: React.FC = () => {
     const httpClient = useHttpClient()
     const [logs, setLogs] = useState<AuthLog[]>([])
-    const [loading, setLoading] = useState(true)
-    const fetchLogs = async () => {
+    const [loading, setLoading] = useState(false)
+    const [token, setToken] = useState(
+        () => localStorage.getItem(TOKEN_STORAGE_KEY) || ''
+    )
+    const [tokenInput, setTokenInput] = useState('')
+    const [error, setError] = useState<string | null>(null)
+
+    const fetchLogs = async (adminToken: string) => {
+        setLoading(true)
+        setError(null)
         try {
-            const response = await httpClient.get<AuthLog[]>('/api/logs')
+            const response = await httpClient.get<AuthLog[]>('/api/logs', {
+                'X-Admin-Token': adminToken,
+            })
             setLogs(response)
-        } catch (error) {
-            console.error('Error fetching logs:', error)
+        } catch (err: any) {
+            // The client throws on any non-2xx, so a rejected token shows up
+            // here as a 401 and should drop the stored value rather than
+            // leaving the page stuck retrying it.
+            if (String(err?.message).includes('401')) {
+                localStorage.removeItem(TOKEN_STORAGE_KEY)
+                setToken('')
+                setError('That admin token was rejected.')
+            } else {
+                setError(`Could not load logs: ${err?.message ?? 'unknown error'}`)
+            }
         } finally {
             setLoading(false)
         }
     }
+
     useEffect(() => {
-        fetchLogs()
-    }, [])
+        if (token) fetchLogs(token)
+    }, [token])
+
+    const handleSubmitToken = (e: React.FormEvent) => {
+        e.preventDefault()
+        const trimmed = tokenInput.trim()
+        if (!trimmed) return
+        localStorage.setItem(TOKEN_STORAGE_KEY, trimmed)
+        setTokenInput('')
+        setToken(trimmed)
+    }
+
+    if (!token) {
+        return (
+            <form onSubmit={handleSubmitToken} className="p-6 space-y-4">
+                <p className="text-sm">
+                    Enter the admin token to view authentication logs.
+                </p>
+                <input
+                    type="password"
+                    value={tokenInput}
+                    onChange={(e) => setTokenInput(e.target.value)}
+                    placeholder="Admin token"
+                    className="border rounded-md px-3 py-2 w-full max-w-sm bg-background"
+                />
+                <button
+                    type="submit"
+                    className="rounded-md border px-4 py-2 text-sm"
+                >
+                    Load logs
+                </button>
+                {error && <p className="text-sm text-red-500">{error}</p>}
+            </form>
+        )
+    }
 
     if (loading) return <div>Loading logs...</div>
+
+    if (error) {
+        return (
+            <div className="p-6 space-y-4">
+                <p className="text-sm text-red-500">{error}</p>
+                <button
+                    onClick={() => fetchLogs(token)}
+                    className="rounded-md border px-4 py-2 text-sm"
+                >
+                    Retry
+                </button>
+            </div>
+        )
+    }
 
     return (
         <div className="p-6 space-y-4 auth-logs">

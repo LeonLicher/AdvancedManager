@@ -45,6 +45,10 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+        env:
+          # Kickbase's API sends no CORS headers, so browser calls go through
+          # the Cloudflare Worker in worker/ (see worker/README.md).
+          VITE_KICKBASE_API: ${{ vars.VITE_KICKBASE_API }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
