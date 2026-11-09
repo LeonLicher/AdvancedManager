@@ -15,6 +15,9 @@ import { Switch } from '../components/ui/switch'
 import { useHttpClient } from '../HttpClientContext'
 import './ShowAvailable.scss'
 
+type Ownership = 'mine' | 'free' | 'taken'
+type OwnershipFilter = 'all' | 'free' | 'freeAndMine'
+
 interface PlayerData {
     i: string // id
     ln: string // lastName
@@ -25,6 +28,9 @@ interface PlayerData {
     ppm?: number // points per million
     searchValue?: string
     fill?: string // for scatter plot coloring
+    fillOpacity?: number
+    ownership?: Ownership
+    ownerName?: string
 }
 
 interface Position {
@@ -39,6 +45,160 @@ const POSITIONS: Position[] = [
     { id: 3, name: 'Mittelfeld' },
     { id: 4, name: 'Sturm' },
 ]
+
+const OWNERSHIP_FILTERS: { value: OwnershipFilter; label: string }[] = [
+    { value: 'all', label: 'Alle Spieler' },
+    { value: 'free', label: 'Nur freie' },
+    { value: 'freeAndMine', label: 'Freie + meine' },
+]
+
+const MINE_COLOR = '#16a34a'
+const TAKEN_COLOR = '#9ca3af'
+const SELECTED_COLOR = '#ef4444'
+const FILTER_STORAGE_KEY = 'spieleranalyse.ownershipFilter'
+
+// Draw order: taken players at the bottom, own players on top
+const OWNERSHIP_ORDER: Record<Ownership, number> = { taken: 0, free: 1, mine: 2 }
+
+const loadStoredFilter = (): OwnershipFilter => {
+    try {
+        const stored = localStorage.getItem(FILTER_STORAGE_KEY)
+        if (stored === 'all' || stored === 'free' || stored === 'freeAndMine') {
+            return stored
+        }
+    } catch {
+        // storage unavailable – use default
+    }
+    return 'all'
+}
+
+// Squad items differ between endpoints (pi vs. i)
+interface SquadItem {
+    i?: string
+    pi?: string
+}
+
+interface ShowAvailableProps {
+    leagueId: string
+    userId: string
+}
+
+/**
+ * Builds a map playerId -> owner userId for the current league by loading
+ * every manager's squad. Falls back to the teamcenter lineup if the squad
+ * endpoint is unavailable for a manager.
+ */
+const useLeagueOwnership = (
+    httpClient: any,
+    leagueId: string,
+    userId: string
+) => {
+    const [owners, setOwners] = useState<Map<string, string>>(new Map())
+    const [managerNames, setManagerNames] = useState<Map<string, string>>(
+        new Map()
+    )
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState<string | null>(null)
+
+    useEffect(() => {
+        if (!leagueId) {
+            setLoading(false)
+            return
+        }
+        let cancelled = false
+
+        const toIds = (items: SquadItem[] | undefined) =>
+            (items ?? [])
+                .map((item) => item.pi ?? item.i)
+                .filter((id): id is string => !!id)
+                .map(String)
+
+        const fetchSquadIds = async (managerId: string) => {
+            if (managerId === userId) {
+                const own = await httpClient.get(
+                    `/v4/leagues/${leagueId}/squad`
+                )
+                return toIds(own.it)
+            }
+            try {
+                const squad = await httpClient.get(
+                    `/v4/leagues/${leagueId}/managers/${managerId}/squad`
+                )
+                return toIds(squad.it)
+            } catch (err) {
+                console.warn(
+                    `Squad endpoint failed for manager ${managerId}, using teamcenter`,
+                    err
+                )
+                const teamcenter = await httpClient.get(
+                    `/v4/leagues/${leagueId}/users/${managerId}/teamcenter`
+                )
+                return toIds(teamcenter.lp)
+            }
+        }
+
+        const load = async () => {
+            setLoading(true)
+            setError(null)
+            try {
+                const ranking: { us: { i: string; n: string }[] } =
+                    await httpClient.get(`/v4/leagues/${leagueId}/ranking`)
+
+                let failed = 0
+                const squads = await Promise.all(
+                    ranking.us.map(async (manager) => {
+                        try {
+                            return [
+                                manager.i,
+                                await fetchSquadIds(manager.i),
+                            ] as const
+                        } catch (err) {
+                            failed++
+                            console.error(
+                                `Error fetching squad for manager ${manager.i}:`,
+                                err
+                            )
+                            return [manager.i, [] as string[]] as const
+                        }
+                    })
+                )
+
+                const ownerMap = new Map<string, string>()
+                squads.forEach(([managerId, ids]) =>
+                    ids.forEach((id) => ownerMap.set(id, managerId))
+                )
+
+                if (!cancelled) {
+                    setManagerNames(
+                        new Map(ranking.us.map((u) => [u.i, u.n]))
+                    )
+                    setOwners(ownerMap)
+                    if (failed > 0) {
+                        setError(
+                            `Kader von ${failed} Manager(n) konnten nicht geladen werden – Angaben evtl. unvollständig.`
+                        )
+                    }
+                }
+            } catch (err) {
+                console.error('Error fetching ownership data:', err)
+                if (!cancelled) {
+                    setError(
+                        'Besitzer konnten nicht geladen werden – alle Spieler gelten als frei.'
+                    )
+                }
+            } finally {
+                if (!cancelled) setLoading(false)
+            }
+        }
+
+        load()
+        return () => {
+            cancelled = true
+        }
+    }, [httpClient, leagueId, userId])
+
+    return { owners, managerNames, loading, error }
+}
 
 interface TooltipProps {
     active?: boolean
@@ -121,6 +281,15 @@ const CustomTooltip = React.memo(
                 </div>
                 <div className="tooltip-content">
                     <div className="player-name">{player.ln}</div>
+                    {player.ownership && (
+                        <div className={`owner-badge owner-${player.ownership}`}>
+                            {player.ownership === 'mine'
+                                ? 'Dein Spieler'
+                                : player.ownership === 'taken'
+                                  ? `Besitzer: ${player.ownerName ?? 'Unbekannt'}`
+                                  : 'Frei'}
+                        </div>
+                    )}
                     <p className="market-value">
                         <span>Marktwert</span>
                         <span>{formatPrice(player.mv)}</span>
@@ -145,9 +314,18 @@ const CustomTooltip = React.memo(
 
 CustomTooltip.displayName = 'CustomTooltip'
 
-const AvailablePlayers: React.FC = () => {
+const AvailablePlayers: React.FC<ShowAvailableProps> = ({
+    leagueId,
+    userId,
+}) => {
     const httpClient = useHttpClient()
     const isMobile = useIsMobile()
+    const {
+        owners,
+        managerNames,
+        loading: ownersLoading,
+        error: ownersError,
+    } = useLeagueOwnership(httpClient, leagueId, userId)
     const [players, setPlayers] = useState<PlayerData[]>([])
     const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(
         null
@@ -160,9 +338,23 @@ const AvailablePlayers: React.FC = () => {
     const [showNames, setShowNames] = useState(false)
     const [selectedPosition, setSelectedPosition] = useState<number>(0) // 0 means all positions
     const [useOldData, setUseOldData] = useState(true) // false means current data, true means 2425 data
+    const [ownershipFilter, setOwnershipFilter] =
+        useState<OwnershipFilter>(loadStoredFilter)
 
-    // Memoize filtered scatter data
-    const scatterData = useMemo(
+    const handleOwnershipFilterChange = useCallback(
+        (value: OwnershipFilter) => {
+            setOwnershipFilter(value)
+            try {
+                localStorage.setItem(FILTER_STORAGE_KEY, value)
+            } catch {
+                // ignore
+            }
+        },
+        []
+    )
+
+    // Players of the selected position, enriched with ownership info
+    const positionPlayers = useMemo(
         () =>
             players
                 .filter(
@@ -170,23 +362,71 @@ const AvailablePlayers: React.FC = () => {
                         selectedPosition === 0 ||
                         player.pos === selectedPosition
                 )
-                .map((player) => ({
-                    ...player,
-                    ppm:
-                        player.mv > 0
-                            ? Number(
-                                  (player.tp / (player.mv / 1000000)).toFixed(2)
-                              )
-                            : 0,
-                    fill:
-                        selectedPlayer?.i === player.i
-                            ? '#ef4444'
-                            : showTotalPoints
-                              ? 'var(--total-points-color)'
-                              : 'var(--avg-points-color)',
-                })),
-        [players, selectedPlayer, showTotalPoints, selectedPosition]
+                .map((player) => {
+                    const ownerId = owners.get(String(player.i))
+                    const ownership: Ownership = !ownerId
+                        ? 'free'
+                        : ownerId === userId
+                          ? 'mine'
+                          : 'taken'
+                    return {
+                        ...player,
+                        ownership,
+                        ownerName: ownerId
+                            ? managerNames.get(ownerId)
+                            : undefined,
+                    }
+                }),
+        [players, selectedPosition, owners, managerNames, userId]
     )
+
+    const ownershipCounts = useMemo(() => {
+        const counts: Record<Ownership, number> = { mine: 0, free: 0, taken: 0 }
+        positionPlayers.forEach((p) => counts[p.ownership]++)
+        return counts
+    }, [positionPlayers])
+
+    // Memoize filtered scatter data
+    const scatterData = useMemo(() => {
+        const defaultColor = showTotalPoints
+            ? 'var(--total-points-color)'
+            : 'var(--avg-points-color)'
+
+        return positionPlayers
+            .filter(
+                (player) =>
+                    ownershipFilter === 'all' ||
+                    player.ownership === 'free' ||
+                    (ownershipFilter === 'freeAndMine' &&
+                        player.ownership === 'mine')
+            )
+            .map((player) => ({
+                ...player,
+                ppm:
+                    player.mv > 0
+                        ? Number(
+                              (player.tp / (player.mv / 1000000)).toFixed(2)
+                          )
+                        : 0,
+                fill:
+                    selectedPlayer?.i === player.i
+                        ? SELECTED_COLOR
+                        : player.ownership === 'mine'
+                          ? MINE_COLOR
+                          : player.ownership === 'taken'
+                            ? TAKEN_COLOR
+                            : defaultColor,
+                fillOpacity:
+                    player.ownership === 'taken' &&
+                    selectedPlayer?.i !== player.i
+                        ? 0.35
+                        : 1,
+            }))
+            .sort(
+                (a, b) =>
+                    OWNERSHIP_ORDER[a.ownership] - OWNERSHIP_ORDER[b.ownership]
+            )
+    }, [positionPlayers, ownershipFilter, selectedPlayer, showTotalPoints])
 
     // Find the max market value for X axis, rounded up to next full million
     const maxMarketValue = useMemo(() => {
@@ -212,7 +452,7 @@ const AvailablePlayers: React.FC = () => {
     // Fetch data only once and process it efficiently
     useEffect(() => {
         const controller = new AbortController()
-        
+
         const dataFile = useOldData ? '/AdvancedManager/detailed_players2425.json' : '/AdvancedManager/detailed_players.json'
 
         fetch(dataFile, {
@@ -361,10 +601,64 @@ const AvailablePlayers: React.FC = () => {
                     </button>
                 ))}
             </div>
+            <div className="ownership-selector">
+                <div className="flex items-center gap-2">
+                    {OWNERSHIP_FILTERS.map((option) => (
+                        <button
+                            key={option.value}
+                            onClick={() =>
+                                handleOwnershipFilterChange(option.value)
+                            }
+                            aria-pressed={ownershipFilter === option.value}
+                            className={`px-3 py-1 rounded-md text-sm ${
+                                ownershipFilter === option.value
+                                    ? 'bg-primary text-primary-foreground'
+                                    : 'bg-secondary hover:bg-secondary/80'
+                            }`}
+                        >
+                            {option.label}
+                        </button>
+                    ))}
+                </div>
+                <div className="ownership-legend">
+                    {ownersLoading ? (
+                        <span>Lade Besitzer…</span>
+                    ) : (
+                        <>
+                            <span>
+                                <i
+                                    className="legend-dot"
+                                    style={{
+                                        background: showTotalPoints
+                                            ? 'var(--total-points-color)'
+                                            : 'var(--avg-points-color)',
+                                    }}
+                                />
+                                Frei ({ownershipCounts.free})
+                            </span>
+                            <span>
+                                <i
+                                    className="legend-dot"
+                                    style={{ background: MINE_COLOR }}
+                                />
+                                Meine ({ownershipCounts.mine})
+                            </span>
+                            <span>
+                                <i
+                                    className="legend-dot legend-dot-taken"
+                                    style={{ background: TAKEN_COLOR }}
+                                />
+                                Vergeben ({ownershipCounts.taken})
+                            </span>
+                        </>
+                    )}
+                </div>
+            </div>
+            {ownersError && <p className="ownership-error">{ownersError}</p>}
             <div className="graph-container">
                 <ResponsiveContainer width="100%" height={isMobile ? 400 : 600}>
                     <ScatterChart
-                        margin={isMobile 
+                        margin={isMobile
                             ? { top: 10, right: 5, bottom: 30, left: 10 }
                             : { top: 20, right: 20, bottom: 20, left: 70 }
                         }

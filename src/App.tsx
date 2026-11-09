@@ -150,7 +150,12 @@ function App() {
                                             {/* <Route path="/authlogs" element={<AuthLogs />} /> */}
                                             <Route
                                                 path="/available"
-                                                element={<ShowAvailable />}
+                                                element={
+                                                    <ShowAvailable
+                                                        leagueId={leagueId}
+                                                        userId={userId}
+                                                    />
+                                                }
                                             />
                                             <Route
                                                 path="/team-analyzer"
