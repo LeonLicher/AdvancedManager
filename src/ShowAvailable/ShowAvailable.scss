@@ -12,13 +12,94 @@
   max-width: 1200px;
   margin: 0 auto;
 
-  .position-selector {
+  .position-selector,
+  .ownership-selector {
     button {
       transition: all 0.2s ease;
       border: 1px solid var(--border);
-      
+
       &:hover {
         transform: translateY(-1px);
+      }
+    }
+  }
+
+  .ownership-selector {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .ownership-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 13px;
+    color: #666;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .legend-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .legend-dot-taken {
+      opacity: 0.5;
+    }
+  }
+
+  .ownership-error {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #dc2626;
+  }
+}
+
+.tooltip-content .owner-badge {
+  display: inline-block;
+  margin: -4px 0 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+
+  &.owner-mine {
+    background: rgba(22, 163, 74, 0.12);
+    color: #16a34a;
+  }
+
+  &.owner-free {
+    background: rgba(136, 132, 216, 0.15);
+    color: #6d68c9;
+  }
+
+  &.owner-taken {
+    background: rgba(156, 163, 175, 0.2);
+    color: #6b7280;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .available-players .ownership-selector {
+    & > div:first-child {
+      width: 100%;
+      overflow-x: auto;
+
+      button {
+        white-space: nowrap;
+        flex-shrink: 0;
+        font-size: 12px;
+        padding: 6px 10px;
       }
     }
   }
