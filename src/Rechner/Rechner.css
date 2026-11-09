@@ -1,0 +1,16 @@
+/* Print / PDF view: only the calculator, no navigation, footer or banners. */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .rechner-print,
+    .rechner-print * {
+        visibility: visible;
+    }
+    .rechner-print {
+        position: absolute;
+        inset: 0 auto auto 0;
+        width: 100%;
+        padding: 0 12mm;
+    }
+}
