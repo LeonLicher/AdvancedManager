@@ -16,7 +16,11 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Constants
-BASE_URL = "https://api.kickbase.com/v4/competitions/1/players/{}?leagueId=5378755"
+LEAGUE_ID = "5378755"
+BASE_URL = "https://api.kickbase.com/v4/competitions/1/players/{}?leagueId=" + LEAGUE_ID
+TABLE_URL = "https://api.kickbase.com/v4/competitions/1/table"
+TEAM_PROFILE_URL = "https://api.kickbase.com/v4/leagues/" + LEAGUE_ID + "/teams/{}/teamprofile"
+MIN_EXPECTED_PLAYERS = 300  # sanity check for the live roster fetch
 
 # Try to get BEARER_TOKEN from environment, if not present, attempt login
 BEARER_TOKEN = os.getenv('BEARER_TOKEN')
@@ -97,6 +101,72 @@ def fetch_player_details(player_id):
         logging.error(error_msg)
         return None
 
+def fetch_current_player_ids():
+    """Fetch the IDs of all players currently in a Bundesliga squad.
+
+    Returns a list of player IDs, or None if the live rosters could not be
+    fetched completely (caller should then fall back to all_players.json).
+    """
+    try:
+        response = requests.get(TABLE_URL, headers=HEADERS, timeout=30)
+        if response.status_code != 200:
+            print(f"⚠️ Could not fetch league table (status {response.status_code})")
+            return None
+        teams = response.json().get('it', [])
+        if not teams:
+            print("⚠️ League table contained no teams")
+            return None
+
+        player_ids = []
+        seen = set()
+        for team in teams:
+            tid = team.get('tid')
+            r = requests.get(TEAM_PROFILE_URL.format(tid), headers=HEADERS, timeout=30)
+            if r.status_code != 200:
+                print(f"⚠️ Could not fetch roster for team {tid} (status {r.status_code})")
+                return None
+            squad = r.json().get('it', [])
+            print(f"  👥 {team.get('tn', tid)}: {len(squad)} players")
+            for player in squad:
+                pid = str(player.get('i'))
+                if pid and pid not in seen:
+                    seen.add(pid)
+                    player_ids.append(pid)
+            time.sleep(random.uniform(0.05, 0.2))
+
+        if len(player_ids) < MIN_EXPECTED_PLAYERS:
+            print(f"⚠️ Only {len(player_ids)} players found in live rosters, suspicious")
+            return None
+        return player_ids
+    except (requests.exceptions.RequestException, ValueError) as e:
+        print(f"⚠️ Error fetching live rosters: {e}")
+        return None
+
+
+def load_player_ids_from_file():
+    """Fallback: load player IDs from the static all_players.json."""
+    possible_paths = [
+        'all_players.json',  # Current directory
+        os.path.join(os.path.dirname(__file__), 'all_players.json'),  # Same directory as script
+        os.path.join(os.path.dirname(__file__), '..', 'public', 'all_players.json'),  # public folder
+    ]
+
+    all_players_file = next((p for p in possible_paths if os.path.exists(p)), None)
+    if not all_players_file:
+        print("❌ all_players.json not found in any of these locations:")
+        for path in possible_paths:
+            print(f"  - {os.path.abspath(path)}")
+        sys.exit(1)
+
+    print(f"✅ Found all_players.json at: {all_players_file}")
+    try:
+        with open(all_players_file, 'r', encoding='utf-8') as f:
+            return list(json.load(f)['players'].keys())
+    except json.JSONDecodeError as e:
+        print(f"❌ Error parsing {all_players_file}: {e}")
+        sys.exit(1)
+
+
 def save_detailed_data(all_player_details):
     logging.info("Saving detailed player data to JSON file")
     print(f"💾 Saving {len(all_player_details)} player records...")
@@ -134,46 +204,19 @@ def main():
     current_dir = os.getcwd()
     print(f"📁 Current working directory: {current_dir}")
     
-    # Define possible paths for all_players.json
-    possible_paths = [
-        'all_players.json',  # Current directory
-        os.path.join(os.path.dirname(__file__), 'all_players.json'),  # Same directory as script
-        os.path.join(os.path.dirname(__file__), '..', 'public', 'all_players.json'),  # public folder
-    ]
-    
-    # Try to find all_players.json in different locations
-    all_players_file = None
-    for path in possible_paths:
-        if os.path.exists(path):
-            all_players_file = path
-            print(f"✅ Found all_players.json at: {path}")
-            break
-    
-    if not all_players_file:
-        print("❌ all_players.json not found in any of these locations:")
-        for path in possible_paths:
-            print(f"  - {os.path.abspath(path)}")
-        print("Please ensure all_players.json exists or run the data collection notebook first.")
-        sys.exit(1)
-    
-    # First, load the existing player IDs from all_players.json
-    try:
-        with open(all_players_file, 'r', encoding='utf-8') as f:
-            basic_data = json.load(f)
-            player_ids = list(basic_data['players'].keys())
-            total_players = len(player_ids)
-            print(f"📊 Found {total_players} players to process")
-            logging.info(f"Found {total_players} players to process")
-    except FileNotFoundError as e:
-        error_msg = f"❌ {all_players_file} not found. Please run worthIt.ipynb first."
-        print(error_msg)
-        logging.error(error_msg)
-        sys.exit(1)
-    except json.JSONDecodeError as e:
-        error_msg = f"❌ Error parsing {all_players_file}: {e}"
-        print(error_msg)
-        logging.error(error_msg)
-        sys.exit(1)
+    # Get the current Bundesliga squads so new arrivals are included and
+    # departed players drop out. Fall back to the static list if that fails.
+    print("🔎 Fetching current squads from Kickbase...")
+    player_ids = fetch_current_player_ids()
+    if player_ids:
+        print("✅ Using live squad data")
+    else:
+        print("⚠️ Falling back to all_players.json (may be outdated)")
+        player_ids = load_player_ids_from_file()
+
+    total_players = len(player_ids)
+    print(f"📊 Found {total_players} players to process")
+    logging.info(f"Found {total_players} players to process")
 
     all_player_details = {}
     
