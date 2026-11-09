@@ -14,6 +14,7 @@ import './index.css'
 import NavBar from './NavBar/NavBar'
 import OverpayHelper from './OverpayHelper/OverpayHelper'
 import PlayerComparison from './PlayerComparison/PlayerComparison'
+import Rechner from './Rechner/Rechner'
 import { PlayerDataProvider } from './PlayerDataContext'
 import ShowAvailable from './ShowAvailable/ShowAvailable'
 import SignIn, { League } from './SignIn/SignIn'
@@ -178,6 +179,14 @@ function App() {
                                                 path="/overpay"
                                                 element={
                                                     <OverpayHelper
+                                                        leagueId={leagueId}
+                                                    />
+                                                }
+                                            />
+                                            <Route
+                                                path="/rechner"
+                                                element={
+                                                    <Rechner
                                                         leagueId={leagueId}
                                                     />
                                                 }
